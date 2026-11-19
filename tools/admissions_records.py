@@ -3,10 +3,11 @@ from pathlib import Path
 import json,re
 from us200_std import L,TR,flush as flush_ru
 ROOT=Path('research/admissions-120');DATA=ROOT/'requirements.json'
+CHECKED='2026-11-19'
 records=json.loads(DATA.read_text(encoding='utf-8')) if DATA.exists() else {}
 baseline={r['id']:r for r in json.loads((ROOT/'inventory-before.json').read_text(encoding='utf-8'))['rows']}
 def S(url,label,pages=None,access='html-read',quote=None):
- out={'url':url,'label':label,'verified':'2026-11-18','access':access}
+ out={'url':url,'label':label,'verified':CHECKED,'access':access}
  if pages:out['pages']=pages
  if quote:out['quote']=quote
  return out
@@ -17,7 +18,7 @@ def route(label=None,language='en',kind='direct',id='international-first-year',p
 def record(id,routes,change,unknown=None):
  assert id in baseline,id
  assert routes and all(r['sources'] for r in routes),id
- records[id]={'id':id,'country':baseline[id]['country'],'stage':'requirements-checked','verified':'2026-11-18','routes':routes,'change':change,'unknown':unknown or [],'before':{'ielts':baseline[id]['ielts'],'toefl':baseline[id]['toefl'],'satPolicy':baseline[id]['satPolicy'],'waiver':baseline[id]['waiver']}}
+ records[id]={'id':id,'country':baseline[id]['country'],'stage':'requirements-checked','verified':CHECKED,'routes':routes,'change':change,'unknown':unknown or [],'before':{'ielts':baseline[id]['ielts'],'toefl':baseline[id]['toefl'],'satPolicy':baseline[id]['satPolicy'],'waiver':baseline[id]['waiver']}}
 def finish():
  DATA.write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  Path('data/requirements.js').write_text('/* Verified admission routes. Authoring facts and scope: research/admissions-120/requirements.json. Optional, backward-compatible layer. */\nwindow.UNIPATH.admissionRequirements = '+json.dumps({k:v['routes'] for k,v in records.items()},ensure_ascii=False,indent=2)+';\n',encoding='utf-8')

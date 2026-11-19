@@ -105,23 +105,41 @@
   {
     "id": "university-of-california-davis",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.ucdavis.edu/admissions/undergraduate/international/exams-visas",
+      "https://admission.universityofcalifornia.edu/admission-requirements/international-applicants/english-language-proficiency-toefl-ielts.html",
+      "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/filling-out-the-application.html"
+    ],
+    "unknown": [
+      "Fall 2027-labelled confirmation, IELTS sections and individual school-language/qualification assessment remain unconfirmed."
+    ]
   },
   {
     "id": "university-of-california-irvine",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.admissions.uci.edu/apply/international-students.php",
+      "https://admission.universityofcalifornia.edu/admission-requirements/international-applicants/english-language-proficiency-toefl-ielts.html",
+      "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/filling-out-the-application.html"
+    ],
+    "unknown": [
+      "Fall 2027-labelled confirmation, IELTS sections and individual school-language/qualification assessment remain unconfirmed."
+    ]
   },
   {
     "id": "university-of-california-merced",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://admissions.ucmerced.edu/international/english-language-proficiency",
+      "https://admission.universityofcalifornia.edu/admission-requirements/international-applicants/english-language-proficiency-toefl-ielts.html",
+      "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/filling-out-the-application.html"
+    ],
+    "unknown": [
+      "Fall 2027-labelled confirmation, IELTS sections and individual school-language/qualification assessment remain unconfirmed."
+    ]
   },
   {
     "id": "indiana-university-bloomington",
@@ -245,9 +263,14 @@
   {
     "id": "salve-regina-university",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://salve.edu/admissions/first-year-applicants",
+      "https://salve.edu/our-mission/campus-offices-and-services/center-global-education-and-fellowships/international-student-support/english-academic-purposes"
+    ],
+    "unknown": [
+      "Fall 2027-specific applicability, EAP test variants/section rules, waiver categories and the unconditional language minimum require confirmation."
+    ]
   },
   {
     "id": "st-bonaventure-university",
@@ -333,9 +356,13 @@
   {
     "id": "loyola-university-new-orleans",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://css.loyno.edu/admissions/how-apply/international-undergraduate-students"
+    ],
+    "unknown": [
+      "Fall 2027-labelled applicability, exact IELTS variant/sections where unstated and individual qualification/waiver approval remain unconfirmed."
+    ]
   },
   {
     "id": "university-of-tampa",
@@ -362,9 +389,13 @@
   {
     "id": "western-carolina-university",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.wcu.edu/learn/office-of-global-engagement/international-students/index.aspx"
+    ],
+    "unknown": [
+      "Fall 2027-labelled applicability, exact IELTS variant/sections where unstated and individual qualification/waiver approval remain unconfirmed."
+    ]
   },
   {
     "id": "louisiana-tech-university",
@@ -431,9 +462,14 @@
   {
     "id": "rockhurst-university",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.rockhurst.edu/admissions/international",
+      "https://www.rockhurst.edu/freshman"
+    ],
+    "unknown": [
+      "Fall 2027-labelled policy, new TOEFL scale, IELTS sections and exact test variants remain unconfirmed."
+    ]
   },
   {
     "id": "baldwin-wallace-university",
@@ -449,9 +485,13 @@
   {
     "id": "indiana-wesleyan-university",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.indwes.edu/pathways/international/international-campus"
+    ],
+    "unknown": [
+      "Fall 2027-labelled applicability, exact IELTS variant/sections where unstated and individual qualification/waiver approval remain unconfirmed."
+    ]
   },
   {
     "id": "university-of-northern-iowa",
@@ -503,9 +543,14 @@
   {
     "id": "le-moyne-college",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.lemoyne.edu/admission-financial-aid/apply/",
+      "https://www.lemoyne.edu/admission-financial-aid/international-admission/"
+    ],
+    "unknown": [
+      "Undergraduate English test acceptance/minima, sections, waivers and the Fall 2027 cycle remain unconfirmed."
+    ]
   },
   {
     "id": "suny-new-paltz",
@@ -547,9 +592,13 @@
   {
     "id": "university-of-west-florida",
     "country": "us",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://uwf.edu/admissions/undergraduate/apply/international/requirements/"
+    ],
+    "unknown": [
+      "Full Regulation 3.042 section minima, country exceptions and Fall 2027-specific applicability remain unconfirmed."
+    ]
   },
   {
     "id": "milwaukee-school-of-engineering",
@@ -792,9 +841,13 @@
   {
     "id": "sheffield-hallam-university",
     "country": "uk",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.shu.ac.uk/study-here/international/english-language-requirements"
+    ],
+    "unknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ]
   },
   {
     "id": "oxford-brookes-university",
@@ -810,23 +863,36 @@
   {
     "id": "de-montfort-university",
     "country": "uk",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.dmu.ac.uk/international/en/entry-requirements.aspx",
+      "https://www.dmu.ac.uk/international/en/accepted-english-language-proficiency-tests.aspx"
+    ],
+    "unknown": [
+      "Exact course/year and school qualification; Business/Science country-table differences; waivers and exact IELTS variant need confirmation."
+    ]
   },
   {
     "id": "university-of-hertfordshire",
     "country": "uk",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.herts.ac.uk/international/apply/application-requirements"
+    ],
+    "unknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ]
   },
   {
     "id": "university-of-huddersfield",
     "country": "uk",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.hud.ac.uk/international/courses-and-entry-requirements/international-entry-requirements/"
+    ],
+    "unknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ]
   },
   {
     "id": "middlesex-university",
@@ -842,30 +908,46 @@
   {
     "id": "nottingham-trent-university",
     "country": "uk",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.ntu.ac.uk/international/your-application/entry-requirements/english-language-requirements"
+    ],
+    "unknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ]
   },
   {
     "id": "university-of-salford",
     "country": "uk",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.salford.ac.uk/international/english-language-requirements"
+    ],
+    "unknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ]
   },
   {
     "id": "university-of-derby",
     "country": "uk",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.derby.ac.uk/life/international-students/applicants/english-language-tests/"
+    ],
+    "unknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ]
   },
   {
     "id": "birmingham-city-university",
     "country": "uk",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.bcu.ac.uk/international/your-application/english-language-and-english-tests/accepted-qualifications"
+    ],
+    "unknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ]
   },
   {
     "id": "frankfurt-school",
@@ -892,16 +974,25 @@
   {
     "id": "fau-erlangen-nurnberg",
     "country": "de",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.fau.eu/studying/international-students/application-and-enrollment-for-international-applicants/german-language-courses-german-language-proficiency-and-language-certificates/"
+    ],
+    "unknown": [
+      "Fall 2027-specific applicability, school-equivalence assessment and any programme-specific academic examinations remain unconfirmed."
+    ]
   },
   {
     "id": "university-of-freiburg",
     "country": "de",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://uni-freiburg.de/ucf/las/apply/",
+      "https://uni-freiburg.de/en/studies/applying/language-certificates/?set_language=en"
+    ],
+    "unknown": [
+      "Fall 2027-specific applicability, school-equivalence assessment and any programme-specific academic examinations remain unconfirmed."
+    ]
   },
   {
     "id": "leuphana-university-luneburg",
@@ -930,30 +1021,47 @@
   {
     "id": "anhalt-university",
     "country": "de",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.hs-anhalt.de/en/degree-programs/ibs.html"
+    ],
+    "unknown": [
+      "Fall 2027-specific applicability, school-equivalence assessment and any programme-specific academic examinations remain unconfirmed."
+    ]
   },
   {
     "id": "technische-hochschule-ingolstadt",
     "country": "de",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.thi.de/en/studies/application/bachelors-degree-application/",
+      "https://www.thi.de/fileadmin/daten/recht/Allgemeine_Satzungen/Sprachkenntnisse/2026_03_09_Anerkannte_Englischtests_B2_en-GB.pdf"
+    ],
+    "unknown": [
+      "Fall 2027-specific applicability, school-equivalence assessment and any programme-specific academic examinations remain unconfirmed."
+    ]
   },
   {
     "id": "university-of-cologne",
     "country": "de",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://uni-koeln.de/en/studium-lehre/international/studium-in-koeln/internationale-bewerbungen/bachelor-studium-staatsexamen/bewerbungsverfahren-fuer-nicht-eu-buergerinnen/application-procedure-for-non-eu-citizens-with-formal-university-entrance-qualification-studienstart-international-integrale"
+    ],
+    "unknown": [
+      "Fall 2027-specific applicability, school-equivalence assessment and any programme-specific academic examinations remain unconfirmed."
+    ]
   },
   {
     "id": "deggendorf-institute-of-technology",
     "country": "de",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.th-deg.de/ain-b-en"
+    ],
+    "unknown": [
+      "Fall 2027 cycle, precise certificate table row/section mapping and applicant-specific waiver remain to be confirmed."
+    ]
   },
   {
     "id": "osaka-university",
@@ -980,9 +1088,13 @@
   {
     "id": "hitotsubashi-university",
     "country": "jp",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://juken.hit-u.ac.jp/admission/info/guidelines/files/R9ryuugaku_youkou.pdf"
+    ],
+    "unknown": [
+      "Fall 2027 availability or a fully English-taught bachelor route is not established by this April guide; school-equivalence eligibility remains applicant-specific."
+    ]
   },
   {
     "id": "meiji-university",
@@ -998,16 +1110,26 @@
   {
     "id": "hosei-university",
     "country": "jp",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.guide.52school.com/export/sites/default/guidance/net-hosei-ebdp/gid/pdf/2027_GBP_0_Application-Guidelines_20261030.pdf"
+    ],
+    "unknown": [
+      "IELTS section minima are unstated; other English degree routes and Japanese-language admission require separate guides."
+    ]
   },
   {
     "id": "waseda-university",
     "country": "jp",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.waseda.jp/fire/sils/en/applicants/faq/",
+      "https://www.waseda.jp/fire/sils/assets/uploads/2025/03/Change-in-Exemption-Requirements-for-Submission-of-English-Proficiency-Test-Score.pdf",
+      "https://www.waseda.jp/fire/sils/assets/uploads/2025/01/New-Requirement-for-the-Validity-Period-of-Standardized-Test-Scores.pdf"
+    ],
+    "unknown": [
+      "Full September 2027 guide, school-qualification test selection, IELTS variants/sections and exact programme campus still need confirmation."
+    ]
   },
   {
     "id": "tohoku-university",
@@ -1035,9 +1157,14 @@
   {
     "id": "rikkyo-university",
     "country": "jp",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://en.admission.rikkyo.ac.jp/browse/admissions-requirements/",
+      "https://en.admission.rikkyo.ac.jp/"
+    ],
+    "unknown": [
+      "The applicant’s exact school category, detailed guide, IELTS sections/test variants and programme campus need individual confirmation."
+    ]
   },
   {
     "id": "okayama-university",
@@ -1089,9 +1216,13 @@
   {
     "id": "pusan-national-university",
     "country": "kr",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://international.pusan.ac.kr/bbs/international/2089/1533745/download.do"
+    ],
+    "unknown": [
+      "Fall intake is not established: the guide states undergraduate curricula follow March entry. IELTS variant/sections, SAT/ACT policy and additional nationality-specific financial documents require further review."
+    ]
   },
   {
     "id": "dgist",
@@ -1108,9 +1239,13 @@
   {
     "id": "sejong-university",
     "country": "kr",
-    "stage": "selected",
-    "sources": [],
-    "unknown": []
+    "stage": "requirements-checked",
+    "sources": [
+      "https://www.sejong.ac.kr/_res/sejong/eng/etc/2027_Spring_Semester_Undergraduate_Admission_Guide_for_International_Students(eng)_20260903.pdf"
+    ],
+    "unknown": [
+      "Fall 2027 rules, IELTS variant/sections and independent SAT/ACT obligations remain unconfirmed."
+    ]
   },
   {
     "id": "kyungpook-national-university",

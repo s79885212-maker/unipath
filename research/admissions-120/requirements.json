@@ -6371,5 +6371,3015 @@
       "satPolicy": "not-applicable",
       "waiver": null
     }
+  },
+  "university-of-hertfordshire": {
+    "id": "university-of-hertfordshire",
+    "country": "uk",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "general-undergraduate",
+        "label": "General undergraduate English standard — course exceptions apply",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS Academic",
+            "min": 6,
+            "sections": {
+              "reading": 5.5,
+              "writing": 5.5,
+              "listening": 5.5,
+              "speaking": 5.5
+            },
+            "role": "admission"
+          },
+          "toefl": {
+            "accepted": true,
+            "scales": [
+              {
+                "period": "post2026",
+                "min": 4,
+                "sections": {
+                  "reading": 4,
+                  "writing": 4,
+                  "listening": 4,
+                  "speaking": 4
+                }
+              }
+            ]
+          },
+          "alternatives": "Duolingo 105 with each band 95; LanguageCert Academic 65/60; GCSE/IGCSE English C; approved national qualifications and foundation English. Some courses accept only IELTS.",
+          "note": "General undergraduate standard excludes higher-requirement Humanities, Nursing, Social Work, Nutrition, Pharmaceutical Science and specified health courses. A visa equivalence table including IELTS General is not degree acceptance of IELTS General. Pre-sessional requires separate approved SELT evidence."
+        },
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.herts.ac.uk/international/apply/application-requirements",
+            "label": "Hertfordshire undergraduate language standard and professional exceptions",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Kept 6.0/5.5 separate from higher-requirement courses, graduate requirements and visa equivalence tables.",
+    "unknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ],
+    "before": {
+      "ielts": {
+        "min": null,
+        "recommended": null,
+        "varies": true,
+        "profilesComplete": false,
+        "note": "Direct entry to Year 1 of the bachelor’s degree only. Foundation, International Year One and pre-sessional English have their own, lower levels and are described in the admission notes, not here.",
+        "profiles": [
+          {
+            "name": "Direct entry — BA (Hons) Business Administration",
+            "overall": 6,
+            "sections": "Minimum 5.5 in each band",
+            "scope": "Year 1 of this bachelor’s programme (direct entry)",
+            "source": "https://www.herts.ac.uk/courses/undergraduate/ba-hons-business-administration",
+            "verified": "2026-11-13"
+          },
+          {
+            "name": "Direct entry — Data Science BSc (Hons)",
+            "overall": 6,
+            "sections": "Minimum 5.5 in each section",
+            "scope": "Year 1 of this bachelor’s programme (direct entry)",
+            "source": "https://www.herts.ac.uk/courses/undergraduate/bsc-hons-data-science",
+            "verified": "2026-11-14"
+          }
+        ]
+      },
+      "toefl": {
+        "min": null,
+        "recommended": null,
+        "note": "Not confirmed during this check."
+      },
+      "satPolicy": "not-applicable",
+      "waiver": null
+    }
+  },
+  "university-of-huddersfield": {
+    "id": "university-of-huddersfield",
+    "country": "uk",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "huddersfield-standard",
+        "label": "International first-year undergraduate admission",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS Academic in person; One Skill Retake accepted; Online not accepted",
+            "min": 6,
+            "sections": {
+              "reading": 5.5,
+              "writing": 5.5,
+              "listening": 5.5,
+              "speaking": 5.5
+            },
+            "role": "admission"
+          },
+          "toefl": {
+            "accepted": true,
+            "scales": [
+              {
+                "period": "legacy",
+                "min": 87,
+                "sections": {
+                  "reading": 22,
+                  "listening": 21,
+                  "speaking": 23,
+                  "writing": 21
+                }
+              }
+            ]
+          },
+          "alternatives": "PTE in person 59 in each skill; Cambridge Advanced C; GCSE/GCE O-level English C; IB Diploma with Higher Level English; LanguageCert 65/60; Oxford ELLT Global 6/5 (not Digital).",
+          "waiver": "Named majority-English-country categories may qualify. A home-country MOI certificate is not accepted for UK study. Graduate-visa exemptions have their own recent UK-study conditions.",
+          "note": "Standard Huddersfield-campus table, not the London campus or research table. The new TOEFL threshold is supplied only in the research table and is not copied to undergraduate admission. TOEFL Home Edition is not accepted."
+        },
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.hud.ac.uk/international/courses-and-entry-requirements/international-entry-requirements/",
+            "label": "Huddersfield standard language table, research differences and MOI limits",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Separated main-campus standard admission from London/research requirements and excluded unsupported new-scale undergraduate TOEFL.",
+    "unknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ],
+    "before": {
+      "ielts": {
+        "min": null,
+        "recommended": null,
+        "varies": true,
+        "profilesComplete": false,
+        "note": "Direct entry to Year 1 of the bachelor’s degree only. Foundation, International Year One and pre-sessional English have their own, lower levels and are described in the admission notes, not here.",
+        "profiles": [
+          {
+            "name": "Direct entry — Business Management BA (Hons)",
+            "overall": 6,
+            "sections": "No element lower than 5.5",
+            "scope": "Year 1 of this bachelor’s programme (direct entry)",
+            "source": "https://courses.hud.ac.uk/2027-28/undergraduate/business-management-ba-hons/",
+            "verified": "2026-11-13"
+          }
+        ]
+      },
+      "toefl": {
+        "min": null,
+        "recommended": null,
+        "note": "Not confirmed during this check."
+      },
+      "satPolicy": "not-applicable",
+      "waiver": null
+    }
+  },
+  "university-of-salford": {
+    "id": "university-of-salford",
+    "country": "uk",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "general-undergraduate",
+        "label": "International first-year undergraduate admission",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS Academic in person; Online and One Skill Retake not accepted",
+            "min": 6,
+            "sections": {
+              "reading": 5.5,
+              "writing": 5.5,
+              "listening": 5.5,
+              "speaking": 5.5
+            },
+            "role": "admission"
+          },
+          "toefl": {
+            "accepted": true,
+            "scales": [
+              {
+                "period": "pre2026",
+                "min": 79,
+                "sections": {
+                  "listening": 17,
+                  "reading": 18,
+                  "writing": 17,
+                  "speaking": 20
+                }
+              },
+              {
+                "period": "post2026",
+                "min": 4.5,
+                "sections": {
+                  "reading": 4,
+                  "writing": 4,
+                  "listening": 4,
+                  "speaking": 4
+                }
+              }
+            ]
+          },
+          "alternatives": "PTE Academic in person 59 in every skill; named GCSE/IGCSE/O/A/AS-level, IB and national qualifications, NCUK/INTO/Kaplan English. TOEFL Home Edition is not accepted.",
+          "note": "Course pages can require higher scores. Oxford ELLT uploads from 9 October 2026 are not accepted; earlier uploads by 8 October may still be considered. Pre-sessional English from UKVI IELTS 4.0 is preparation, not degree entry."
+        },
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.salford.ac.uk/international/english-language-requirements",
+            "label": "Salford undergraduate English and October 2026 test restriction",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Recorded rejected IELTS variants and the October 2026 ELLT restriction without removing useful language alternatives.",
+    "unknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ],
+    "before": {
+      "ielts": {
+        "min": null,
+        "recommended": null,
+        "varies": true,
+        "profilesComplete": false,
+        "note": "Direct entry to Year 1 of the bachelor’s degree only. Foundation, International Year One and pre-sessional English have their own, lower levels and are described in the admission notes, not here.",
+        "profiles": [
+          {
+            "name": "Direct entry — Computer Science BSc (Hons)",
+            "overall": 6,
+            "sections": "Minimum 5.5 in each section",
+            "scope": "Year 1 of this bachelor’s programme (direct entry)",
+            "source": "https://www.salford.ac.uk/courses/undergraduate/computer-science",
+            "verified": "2026-11-14"
+          }
+        ]
+      },
+      "toefl": {
+        "min": null,
+        "recommended": null,
+        "note": "Not confirmed during this check."
+      },
+      "satPolicy": "not-applicable",
+      "waiver": null
+    }
+  },
+  "university-of-derby": {
+    "id": "university-of-derby",
+    "country": "uk",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "course-category-6-5.5",
+        "label": "Course-assigned English category: overall 6, each skill 5.5",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS Academic / UKVI; One Skill Retake accepted",
+            "min": 6,
+            "sections": {
+              "reading": 5.5,
+              "writing": 5.5,
+              "listening": 5.5,
+              "speaking": 5.5
+            },
+            "role": "admission"
+          },
+          "note": "The course page assigns this category. An equivalence column is not a university-wide minimum. Foundation and Foundation Pathways accept only approved SELT; degree alternatives may include PTE Online or TOEFL Home.",
+          "waiver": "Study in a country where English is the first language may qualify for individual assessment. Approved country qualifications can also provide evidence."
+        },
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.derby.ac.uk/life/international-students/applicants/english-language-tests/",
+            "label": "Derby degree language categories and preparation restrictions",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      },
+      {
+        "id": "course-category-6.5-5.5",
+        "label": "Course-assigned English category: overall 6.5, each skill 5.5",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS Academic / UKVI; One Skill Retake accepted",
+            "min": 6.5,
+            "sections": {
+              "reading": 5.5,
+              "writing": 5.5,
+              "listening": 5.5,
+              "speaking": 5.5
+            },
+            "role": "admission"
+          },
+          "note": "The course page assigns this category. An equivalence column is not a university-wide minimum. Foundation and Foundation Pathways accept only approved SELT; degree alternatives may include PTE Online or TOEFL Home.",
+          "waiver": "Study in a country where English is the first language may qualify for individual assessment. Approved country qualifications can also provide evidence."
+        },
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.derby.ac.uk/life/international-students/applicants/english-language-tests/",
+            "label": "Derby degree language categories and preparation restrictions",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      },
+      {
+        "id": "course-category-6.5-6",
+        "label": "Course-assigned English category: overall 6.5, each skill 6",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS Academic / UKVI; One Skill Retake accepted",
+            "min": 6.5,
+            "sections": {
+              "reading": 6,
+              "writing": 6,
+              "listening": 6,
+              "speaking": 6
+            },
+            "role": "admission"
+          },
+          "note": "The course page assigns this category. An equivalence column is not a university-wide minimum. Foundation and Foundation Pathways accept only approved SELT; degree alternatives may include PTE Online or TOEFL Home.",
+          "waiver": "Study in a country where English is the first language may qualify for individual assessment. Approved country qualifications can also provide evidence."
+        },
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.derby.ac.uk/life/international-students/applicants/english-language-tests/",
+            "label": "Derby degree language categories and preparation restrictions",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      },
+      {
+        "id": "course-category-7-6.5",
+        "label": "Course-assigned English category: overall 7, each skill 6.5",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS Academic / UKVI; One Skill Retake accepted",
+            "min": 7,
+            "sections": {
+              "reading": 6.5,
+              "writing": 6.5,
+              "listening": 6.5,
+              "speaking": 6.5
+            },
+            "role": "admission"
+          },
+          "note": "The course page assigns this category. An equivalence column is not a university-wide minimum. Foundation and Foundation Pathways accept only approved SELT; degree alternatives may include PTE Online or TOEFL Home.",
+          "waiver": "Study in a country where English is the first language may qualify for individual assessment. Approved country qualifications can also provide evidence."
+        },
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.derby.ac.uk/life/international-students/applicants/english-language-tests/",
+            "label": "Derby degree language categories and preparation restrictions",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Preserved four separate programme language categories instead of flattening the table to IELTS 6.0.",
+    "unknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ],
+    "before": {
+      "ielts": {
+        "min": null,
+        "recommended": null,
+        "varies": true,
+        "profilesComplete": false,
+        "note": "Direct entry to Year 1 of the bachelor’s degree only. Foundation, International Year One and pre-sessional English have their own, lower levels and are described in the admission notes, not here.",
+        "profiles": [
+          {
+            "name": "Direct entry — Computer Science BSc (Hons)",
+            "overall": 6,
+            "sections": "Minimum 5.5 in each section",
+            "scope": "Year 1 of this bachelor’s programme (direct entry)",
+            "source": "https://www.derby.ac.uk/undergraduate/computing-courses/computer-science-bsc-hons/",
+            "verified": "2026-11-14"
+          }
+        ]
+      },
+      "toefl": {
+        "min": null,
+        "recommended": null,
+        "note": "Not confirmed during this check."
+      },
+      "satPolicy": "not-applicable",
+      "waiver": null
+    }
+  },
+  "nottingham-trent-university": {
+    "id": "nottingham-trent-university",
+    "country": "uk",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "business-student-visa",
+        "label": "Nottingham Business School bachelor entry — Student visa",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [
+          "business",
+          "economics"
+        ],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS Academic; IELTS Online and Indicator not accepted",
+            "min": 6.5,
+            "sections": {
+              "reading": 5.5,
+              "writing": 5.5,
+              "listening": 5.5,
+              "speaking": 5.5
+            },
+            "role": "admission"
+          },
+          "alternatives": "For IELTS 6.5/5.5: PTE Academic 62/59 in person, Cambridge C1 Advanced 176/162, and approved TOEFL, LanguageCert, KTE, IB or school qualifications. Duolingo, EF and ELLT are not accepted.",
+          "note": "Nottingham Business School bachelor entry for a Student visa. Other schools, year-two entry and professional courses have separate requirements. Generic MOI letters are not accepted except named cases; PEAP preparation uses its own UKVI rules."
+        },
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.ntu.ac.uk/international/your-application/entry-requirements/english-language-requirements",
+            "label": "NTU faculty/year/visa language table and accepted tests",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Scoped the 6.5 Business School rule and rejected tests instead of reusing the 6.0 Art & Design first-year exception.",
+    "unknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ],
+    "before": {
+      "ielts": {
+        "min": null,
+        "recommended": null,
+        "varies": true,
+        "profilesComplete": false,
+        "note": "Direct entry to Year 1 of the bachelor’s degree only. Foundation, International Year One and pre-sessional English have their own, lower levels and are described in the admission notes, not here.",
+        "profiles": [
+          {
+            "name": "Direct entry — Business BA (Hons)",
+            "overall": 6.5,
+            "sections": "Minimum 5.5 in each section",
+            "scope": "Year 1 of this bachelor’s programme (direct entry)",
+            "source": "https://www.ntu.ac.uk/international/your-application/entry-requirements/english-language-requirements",
+            "verified": "2026-11-14"
+          }
+        ]
+      },
+      "toefl": {
+        "min": null,
+        "recommended": null,
+        "note": "Not confirmed during this check."
+      },
+      "satPolicy": "not-applicable",
+      "waiver": null
+    }
+  },
+  "sheffield-hallam-university": {
+    "id": "sheffield-hallam-university",
+    "country": "uk",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "course-category-6",
+        "label": "Course-assigned IELTS category 6",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS; UKVI advised for Student visa",
+            "min": 6,
+            "sections": {
+              "reading": 5.5,
+              "writing": 5.5,
+              "listening": 5.5,
+              "speaking": 5.5
+            },
+            "role": "admission"
+          },
+          "note": "The course page must specify this category. Accepted alternatives include TOEFL iBT/Home, Duolingo, PTE, Oxford ELLT and LanguageCert with category-specific section minima. This equivalence table alone does not assign a level to every bachelor programme. Preparatory courses below degree level require SELT."
+        },
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.shu.ac.uk/study-here/international/english-language-requirements",
+            "label": "Sheffield Hallam course-assigned English equivalence table",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      },
+      {
+        "id": "course-category-6.5",
+        "label": "Course-assigned IELTS category 6.5",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS; UKVI advised for Student visa",
+            "min": 6.5,
+            "sections": {
+              "reading": 5.5,
+              "writing": 5.5,
+              "listening": 5.5,
+              "speaking": 5.5
+            },
+            "role": "admission"
+          },
+          "note": "The course page must specify this category. Accepted alternatives include TOEFL iBT/Home, Duolingo, PTE, Oxford ELLT and LanguageCert with category-specific section minima. This equivalence table alone does not assign a level to every bachelor programme. Preparatory courses below degree level require SELT."
+        },
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.shu.ac.uk/study-here/international/english-language-requirements",
+            "label": "Sheffield Hallam course-assigned English equivalence table",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      },
+      {
+        "id": "course-category-7",
+        "label": "Course-assigned IELTS category 7",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS; UKVI advised for Student visa",
+            "min": 7,
+            "sections": {
+              "reading": 5.5,
+              "writing": 5.5,
+              "listening": 5.5,
+              "speaking": 5.5
+            },
+            "role": "admission"
+          },
+          "note": "The course page must specify this category. Accepted alternatives include TOEFL iBT/Home, Duolingo, PTE, Oxford ELLT and LanguageCert with category-specific section minima. This equivalence table alone does not assign a level to every bachelor programme. Preparatory courses below degree level require SELT."
+        },
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.shu.ac.uk/study-here/international/english-language-requirements",
+            "label": "Sheffield Hallam course-assigned English equivalence table",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Separated three course-assigned language categories and preparation rules rather than inferring a single degree cutoff.",
+    "unknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ],
+    "before": {
+      "ielts": {
+        "min": null,
+        "recommended": null,
+        "varies": true,
+        "profilesComplete": false,
+        "note": "Direct entry to Year 1 of the bachelor’s degree only. Foundation, International Year One and pre-sessional English have their own, lower levels and are described in the admission notes, not here.",
+        "profiles": [
+          {
+            "name": "Direct entry — BA (Honours) Business Management",
+            "overall": 6,
+            "sections": "Minimum of 5.5 in all skills",
+            "scope": "Year 1 of this bachelor’s programme (direct entry)",
+            "source": "https://www.shu.ac.uk/courses/business-and-management/ba-honours-business-management/full-time",
+            "verified": "2026-11-12"
+          }
+        ]
+      },
+      "toefl": {
+        "min": null,
+        "recommended": null,
+        "note": "Not confirmed during this check."
+      },
+      "satPolicy": "not-applicable",
+      "waiver": null
+    }
+  },
+  "birmingham-city-university": {
+    "id": "birmingham-city-university",
+    "country": "uk",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "general-direct",
+        "label": "International first-year undergraduate admission",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS Academic / UKVI / Online; One Skill Retake listed",
+            "min": 6,
+            "sections": {
+              "reading": 5.5,
+              "writing": 5.5,
+              "listening": 5.5,
+              "speaking": 5.5
+            },
+            "role": "admission"
+          },
+          "toefl": {
+            "accepted": true,
+            "scales": [
+              {
+                "period": "pre2026",
+                "min": 72,
+                "sections": {
+                  "reading": 18,
+                  "listening": 17,
+                  "speaking": 20,
+                  "writing": 17
+                }
+              },
+              {
+                "period": "post2026",
+                "min": 4,
+                "sections": {
+                  "reading": 4,
+                  "writing": 4,
+                  "listening": 4,
+                  "speaking": 4
+                }
+              }
+            ]
+          },
+          "alternatives": "Standard category: PTE Academic in person 59 in each skill; Cambridge C1 Advanced 169/162; BCU EPT; approved SELT and school qualifications. Duolingo and Oxford ELLT are for online pre-sessional only, not direct entry. TOEFL Home Edition is not direct-entry proof.",
+          "waiver": "A UK bachelor degree or equivalent studied in a majority-English country may qualify, depending on the course. Named school qualifications have their own skill/grade conditions.",
+          "note": "Most courses use 6.0/5.5; some require higher scores. Direct entry, online pre-sessional and on-campus pre-sessional accept different test variants."
+        },
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.bcu.ac.uk/international/your-application/english-language-and-english-tests/accepted-qualifications",
+            "label": "BCU direct-entry versus pre-sessional test acceptance",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Distinguished direct-entry test acceptance from online pre-sessional alternatives and retained exact section scores.",
+    "unknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ],
+    "before": {
+      "ielts": {
+        "min": null,
+        "recommended": null,
+        "varies": true,
+        "profilesComplete": false,
+        "note": "Direct entry to Year 1 of the bachelor’s degree only. Foundation, International Year One and pre-sessional English have their own, lower levels and are described in the admission notes, not here.",
+        "profiles": [
+          {
+            "name": "Direct entry — Computer Science BSc (Hons)",
+            "overall": 6,
+            "sections": "Minimum 5.5 in each section",
+            "scope": "Year 1 of this bachelor’s programme (direct entry)",
+            "source": "https://www.bcu.ac.uk/courses/computer-science-bsc-hons-2027-28",
+            "verified": "2026-11-14"
+          }
+        ]
+      },
+      "toefl": {
+        "min": null,
+        "recommended": null,
+        "note": "Not confirmed during this check."
+      },
+      "satPolicy": "not-applicable",
+      "waiver": null
+    }
+  },
+  "de-montfort-university": {
+    "id": "de-montfort-university",
+    "country": "uk",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "computing-engineering-reference",
+        "label": "Computing / Engineering / Art & Design reference language rule",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [
+          "computer-science",
+          "engineering",
+          "arts"
+        ],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS; confirm Academic variant for the chosen course",
+            "min": 6,
+            "sections": {
+              "reading": 5.5,
+              "writing": 5.5,
+              "listening": 5.5,
+              "speaking": 5.5
+            },
+            "role": "admission"
+          },
+          "alternatives": "The 6.0/5.5 equivalence table accepts PTE Academic 59/59, TOEFL legacy 60 (R8/L7/S16/W18) or new overall 4 (R3/L2.5/S3/W4), Duolingo 105 (R100/L95/S95/W95) and LanguageCert Academic 65/60. Internal DMU testing is possible for academically eligible offer holders.",
+          "note": "The international page gives 6.0 for Computing/Engineering/Art & Design in many country sections; programme-specific confirmation is still required. Business and Science vary across country sections and are not assigned this rule. International Year Zero with pre-sessional IELTS 4.5 is a different route."
+        },
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "Academic entry depends on the school qualification and exact course. The language page does not establish a universal SAT/ACT policy."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.dmu.ac.uk/international/en/entry-requirements.aspx",
+            "label": "DMU international undergraduate faculty language rules",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          },
+          {
+            "url": "https://www.dmu.ac.uk/international/en/accepted-english-language-proficiency-tests.aspx",
+            "label": "DMU accepted English test equivalences",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Scoped the repeated Computing/Engineering reference and kept country/course inconsistencies and preparatory entry separate.",
+    "unknown": [
+      "Exact course/year and school qualification; Business/Science country-table differences; waivers and exact IELTS variant need confirmation."
+    ],
+    "before": {
+      "ielts": {
+        "min": null,
+        "recommended": null,
+        "varies": true,
+        "profilesComplete": false,
+        "note": "Direct entry to Year 1 of the bachelor’s degree only. Foundation, International Year One and pre-sessional English have their own, lower levels and are described in the admission notes, not here.",
+        "profiles": [
+          {
+            "name": "Direct entry — BA (Hons) Business Management",
+            "overall": 6,
+            "sections": "5.5 in each band",
+            "scope": "Year 1 of this bachelor’s programme (direct entry)",
+            "source": "https://www.dmu.ac.uk/study/courses/undergraduate-courses/business-management/business-management.aspx",
+            "verified": "2026-11-13"
+          }
+        ]
+      },
+      "toefl": {
+        "min": null,
+        "recommended": null,
+        "note": "Not confirmed during this check."
+      },
+      "satPolicy": "not-applicable",
+      "waiver": null
+    }
+  },
+  "hosei-university": {
+    "id": "hosei-university",
+    "country": "jp",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "gbp-2027",
+        "label": "Global Business Program, Faculty of Business Administration — September 2027",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [
+          "business"
+        ],
+        "applicability": {
+          "label": "September 2027",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "fall-2027"
+          ]
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS Academic; not Indicator, Online or One Skill Retake",
+            "min": 6,
+            "role": "admission"
+          },
+          "toefl": {
+            "accepted": true,
+            "scales": [
+              {
+                "period": "pre2026",
+                "min": 80
+              },
+              {
+                "period": "post2026",
+                "min": 4
+              }
+            ],
+            "note": "TOEFL Home Edition and MyBest are not accepted."
+          },
+          "waiver": "Most recent six formal English-medium years in the seven named countries, excluding international schools; or IB Diploma with English A Literature/Language and Literature. Evidence may be requested."
+        },
+        "academic": {
+          "satPolicy": "required-alternatives",
+          "note": "One of SAT, ACT, IB Diploma, or qualifying GCE/International A-levels is required in addition to the university-entrance qualification. A levels require three A subjects, or two A plus two AS subjects."
+        },
+        "localLanguage": [],
+        "documents": [
+          "English/Japanese school certificates and complete transcripts; translations by a school official or official agency. Overseas mailed documents must arrive by the deadline; Japan domestic submissions use the postmark rule."
+        ],
+        "sources": [
+          {
+            "url": "https://www.guide.52school.com/export/sites/default/guidance/net-hosei-ebdp/gid/pdf/2027_GBP_0_Application-Guidelines_20261030.pdf",
+            "label": "Hosei GBP 2027 guide: eligibility, English and academic alternatives",
+            "verified": "2026-11-18",
+            "access": "web-pdf-read",
+            "pages": [
+              1,
+              4,
+              5,
+              6,
+              7,
+              10,
+              11
+            ]
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Added exact GBP 2027 language variants and independent academic alternatives; did not spread the rule to GIS/SCOPE/IGESS.",
+    "unknown": [
+      "IELTS section minima are unstated; other English degree routes and Japanese-language admission require separate guides."
+    ],
+    "before": {
+      "ielts": {
+        "min": null,
+        "recommended": null,
+        "note": "Not confirmed. Hosei publishes demanding English requirements for GIS, giving TOEFL iBT 90 or above as an example."
+      },
+      "toefl": {
+        "min": 90,
+        "recommended": null,
+        "scales": [
+          {
+            "period": "pre2026",
+            "min": 90,
+            "recommended": null
+          }
+        ],
+        "note": "TOEFL iBT 90 or above is given as the level expected for GIS."
+      },
+      "satPolicy": "not-applicable",
+      "waiver": null
+    }
+  },
+  "rikkyo-university": {
+    "id": "rikkyo-university",
+    "country": "jp",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "peace-2027",
+        "label": "PEACE: CIC / GLAP / International Business Law — 2027",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [
+          "business",
+          "law",
+          "social-sciences",
+          "humanities"
+        ],
+        "applicability": {
+          "label": "2027",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS Academic",
+            "min": 6.5,
+            "role": "admission"
+          },
+          "toefl": {
+            "accepted": true,
+            "scales": [
+              {
+                "period": "legacy",
+                "min": 94
+              }
+            ],
+            "note": "The new TOEFL alternative requires 4.5 in every section. A single overall 4.5 is not the published condition."
+          },
+          "waiver": "Specified curriculum English grades can satisfy language proof; IELTS/TOEFL can replace an unmet English prerequisite but do not replace the academic diploma or SAT/ACT total."
+        },
+        "academic": {
+          "satPolicy": "conditional",
+          "note": "The 2027 page sets different eligibility by curriculum. US/Canadian and five named Asian diplomas use SAT 1170 or ACT 24 with additional English conditions; IB and A-level routes use their own diploma/subject criteria. Higher scholarship thresholds do not guarantee selection."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://en.admission.rikkyo.ac.jp/browse/admissions-requirements/",
+            "label": "Rikkyo PEACE 2027 curriculum-specific requirements",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          },
+          {
+            "url": "https://en.admission.rikkyo.ac.jp/",
+            "label": "Rikkyo PEACE English-taught undergraduate programmes",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Separated curriculum prerequisites, language substitution and scholarship thresholds; IELTS alone never establishes PEACE eligibility.",
+    "unknown": [
+      "The applicant’s exact school category, detailed guide, IELTS sections/test variants and programme campus need individual confirmation."
+    ],
+    "before": {
+      "ielts": {
+        "min": 5.5,
+        "recommended": null,
+        "note": "GLAP asks for an IELTS Academic overall band score of 5.5 or above. Rikkyo’s other international routes publish a higher figure of 6.5."
+      },
+      "toefl": {
+        "min": null,
+        "recommended": null,
+        "scales": [],
+        "note": "Accepted; the GLAP minimum was not confirmed during this check. Rikkyo’s other international routes publish TOEFL iBT 94 (or 4.5 in each section on the new scale), which does not apply to GLAP."
+      },
+      "satPolicy": "not-applicable",
+      "waiver": null
+    }
+  },
+  "waseda-university": {
+    "id": "waseda-university",
+    "country": "jp",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "sils",
+        "label": "School of International Liberal Studies (SILS) English route",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [
+          "humanities",
+          "social-sciences"
+        ],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "applicability": {
+            "label": "Published SILS FAQ; numerical-minimum policy not intake-dated",
+            "entryYears": [],
+            "status": "year-not-stated"
+          },
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS Academic",
+            "noMinimum": true,
+            "role": "admission"
+          },
+          "toefl": {
+            "accepted": true
+          },
+          "waiver": "From September 2027, exemption requires at least three of the most recent four full-time years in a school/college/university taught solely in English except foreign-language classes. Merely submitting SAT/ACT/English IB no longer establishes exemption.",
+          "note": "The FAQ explicitly has no minimum English-test score. Its IELTS 6.5 is an exemption from some language classes after admission, not an entry cutoff; compulsory Academic Writing and placement tests remain."
+        },
+        "academic": {
+          "satPolicy": "required-alternatives",
+          "applicability": {
+            "label": "From September 2027: standardised test validity notice",
+            "entryYears": [
+              2027
+            ],
+            "status": "confirmed",
+            "intakes": [
+              "fall-2027"
+            ]
+          },
+          "note": "From September 2027 all applicants submit a standardised test meeting a three-year validity period. SAT/ACT/IB/A-level and other curriculum options require the applicable guide. The FAQ has no minimum test score; admitted-student averages are not cutoffs."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.waseda.jp/fire/sils/en/applicants/faq/",
+            "label": "SILS FAQ: no cutoff, placement versus admission",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          },
+          {
+            "url": "https://www.waseda.jp/fire/sils/assets/uploads/2025/03/Change-in-Exemption-Requirements-for-Submission-of-English-Proficiency-Test-Score.pdf",
+            "label": "SILS September 2027 English-exemption change",
+            "verified": "2026-11-18",
+            "access": "web-pdf-read",
+            "pages": [
+              1
+            ]
+          },
+          {
+            "url": "https://www.waseda.jp/fire/sils/assets/uploads/2025/01/New-Requirement-for-the-Validity-Period-of-Standardized-Test-Scores.pdf",
+            "label": "SILS September 2027 standardised-test validity",
+            "verified": "2026-11-18",
+            "access": "web-pdf-read",
+            "pages": [
+              1
+            ]
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Removed the misleading role of IELTS 6.5 as an admission cutoff and documented the stricter 2027 English-waiver condition.",
+    "unknown": [
+      "Full September 2027 guide, school-qualification test selection, IELTS variants/sections and exact programme campus still need confirmation."
+    ],
+    "before": {
+      "ielts": {
+        "min": null,
+        "recommended": null,
+        "varies": true,
+        "profiles": [
+          {
+            "name": "School of International Liberal Studies (SILS)",
+            "overall": 7,
+            "kind": "competitive",
+            "scope": "Competitive applicants to SILS; not a minimum",
+            "source": "https://www.waseda.jp/fire/sils/en/applicants/data/",
+            "verified": "2026-09-16"
+          }
+        ],
+        "note": "Each Waseda school sets its own requirement in its application guidelines. Scores are needed only from non-native speakers."
+      },
+      "toefl": {
+        "min": null,
+        "recommended": null,
+        "varies": true,
+        "profiles": [
+          {
+            "name": "School of International Liberal Studies (SILS)",
+            "overall": "95 (out of 120) · 5.0 (new 1–6 scale)",
+            "kind": "competitive",
+            "scope": "Competitive applicants to SILS; not a minimum",
+            "source": "https://www.waseda.jp/fire/sils/en/applicants/data/",
+            "verified": "2026-09-16"
+          }
+        ],
+        "note": "Each school publishes its own level."
+      },
+      "satPolicy": "accepted",
+      "waiver": "Not required from non-native speakers studying where English is the language of instruction. English proof is optional if you submit an English-system exam certificate such as the SAT, ACT, A-Levels or an IBDP taught entirely in English."
+    }
+  },
+  "hitotsubashi-university": {
+    "id": "hitotsubashi-university",
+    "country": "jp",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "privately-financed-2027",
+        "label": "Privately financed international selection — April 2027, Kunitachi",
+        "language": "ja",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [
+          "business",
+          "economics",
+          "law",
+          "social-sciences"
+        ],
+        "applicability": {
+          "label": "April 2027",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "spring-2027"
+          ]
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": null
+          },
+          "toefl": {
+            "accepted": true,
+            "scales": [
+              {
+                "period": "pre2026",
+                "min": 48
+              },
+              {
+                "period": "post2026",
+                "min": 3
+              }
+            ],
+            "note": "Test window: 1 February 2025–31 October 2026; Home Edition accepted, MyBest not accepted. The required English condition is TOEFL; an IELTS substitution is not established."
+          }
+        },
+        "academic": {
+          "satPolicy": "not-applicable",
+          "note": "The complete numbered eligibility conditions require the applicable school qualification, TOEFL and EJU; SAT/ACT are not listed substitutes in this route. This conclusion is limited to this selection guide."
+        },
+        "localLanguage": [
+          {
+            "name": "EJU / Japanese examination",
+            "requirement": "EJU Japanese excluding writing + Japan and the World + Mathematics Course 1: combined 680 or more, from the specified 2025 session 1–2026 session 1 window. Separate university Japanese reading/writing examination at Kunitachi. This is not a wholly English-taught degree route."
+          }
+        ],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://juken.hit-u.ac.jp/admission/info/guidelines/files/R9ryuugaku_youkou.pdf",
+            "label": "Hitotsubashi 2027 privately financed international guide",
+            "verified": "2026-11-18",
+            "access": "web-pdf-read",
+            "pages": [
+              7,
+              8,
+              9,
+              11,
+              16
+            ]
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Replaced generic English-route ambiguity with the actual Japanese/EJU/TOEFL selection and kept April separate from Fall 2027.",
+    "unknown": [
+      "Fall 2027 availability or a fully English-taught bachelor route is not established by this April guide; school-equivalence eligibility remains applicant-specific."
+    ],
+    "before": {
+      "ielts": {
+        "min": null,
+        "recommended": null,
+        "note": "Not confirmed during this check."
+      },
+      "toefl": {
+        "min": null,
+        "recommended": null,
+        "scales": [],
+        "note": "Not confirmed during this check."
+      },
+      "satPolicy": "not-applicable",
+      "waiver": null
+    }
+  },
+  "anhalt-university": {
+    "id": "anhalt-university",
+    "country": "de",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "ibs-english",
+        "label": "International Business BA — English branch, Bernburg",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [
+          "business",
+          "economics"
+        ],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "min": 6.5,
+            "role": "admission"
+          },
+          "toefl": {
+            "accepted": true,
+            "scales": [
+              {
+                "period": "legacy",
+                "min": 88
+              }
+            ]
+          },
+          "alternatives": "Cambridge CPE or CAE grades A/B/C. No IELTS section minimum or general MOI waiver is stated in this section. German is studied within the degree."
+        },
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page."
+        },
+        "localLanguage": [],
+        "documents": [
+          "Recognised higher-education entrance qualification with final grade 3.0 or better in the programme’s German-grade assessment, motivation letter and possible aptitude interview. Do not convert an applicant’s grade scale automatically."
+        ],
+        "sources": [
+          {
+            "url": "https://www.hs-anhalt.de/en/degree-programs/ibs.html",
+            "label": "Anhalt International Business BA, Bernburg: two language branches",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      },
+      {
+        "id": "ibs-german",
+        "label": "International Business BA — German branch, Bernburg",
+        "language": "de",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [
+          "business",
+          "economics"
+        ],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {},
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page."
+        },
+        "localLanguage": [
+          {
+            "name": "German",
+            "requirement": "DSH 2 or TestDaF TDN 4 in all four parts; equivalent certificates may be accepted. This is separate from the English branch’s IELTS 6.5."
+          }
+        ],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.hs-anhalt.de/en/degree-programs/ibs.html",
+            "label": "Anhalt International Business BA, Bernburg: two language branches",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Separated English and German International Business routes with actual Bernburg language evidence.",
+    "unknown": [
+      "Fall 2027-specific applicability, school-equivalence assessment and any programme-specific academic examinations remain unconfirmed."
+    ],
+    "before": {
+      "ielts": {
+        "min": null,
+        "recommended": null,
+        "note": "IELTS is accepted for the BA International Business, but Anhalt publishes a numeric minimum only for TOEFL on that programme; the IELTS figure was not confirmed during this check."
+      },
+      "toefl": {
+        "min": 88,
+        "recommended": null,
+        "scales": [
+          {
+            "period": "pre2026",
+            "min": 88,
+            "note": "TOEFL iBT 88, or 605 on the paper-based test, for the BA International Business."
+          }
+        ],
+        "note": "TOEFL iBT 88 or paper-based 605 for the BA International Business."
+      },
+      "satPolicy": "not-applicable",
+      "waiver": null
+    }
+  },
+  "university-of-freiburg": {
+    "id": "university-of-freiburg",
+    "country": "de",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "las",
+        "label": "Liberal Arts and Sciences bachelor — University College Freiburg",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS Academic",
+            "min": 5.5,
+            "role": "admission"
+          },
+          "alternatives": "LAS requires CEFR B2. The university’s B2 list includes IELTS Academic 5.5–6.5, TOEFL iBT 72–94 or 4.0–4.5, PTE Academic 59–75, Cambridge FCE/CAE/CPE, TOEFL Essentials 8–9.5, UNIcert and named qualifications. These are published level categories, not inferred conversions.",
+          "waiver": "English mother tongue or listed nationality, school qualification, IB or completed English-medium degree categories may provide evidence; consult the actual B2 category."
+        },
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page."
+        },
+        "localLanguage": [],
+        "documents": [
+          "Recognised entrance qualification, English essay and motivation letter (each at most 500 words), authorship declaration and orientation-procedure evidence. The currently displayed essay prompt is for 2026 and is not reused as a 2027 task."
+        ],
+        "sources": [
+          {
+            "url": "https://uni-freiburg.de/ucf/las/apply/",
+            "label": "Freiburg LAS application requirements: current 2026 essay context",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          },
+          {
+            "url": "https://uni-freiburg.de/en/studies/applying/language-certificates/?set_language=en",
+            "label": "Freiburg accepted B2 English certificates",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Anchored LAS to B2 and accepted evidence, not a graduate C1 threshold; kept the 2026 essay context explicit.",
+    "unknown": [
+      "Fall 2027-specific applicability, school-equivalence assessment and any programme-specific academic examinations remain unconfirmed."
+    ],
+    "before": {
+      "ielts": {
+        "min": null,
+        "recommended": null,
+        "note": "English at CEFR B2 or higher is required; the accepted certificates are listed on the University of Freiburg's \"English B2\" page."
+      },
+      "toefl": {
+        "min": null,
+        "recommended": null,
+        "note": "See the university's list of accepted B2 certificates."
+      },
+      "satPolicy": "not-used",
+      "waiver": null
+    }
+  },
+  "fau-erlangen-nurnberg": {
+    "id": "fau-erlangen-nurnberg",
+    "country": "de",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "german-bachelor",
+        "label": "German-taught bachelor admission — English exceptions excluded",
+        "language": "de",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {},
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page."
+        },
+        "localLanguage": [
+          {
+            "name": "German",
+            "requirement": "DSH 2, TestDaF 4 in every part, Goethe C2, ÖSD C2, telc C1 Hochschule/C2 or the listed equivalent qualifications. B2 can permit the pre-study DSH route but does not replace DSH 2 for enrolment. Medical/pharmacy categories need proof already at application."
+          }
+        ],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.fau.eu/studying/international-students/application-and-enrollment-for-international-applicants/german-language-courses-german-language-proficiency-and-language-certificates/",
+            "label": "FAU German bachelor proficiency and English degree exceptions",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": "Autonomy Technologies, Clean Energy Processes, International Business Studies, Artificial Intelligence and International Economic Studies are named fully English bachelor exceptions. Their own English/academic entry rules still require programme verification; German DSH is not assigned to them."
+      }
+    ],
+    "change": "Separated German-language enrolment proof from B2 preparation and explicitly excluded the five English bachelor routes.",
+    "unknown": [
+      "Fall 2027-specific applicability, school-equivalence assessment and any programme-specific academic examinations remain unconfirmed."
+    ],
+    "before": {
+      "ielts": {
+        "min": null,
+        "recommended": null,
+        "note": "Set by each English-taught programme; not confirmed on the pages consulted."
+      },
+      "toefl": {
+        "min": null,
+        "recommended": null,
+        "note": "Not confirmed on the pages consulted."
+      },
+      "satPolicy": "not-used",
+      "waiver": null
+    }
+  },
+  "technische-hochschule-ingolstadt": {
+    "id": "technische-hochschule-ingolstadt",
+    "country": "de",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "english-bachelor",
+        "label": "English-main-language bachelor admission — THI programme rules apply",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "min": null
+          },
+          "toefl": {
+            "accepted": true,
+            "scales": [
+              {
+                "period": "post2026",
+                "min": 4
+              }
+            ]
+          },
+          "alternatives": "B2 English required unless a German-language university entrance qualification applies. March 2026 accepted evidence includes TOEFL iBT 4, TOEFL ITP 543, IELTS, Cambridge FCE, PTE Academic B2, UNIcert II, MOTET and specified school/English-degree evidence. The PDF does not give a numerical IELTS cutoff."
+        },
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "Academic eligibility depends on recognition of the school qualification and programme selection. No universal SAT/ACT exemption is inferred from a language page."
+        },
+        "localLanguage": [
+          {
+            "name": "Programme-specific German",
+            "requirement": "Architecture and Sustainable Civil Engineering: German A2 by semester 2 and B2 by semester 5; Engineering and Management: A2 by semester 4. These are progression deadlines, not a universal German entry condition for English degrees."
+          }
+        ],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.thi.de/en/studies/application/bachelors-degree-application/",
+            "label": "THI bachelor application: English and later German conditions",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          },
+          {
+            "url": "https://www.thi.de/fileadmin/daten/recht/Allgemeine_Satzungen/Sprachkenntnisse/2026_03_09_Anerkannte_Englischtests_B2_en-GB.pdf",
+            "label": "THI accepted B2 English certificates, March 2026",
+            "verified": "2026-11-18",
+            "access": "web-pdf-read",
+            "pages": [
+              1,
+              2
+            ]
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Added actual B2 certificate alternatives without inventing an IELTS number or moving later German milestones to admission.",
+    "unknown": [
+      "Fall 2027-specific applicability, school-equivalence assessment and any programme-specific academic examinations remain unconfirmed."
+    ],
+    "before": {
+      "ielts": {
+        "min": null,
+        "recommended": null,
+        "note": "THI says it does not require English tests such as TOEFL or IELTS for this programme.",
+        "status": "not-required"
+      },
+      "toefl": {
+        "min": null,
+        "recommended": null,
+        "note": "THI says it does not require English tests such as TOEFL or IELTS for this programme.",
+        "status": "not-required"
+      },
+      "satPolicy": "not-applicable",
+      "waiver": null
+    }
+  },
+  "university-of-cologne": {
+    "id": "university-of-cologne",
+    "country": "de",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "non-eu-direct-hzb",
+        "label": "Non-EU applicant with recognised direct university entrance qualification",
+        "language": "de",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {},
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "TestAS is required for this non-EU procedure, with core and relevant subject module. Paper/digital accepted; rank thresholds vary by faculty. Nursing/Midwifery dual degrees have named exceptions. SAT/ACT are not established substitutes."
+        },
+        "localLanguage": [
+          {
+            "name": "German",
+            "requirement": "DSH 2; TestDaF TDN4 in all parts; DSD II; telc C1 Hochschule/C2; Goethe C1; ÖSD C2 or German FSP section. Eligible German-language school qualifications can substitute. English IELTS does not establish this requirement."
+          }
+        ],
+        "documents": [
+          "Apply through uni-assist with school records, German CV, language proof and TestAS. Eligibility equivalent to EU applicants uses a different procedure; indirect HZB and medicine also have separate routes."
+        ],
+        "sources": [
+          {
+            "url": "https://uni-koeln.de/en/studium-lehre/international/studium-in-koeln/internationale-bewerbungen/bachelor-studium-staatsexamen/bewerbungsverfahren-fuer-nicht-eu-buergerinnen/application-procedure-for-non-eu-citizens-with-formal-university-entrance-qualification-studienstart-international-integrale",
+            "label": "Cologne non-EU direct-HZB undergraduate procedure",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Made German and TestAS requirements visible with applicant-category exceptions; IELTS cannot substitute for German.",
+    "unknown": [
+      "Fall 2027-specific applicability, school-equivalence assessment and any programme-specific academic examinations remain unconfirmed."
+    ],
+    "before": {
+      "ielts": {
+        "min": 5.5,
+        "recommended": null,
+        "note": "IELTS 5.5 is listed as meeting the required B2 level."
+      },
+      "toefl": {
+        "min": 72,
+        "recommended": null,
+        "note": "TOEFL iBT 72."
+      },
+      "satPolicy": "not-used",
+      "waiver": null
+    }
+  },
+  "deggendorf-institute-of-technology": {
+    "id": "deggendorf-institute-of-technology",
+    "country": "de",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "artificial-intelligence-english",
+        "label": "Artificial Intelligence BSc — English, Deggendorf campus",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [
+          "computer-science",
+          "data-science"
+        ],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "min": null
+          },
+          "alternatives": "English CEFR B2 is required. The linked official language table lists accepted certificate categories; a single overall IELTS cutoff is not inferred from a component-range table."
+        },
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "A recognised entrance qualification plus the programme admission test is required: advanced-school mathematics, logic/computer science multiple choice and a 200–300-word essay. No SAT/ACT substitution is established."
+        },
+        "localLanguage": [
+          {
+            "name": "German during the degree",
+            "requirement": "German A2 must be demonstrated by the end of studies; this is not the English-route admission minimum."
+          }
+        ],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.th-deg.de/ain-b-en",
+            "label": "DIT English Artificial Intelligence bachelor: entry and language conditions",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Distinguished the English AI degree, actual admission test and later German A2 from German-language AI and graduate degrees.",
+    "unknown": [
+      "Fall 2027 cycle, precise certificate table row/section mapping and applicant-specific waiver remain to be confirmed."
+    ],
+    "before": {
+      "ielts": {
+        "min": null,
+        "recommended": null,
+        "varies": true,
+        "profilesComplete": false,
+        "profiles": [
+          {
+            "name": "Bachelor International Management",
+            "overall": 6.5,
+            "scope": "Applicants to International Management",
+            "source": "https://www.th-deg.de/Studieninteressierte/Bewerbung/language_requirements_German-English_DEG.pdf",
+            "verified": "2026-09-24"
+          }
+        ],
+        "note": "DIT publishes the requirement per programme. Both IELTS General and IELTS Academic are accepted, on paper or as a verified computer-based test."
+      },
+      "toefl": {
+        "min": null,
+        "recommended": null,
+        "varies": true,
+        "profilesComplete": false,
+        "profiles": [
+          {
+            "name": "Bachelor International Management",
+            "overall": "100 (internet-based only)",
+            "scope": "Applicants to International Management",
+            "source": "https://www.th-deg.de/Studieninteressierte/Bewerbung/language_requirements_German-English_DEG.pdf",
+            "verified": "2026-09-24"
+          }
+        ],
+        "note": "Only the internet-based TOEFL is accepted; CBT, ITP, PBT and the iBT Home Edition are not."
+      },
+      "satPolicy": "not-applicable",
+      "waiver": "Proof of the relevant language skills can also come from a school or university diploma."
+    }
+  },
+  "indiana-wesleyan-university": {
+    "id": "indiana-wesleyan-university",
+    "country": "us",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "international-first-year",
+        "label": "Marion campus international first-year admission",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "min": 6.5,
+            "role": "admission"
+          },
+          "toefl": {
+            "accepted": true,
+            "scales": [
+              {
+                "period": "legacy",
+                "min": 79
+              }
+            ]
+          },
+          "alternatives": "For students whose first language is not English: Duolingo 110 overall AND Production 110 is an alternative. The Bridge Program combines language and academic credits and is a separate support route."
+        },
+        "academic": {
+          "satPolicy": "conditional",
+          "note": "General admission no longer incorporates standardised scores, but departments and the Foundations Review Committee may require SAT/ACT; named scholar programmes and placement have separate uses."
+        },
+        "localLanguage": [],
+        "documents": [
+          "Official English transcripts and NACES-approved evaluation of non-US school records; do not substitute transfer-only evaluation instructions."
+        ],
+        "sources": [
+          {
+            "url": "https://www.indwes.edu/pathways/international/international-campus",
+            "label": "IWU Marion international language and testing conditions",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Preserved DET Production 110, Marion campus scope and conditional academic-testing exceptions.",
+    "unknown": [
+      "Fall 2027-labelled applicability, exact IELTS variant/sections where unstated and individual qualification/waiver approval remain unconfirmed."
+    ],
+    "before": {
+      "ielts": {},
+      "toefl": {},
+      "satPolicy": "unknown",
+      "waiver": null
+    }
+  },
+  "western-carolina-university": {
+    "id": "western-carolina-university",
+    "country": "us",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "international-first-year",
+        "label": "International first-year undergraduate admission",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "min": 6,
+            "sections": {
+              "reading": 5,
+              "writing": 5,
+              "listening": 5,
+              "speaking": 5
+            },
+            "role": "admission"
+          },
+          "toefl": {
+            "accepted": true,
+            "scales": [
+              {
+                "period": "legacy",
+                "min": 75
+              }
+            ]
+          },
+          "alternatives": "Duolingo 95 or PTE Academic 50. The graduate table’s IELTS 6.5/6.0 is not the undergraduate requirement.",
+          "waiver": "Listed English-primary-country category, IB Diploma, completed English-medium school/higher education with an institutional letter, or 24+ US college credits may qualify."
+        },
+        "academic": {
+          "satPolicy": "conditional",
+          "note": "The undergraduate international page requires SAT 880 or ACT 18 for applicants graduating from a US high school in their senior year. This school-history rule is not assigned to every foreign qualification."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.wcu.edu/learn/office-of-global-engagement/international-students/index.aspx",
+            "label": "Western Carolina undergraduate versus graduate requirements",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Scoped IELTS 6.0/5.0 and SAT school-history rule; excluded the graduate 6.5 table.",
+    "unknown": [
+      "Fall 2027-labelled applicability, exact IELTS variant/sections where unstated and individual qualification/waiver approval remain unconfirmed."
+    ],
+    "before": {
+      "ielts": {},
+      "toefl": {},
+      "satPolicy": "unknown",
+      "waiver": null
+    }
+  },
+  "loyola-university-new-orleans": {
+    "id": "loyola-university-new-orleans",
+    "country": "us",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "full-degree",
+        "label": "International first-year undergraduate admission",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "min": 6.5,
+            "role": "admission"
+          },
+          "toefl": {
+            "accepted": true,
+            "scales": [
+              {
+                "period": "legacy",
+                "min": 79
+              }
+            ]
+          },
+          "alternatives": "Duolingo 115; the table also lists CEFR C1/C2.",
+          "waiver": "SAT Reading/Writing 560 or an A in AP/IB English is the published waiver wording. A generic ACT composite is not a verified English waiver."
+        },
+        "academic": {
+          "satPolicy": "optional",
+          "note": "SAT/ACT optional for admission; an accepted subscore may serve as English proof. Music/Media programmes have audition or interview conditions."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://css.loyno.edu/admissions/how-apply/international-undergraduate-students",
+            "label": "Loyola New Orleans international degree, Pilot and LIEP routes",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      },
+      {
+        "id": "pilot",
+        "label": "Pilot Program: degree credits plus intensive English",
+        "language": "en",
+        "kind": "degree-with-esl",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "min": 5.5,
+            "role": "admission"
+          },
+          "note": "Published IELTS eligibility band 5.5–6.0; TOEFL 61–78 or DET 100–114. Conditional hybrid language/degree study, not full degree-seeking language readiness. LIEP below 5.5 is another preparatory route."
+        },
+        "academic": {
+          "satPolicy": "optional",
+          "note": "SAT/ACT optional for admission; an accepted subscore may serve as English proof. Music/Media programmes have audition or interview conditions."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://css.loyno.edu/admissions/how-apply/international-undergraduate-students",
+            "label": "Loyola New Orleans international degree, Pilot and LIEP routes",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Separated 6.5 full degree entry from the 5.5 Pilot support route and optional SAT language substitutes.",
+    "unknown": [
+      "Fall 2027-labelled applicability, exact IELTS variant/sections where unstated and individual qualification/waiver approval remain unconfirmed."
+    ],
+    "before": {
+      "ielts": {},
+      "toefl": {},
+      "satPolicy": "unknown",
+      "waiver": null
+    }
+  },
+  "le-moyne-college": {
+    "id": "le-moyne-college",
+    "country": "us",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "international-first-year",
+        "label": "International first-year undergraduate admission",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "ielts": {
+            "accepted": null
+          },
+          "note": "The international page places IELTS 6.5, TOEFL 79 and DET 110 under Steps for Graduate Admission. Those numbers are not imported into first-year requirements without a separate undergraduate source."
+        },
+        "academic": {
+          "satPolicy": "optional",
+          "note": "The first-year checklist explicitly makes SAT/ACT optional and considers submitted scores only if they benefit the applicant. This does not establish a language-test exemption."
+        },
+        "localLanguage": [],
+        "documents": [
+          "Completed application, personal essay at least 250 words, one academic recommendation and official school transcript."
+        ],
+        "sources": [
+          {
+            "url": "https://www.lemoyne.edu/admission-financial-aid/apply/",
+            "label": "Le Moyne first-year application requirements",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          },
+          {
+            "url": "https://www.lemoyne.edu/admission-financial-aid/international-admission/",
+            "label": "Le Moyne international page: separate undergraduate/graduate sections",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Established first-year optional SAT/ACT while preventing graduate English minima from becoming bachelor requirements.",
+    "unknown": [
+      "Undergraduate English test acceptance/minima, sections, waivers and the Fall 2027 cycle remain unconfirmed."
+    ],
+    "before": {
+      "ielts": {
+        "min": 6.5,
+        "recommended": null,
+        "note": null
+      },
+      "toefl": {
+        "min": 79,
+        "recommended": null,
+        "note": null,
+        "scales": [
+          {
+            "period": "pre2026",
+            "min": 79,
+            "recommended": null
+          }
+        ]
+      },
+      "satPolicy": "unknown",
+      "waiver": null
+    }
+  },
+  "university-of-west-florida": {
+    "id": "university-of-west-florida",
+    "country": "us",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "freshman-0-11-credits",
+        "label": "International freshman with 0–11 college credits",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "ielts": {
+            "accepted": null
+          },
+          "note": "For fewer than 60 college credits, the page says English proof is met through the ACT/SAT admission requirements in Regulation 3.042. Its IELTS 6.0/TOEFL 79 or 4.5 table is specifically an alternative for 60+ credit transfers and is not assigned as a first-year route. Listed country exemptions still need individual assessment."
+        },
+        "academic": {
+          "satPolicy": "required-alternatives",
+          "note": "Freshman applicants submit SAT, ACT or CLT and must meet the admission regulations. College-course substitution belongs to the separately specified transfer categories. The exact regulatory subscore thresholds still require verification."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://uwf.edu/admissions/undergraduate/apply/international/requirements/",
+            "label": "UWF international first-year versus transfer requirement matrix",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Stopped treating the 60+ credit transfer language-test table as the freshman English rule.",
+    "unknown": [
+      "Full Regulation 3.042 section minima, country exceptions and Fall 2027-specific applicability remain unconfirmed."
+    ],
+    "before": {
+      "ielts": {
+        "min": 6,
+        "recommended": null,
+        "note": null
+      },
+      "toefl": {
+        "min": 79,
+        "recommended": null,
+        "note": null,
+        "scales": [
+          {
+            "period": "pre2026",
+            "min": 79,
+            "recommended": null
+          },
+          {
+            "period": "post2026",
+            "min": 4.5,
+            "recommended": null
+          }
+        ]
+      },
+      "satPolicy": "unknown",
+      "waiver": null
+    }
+  },
+  "university-of-california-davis": {
+    "id": "university-of-california-davis",
+    "country": "us",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "international-first-year",
+        "label": "UC Davis international first-year entry",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS Academic; One Skill Retake not accepted",
+            "min": 6.5,
+            "role": "admission"
+          },
+          "toefl": {
+            "accepted": true,
+            "scales": [
+              {
+                "period": "legacy",
+                "min": 80
+              },
+              {
+                "period": "post2026",
+                "min": 4.5
+              }
+            ]
+          },
+          "alternatives": "UC first-year baseline: Duolingo 115, specified AP/IB English, legacy ACT/SAT or qualifying English composition. School language history determines the requirement, not citizenship. MyBest and digital SAT English substitution are not approved by the system page."
+        },
+        "academic": {
+          "satPolicy": "not-used",
+          "note": "UC does not consider SAT/ACT in admission selection or scholarship awards. Limited eligibility-subject and post-enrolment placement uses are separate."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.ucdavis.edu/admissions/undergraduate/international/exams-visas",
+            "label": "UC Davis first-year English context",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          },
+          {
+            "url": "https://admission.universityofcalifornia.edu/admission-requirements/international-applicants/english-language-proficiency-toefl-ielts.html",
+            "label": "UC system first-year English benchmarks — not UCEAP exchange",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          },
+          {
+            "url": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/filling-out-the-application.html",
+            "label": "UC first-year SAT/ACT selection policy",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Replaced exchange-route evidence with first-year campus/system sources and separated English proof from test-blind academic selection.",
+    "unknown": [
+      "Fall 2027-labelled confirmation, IELTS sections and individual school-language/qualification assessment remain unconfirmed."
+    ],
+    "before": {
+      "ielts": {},
+      "toefl": {},
+      "satPolicy": "not-used",
+      "waiver": null
+    }
+  },
+  "university-of-california-irvine": {
+    "id": "university-of-california-irvine",
+    "country": "us",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "international-first-year",
+        "label": "UC Irvine international first-year entry",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS Academic; One Skill Retake not accepted",
+            "min": 6.5,
+            "role": "admission"
+          },
+          "toefl": {
+            "accepted": true,
+            "scales": [
+              {
+                "period": "legacy",
+                "min": 80
+              },
+              {
+                "period": "post2026",
+                "min": 4.5
+              }
+            ]
+          },
+          "alternatives": "UC first-year baseline: Duolingo 115, specified AP/IB English, legacy ACT/SAT or qualifying English composition. School language history determines the requirement, not citizenship. MyBest and digital SAT English substitution are not approved by the system page.",
+          "note": "Irvine also lists SAT EBRW 680 for English, while the UC system page says digital SAT Reading/Writing is not approved. The version is unresolved; a digital SAT score is not counted as a verified waiver."
+        },
+        "academic": {
+          "satPolicy": "not-used",
+          "note": "UC does not consider SAT/ACT in admission selection or scholarship awards. Limited eligibility-subject and post-enrolment placement uses are separate."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.admissions.uci.edu/apply/international-students.php",
+            "label": "UC Irvine first-year English context",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          },
+          {
+            "url": "https://admission.universityofcalifornia.edu/admission-requirements/international-applicants/english-language-proficiency-toefl-ielts.html",
+            "label": "UC system first-year English benchmarks — not UCEAP exchange",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          },
+          {
+            "url": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/filling-out-the-application.html",
+            "label": "UC first-year SAT/ACT selection policy",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Replaced exchange-route evidence with first-year campus/system sources and separated English proof from test-blind academic selection.",
+    "unknown": [
+      "Fall 2027-labelled confirmation, IELTS sections and individual school-language/qualification assessment remain unconfirmed."
+    ],
+    "before": {
+      "ielts": {},
+      "toefl": {},
+      "satPolicy": "not-used",
+      "waiver": null
+    }
+  },
+  "university-of-california-merced": {
+    "id": "university-of-california-merced",
+    "country": "us",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "international-first-year",
+        "label": "UC Merced international first-year entry",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS Academic; One Skill Retake not accepted",
+            "min": 6.5,
+            "role": "admission"
+          },
+          "toefl": {
+            "accepted": true,
+            "scales": [
+              {
+                "period": "legacy",
+                "min": 80
+              },
+              {
+                "period": "post2026",
+                "min": 4.5
+              }
+            ]
+          },
+          "alternatives": "UC first-year baseline: Duolingo 115, specified AP/IB English, legacy ACT/SAT or qualifying English composition. School language history determines the requirement, not citizenship. MyBest and digital SAT English substitution are not approved by the system page.",
+          "note": "Merced still lists legacy TOEFL 80 without the new-scale row; the system publishes 4.5. Mixed-school records have separately named legacy exam alternatives. An undated January score-receipt rule is not assigned a Fall 2027 calendar date."
+        },
+        "academic": {
+          "satPolicy": "not-used",
+          "note": "UC does not consider SAT/ACT in admission selection or scholarship awards. Limited eligibility-subject and post-enrolment placement uses are separate."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://admissions.ucmerced.edu/international/english-language-proficiency",
+            "label": "UC Merced first-year English context",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          },
+          {
+            "url": "https://admission.universityofcalifornia.edu/admission-requirements/international-applicants/english-language-proficiency-toefl-ielts.html",
+            "label": "UC system first-year English benchmarks — not UCEAP exchange",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          },
+          {
+            "url": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/filling-out-the-application.html",
+            "label": "UC first-year SAT/ACT selection policy",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Replaced exchange-route evidence with first-year campus/system sources and separated English proof from test-blind academic selection.",
+    "unknown": [
+      "Fall 2027-labelled confirmation, IELTS sections and individual school-language/qualification assessment remain unconfirmed."
+    ],
+    "before": {
+      "ielts": {},
+      "toefl": {},
+      "satPolicy": "not-used",
+      "waiver": null
+    }
+  },
+  "rockhurst-university": {
+    "id": "rockhurst-university",
+    "country": "us",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "international-first-year",
+        "label": "International first-year undergraduate admission",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "min": 6.5,
+            "role": "admission"
+          },
+          "toefl": {
+            "accepted": true,
+            "scales": [
+              {
+                "period": "legacy",
+                "min": 80
+              }
+            ]
+          },
+          "alternatives": "PTE 54; DET 110; SAT Reading/Writing 550; ACT English 21; qualifying non-ESL US college English. These are language alternatives, not additional mandatory academic SAT scores.",
+          "waiver": "Listed citizenship categories or the entire high-school curriculum in English may qualify. School-history evidence must come directly from a school official, not the applicant."
+        },
+        "academic": {
+          "satPolicy": "optional",
+          "note": "All undergraduate programmes use optional SAT/ACT according to the freshman page. English proof remains independent."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://www.rockhurst.edu/admissions/international",
+            "label": "Rockhurst international language proof and waiver categories",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          },
+          {
+            "url": "https://www.rockhurst.edu/freshman",
+            "label": "Rockhurst freshman test-optional policy",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Separated optional academic tests from their accepted English subscores and documented school-official waiver evidence.",
+    "unknown": [
+      "Fall 2027-labelled policy, new TOEFL scale, IELTS sections and exact test variants remain unconfirmed."
+    ],
+    "before": {
+      "ielts": {},
+      "toefl": {},
+      "satPolicy": "unknown",
+      "waiver": null
+    }
+  },
+  "salve-regina-university": {
+    "id": "salve-regina-university",
+    "country": "us",
+    "stage": "requirements-checked",
+    "verified": "2026-11-18",
+    "routes": [
+      {
+        "id": "general-first-year",
+        "label": "International first-year undergraduate admission",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "min": null
+          },
+          "toefl": {
+            "accepted": true
+          },
+          "alternatives": "TOEFL, IELTS or Duolingo results required when English is not the first language. The first-year checklist does not publish an unconditional numerical minimum."
+        },
+        "academic": {
+          "satPolicy": "optional",
+          "note": "SAT/ACT optional for all applicants, including Nursing; Nursing encourages scores but its admitted-student averages are not requirements."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://salve.edu/admissions/first-year-applicants",
+            "label": "Salve first-year checklist and optional academic testing",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      },
+      {
+        "id": "eap-degree",
+        "label": "Full bachelor admission with required English for Academic Purposes",
+        "language": "en",
+        "kind": "degree-with-esl",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Published policy; intake year not stated",
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "min": 6,
+            "role": "admission"
+          },
+          "alternatives": "Published EAP category: TOEFL iBT 60–79, IELTS 6.0, DET 90–105 or PTE 46–52. Four required credit-bearing EAP courses accompany degree courses over two semesters. This is full degree admission with language support, not a standalone Foundation."
+        },
+        "academic": {
+          "satPolicy": "optional",
+          "note": "SAT/ACT optional for all applicants, including Nursing; Nursing encourages scores but its admitted-student averages are not requirements."
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://salve.edu/our-mission/campus-offices-and-services/center-global-education-and-fellowships/international-student-support/english-academic-purposes",
+            "label": "Salve EAP full-degree route, eligibility and progression",
+            "verified": "2026-11-18",
+            "access": "web-html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Made full degree admission with EAP distinct from unassisted English readiness; no invented regular IELTS cutoff.",
+    "unknown": [
+      "Fall 2027-specific applicability, EAP test variants/section rules, waiver categories and the unconditional language minimum require confirmation."
+    ],
+    "before": {
+      "ielts": {},
+      "toefl": {},
+      "satPolicy": "unknown",
+      "waiver": null
+    }
+  },
+  "sejong-university": {
+    "id": "sejong-university",
+    "country": "kr",
+    "stage": "requirements-checked",
+    "verified": "2026-11-19",
+    "routes": [
+      {
+        "id": "english-track",
+        "label": "Listed English-track bachelor majors, Seoul",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [
+          "business",
+          "economics",
+          "computer-science",
+          "social-sciences"
+        ],
+        "applicability": {
+          "label": "Spring 2027 only; Fall rules not established",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "spring-2027"
+          ]
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "min": 5.5,
+            "role": "admission"
+          },
+          "toefl": {
+            "accepted": true,
+            "scales": [
+              {
+                "period": "pre2026",
+                "min": 59
+              },
+              {
+                "period": "post2026",
+                "min": 3.5
+              }
+            ]
+          },
+          "alternatives": "New TEPS 202. TOEFL Home Edition and MyBest accepted; ITP not accepted. Listed first-year tracks include Business, Economics, Computer Science and Engineering, Public Administration and other named majors; not every major is English.",
+          "waiver": "Citizenship of a country with native/official English plus proof of secondary/higher education may qualify. Non-English-country citizens must provide a test even after English-medium education abroad."
+        },
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "The read eligibility and document sections do not establish an independent SAT/ACT policy. Recognised school completion remains compulsory."
+        },
+        "localLanguage": [],
+        "documents": [
+          "Upload authenticated scans during application; admitted students who enrol must then send originals during registration. Online submission and receipt of originals are separate stages. Applicant and both parents must be non-Korean nationals; nationality-acquisition exclusions apply."
+        ],
+        "sources": [
+          {
+            "url": "https://www.sejong.ac.kr/_res/sejong/eng/etc/2027_Spring_Semester_Undergraduate_Admission_Guide_for_International_Students(eng)_20260903.pdf",
+            "label": "Sejong Spring 2027 undergraduate guide: eligibility and documents",
+            "verified": "2026-11-19",
+            "access": "pdf-read",
+            "pages": [
+              4,
+              5,
+              6,
+              9,
+              10,
+              11,
+              17
+            ]
+          }
+        ],
+        "note": null
+      },
+      {
+        "id": "korean-track",
+        "label": "Korean-track bachelor majors — programme-specific TOPIK",
+        "language": "ko",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [],
+        "applicability": {
+          "label": "Spring 2027 only; Fall rules not established",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "spring-2027"
+          ]
+        },
+        "english": {},
+        "academic": {
+          "satPolicy": "unknown",
+          "note": "The read eligibility and document sections do not establish an independent SAT/ACT policy. Recognised school completion remains compulsory."
+        },
+        "localLanguage": [
+          {
+            "name": "TOPIK",
+            "requirement": "Level 4: Korean Language/Literature, Media/Communication and Business; level 3 for other ordinary majors. Creative/Arts/PE/Entertainment: level 2 with compulsory additional language study. Global Liberal Studies has no entry-language requirement.",
+            "note": "Specified KIIP/King Sejong Institute equivalents and Sejong language-course completion may substitute. Graduation TOPIK requirements remain separate; Sejong Prep must be completed before regular admission."
+          }
+        ],
+        "documents": [
+          "Upload authenticated scans during application; admitted students who enrol must then send originals during registration. Online submission and receipt of originals are separate stages. Applicant and both parents must be non-Korean nationals; nationality-acquisition exclusions apply."
+        ],
+        "sources": [
+          {
+            "url": "https://www.sejong.ac.kr/_res/sejong/eng/etc/2027_Spring_Semester_Undergraduate_Admission_Guide_for_International_Students(eng)_20260903.pdf",
+            "label": "Sejong Spring 2027 undergraduate guide: eligibility and documents",
+            "verified": "2026-11-19",
+            "access": "pdf-read",
+            "pages": [
+              4,
+              5,
+              6,
+              9,
+              10,
+              11,
+              17
+            ]
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Separated Spring 2027 English 5.5 entry from major-specific Korean qualifications, limited nationality waiver and staged original documents.",
+    "unknown": [
+      "Fall 2027 rules, IELTS variant/sections and independent SAT/ACT obligations remain unconfirmed."
+    ],
+    "before": {
+      "ielts": {
+        "min": null,
+        "recommended": null,
+        "note": "Not confirmed during this check."
+      },
+      "toefl": {
+        "min": null,
+        "recommended": null,
+        "scales": [],
+        "note": "Not confirmed during this check."
+      },
+      "satPolicy": "unknown",
+      "waiver": null
+    }
+  },
+  "pusan-national-university": {
+    "id": "pusan-national-university",
+    "country": "kr",
+    "stage": "requirements-checked",
+    "verified": "2026-11-19",
+    "routes": [
+      {
+        "id": "global-studies",
+        "label": "Department of Global Studies — English, Busan campus",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [
+          "social-sciences"
+        ],
+        "applicability": {
+          "label": "Spring 2027 only; Fall rules not established",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "spring-2027"
+          ]
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "min": null
+          },
+          "toefl": {
+            "accepted": true
+          },
+          "alternatives": "Ordinary category: IELTS 5.5, TOEFL iBT 80 (guide new scale 4) or New TEPS 327. TOPIK is not compulsory for Global Studies. Nationality-specific higher thresholds prevent one universal numerical minimum.",
+          "note": "Nepalese, Mongolian, Vietnamese and Uzbek applicants: IELTS 7 or TOEFL iBT 85 (guide new scale 5) for Global Studies, and TOPIK 5 for Korean routes. The ordinary departmental minimum must not be applied to these categories.",
+          "waiver": "The guide lists US, UK, Australia, Canada, Ireland, New Zealand and South Africa; confirm the required school-history evidence with admissions."
+        },
+        "academic": {
+          "satPolicy": "unknown"
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://international.pusan.ac.kr/bbs/international/2089/1533745/download.do",
+            "label": "Pusan Spring 2027 undergraduate guide: English section",
+            "verified": "2026-11-19",
+            "access": "pdf-read",
+            "pages": [
+              32,
+              33,
+              34
+            ]
+          }
+        ],
+        "note": null
+      },
+      {
+        "id": "korean-ai-computing",
+        "label": "AI Computer Science and Engineering — Korean, Busan campus",
+        "language": "ko",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [
+          "computer-science"
+        ],
+        "applicability": {
+          "label": "Spring 2027 only; Fall rules not established",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "spring-2027"
+          ]
+        },
+        "english": {},
+        "academic": {
+          "satPolicy": "unknown"
+        },
+        "localLanguage": [
+          {
+            "name": "TOPIK",
+            "requirement": "Normally level 4 or PNU language level 4. With the specified English evidence, level 3/PNU level 3 may qualify; these majors are explicitly NOT English tracks.",
+            "note": "Nepalese, Mongolian, Vietnamese and Uzbek applicants: IELTS 7 or TOEFL iBT 85 (guide new scale 5) for Global Studies, and TOPIK 5 for Korean routes. The ordinary departmental minimum must not be applied to these categories."
+          }
+        ],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://international.pusan.ac.kr/bbs/international/2089/1533745/download.do",
+            "label": "Pusan Spring 2027 undergraduate guide: English section",
+            "verified": "2026-11-19",
+            "access": "pdf-read",
+            "pages": [
+              32,
+              33,
+              34
+            ]
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Removed an unqualified English threshold and distinguished the only wholly English department from Korean computing and nationality exceptions.",
+    "unknown": [
+      "Fall intake is not established: the guide states undergraduate curricula follow March entry. IELTS variant/sections, SAT/ACT policy and additional nationality-specific financial documents require further review."
+    ],
+    "before": {
+      "ielts": {
+        "min": null,
+        "recommended": null,
+        "note": "Not confirmed during this check."
+      },
+      "toefl": {
+        "min": null,
+        "recommended": null,
+        "scales": [],
+        "note": "Not confirmed during this check."
+      },
+      "satPolicy": "unknown",
+      "waiver": null
+    }
   }
 }

@@ -29,7 +29,7 @@
   }
   function sectionsHtml(sections) {
     var labels={reading:'Reading',writing:'Writing',listening:'Listening',speaking:'Speaking'};
-    return Object.keys(sections || {}).map(function (k) { return esc(labels[k] || k) + ': ' + esc(sections[k]); }).join(' · ');
+    return Object.keys(sections || {}).map(function (k) { return '<span>' + esc(labels[k] || k) + '</span>: ' + esc(sections[k]); }).join(' · ');
   }
   function text(value) { return value ? '<p>' + esc(value) + '</p>' : ''; }
   function testHtml(name, t) {
@@ -55,15 +55,15 @@
       var requirement={'required-unless-exempt':'Language proof required unless an applicable exemption is approved','required-by-language-country':'Language proof depends on the published applicant category',recommended:'Language testing is recommended, not a universal test minimum',optional:'Language-score submission is optional in the reviewed checklist','internal-assessment':'English is assessed by the institution; a certificate is not required with this application','alternatives-with-academic':'The checklist accepts language or academic test alternatives; see the exact conditions','placement-or-waiver':'Scores determine language-course placement or exemption'}[e.requirement];
       return '<article class="card admission-route"><div class="card-body"><h3>' + esc(r.label) + '</h3>' +
         '<p><span>Teaching language</span>: <strong>' + esc(LANG[r.language] || r.language) + '</strong> · <span>' + esc(r.kind === 'foundation' ? 'Foundation' : r.kind === 'international-year-one' ? 'International Year One' : r.kind === 'degree-with-esl' ? 'Degree with compulsory ESL' : r.kind === 'degree-with-conditions' ? 'Degree admission with stated conditions' : 'Direct admission') + '</span></p>' +
-        '<p><span>Published scope</span>: ' + esc(scope(r.applicability)) + '</p>' + text(r.note) +
-        '<h3>Language requirements for this route</h3>' + '<p><span>Published scope</span>: ' + esc(scope(e.applicability || r.applicability)) + '</p>' +
+        '<p><span>Published scope</span>: <span>' + esc(scope(r.applicability)) + '</span></p>' + text(r.note) +
+        '<h3>Language requirements for this route</h3>' + '<p><span>Published scope</span>: <span>' + esc(scope(e.applicability || r.applicability)) + '</span></p>' +
         text(requirement) + testHtml('IELTS',e.ielts) + testHtml('TOEFL',e.toefl) + text(e.alternatives) +
         (e.waiver ? '<h4>Waiver / exemption</h4>' + text(e.waiver) : '') + text(e.note) +
         (r.localLanguage || []).map(function (x) { return '<h4>' + esc(x.name) + '</h4>' + text(x.requirement) + text(x.note); }).join('') +
         '<h3>Academic examinations for this route</h3><p><strong>' + esc(POLICY[a.satPolicy] || POLICY.unknown) + '</strong></p>' +
-        '<p><span>Published scope</span>: ' + esc(scope(a.applicability || r.applicability)) + '</p>' + text(a.note) +
+        '<p><span>Published scope</span>: <span>' + esc(scope(a.applicability || r.applicability)) + '</span></p>' + text(a.note) +
         (r.documents || []).map(text).join('') +
-        '<ul class="requirements-sources">' + r.sources.map(function (s) { return '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.label) + ' ↗</a> · <span>Checked</span> ' + esc(s.verified) + '</li>'; }).join('') + '</ul></div></article>';
+        '<ul class="requirements-sources">' + r.sources.map(function (s) { return '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener"><span>' + esc(s.label) + '</span> ↗</a> · <span>Checked</span> ' + esc(s.verified) + '</li>'; }).join('') + '</ul></div></article>';
     }).join('') + '</div>';
   }
   function evaluate(u,input) {
