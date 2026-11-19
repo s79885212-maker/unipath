@@ -28,14 +28,14 @@
     });
   }
   function sectionsHtml(sections) {
-    var labels={reading:'Reading',writing:'Writing',listening:'Listening',speaking:'Speaking'};
-    return Object.keys(sections || {}).map(function (k) { return '<span>' + esc(labels[k] || k) + '</span>: ' + esc(sections[k]); }).join(' · ');
+    var labels={reading:'Reading section',writing:'Writing section',listening:'Listening section',speaking:'Speaking section'};
+    return Object.keys(sections || {}).map(function (k) { return '<span class="requirement-section-label">' + esc(labels[k] || k) + '</span>: ' + esc(sections[k]); }).join(' · ');
   }
   function text(value) { return value ? '<p>' + esc(value) + '</p>' : ''; }
   function testHtml(name, t) {
     if (!t) return '';
     var value = t.accepted === false ? 'Not accepted for this route' : t.accepted === null ? 'Acceptance not established for this route' : '';
-    var h = '<h4>' + esc(name) + (t.variant ? ' · ' + esc(t.variant) : '') + '</h4>' + text(value);
+    var h = '<h4>' + esc(name) + (t.variant ? ' · <span class="requirement-variant">' + esc(t.variant) + '</span>' : '') + '</h4>' + text(value);
     if (typeof t.min === 'number') h += '<p><span>Published minimum</span>: <strong>' + esc(t.min) + '</strong></p>';
     if (t.noMinimum === true) h += text('Accepted; the university explicitly publishes no numerical minimum.');
     if (typeof t.recommended === 'number') h += '<p><span>Recommended score</span>: <strong>' + esc(t.recommended) + '</strong> · <span>Not an admission cutoff</span></p>';

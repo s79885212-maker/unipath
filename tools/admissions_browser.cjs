@@ -41,6 +41,9 @@ async function profiles(browser,lang,width,dark){
   assert.equal(state.routes,records[id].routes.length,id+' route count');
   assert(state.sourceLinks.every(s=>s.startsWith('https://')),id+' source links');
   if(lang==='ru') {
+   for(const heading of await p.locator('.requirement-variant,.requirement-section-label').all()) {
+    assert.doesNotMatch(await heading.innerText(),/accepted|not named|not specified|requires confirmation|in person|in-centre|Reading section|Writing section|Listening section|Speaking section/);
+   }
    for(const source of records[id].routes.flatMap(r=>r.sources)) {
     const translated=await p.evaluate(label=>I18N.t(label),source.label);
     const link=p.locator('.requirements-sources a').filter({hasText:translated}).first();
