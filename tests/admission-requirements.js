@@ -65,6 +65,8 @@ module.exports=function (env) {
   ok(U.search('Northern Iowa IELTS 6',540).some(function (u) {return u.id==='university-of-northern-iowa';}),'Search indexes the reviewed UNI direct-entry IELTS number before the requirements module starts');
   ok(U.search('Sejong TOPIK',540).some(function (u) {return u.id==='sejong-university';}),'Search indexes reviewed local-language qualifications independently from English');
   ok(U.search('Frankfurt cognitive',540).some(function (u) {return u.id==='frankfurt-school';}),'Search finds academic entrance examinations stored in the reviewed qualification block');
+  var wb=U.requirements.routes(U.uniById('berlin-international-university'))[0];
+  ok(wb && wb.english.ielts.min===null && wb.academic.satPolicy==='unknown' && /B2/.test(wb.english.note),'Whitecliffe current programme confirms CEFR B2, not an inferred IELTS score or universal SAT waiver');
   var ka=U.requirements.routes(U.uniById('kaist'))[0];
   ok(ka.english.ielts.recommended===6.5 && ka.english.ielts.min===null && ka.academic.satPolicy==='required-alternatives','KAIST 2027: recommended language score is independent from compulsory academic alternatives');
   var pu=U.requirements.routes(U.uniById('pusan-national-university'))[0];

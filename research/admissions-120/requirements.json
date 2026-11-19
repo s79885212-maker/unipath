@@ -100,7 +100,7 @@
   "university-of-pittsburgh": {
     "id": "university-of-pittsburgh",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -446,7 +446,7 @@
   "elmira-college": {
     "id": "elmira-college",
     "country": "us",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -958,7 +958,7 @@
   "university-of-the-pacific": {
     "id": "university-of-the-pacific",
     "country": "us",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -1054,7 +1054,7 @@
   "saint-marys-college-indiana": {
     "id": "saint-marys-college-indiana",
     "country": "us",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -1276,7 +1276,7 @@
   "john-jay-college": {
     "id": "john-jay-college",
     "country": "us",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -1983,7 +1983,7 @@
   "laurentian-university": {
     "id": "laurentian-university",
     "country": "ca",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -2129,7 +2129,7 @@
   "universite-de-montreal": {
     "id": "universite-de-montreal",
     "country": "ca",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -2196,7 +2196,7 @@
   "universite-laval": {
     "id": "universite-laval",
     "country": "ca",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -2263,7 +2263,7 @@
   "universite-du-quebec-a-montreal": {
     "id": "universite-du-quebec-a-montreal",
     "country": "ca",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -2918,7 +2918,7 @@
   "frankfurt-school": {
     "id": "frankfurt-school",
     "country": "de",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -2994,7 +2994,7 @@
   "leuphana-university-luneburg": {
     "id": "leuphana-university-luneburg",
     "country": "de",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -3159,7 +3159,7 @@
   "rhine-waal-university": {
     "id": "rhine-waal-university",
     "country": "de",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -3256,7 +3256,7 @@
   "technical-university-of-munich": {
     "id": "technical-university-of-munich",
     "country": "de",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -3540,7 +3540,7 @@
   "university-of-strathclyde": {
     "id": "university-of-strathclyde",
     "country": "uk",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -3714,7 +3714,7 @@
   "middlesex-university": {
     "id": "middlesex-university",
     "country": "uk",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -3826,7 +3826,7 @@
   "oxford-brookes-university": {
     "id": "oxford-brookes-university",
     "country": "uk",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -4165,7 +4165,7 @@
   "dgist": {
     "id": "dgist",
     "country": "kr",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -4256,7 +4256,7 @@
   "dongguk-university": {
     "id": "dongguk-university",
     "country": "kr",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -4426,7 +4426,7 @@
   "milwaukee-school-of-engineering": {
     "id": "milwaukee-school-of-engineering",
     "country": "us",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -5079,7 +5079,7 @@
   "brock-university": {
     "id": "brock-university",
     "country": "ca",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -5234,7 +5234,7 @@
   "mount-royal-university": {
     "id": "mount-royal-university",
     "country": "ca",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -5356,7 +5356,7 @@
   "acadia-university": {
     "id": "acadia-university",
     "country": "ca",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -5477,7 +5477,7 @@
   "university-of-ottawa": {
     "id": "university-of-ottawa",
     "country": "ca",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -5687,7 +5687,7 @@
   "universite-de-sherbrooke": {
     "id": "universite-de-sherbrooke",
     "country": "ca",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -5754,7 +5754,7 @@
   "universite-de-moncton": {
     "id": "universite-de-moncton",
     "country": "ca",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -6074,7 +6074,7 @@
   "stockton-university": {
     "id": "stockton-university",
     "country": "us",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -6182,7 +6182,7 @@
   "manhattan-university": {
     "id": "manhattan-university",
     "country": "us",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -6260,7 +6260,7 @@
   "university-of-sussex": {
     "id": "university-of-sussex",
     "country": "uk",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -6484,7 +6484,7 @@
   "university-of-greenwich": {
     "id": "university-of-greenwich",
     "country": "uk",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -6606,7 +6606,7 @@
   "university-of-westminster": {
     "id": "university-of-westminster",
     "country": "uk",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -6703,7 +6703,7 @@
   "coventry-university": {
     "id": "coventry-university",
     "country": "uk",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -6811,7 +6811,7 @@
   "university-of-hertfordshire": {
     "id": "university-of-hertfordshire",
     "country": "uk",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -6930,7 +6930,7 @@
   "university-of-huddersfield": {
     "id": "university-of-huddersfield",
     "country": "uk",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -7042,7 +7042,7 @@
   "university-of-salford": {
     "id": "university-of-salford",
     "country": "uk",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -7163,7 +7163,7 @@
   "university-of-derby": {
     "id": "university-of-derby",
     "country": "uk",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -7433,7 +7433,7 @@
   "nottingham-trent-university": {
     "id": "nottingham-trent-university",
     "country": "uk",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -7532,7 +7532,7 @@
   "sheffield-hallam-university": {
     "id": "sheffield-hallam-university",
     "country": "uk",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -7741,7 +7741,7 @@
   "birmingham-city-university": {
     "id": "birmingham-city-university",
     "country": "uk",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -7863,7 +7863,7 @@
   "de-montfort-university": {
     "id": "de-montfort-university",
     "country": "uk",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -8381,7 +8381,7 @@
   "anhalt-university": {
     "id": "anhalt-university",
     "country": "de",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -8528,7 +8528,7 @@
   "university-of-freiburg": {
     "id": "university-of-freiburg",
     "country": "de",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -8614,7 +8614,7 @@
   "fau-erlangen-nurnberg": {
     "id": "fau-erlangen-nurnberg",
     "country": "de",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -8687,7 +8687,7 @@
   "technische-hochschule-ingolstadt": {
     "id": "technische-hochschule-ingolstadt",
     "country": "de",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -8788,7 +8788,7 @@
   "university-of-cologne": {
     "id": "university-of-cologne",
     "country": "de",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -8857,7 +8857,7 @@
   "deggendorf-institute-of-technology": {
     "id": "deggendorf-institute-of-technology",
     "country": "de",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -9199,7 +9199,7 @@
   "le-moyne-college": {
     "id": "le-moyne-college",
     "country": "us",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -9281,7 +9281,7 @@
   "university-of-west-florida": {
     "id": "university-of-west-florida",
     "country": "us",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-18",
     "routes": [
       {
@@ -9778,7 +9778,7 @@
   "sejong-university": {
     "id": "sejong-university",
     "country": "kr",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-19",
     "routes": [
       {
@@ -9944,7 +9944,7 @@
   "pusan-national-university": {
     "id": "pusan-national-university",
     "country": "kr",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-19",
     "routes": [
       {
@@ -10382,7 +10382,7 @@
   "soongsil-university": {
     "id": "soongsil-university",
     "country": "kr",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-19",
     "routes": [
       {
@@ -10466,7 +10466,7 @@
   "towson-university": {
     "id": "towson-university",
     "country": "us",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-19",
     "routes": [
       {
@@ -10991,7 +10991,7 @@
   "grand-valley-state-university": {
     "id": "grand-valley-state-university",
     "country": "us",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-19",
     "routes": [
       {
@@ -11065,7 +11065,7 @@
   "elmhurst-university": {
     "id": "elmhurst-university",
     "country": "us",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-19",
     "routes": [
       {
@@ -11147,7 +11147,7 @@
   "university-of-texas-at-dallas": {
     "id": "university-of-texas-at-dallas",
     "country": "us",
-    "stage": "requirements-checked",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-19",
     "routes": [
       {
@@ -11377,7 +11377,7 @@
   "valparaiso-university": {
     "id": "valparaiso-university",
     "country": "us",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-19",
     "routes": [
       {
@@ -11840,7 +11840,7 @@
   "kyungpook-national-university": {
     "id": "kyungpook-national-university",
     "country": "kr",
-    "stage": "followup-checked-awaiting-browser",
+    "stage": "followup-browser-checked",
     "verified": "2026-11-19",
     "routes": [
       {
@@ -11958,5 +11958,79 @@
       "satPolicy": "unknown",
       "waiver": null
     }
+  },
+  "berlin-international-university": {
+    "id": "berlin-international-university",
+    "country": "de",
+    "stage": "followup-browser-checked",
+    "verified": "2026-11-19",
+    "routes": [
+      {
+        "id": "ba-international-management-marketing",
+        "label": "BA International Management & Marketing, Berlin",
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [
+          "business"
+        ],
+        "applicability": {
+          "label": "March / October 2027 — BA International Management & Marketing",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "spring-2027",
+            "fall-2027"
+          ]
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": null,
+            "min": null
+          },
+          "note": "This English-taught BA requires English at CEFR B2 or higher; German is not required. The current programme and FAQ do not publish an IELTS/TOEFL numerical equivalence or the former country/degree waiver list. Earlier UniPath listed IELTS 6.0 and TOEFL 74 from the old Berlin International page, which now redirects; these numbers are not used as current admission cutoffs. The English Preparatory School is a separate route before degree study."
+        },
+        "academic": {
+          "satPolicy": "unknown",
+          "entryRequirements": "BA Business Administration — International Management & Marketing requires German Abitur/Fachabitur or an equivalent international qualification assessed under German ZAB equivalence criteria. Submit passport, school diploma/transcript, applicable university records and certified English/German translations. Admission eligibility is followed by faculty selection. The current programme/checklist does not establish a universal SAT/ACT waiver.",
+          "applicability": {
+            "label": "March / October 2027 — BA International Management & Marketing",
+            "entryYears": [
+              2027
+            ],
+            "status": "confirmed",
+            "intakes": [
+              "spring-2027",
+              "fall-2027"
+            ]
+          }
+        },
+        "localLanguage": [],
+        "documents": [],
+        "sources": [
+          {
+            "url": "https://whitecliffe.de/en/programs/ba-business-administration-international-management-marketing/",
+            "label": "Whitecliffe Berlin: BA programme, qualifications and CEFR B2",
+            "verified": "2026-11-19",
+            "access": "html-read"
+          },
+          {
+            "url": "https://whitecliffe.de/en/faq/",
+            "label": "Whitecliffe Berlin: current bachelor application checklist",
+            "verified": "2026-11-19",
+            "access": "html-read"
+          }
+        ],
+        "note": null
+      }
+    ],
+    "change": "Current official programme replaces unsupported legacy IELTS/SAT certainty after source redirect. Existing university, ID and campus preserved.",
+    "unknown": [
+      "Exact accepted IELTS/TOEFL variants, score equivalence, language exemptions, school-qualification-specific SAT/ACT and faculty-selection conditions remain to confirm."
+    ]
   }
 }

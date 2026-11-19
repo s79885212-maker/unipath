@@ -1,0 +1,148 @@
+{
+  "checked": "2026-11-19",
+  "routes": [
+    {
+      "id": "osaka-university",
+      "route": "human-sciences-iudp",
+      "scope": "October / Fall 2027",
+      "policy": "conditional",
+      "sources": [
+        "https://iudp.hus.osaka-u.ac.jp/wp-content/uploads/2026/07/2027-HUS-Application-Guidelines.pdf"
+      ],
+      "review": "Academic and language evidence share the named-intake guide/application context; no unrelated undated country page is used to date the academic rule."
+    },
+    {
+      "id": "nagoya-university",
+      "route": "g30",
+      "scope": "October / Fall 2027",
+      "policy": "conditional",
+      "sources": [
+        "https://admissions.g30.nagoya-u.ac.jp/upload/2027_admission_requirements_en.pdf"
+      ],
+      "review": "Academic and language evidence share the named-intake guide/application context; no unrelated undated country page is used to date the academic rule."
+    },
+    {
+      "id": "meiji-university",
+      "route": "sgjs-english-track",
+      "scope": "September 2027",
+      "policy": "required-alternatives",
+      "sources": [
+        "https://www.meiji.ac.jp/cip/english/undergraduate/nippon/englishtrack/glqts00000002hta-att/a1793259032270.pdf"
+      ],
+      "review": "Academic and language evidence share the named-intake guide/application context; no unrelated undated country page is used to date the academic rule."
+    },
+    {
+      "id": "tohoku-university",
+      "route": "gateway-term-ii",
+      "scope": "October / Fall 2027",
+      "policy": "required-alternatives",
+      "sources": [
+        "https://admissions.tohoku.ac.jp/en/adcms/wp-content/uploads/2026/08/ApplicationGuideGWC2027Fall.pdf",
+        "https://www.insc.tohoku.ac.jp/english/degree/undergraduate-english/"
+      ],
+      "review": "Academic and language evidence share the named-intake guide/application context; no unrelated undated country page is used to date the academic rule."
+    },
+    {
+      "id": "okayama-university",
+      "route": "discovery-october",
+      "scope": "October / Fall 2027",
+      "policy": "optional",
+      "sources": [
+        "https://discovery.okayama-u.ac.jp/en/prospective_students/admission/international-application/"
+      ],
+      "review": "Academic and language evidence share the named-intake guide/application context; no unrelated undated country page is used to date the academic rule."
+    },
+    {
+      "id": "institute-of-science-tokyo",
+      "route": "gsep-april",
+      "scope": "April 2027",
+      "policy": "optional",
+      "sources": [
+        "https://admissions.isct.ac.jp/en/013/undergraduate/programs/gsep"
+      ],
+      "review": "Academic and language evidence share the named-intake guide/application context; no unrelated undated country page is used to date the academic rule."
+    },
+    {
+      "id": "handong-global-university",
+      "route": "english-majors",
+      "scope": "Spring / Fall 2027",
+      "policy": "optional",
+      "sources": [
+        "https://www.handong.edu/ext/bbs/download.dcp?id=16397"
+      ],
+      "review": "Academic and language evidence share the named-intake guide/application context; no unrelated undated country page is used to date the academic rule."
+    },
+    {
+      "id": "murray-state-university",
+      "route": "regular-undergraduate",
+      "scope": "Spring / Fall 2027",
+      "policy": "conditional",
+      "sources": [
+        "https://www.murraystate.edu/admissions/international/Admissions/index.aspx"
+      ],
+      "review": "Academic and language evidence share the named-intake guide/application context; no unrelated undated country page is used to date the academic rule."
+    },
+    {
+      "id": "murray-state-university",
+      "route": "undergraduate-with-condition",
+      "scope": "Spring / Fall 2027",
+      "policy": "conditional",
+      "sources": [
+        "https://www.murraystate.edu/admissions/international/Admissions/index.aspx"
+      ],
+      "review": "Academic and language evidence share the named-intake guide/application context; no unrelated undated country page is used to date the academic rule."
+    },
+    {
+      "id": "hosei-university",
+      "route": "gbp-2027",
+      "scope": "September 2027",
+      "policy": "required-alternatives",
+      "sources": [
+        "https://www.guide.52school.com/export/sites/default/guidance/net-hosei-ebdp/gid/pdf/2027_GBP_0_Application-Guidelines_20261030.pdf"
+      ],
+      "review": "Academic and language evidence share the named-intake guide/application context; no unrelated undated country page is used to date the academic rule."
+    },
+    {
+      "id": "rikkyo-university",
+      "route": "peace-2027",
+      "scope": "2027",
+      "policy": "conditional",
+      "sources": [
+        "https://en.admission.rikkyo.ac.jp/browse/admissions-requirements/",
+        "https://en.admission.rikkyo.ac.jp/"
+      ],
+      "review": "Academic and language evidence share the named-intake guide/application context; no unrelated undated country page is used to date the academic rule."
+    },
+    {
+      "id": "hitotsubashi-university",
+      "route": "privately-financed-2027",
+      "scope": "April 2027",
+      "policy": "not-applicable",
+      "sources": [
+        "https://juken.hit-u.ac.jp/admission/info/guidelines/files/R9ryuugaku_youkou.pdf"
+      ],
+      "review": "Academic and language evidence share the named-intake guide/application context; no unrelated undated country page is used to date the academic rule."
+    },
+    {
+      "id": "kaist",
+      "route": "international-first-year",
+      "scope": "2027 admissions guide",
+      "policy": "required-alternatives",
+      "sources": [
+        "https://admission.kaist.ac.kr/wz/api/common/files/view/intl-undergraduate/pdf/Admissions_Guide_for_2027_admission.pdf"
+      ],
+      "review": "Academic and language evidence share the named-intake guide/application context; no unrelated undated country page is used to date the academic rule."
+    },
+    {
+      "id": "unist",
+      "route": "international-first-year",
+      "scope": "Fall 2027",
+      "policy": "optional",
+      "sources": [
+        "https://admu-intl.unist.ac.kr/admission-eng/admissions/admissions.do?articleNo=306812&attachNo=591437&mode=download"
+      ],
+      "review": "Academic and language evidence share the named-intake guide/application context; no unrelated undated country page is used to date the academic rule."
+    }
+  ],
+  "note": "All remaining confirmed routes that inherit their common scope were examined for the same authoring pattern. Osaka/Nagoya/Hosei/Hitotsubashi are also in the separate24. Rikkyo explicitly says PEACE2027; Okayama eligibility is dated2027; GSEP has its April2027 application/guide section and separately warns about AY2028 change. Murray links the checklist on the application page serving the named Spring/Fall2027 cycles; English/SAT alternatives are not merged into universal required SAT. The KNU generic page itself refers to a separate semester guide and does not acquire confirmed2027 scope. Specific independent undated academic pages now carry their own scope."
+}

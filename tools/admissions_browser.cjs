@@ -4,11 +4,14 @@ const fs=require('fs'),path=require('path'),assert=require('assert/strict');
 const root=process.argv[2] || 'http://127.0.0.1:8765/unipath/';
 const local=root.startsWith('http://127.'),disk=path.resolve('dist');
 const records=JSON.parse(fs.readFileSync('research/admissions-120/requirements.json','utf8'));
-const ids=process.argv.includes('--one')?['brigham-young-university']:Object.keys(records),out={root,local,profiles:[],flows:[],errors:[],limitations:[]};
+const expectedVersion=/\?v=(\d+)/.exec(fs.readFileSync('index.html','utf8'))[1];
+const followupIds=process.argv.includes('--followup')?[...new Set([...Object.keys(JSON.parse(fs.readFileSync('research/admissions-followup/reviews.json','utf8'))),...JSON.parse(fs.readFileSync('research/admissions-followup/self-review-24.json','utf8')).map(r=>r.id)])]:null;
+const ids=process.argv.includes('--one')?['brigham-young-university']:followupIds||Object.keys(records),out={root,local,profiles:[],flows:[],errors:[],limitations:[]};
 const report=process.env.UNIPATH_BROWSER_REPORT || 'research/admissions-120/browser-checkpoint.json';
 const mime={'.js':'application/javascript','.html':'text/html; charset=utf-8','.css':'text/css','.webp':'image/webp','.png':'image/png','.jpg':'image/jpeg','.svg':'image/svg+xml','.woff2':'font/woff2'};
 async function context(browser,lang,width,dark=false) {
  const c=await browser.newContext({viewport:{width,height:865}});
+ c.setDefaultNavigationTimeout(60000);
  await c.addInitScript(dark=>localStorage.setItem('unipath.theme',dark?'dark':'light'),dark);
  if(local)await c.route(root+'**/*',r=>{
   let file=path.resolve(disk,decodeURIComponent(new URL(r.request().url()).pathname.slice(new URL(root).pathname.length)) || 'index.html');
@@ -22,6 +25,7 @@ async function loaded(p,lang){
  await p.waitForFunction(l=>window.UP?.requirements&&window.UPPages&&window.UPMatch&&document.documentElement.lang===l,lang,{timeout:45000});
  if(!local && await p.locator('#human-gate').isVisible())throw Error('Turnstile blocks this live visitor session; no access settings were changed');
  out.version=await p.locator('script[src*="assets/js/app.js"]').getAttribute('src');
+ assert(out.version.endsWith('?v='+expectedVersion),'Every opened page must serve the exact candidate version');
 }
 async function profiles(browser,lang,width,dark){
  const c=await context(browser,lang,width,dark),p=await c.newPage();
@@ -64,7 +68,8 @@ async function profiles(browser,lang,width,dark){
    }
   }
   for(const image of await p.locator('main img').all()){await image.scrollIntoViewIfNeeded();await image.evaluate(i=>i.decode());}
-  out.profiles.push({id,lang,width,dark,requirementsText:content,...state});
+  out.profiles.push({id,lang,width,dark,version:out.version,requirementsText:content,...state});
+  if(id==='frankfurt-school')await p.screenshot({path:path.resolve('../followup-'+(local?'local':'live')+'-'+lang+'-'+width+'.png'),fullPage:false});
  }
  console.log('Reviewed profiles:',lang,width,dark,ids.length);
  }finally{await c.close();}
@@ -113,7 +118,7 @@ async function flow(browser,lang,width){
 (async()=>{
  const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});
  out.browser='Chrome '+browser.version();out.webkitInstalled=fs.existsSync(webkit.executablePath());
- try{await Promise.all([profiles(browser,'ru',360,false),profiles(browser,'en',1280,true)]);await flow(browser,'ru',390);await flow(browser,'en',1280);}
+ try{await profiles(browser,'ru',360,false);await profiles(browser,'en',1280,true);await flow(browser,'ru',390);await flow(browser,'en',1280);}
  catch(e){out.errors.push(e.stack);process.exitCode=1;}
  finally{await browser.close();}
  out.limitations.push('Mobile viewport emulation; no physical phone or Safari tested. Requirements evidence and browser route coverage are separate.');

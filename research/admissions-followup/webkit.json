@@ -1,0 +1,7 @@
+{
+  "checked": "2026-11-19",
+  "attempted": true,
+  "available": false,
+  "error": "Playwright WebKit executable is not installed. No Safari engine test completed.",
+  "limitations": "No actual Safari or physical iPhone tested; Chrome mobile widths are emulation."
+}

@@ -918,5 +918,15 @@
     ],
     "remaining": "Need the selected semester’s full admission guide, actual programme teaching-language statement and any academic SAT/ACT rule. Published 2027 schedule does not by itself date every generic requirement.",
     "correction": "Removed inferred ko teaching-language label; retained the explicit TOPIK requirement and unknown exact programme language."
+  },
+  "berlin-international-university": {
+    "id": "berlin-international-university",
+    "country": "de",
+    "checked": "2026-11-19",
+    "status": "current-programme-established-exam-equivalence-open",
+    "source": "https://whitecliffe.de/en/programs/ba-business-administration-international-management-marketing/",
+    "academicEntry": "BA Business Administration — International Management & Marketing requires German Abitur/Fachabitur or an equivalent international qualification assessed under German ZAB equivalence criteria. Submit passport, school diploma/transcript, applicable university records and certified English/German translations. Admission eligibility is followed by faculty selection. The current programme/checklist does not establish a universal SAT/ACT waiver.",
+    "change": "Current programme confirms English CEFR B2; old IELTS 6.0/TOEFL 74 and blanket SAT waiver are not confirmed by redirected pages.",
+    "remaining": "Exact accepted IELTS/TOEFL variants, score equivalence, language exemptions, school-qualification-specific SAT/ACT and faculty-selection conditions remain to confirm."
   }
 }

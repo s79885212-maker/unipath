@@ -1,0 +1,18 @@
+[
+  {
+    "id": "frankfurt-school",
+    "lang": "ru",
+    "width": 360,
+    "dark": false,
+    "screenshot": "screenshots/academic-ru360.png",
+    "overflow": false
+  },
+  {
+    "id": "berlin-international-university",
+    "lang": "en",
+    "width": 1280,
+    "dark": true,
+    "screenshot": "screenshots/academic-en1280.png",
+    "overflow": false
+  }
+]

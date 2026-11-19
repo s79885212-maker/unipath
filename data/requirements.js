@@ -8869,5 +8869,69 @@ window.UNIPATH.admissionRequirements = {
       ],
       "note": "The department-specific TOPIK requirement is confirmed on the general page. The exact teaching-language mix is not stated there; neither an English-taught nor a wholly Korean-taught degree is inferred from the test requirement."
     }
+  ],
+  "berlin-international-university": [
+    {
+      "id": "ba-international-management-marketing",
+      "label": "BA International Management & Marketing, Berlin",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [
+        "business"
+      ],
+      "applicability": {
+        "label": "March / October 2027 — BA International Management & Marketing",
+        "entryYears": [
+          2027
+        ],
+        "status": "confirmed",
+        "intakes": [
+          "spring-2027",
+          "fall-2027"
+        ]
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": null,
+          "min": null
+        },
+        "note": "This English-taught BA requires English at CEFR B2 or higher; German is not required. The current programme and FAQ do not publish an IELTS/TOEFL numerical equivalence or the former country/degree waiver list. Earlier UniPath listed IELTS 6.0 and TOEFL 74 from the old Berlin International page, which now redirects; these numbers are not used as current admission cutoffs. The English Preparatory School is a separate route before degree study."
+      },
+      "academic": {
+        "satPolicy": "unknown",
+        "entryRequirements": "BA Business Administration — International Management & Marketing requires German Abitur/Fachabitur or an equivalent international qualification assessed under German ZAB equivalence criteria. Submit passport, school diploma/transcript, applicable university records and certified English/German translations. Admission eligibility is followed by faculty selection. The current programme/checklist does not establish a universal SAT/ACT waiver.",
+        "applicability": {
+          "label": "March / October 2027 — BA International Management & Marketing",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed",
+          "intakes": [
+            "spring-2027",
+            "fall-2027"
+          ]
+        }
+      },
+      "localLanguage": [],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://whitecliffe.de/en/programs/ba-business-administration-international-management-marketing/",
+          "label": "Whitecliffe Berlin: BA programme, qualifications and CEFR B2",
+          "verified": "2026-11-19",
+          "access": "html-read"
+        },
+        {
+          "url": "https://whitecliffe.de/en/faq/",
+          "label": "Whitecliffe Berlin: current bachelor application checklist",
+          "verified": "2026-11-19",
+          "access": "html-read"
+        }
+      ],
+      "note": null
+    }
   ]
 };
