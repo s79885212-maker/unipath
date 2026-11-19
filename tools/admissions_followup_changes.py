@@ -4,11 +4,12 @@ from pathlib import Path
 import json
 OUT=Path('research/admissions-followup')
 reviews=json.loads((OUT/'reviews.json').read_text(encoding='utf8')) if (OUT/'reviews.json').exists() else {}
-def academic(uid,en,ru,url,label,remaining,policy=None,status='resolved-scoped',indices=None):
+def academic(uid,en,ru,url,label,remaining,policy=None,status='resolved-scoped',indices=None,applicability=None):
  rec=records[uid];before=[r['academic'].get('satPolicy') for r in rec['routes']]
  for i,r in enumerate(rec['routes']):
   if indices is not None and i not in indices:continue
   a=r['academic'];a['entryRequirements']=L(en,ru)
+  a['applicability']=applicability or {'label':L('Published academic entry policy; intake year not stated','Опубликованные академические условия; год набора не указан'),'entryYears':[],'status':'year-not-stated'}
   if policy:
    a['satPolicy']=policy
    a['note']=None
