@@ -20,6 +20,9 @@ def record(id,routes,change,unknown=None):
  assert routes and all(r['sources'] for r in routes),id
  records[id]={'id':id,'country':baseline[id]['country'],'stage':'requirements-checked','verified':CHECKED,'routes':routes,'change':change,'unknown':unknown or [],'before':{'ielts':baseline[id]['ielts'],'toefl':baseline[id]['toefl'],'satPolicy':baseline[id]['satPolicy'],'waiver':baseline[id]['waiver']}}
 def finish():
+ for rec in records.values():
+  for route in rec['routes']:
+   route['sources']=list({s['url']:s for s in route['sources']}.values())
  DATA.write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  Path('data/requirements.js').write_text('/* Verified admission routes. Authoring facts and scope: research/admissions-120/requirements.json. Optional, backward-compatible layer. */\nwindow.UNIPATH.admissionRequirements = '+json.dumps({k:v['routes'] for k,v in records.items()},ensure_ascii=False,indent=2)+';\n',encoding='utf-8')
  progress=json.loads((ROOT/'review.json').read_text(encoding='utf-8'))

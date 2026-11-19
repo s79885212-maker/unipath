@@ -133,7 +133,7 @@ def requirements_html(routes):
                 parts.append(f'<p>{e(eng[key])}</p>')
         for local in route.get("localLanguage") or []:
             parts.append(f'<h4>{e(local["name"])}</h4><p>{e(local["requirement"])}</p>')
-        policy = {"required":"SAT or ACT required", "optional":"SAT/ACT optional", "not-used":"SAT/ACT not considered", "not-applicable":"SAT/ACT not part of this route", "conditional":"SAT/ACT depends on applicant qualifications", "required-alternatives":"An academic test is required; alternatives accepted", "accepted":"SAT/ACT accepted; obligation not established", "conflict":"Official SAT/ACT sources disagree", "unknown":"SAT/ACT policy not established"}.get(academic.get("satPolicy"), "SAT/ACT policy not established")
+        policy = {"required":"SAT or ACT required", "optional":"SAT/ACT optional", "not-used":"SAT/ACT not considered", "not-applicable":"SAT/ACT not part of this route", "conditional":"SAT/ACT depends on applicant qualifications", "required-alternatives":"An academic test is required; alternatives accepted", "accepted":"Academic test acceptance is scoped; obligation not established", "conflict":"Official SAT/ACT sources disagree", "unknown":"SAT/ACT policy not established"}.get(academic.get("satPolicy"), "SAT/ACT policy not established")
         parts.append(f'<h4>Academic examinations for this route</h4><p>{e(policy)}</p>')
         parts.append(f'<p>Published scope: {e((academic.get("applicability") or route.get("applicability") or {}).get("label"))}</p>')
         if academic.get("note"):

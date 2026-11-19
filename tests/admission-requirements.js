@@ -19,6 +19,7 @@ module.exports=function (env) {
   ok(level(r,'soft') && r.unchecked.indexOf('Required SAT or ACT score')>=0,'Route: required academic exam remains missing');
   r=evaluate(testRoute({academic:{satPolicy:'required'}}),{ielts:null,act:25});
   ok(!level(r,'soft'),'Route: ACT is an alternative to required SAT, not a missing SAT');
+  ok(r.unchecked.indexOf('Academic test minimum and subject requirements')>=0,'Route: an entered required ACT score does not confirm unchecked thresholds or subjects');
   ['optional','not-used'].forEach(function (p) {
     r=evaluate(testRoute({academic:{satPolicy:p}}),{ielts:null});
     ok(!level(r,'hard') && !level(r,'soft'),'Route: missing SAT is not a failure for '+p);
@@ -35,6 +36,7 @@ module.exports=function (env) {
   ok(!level(r,'ok') && !level(r,'hard'),'Route: April rules are not confirmed for October merely because the year agrees');
   r=evaluate(testRoute({language:'ja',localLanguage:[{name:'EJU',requirement:'Published Japanese route subjects'}]}));
   ok(r.unchecked.indexOf('Local-language examinations and route qualifications')>=0,'Route: local teaching language remains unchecked by IELTS');
+  ok(!level(r,'ok'),'Route: a local-language degree does not acquire a positive match from English alone');
   r=evaluate(testRoute({kind:'foundation'}),{admissionRoute:'direct'});
   ok(!r.route && !level(r,'ok'),'Route: foundation scores never satisfy a requested direct route');
   r=evaluate(testRoute({programmeIds:['business']}),{field:'data-science'});
@@ -46,6 +48,14 @@ module.exports=function (env) {
   r=U.requirements.evaluate(U.uniById('brigham-young-university'),input({ielts:6.5,ieltsSections:{reading:6,writing:5.5,listening:6,speaking:6}}));
   ok(level(r,'hard'),'BYU current 2027 route checks the actual section 6 boundary');
   ok(U.requirements.routes(U.uniById('stonehill-college'))[0].academic.applicability.entryYears[0]===2026,'Stonehill test-blind policy keeps the published 2026 year');
+  var ma=U.requirements.routes(U.uniById('wheaton-college-massachusetts'))[0].english.ielts;
+  ok(ma.recommended===6.5 && ma.min===null,'Wheaton MA: recommended 6.5 never becomes a required cutoff');
+  var ni=U.requirements.routes(U.uniById('university-of-northern-iowa'));
+  ok(ni[0].english.ielts.min===6 && ni[1].english.ielts.min===5.5 && ni[1].kind==='degree-with-esl','UNI: unrestricted 6.0 and required-support 5.5 remain separate');
+  var ka=U.requirements.routes(U.uniById('kaist'))[0];
+  ok(ka.english.ielts.recommended===6.5 && ka.english.ielts.min===null && ka.academic.satPolicy==='required-alternatives','KAIST 2027: recommended language score is independent from compulsory academic alternatives');
+  var pu=U.requirements.routes(U.uniById('pusan-national-university'))[0];
+  ok(pu.english.ielts.min===null && pu.applicability.intakes[0]==='spring-2027','Pusan: nationality-dependent threshold is not represented as universal 5.5 or Fall entry');
   var checked=env.DB.universities.filter(function (u) {return u.admissionRequirements;});
   ok(checked.every(function (u) {return u.admissionRequirements.every(function (r) {return r.sources.length && r.sources.every(function (s) {return /^https:\/\//.test(s.url) && /^20\d\d-\d\d-\d\d$/.test(s.verified);}) && r.applicability && r.programmeIds;});}), 'Reviewed routes keep sources, verification dates and explicit applicability');
 };

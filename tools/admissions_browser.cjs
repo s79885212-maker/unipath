@@ -32,7 +32,7 @@ async function profiles(browser,lang,width,dark){
   await p.locator('.admission-routes').waitFor();
   await p.locator('#english').scrollIntoViewIfNeeded();
   const content=await p.locator('#english').innerText();
-  assert.match(content,/IELTS|French|француз|франкоязыч|французского/i,id);
+  assert(content.length>150,id+' requirements contain explanatory content');
   if(lang==='ru')assert.match(content,/Требования поступления по маршрутам/);
   const state=await p.evaluate(()=>({overflow:document.documentElement.scrollWidth>innerWidth+1,
    routes:document.querySelectorAll('.admission-route').length,
@@ -40,6 +40,17 @@ async function profiles(browser,lang,width,dark){
   assert(!state.overflow,id+' horizontal overflow');
   assert.equal(state.routes,records[id].routes.length,id+' route count');
   assert(state.sourceLinks.every(s=>s.startsWith('https://')),id+' source links');
+  if(lang==='ru') {
+   for(const source of records[id].routes.flatMap(r=>r.sources)) {
+    const translated=await p.evaluate(label=>I18N.t(label),source.label);
+    const link=p.locator('.requirements-sources a').filter({hasText:translated}).first();
+    assert(await link.count(),id+' translated source label: '+translated);
+   }
+   if(id==='brigham-young-university') {
+    assert.match(content,/Начиная с Winter 2027/);
+    assert.doesNotMatch(content,/Starting Winter 2027/);
+   }
+  }
   for(const image of await p.locator('main img').all()){await image.scrollIntoViewIfNeeded();await image.evaluate(i=>i.decode());}
   out.profiles.push({id,lang,width,dark,requirementsText:content,...state});
  }

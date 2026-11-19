@@ -98,7 +98,7 @@
       unchecked.push('Language-course placement and any waiver conditions');
     } else if (t.accepted !== true) { check('info','IELTS acceptance or a comparable minimum is not established for this route.'); unchecked.push('Accepted language proof'); }
     else {
-      if (typeof t.min === 'number') check(currentEnglish ? (input.ielts < t.min ? 'hard' : 'ok') : 'info',
+      if (typeof t.min === 'number') check(currentEnglish ? (input.ielts < t.min ? 'hard' : r.language === 'en' ? 'ok' : 'info') : 'info',
         currentEnglish ? (input.ielts < t.min ? 'IELTS overall is below the published route minimum.' : 'IELTS overall meets the published route minimum; this is not a check of all requirements.') : 'Published reference IELTS overall: ' + t.min + '.', 'minimum');
       if (typeof t.recommended === 'number') check(currentEnglish && input.ielts < t.recommended ? 'soft' : 'info','The published recommended IELTS overall is ' + t.recommended + '. It is not an admission cutoff.','recommended');
       var sections=t.sections || {}, missing=[], below=[];
@@ -111,7 +111,7 @@
       if (missing.length) {
         check('info','IELTS section minima remain unchecked. A sufficient overall score does not confirm every section.');
         unchecked.push('IELTS section scores');
-      } else if (Object.keys(sections).length && !below.length) check(currentEnglish ? 'ok' : 'info','Entered IELTS sections reach the published route minima; other requirements remain unchecked.','minimum');
+      } else if (Object.keys(sections).length && !below.length) check(currentEnglish && r.language === 'en' ? 'ok' : 'info','Entered IELTS sections reach the published route minima; other requirements remain unchecked.','minimum');
       if (t.noMinimum === true) check('info','Accepted; the university explicitly publishes no numerical minimum.');
       else if (typeof t.min !== 'number' && typeof t.recommended !== 'number' && !Object.keys(sections).length) unchecked.push('IELTS programme minimum');
     }
@@ -128,6 +128,10 @@
       unchecked.push('Required SAT or ACT score');
     } else if (policy === 'conditional' || policy === 'required-alternatives' || policy === 'conflict' || policy === 'unknown' || policy === 'accepted') {
       unchecked.push('Academic testing depends on qualifications, alternatives or unresolved evidence');
+    }
+    if (policy === 'required' && (Number.isFinite(input.sat) || Number.isFinite(input.act))) {
+      check('info','An academic test score was entered. Its programme-specific minimum and subject requirements have not been verified.');
+      unchecked.push('Academic test minimum and subject requirements');
     }
     return {checks:checks,unchecked:unchecked,route:r};
   }

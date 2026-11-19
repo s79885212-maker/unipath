@@ -1316,12 +1316,6 @@ window.UNIPATH.admissionRequirements = {
           "label": "York qualification-specific international admission requirements",
           "verified": "2026-11-18",
           "access": "html-read"
-        },
-        {
-          "url": "https://futurestudents.yorku.ca/your-application/how-apply/international-student",
-          "label": "York qualification-specific international admission requirements",
-          "verified": "2026-11-18",
-          "access": "html-read"
         }
       ],
       "note": null
@@ -1365,12 +1359,6 @@ window.UNIPATH.admissionRequirements = {
         {
           "url": "https://futurestudents.yorku.ca/requirements/language-tests",
           "label": "York undergraduate language requirements and IYO",
-          "verified": "2026-11-18",
-          "access": "html-read"
-        },
-        {
-          "url": "https://futurestudents.yorku.ca/your-application/how-apply/international-student",
-          "label": "York qualification-specific international admission requirements",
           "verified": "2026-11-18",
           "access": "html-read"
         },
@@ -3550,12 +3538,6 @@ window.UNIPATH.admissionRequirements = {
           "label": "Brock Faculty Handbook 3.3.3(c): US diploma and SAT",
           "verified": "2026-11-18",
           "access": "web-html-read"
-        },
-        {
-          "url": "https://brocku.ca/university-secretariat/faculty-handbook/section-3/",
-          "label": "Brock Faculty Handbook 3.3.3(c): US diploma and SAT",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
         }
       ],
       "note": null
@@ -3600,12 +3582,6 @@ window.UNIPATH.admissionRequirements = {
         {
           "url": "https://brocku.ca/admissions/english-proficiency/",
           "label": "Brock undergraduate English proficiency and exceptions",
-          "verified": "2026-11-18",
-          "access": "web-html-read"
-        },
-        {
-          "url": "https://brocku.ca/university-secretariat/faculty-handbook/section-3/",
-          "label": "Brock Faculty Handbook 3.3.3(c): US diploma and SAT",
           "verified": "2026-11-18",
           "access": "web-html-read"
         },
@@ -6751,6 +6727,1352 @@ window.UNIPATH.admissionRequirements = {
             33,
             34
           ]
+        }
+      ],
+      "note": null
+    }
+  ],
+  "wheaton-college-massachusetts": [
+    {
+      "id": "international-first-year",
+      "label": "Wheaton College, Norton, Massachusetts — first-year",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "min": null,
+          "recommended": 6.5
+        },
+        "toefl": {
+          "accepted": true,
+          "scales": [
+            {
+              "period": "legacy",
+              "recommended": 85
+            }
+          ]
+        },
+        "alternatives": "Recommended PTE 61 or DET 125 with interview. These are recommendations, not published compulsory cutoffs. TOEFL MyBest accepted.",
+        "waiver": "Four years of successful high-school study entirely in standard English, apart from foreign languages; ESL courses do not count. Review follows application and records submission."
+      },
+      "academic": {
+        "satPolicy": "optional",
+        "note": "International page explicitly makes SAT/ACT optional for admission and scholarship consideration."
+      },
+      "localLanguage": [],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://wheatoncollege.edu/admission/apply/firstyear/",
+          "label": "Wheaton MA first-year English recommendations",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        },
+        {
+          "url": "https://www.wheatoncollege.edu/admission/apply/international/",
+          "label": "Wheaton MA international checklist and optional tests",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "wheaton-college-illinois": [
+    {
+      "id": "international-first-year",
+      "label": "Wheaton College, Illinois — international undergraduate",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "variant": "IELTS Academic",
+          "min": null
+        },
+        "toefl": {
+          "accepted": true
+        },
+        "alternatives": "The catalogue prints IELTS Academic 7–8 or higher and legacy TOEFL 95–105 or higher, without resolving the range into one cutoff. Other options: CEFR C1, DET 125, ACT English 26, SAT Reading/Writing 530 or the stated CLT language result.",
+        "waiver": "School-history route requires recent qualifying English-medium study, English grade B or better and good academic performance together. Native-speaker/citizenship exemption has a specified country list."
+      },
+      "academic": {
+        "satPolicy": "conditional",
+        "note": "SAT, ACT or CLT required for homeschool/non-accredited secondary schools; other applicants are referred to current application instructions. No universal optional rule is inferred from that referral."
+      },
+      "localLanguage": [],
+      "documents": [
+        "School transcript, academic/Christian faith references and programme-specific Conservatory audition; international financial verification before a decision."
+      ],
+      "sources": [
+        {
+          "url": "https://catalog.wheaton.edu/undergraduate/admissions/admissions.pdf",
+          "label": "Wheaton IL undergraduate admission catalogue",
+          "verified": "2026-11-19",
+          "access": "pdf-read",
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "note": null
+    }
+  ],
+  "the-college-of-new-jersey": [
+    {
+      "id": "international-first-year",
+      "label": "International first-year undergraduate admission",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "min": null,
+          "recommended": 7
+        },
+        "toefl": {
+          "accepted": true,
+          "scales": [
+            {
+              "period": "legacy",
+              "recommended": 90
+            }
+          ]
+        },
+        "note": "The international page requires language evidence based on first language/school instruction, but calls IELTS 7 and TOEFL 90 recommended results."
+      },
+      "academic": {
+        "satPolicy": "conditional",
+        "applicability": {
+          "label": "Through the 2026–2027 admissions cycle",
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed"
+        },
+        "note": "Current testing page: optional except seven-year medicine/optometry and Nursing. Engineering SAT Math 630/ACT Math 27 are early calculus-placement scores, not admission cutoffs. The international page’s 2025–26 wording is older."
+      },
+      "localLanguage": [],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://admissions.tcnj.edu/applications/international-applicants/",
+          "label": "TCNJ international language and school documents",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        },
+        {
+          "url": "https://admissions.tcnj.edu/applications/test-optional/",
+          "label": "TCNJ current academic testing and exceptions",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "baruch-college": [
+    {
+      "id": "international-first-year",
+      "label": "International first-year undergraduate admission",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "variant": "IELTS Academic",
+          "min": 6.5
+        },
+        "toefl": {
+          "accepted": true,
+          "scales": [
+            {
+              "period": "legacy",
+              "min": 80
+            }
+          ]
+        },
+        "alternatives": "CUNY undergraduate comparison table: Baruch PTE Academic 53 or DET 105. Applies to temporary-visa applicants educated in a non-English environment; not graduate Zicklin requirements."
+      },
+      "academic": {
+        "satPolicy": "optional",
+        "note": "Current CUNY undergraduate application instructions allow applicants to choose SAT/ACT submission; exact Fall 2027 cycle is not stated there."
+      },
+      "localLanguage": [],
+      "documents": [
+        "Complete secondary records, translations and national examination certificates; Baruch recommends a first-year essay. Programme-specific supporting requirements still apply."
+      ],
+      "sources": [
+        {
+          "url": "https://www.cuny.edu/admissions/undergraduate/apply/toefl/",
+          "label": "CUNY undergraduate Baruch language comparison",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        },
+        {
+          "url": "https://www.cuny.edu/admissions/undergraduate/apply/",
+          "label": "CUNY first-year academic tests and foreign records",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "soongsil-university": [
+    {
+      "id": "international-first-year",
+      "label": "International bachelor admission, Seoul — Korean qualification route",
+      "language": "unknown",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Spring 2027 only",
+        "entryYears": [
+          2027
+        ],
+        "status": "confirmed",
+        "intakes": [
+          "spring-2027"
+        ]
+      },
+      "english": {},
+      "academic": {
+        "satPolicy": "unknown"
+      },
+      "localLanguage": [
+        {
+          "name": "TOPIK / Soongsil Korean proficiency",
+          "requirement": "Ordinary majors: TOPIK 3, Soongsil Korean course level 3, overseas King Sejong Intermediate 1, or internal test 60/100. Film Arts: TOPIK 4.",
+          "note": "TOPIK 4 is required for graduation, separately from entry; required Korean electives after admission. The guide does not establish a wholly English bachelor route."
+        }
+      ],
+      "documents": [
+        "Recognised schooling, school records, family/nationality evidence and language certificate. Submitted documents must arrive by the document deadline, separately from the online application. Film Arts also has an interview and self-introduction video."
+      ],
+      "sources": [
+        {
+          "url": "https://admission.ssu.ac.kr/upload/SSU%281%29_26102292916.pdf",
+          "label": "Soongsil Spring 2027 international undergraduate guide",
+          "verified": "2026-11-19",
+          "access": "pdf-read",
+          "pages": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            14,
+            15
+          ]
+        }
+      ],
+      "note": "Entrance language scholarships cover the first semester only; later tuition waivers depend on academic credits/GPA and TOPIK. They are not automatic full-year living-cost funding."
+    }
+  ],
+  "towson-university": [
+    {
+      "id": "international-first-year",
+      "label": "International first-year undergraduate admission",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "min": 6,
+          "role": "admission",
+          "sections": {
+            "reading": 5.5,
+            "writing": 5.5,
+            "listening": 5.5,
+            "speaking": 5.5
+          }
+        },
+        "toefl": {
+          "accepted": true,
+          "scales": [
+            {
+              "period": "pre2026",
+              "min": 70
+            },
+            {
+              "period": "post2026",
+              "min": 4
+            }
+          ]
+        },
+        "alternatives": "TOEFL legacy sections 17; new sections 3.5. PTE 49, DET 105, iTEP 3.9, TOEFL Essentials 8 each 8; SAT EBRW 540 or ACT English 21 are language alternatives.",
+        "waiver": "At least three years of education in a listed country; starred countries additionally require an English-language school system. This is not a universal school-MOI waiver."
+      },
+      "academic": {
+        "satPolicy": "unknown"
+      },
+      "localLanguage": [],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://www.towson.edu/admissions/international/english-proficiency.html",
+          "label": "Towson undergraduate English table and exemptions",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "suny-esf": [
+    {
+      "id": "international-first-year",
+      "label": "International first-year undergraduate admission",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "min": 6,
+          "role": "admission",
+          "sections": {
+            "writing": 5
+          }
+        },
+        "toefl": {
+          "accepted": true,
+          "scales": [
+            {
+              "period": "pre2026",
+              "min": 79
+            },
+            {
+              "period": "post2026",
+              "min": 4
+            }
+          ]
+        },
+        "alternatives": "Undergraduate IELTS Writing 5; DET 100. SAT EBRW 500 or ACT composite 22 are English alternatives; Syracuse ELI level 4 and specified non-ESL college English also qualify. TOEFL MyBest accepted.",
+        "waiver": "US high-school graduates, US GED or high-school equivalency holders may be waived; not a universal nationality exemption."
+      },
+      "academic": {
+        "satPolicy": "optional",
+        "note": "ESF first-year page explicitly permits choosing whether SAT/ACT are considered for bachelor admission. English proof remains independent."
+      },
+      "localLanguage": [],
+      "documents": [
+        "First-year foreign school credentials need an approved international evaluation and complete English translations; applicant self-translations not accepted."
+      ],
+      "sources": [
+        {
+          "url": "https://www.esf.edu/admissions/apply/international-students/",
+          "label": "ESF undergraduate language and credentials",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        },
+        {
+          "url": "https://www.esf.edu/admissions/apply/first-year/index.php",
+          "label": "ESF first-year optional academic tests",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "suny-new-paltz": [
+    {
+      "id": "direct",
+      "label": "International first-year undergraduate admission",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "min": 6.5,
+          "role": "admission",
+          "sections": {
+            "reading": 6,
+            "writing": 6,
+            "listening": 6,
+            "speaking": 6
+          }
+        },
+        "toefl": {
+          "accepted": true,
+          "scales": [
+            {
+              "period": "pre2026",
+              "min": 80
+            },
+            {
+              "period": "post2026",
+              "min": 4
+            }
+          ]
+        },
+        "alternatives": "New TOEFL sections at least 3.5; PTE Academic 58, SAT Reading/Writing 550 or qualifying English Composition I and II with C+ or better."
+      },
+      "academic": {
+        "satPolicy": "conditional",
+        "note": "SUNY temporarily allows optional SAT/ACT, with exceptions for selected programmes, some merit awards and NCAA eligibility. English proof is a separate obligation. Exact New Paltz exceptions for 2027 require confirmation."
+      },
+      "localLanguage": [],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://www.newpaltz.edu/admissions/international/undergraduate.html",
+          "label": "New Paltz international undergraduate direct and HELP routes",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        },
+        {
+          "url": "https://www.system.suny.edu/attend/apply-to-suny/testing-requirements/",
+          "label": "SUNY temporary academic testing policy and exceptions",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "help-pathway",
+      "label": "Haggerty English Language Pathway — conditional entry",
+      "language": "en",
+      "kind": "degree-with-conditions",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {
+        "requirement": "programme-dependent",
+        "ielts": {
+          "accepted": null
+        },
+        "note": "Conditional admission may be offered without English proof after other academic requirements are met. Placement after arrival; full-time degree study requires HELP completion or the required test result. This is not confirmed unconditional direct admission."
+      },
+      "academic": {
+        "satPolicy": "conditional",
+        "note": "SUNY temporarily allows optional SAT/ACT, with exceptions for selected programmes, some merit awards and NCAA eligibility. English proof is a separate obligation. Exact New Paltz exceptions for 2027 require confirmation."
+      },
+      "localLanguage": [],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://www.newpaltz.edu/admissions/international/undergraduate.html",
+          "label": "New Paltz international undergraduate direct and HELP routes",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        },
+        {
+          "url": "https://www.system.suny.edu/attend/apply-to-suny/testing-requirements/",
+          "label": "SUNY temporary academic testing policy and exceptions",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "appalachian-state-university": [
+    {
+      "id": "international-first-year",
+      "label": "International first-year undergraduate admission",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "min": 6,
+          "role": "admission"
+        },
+        "toefl": {
+          "accepted": true,
+          "scales": [
+            {
+              "period": "legacy",
+              "min": 78,
+              "recommended": 85,
+              "sections": {
+                "reading": 16,
+                "writing": 16,
+                "listening": 16,
+                "speaking": 16
+              }
+            }
+          ]
+        },
+        "alternatives": "DET 100; SAT EBRW 500 or ACT composite 20 are English alternatives. TOEFL 85 is preferred, while 78 with sections 16 is the published minimum.",
+        "waiver": "The page names country/school-language and specific four-year school-history routes. These require assessment of the actual school record, not citizenship alone."
+      },
+      "academic": {
+        "satPolicy": "conditional",
+        "note": "First-year applicants below weighted GPA 2.8 on the university-converted 4.0 scale must submit SAT/ACT. This is separate from language-test substitution."
+      },
+      "localLanguage": [],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://admissions.appstate.edu/apply/international-student",
+          "label": "App State international first-year testing and language",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "middle-tennessee-state-university": [
+    {
+      "id": "general",
+      "label": "International first-year undergraduate admission",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "min": 5.5,
+          "role": "admission"
+        },
+        "toefl": {
+          "accepted": true,
+          "scales": [
+            {
+              "period": "post2026",
+              "min": 4
+            }
+          ]
+        },
+        "alternatives": "General programmes: DET 85, iTEP 3.5, PTE 59 or ELS 110. Professional Pilot and Nursing have higher language requirements.",
+        "waiver": "Specified citizenship, school/college English and SAT Verbal 510/ACT composite 22 alternatives; school-medium cases are individually qualified, not automatic for every school."
+      },
+      "academic": {
+        "satPolicy": "conditional",
+        "note": "Guaranteed admission has alternatives: GPA 3.0, ACT 22 or SAT 1100; another route pairs GPA 2.7 with ACT 19/SAT 990. Admission by review is separate. No blanket SAT requirement or guaranteed eligibility follows from language scores."
+      },
+      "localLanguage": [],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://intered.mtsu.edu/admission/",
+          "label": "MTSU international undergraduate language and academic alternatives",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "pilot-nursing",
+      "label": "Professional Pilot / Nursing — higher language category",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "min": 6,
+          "role": "admission"
+        },
+        "toefl": {
+          "accepted": true,
+          "scales": [
+            {
+              "period": "post2026",
+              "min": 4.5
+            }
+          ]
+        },
+        "alternatives": "DET 95, iTEP 3.8, PTE 70 or ELS 112; separate programme selection requirements may apply."
+      },
+      "academic": {
+        "satPolicy": "conditional",
+        "note": "Guaranteed admission has alternatives: GPA 3.0, ACT 22 or SAT 1100; another route pairs GPA 2.7 with ACT 19/SAT 990. Admission by review is separate. No blanket SAT requirement or guaranteed eligibility follows from language scores."
+      },
+      "localLanguage": [],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://intered.mtsu.edu/admission/",
+          "label": "MTSU international undergraduate language and academic alternatives",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "grand-valley-state-university": [
+    {
+      "id": "international-first-year",
+      "label": "International first-year undergraduate admission",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "min": 6.5,
+          "role": "admission"
+        },
+        "toefl": {
+          "accepted": true,
+          "scales": [
+            {
+              "period": "pre2026",
+              "min": 86
+            },
+            {
+              "period": "post2026",
+              "min": 4.5
+            }
+          ]
+        },
+        "alternatives": "DET 105, PTE 53, Cambridge C1/C2 180, MET 52; SAT EBRW 470 or ACT English 15 are English alternatives. TOEFL Home accepted; MyBest/Essentials not accepted."
+      },
+      "academic": {
+        "satPolicy": "unknown"
+      },
+      "localLanguage": [],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://www.gvsu.edu/admissions/international-application-14",
+          "label": "GVSU undergraduate application language section",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "elmhurst-university": [
+    {
+      "id": "international-first-year",
+      "label": "International first-year undergraduate admission",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "min": 6.5,
+          "role": "admission"
+        },
+        "toefl": {
+          "accepted": true,
+          "scales": [
+            {
+              "period": "pre2026",
+              "min": 79
+            },
+            {
+              "period": "post2026",
+              "min": 4
+            }
+          ]
+        },
+        "alternatives": "DET 110; ACT English AND Reading 22, SAT EBRW 520; Cambridge 160; PTE Academic/Express 55 explicitly for 2027 onward. British/IB/US-international-school options have their own English conditions.",
+        "waiver": "The country option requires both citizenship and high-school attendance in a listed country, not citizenship alone."
+      },
+      "academic": {
+        "satPolicy": "unknown"
+      },
+      "localLanguage": [],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://www.elmhurst.edu/admission/international-students/admission-requirements/first-year/",
+          "label": "Elmhurst international first-year English alternatives",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "university-of-texas-at-dallas": [
+    {
+      "id": "international-first-year",
+      "label": "International first-year undergraduate admission",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "2026 undergraduate catalogue; Fall 2027 not established",
+        "entryYears": [
+          2026
+        ],
+        "status": "previous-cycle"
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "min": 6.5
+        },
+        "toefl": {
+          "accepted": true,
+          "scales": [
+            {
+              "period": "legacy",
+              "min": 80
+            }
+          ]
+        },
+        "alternatives": "PTE 67, DET 105 or ELS 112; SAT EBRW 560/ACT English 21 are language alternatives, not TSI registration cutoffs.",
+        "waiver": "Three years at a US high school plus graduation, qualifying English-country education or specified US college credits/English courses may satisfy the requirement. The conditions must be assessed together."
+      },
+      "academic": {
+        "satPolicy": "unknown",
+        "note": "The language section does not establish an optional academic selection policy. TSI readiness is a separate pre-enrolment requirement."
+      },
+      "localLanguage": [],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://catalog.utdallas.edu/2026/undergraduate/admission/international-student-admission",
+          "label": "UT Dallas 2026 international undergraduate catalogue",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "high-point-university": [
+    {
+      "id": "international-first-year",
+      "label": "International first-year undergraduate admission",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "min": 6.5
+        },
+        "toefl": {
+          "accepted": true,
+          "scales": [
+            {
+              "period": "pre2026",
+              "min": 80
+            },
+            {
+              "period": "post2026",
+              "min": 4
+            }
+          ]
+        },
+        "alternatives": "DET 105, iTEP 3.8, SAT English 500 or ACT English 20. The MET row is malformed (54 and 77); no MET cutoff is asserted here.",
+        "waiver": "Listed English-country cases or two consecutive years plus graduation at an accredited US high school. ESL placement after admission may still require credit-bearing support."
+      },
+      "academic": {
+        "satPolicy": "optional",
+        "note": "International page explicitly does not require SAT/ACT, though scores can support English proof or scholarships."
+      },
+      "localLanguage": [],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://www.highpoint.edu/admissions/international-admissions/",
+          "label": "HPU international first-year tests and conditional language route",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        }
+      ],
+      "note": "Applicants below English readiness may receive conditional INTERLINK admission; completion is required before full admission. No lower direct-entry cutoff is inferred."
+    }
+  ],
+  "college-of-charleston": [
+    {
+      "id": "international-first-year",
+      "label": "International first-year undergraduate admission",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "min": 6.5
+        },
+        "toefl": {
+          "accepted": true,
+          "scales": [
+            {
+              "period": "legacy",
+              "min": 80
+            }
+          ]
+        },
+        "alternatives": "Policy revised February 24, 2026: iTEP Academic Plus 3.8, DET 105, SAT Reading/Writing 500, or ACT Reading 18 AND English 20.",
+        "waiver": "Native English, at least 24 credits at an accredited US university, or assessed advanced English coursework may qualify."
+      },
+      "academic": {
+        "satPolicy": "optional",
+        "note": "First-year policy evaluates SAT/ACT if provided; language requirements are specified separately for international applicants."
+      },
+      "localLanguage": [],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://www.charleston.edu/policy/documents/12.1.6.pdf",
+          "label": "Charleston undergraduate admissions policy, revision 2026",
+          "verified": "2026-11-19",
+          "access": "pdf-read",
+          "pages": [
+            1,
+            2,
+            6,
+            7
+          ]
+        }
+      ],
+      "note": null
+    }
+  ],
+  "valparaiso-university": [
+    {
+      "id": "international-first-year",
+      "label": "International first-year undergraduate admission",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "min": 6
+        },
+        "toefl": {
+          "accepted": true,
+          "scales": [
+            {
+              "period": "legacy",
+              "min": 75
+            }
+          ]
+        },
+        "alternatives": "DET 105, PTE 56, iTEP 3.8; SAT Reading/Writing 500 or ACT English 24; specified GCE/GCSE, IB, WAEC, ELS 112 or INTERLINK 6. Counselor letters and EF SET are not accepted substitutes.",
+        "waiver": "Two consecutive US high-school years plus graduation, specified college credits or listed permanent-residence countries may qualify. Admissions may still require a test."
+      },
+      "academic": {
+        "satPolicy": "unknown"
+      },
+      "localLanguage": [],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://www.valpo.edu/admission/international/undergraduate/",
+          "label": "Valpo international undergraduate language alternatives",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "university-of-northern-iowa": [
+    {
+      "id": "unrestricted",
+      "label": "International first-year undergraduate admission",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "variant": "IELTS Academic; Indicator also listed",
+          "min": 6
+        },
+        "toefl": {
+          "accepted": true,
+          "scales": [
+            {
+              "period": "legacy",
+              "min": 79
+            }
+          ]
+        },
+        "alternatives": "Unrestricted entry: DET 105, Cambridge 169, PTE 52, MET 57 or listed school/AP/SAT/ACT English alternatives."
+      },
+      "academic": {
+        "satPolicy": "optional",
+        "note": "SAT/ACT are explicitly not required for admission but may be considered for scholarship applications."
+      },
+      "localLanguage": [],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://admissions.uni.edu/international/english-proficiency",
+          "label": "UNI undergraduate English: unrestricted and pathway admission",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        },
+        {
+          "url": "https://admissions.uni.edu/international/undergraduate-students/admission-policies",
+          "label": "UNI first-year academic testing and conditional admission",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        }
+      ],
+      "note": null
+    },
+    {
+      "id": "english-pathway",
+      "label": "Full bachelor admission with English Pathway coursework",
+      "language": "en",
+      "kind": "degree-with-esl",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "min": 5.5
+        },
+        "toefl": {
+          "accepted": true,
+          "scales": [
+            {
+              "period": "legacy",
+              "min": 61
+            }
+          ]
+        },
+        "alternatives": "DET 95; degree-credit language support is mandatory according to placement. Below these results or without proof, CIEP conditional admission is a separate preparatory route."
+      },
+      "academic": {
+        "satPolicy": "optional",
+        "note": "SAT/ACT are explicitly not required for admission but may be considered for scholarship applications."
+      },
+      "localLanguage": [],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://admissions.uni.edu/international/english-proficiency",
+          "label": "UNI undergraduate English: unrestricted and pathway admission",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        },
+        {
+          "url": "https://admissions.uni.edu/international/undergraduate-students/admission-policies",
+          "label": "UNI first-year academic testing and conditional admission",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "university-of-dallas": [
+    {
+      "id": "international-first-year",
+      "label": "International first-year undergraduate admission",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "min": 6.5
+        },
+        "toefl": {
+          "accepted": true,
+          "scales": [
+            {
+              "period": "pre2026",
+              "min": 80
+            },
+            {
+              "period": "post2026",
+              "min": 4.5
+            }
+          ]
+        },
+        "alternatives": "DET 110; SAT EBRW 600 or ACT English 25 can satisfy English. This is University of Dallas in Irving, not UT Dallas in Richardson."
+      },
+      "academic": {
+        "satPolicy": "required-alternatives",
+        "note": "Official international checklist requires ACT, SAT and/or CLT. An English test does not replace this academic requirement. Conditional English admission is not offered."
+      },
+      "localLanguage": [],
+      "documents": [
+        "Certified international school evaluation within 90 days of application; limited school-category waivers, school records, national exams and Common App essay/short answers."
+      ],
+      "sources": [
+        {
+          "url": "https://udallas.edu/admissions-aid/undergraduate/international-students/",
+          "label": "University of Dallas international bachelor checklist",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "kaist": [
+    {
+      "id": "international-first-year",
+      "label": "KAIST international undergraduate admission, Daejeon",
+      "language": "en",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "2027 admissions guide",
+        "entryYears": [
+          2027
+        ],
+        "status": "confirmed"
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "min": null,
+          "recommended": 6.5
+        },
+        "toefl": {
+          "accepted": true,
+          "scales": [
+            {
+              "period": "pre2026",
+              "recommended": 83
+            },
+            {
+              "period": "post2026",
+              "recommended": 4.5
+            }
+          ]
+        },
+        "alternatives": "TOEIC 720 and TEPS 326 are also recommended scores. A language report is required unless exempt, but the numerical table is explicitly recommended. DET, ITP and home/online tests are not accepted.",
+        "waiver": "Listed English-speaking nationalities are exempt; an English-medium high-school certificate or official letter is another exemption route."
+      },
+      "academic": {
+        "satPolicy": "required-alternatives",
+        "note": "At least one official SAT, ACT, AP, IB, GCE A-level or national school-leaving/university-entrance examination is required. Predicted IB/A-level can lead to conditional admission pending final results."
+      },
+      "localLanguage": [],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://admission.kaist.ac.kr/wz/api/common/files/view/intl-undergraduate/pdf/Admissions_Guide_for_2027_admission.pdf",
+          "label": "KAIST 2027 international undergraduate guide",
+          "verified": "2026-11-19",
+          "access": "pdf-read",
+          "pages": [
+            3,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "note": "The guide identifies English as the official language of instruction for international students and says most courses are English; confirm remaining programme-specific course requirements."
+    }
+  ],
+  "unist": [
+    {
+      "id": "international-first-year",
+      "label": "UNIST Fall 2027 international bachelor admission, Ulsan",
+      "language": "unknown",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Fall 2027",
+        "entryYears": [
+          2027
+        ],
+        "status": "confirmed",
+        "intakes": [
+          "fall-2027"
+        ]
+      },
+      "english": {
+        "requirement": "required-unless-exempt",
+        "ielts": {
+          "accepted": true,
+          "min": null
+        },
+        "toefl": {
+          "accepted": true
+        },
+        "alternatives": "The complete 2027 guide requires TOEFL, IELTS, TEPS or TOEIC evidence, valid within two years of the application deadline, but does not publish numerical thresholds. A missing published number is not a confirmed zero minimum.",
+        "waiver": "Applicants from the US, Canada, UK, Australia, New Zealand and Ireland are exempt in this guide. A general school-MOI exemption is not stated."
+      },
+      "academic": {
+        "satPolicy": "optional",
+        "note": "SAT/ACT/IB/A-level are in the supplementary document list, separately from required language evidence. TOPIK is supplementary too."
+      },
+      "localLanguage": [],
+      "documents": [
+        "Application/study plan, school diploma and recent transcripts, identity/family evidence; authenticated originals after registration. Scholarship and non-scholarship admission tracks are distinct."
+      ],
+      "sources": [
+        {
+          "url": "https://admu-intl.unist.ac.kr/admission-eng/admissions/admissions.do?articleNo=306812&attachNo=591437&mode=download",
+          "label": "UNIST Fall 2027 full international undergraduate guide",
+          "verified": "2026-11-19",
+          "access": "pdf-read",
+          "pages": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "note": null
+    }
+  ],
+  "kyungpook-national-university": [
+    {
+      "id": "general-eligibility",
+      "label": "International first-year general eligibility — major conditions remain",
+      "language": "unknown",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {
+        "requirement": "alternative-to-local-language",
+        "ielts": {
+          "accepted": true,
+          "variant": "IELTS Academic",
+          "min": 5.5
+        },
+        "toefl": {
+          "accepted": true,
+          "scales": [
+            {
+              "period": "legacy",
+              "min": 59
+            }
+          ]
+        },
+        "alternatives": "General eligibility accepts English evidence OR Korean alternatives: CEFR B2, New TEPS 202; or TOPIK 3, university Korean course level 3, specified KIIP or overseas King Sejong Intermediate 1. This does not establish a wholly English degree."
+      },
+      "academic": {
+        "satPolicy": "unknown"
+      },
+      "localLanguage": [],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://home.knu.ac.kr/HOME/global/sub.htm?nav_code=glo1549935033",
+          "label": "Kyungpook current international undergraduate eligibility",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
+        }
+      ],
+      "note": "The page publishes a Fall 2027 schedule but says the semester-specific department guide will be announced in March. General language rules are not therefore confirmed for every Fall 2027 major."
+    },
+    {
+      "id": "korean-computing",
+      "label": "Computer Science and Engineering — Korean qualification exception",
+      "language": "ko",
+      "kind": "direct",
+      "level": "bachelor",
+      "applicant": "international-first-year",
+      "programmeIds": [
+        "computer-science"
+      ],
+      "applicability": {
+        "label": "Published policy; intake year not stated",
+        "entryYears": [],
+        "status": "year-not-stated"
+      },
+      "english": {},
+      "academic": {
+        "satPolicy": "unknown"
+      },
+      "localLanguage": [
+        {
+          "name": "TOPIK",
+          "requirement": "Level 4 or higher for Computer Science and Engineering; Media and Communication separately requires level 5.",
+          "note": "The general IELTS 5.5 alternative does not remove these named departmental requirements. Verify the semester guide before applying."
+        }
+      ],
+      "documents": [],
+      "sources": [
+        {
+          "url": "https://home.knu.ac.kr/HOME/global/sub.htm?nav_code=glo1549935033",
+          "label": "Kyungpook current international undergraduate eligibility",
+          "verified": "2026-11-19",
+          "access": "web-html-read"
         }
       ],
       "note": null
