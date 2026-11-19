@@ -1040,7 +1040,7 @@
        scoped records directly, rather than retaining superseded legacy numbers. */
     (u.admissionRequirements || []).forEach(function (r) {
       var e=r.english || {}, a=r.academic || {}, i=e.ielts || {};
-      parts.push(r.label,r.note || '',e.alternatives || '',e.waiver || '',e.note || '',a.satPolicy || '',a.note || '');
+      parts.push(r.label,r.note || '',e.alternatives || '',e.waiver || '',e.note || '',a.satPolicy || '',a.note || '',a.entryRequirements || '');
       if (typeof i.min === 'number') parts.push('IELTS ' + i.min);
       if (typeof i.recommended === 'number') parts.push('Recommended IELTS ' + i.recommended);
       (r.localLanguage || []).forEach(function (t) {parts.push(t.name,t.requirement,t.note || '');});

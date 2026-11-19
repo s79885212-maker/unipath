@@ -41,6 +41,14 @@ async function profiles(browser,lang,width,dark){
   assert(!state.overflow,id+' horizontal overflow');
   assert.equal(state.routes,records[id].routes.length,id+' route count');
   assert(state.sourceLinks.every(s=>s.startsWith('https://')),id+' source links');
+  for(const route of records[id].routes) {
+   const entry=(route.academic || {}).entryRequirements;
+   if(!entry)continue;
+   const translated=lang==='ru'?await p.evaluate(s=>I18N.t(s),entry):entry;
+   assert(content.includes(translated),id+' academic qualification is displayed in '+lang);
+   if(lang==='ru')assert.notEqual(translated,entry,id+' academic qualification has a Russian translation');
+   assert.equal(await p.locator('#academics').getByText(lang==='ru'?'Международные квалификации':'International qualifications',{exact:true}).count(),0,id+' superseded legacy qualification row is absent');
+  }
   if(lang==='ru') {
    for(const heading of await p.locator('.requirement-variant,.requirement-section-label').all()) {
     assert.doesNotMatch(await heading.innerText(),/accepted|not named|not specified|requires confirmation|in person|in-centre|Reading section|Writing section|Listening section|Speaking section/);
@@ -78,6 +86,25 @@ async function flow(browser,lang,width){
   assert.equal(await p.locator('#m-act').inputValue(),'25');
   assert.equal(await p.locator('#m-study-language').inputValue(),'en');
   assert.equal(await p.locator('#m-ielts-writing').inputValue(),'5.5');
+  const checks=await p.evaluate(()=>{
+   const source=UP.requirements.routes(UP.uniById('brigham-young-university'))[0];
+   const input={ielts:6.5,sat:null,act:null,intake:'fall-2027',admissionRoute:'direct',studyLanguage:'en'};
+   const make=(policy,overrides={})=>({admissionRequirements:[{...source,english:{ielts:{accepted:true,min:6.5,sections:{writing:6},role:'admission'}},academic:{satPolicy:policy,applicability:{status:'confirmed',entryYears:[2027]}},...overrides}]});
+   const run=(policy,change={},route={})=>UP.requirements.evaluate(make(policy,route),{...input,...change});
+   return {missingSections:run('optional'),belowSection:run('optional',{ieltsSections:{writing:5.5}}),required:run('required'),optional:run('optional'),notConsidered:run('not-used'),alternatives:run('required-alternatives'),otherLanguage:run('optional',{}, {language:'ja'}),otherIntake:run('optional',{intake:'fall-2028'}),otherProgramme:run('optional',{field:'data-science'},{programmeIds:['business']})};
+  });
+  assert(checks.missingSections.unchecked.includes('IELTS section scores'));
+  assert(checks.belowSection.checks.some(c=>c.level==='hard'));
+  assert(checks.required.unchecked.includes('Required SAT or ACT score'));
+  for(const k of ['optional','notConsidered'])assert(!checks[k].checks.some(c=>c.level==='soft'||c.level==='hard'));
+  assert(checks.alternatives.unchecked.some(s=>/alternatives/.test(s)));
+  for(const k of ['otherLanguage','otherIntake','otherProgramme'])assert(!checks[k].checks.some(c=>c.level==='ok'));
+  await p.locator('#m-field').selectOption('data-science');
+  await p.locator('#m-intake').selectOption('fall-2026');
+  await p.reload();await loaded(p,lang);
+  assert.equal(await p.locator('#m-field').inputValue(),'data-science');
+  assert.equal(await p.locator('#m-intake').inputValue(),'fall-2026');
+  out.flows.push({lang,width,checks:'overall/sections, SAT required/optional/not considered/alternatives, programme/language/intake isolation',detail:checks});
   await p.locator('#m-study-language').selectOption('fr');
   assert.equal(await p.locator('#m-english').isChecked(),false,'Local-language choice disables the contradictory English-only filter');
   out.flows.push({lang,width,passed:'route/language/ACT/sections state, reload, local-language filtering'});
