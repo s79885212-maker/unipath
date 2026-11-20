@@ -20187,4 +20187,7 @@ window.UNIPATH_I18N.ru = {
   "Whitecliffe Berlin: BA programme, qualifications and CEFR B2": "Whitecliffe Berlin: программа BA, квалификация и CEFR B2",
   "Whitecliffe Berlin: current bachelor application checklist": "Whitecliffe Berlin: текущий список документов бакалавриата",
   "BA International Management & Marketing, Berlin": "BA International Management & Marketing, Берлин",
+  "German": "Немецкий",
+  "Japanese": "Японский",
+  "Korean": "Корейский",
 };

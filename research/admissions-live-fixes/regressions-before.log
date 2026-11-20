@@ -1,0 +1,41 @@
+— database
+— United States expansion
+   added records without a photo: st-bonaventure-university
+— cost arithmetic
+— dates shown in several sections
+— deadlines and statuses
+— fees and costs
+— scholarships
+   award kinds: {"full-ride":71,"full-funding":5,"none":434,"full-tuition":22,"tuition-stipend":8}
+— SAT policy and statistics
+   deadline entries: {"confirmed":1198,"annual-rule":183,"not-confirmed":30,"previous-cycle":14}
+   SAT/ACT policy page re-read: 72 (cycle named on 29) of 350 US records
+   English-test versions or conditions recorded for 73 records
+   largest award: {"listed":110,"none":59,"not-described":140,"not-checked":231}
+— profile rendering
+— fields of study
+   degrees table read for 91 institutions
+   distinct tag sets among US records: 89
+— community colleges
+— match
+   IELTS 8 + SAT 1500, no GPA → {"match":352,"reach":11,"below":0,"unknown":177}
+— photos
+   without a photo (placeholder shown): st-bonaventure-university, srh-berlin-university, karlshochschule
+— corrections after the expansion
+   cost figures without a named academic year:
+— Canada
+— site quality regressions
+— data integration regressions
+— loading failure regressions
+FAIL  A completed dictionary chunk invalidates consumers of earlier translations
+FAIL  A delayed successful render removes the earlier watchdog warning
+FAIL  A missing requirement dependency remains visible even if a partial page renders: data/requirements.js
+FAIL  A missing requirement dependency remains visible even if a partial page renders: assets/js/requirements.js
+— approved USA +50 expansion regressions
+— release check regressions (November 2026)
+— Fall 2027 US January audit
+— Fall 2027 US funding audit
+— Fall 2027 international cost audit
+FAIL  Russian search picks up academic text from a dictionary that arrives after application startup
+
+627 passed, 5 failed
