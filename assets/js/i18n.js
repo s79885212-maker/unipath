@@ -231,6 +231,7 @@
   }
 
   /* ---- dictionary parts loaded on demand (published site only) ---- */
+  var revision = 0;
   var chunkState = {};   // country -> 'loading' | 'done' | 'error'
   var chunkTimer = {};
   var chunkWait = {};    // country -> [callbacks]
@@ -266,6 +267,7 @@
     build();
     if (!packed) packed = {};
     for (var h in entries) if (Object.prototype.hasOwnProperty.call(entries, h)) packed[h] = entries[h];
+    revision++;
     global.clearTimeout(chunkTimer[cc]);
     chunkState[cc] = 'done';
     chunkStatus();
@@ -322,6 +324,7 @@
 
   global.I18N = {
     get lang() { return lang; },
+    get revision() { return revision; },
     supported: SUPPORTED,
     labels: LABELS,
     t: t,

@@ -1050,7 +1050,7 @@ ok(auditedAwardKinds.every(([id,kind]) => {
   'Automatic tuition, selective full cost and demonstrated need stay distinct from a guaranteed budget reduction');
 
 require('./six-country-audit')({U:U, DB:DB, M:M, ok:ok});
-require('./admission-requirements')({U:U, DB:DB, M:M, ok:ok});
+require('./admission-requirements')({U:U, DB:DB, M:M, ok:ok, global:sandbox});
 
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 

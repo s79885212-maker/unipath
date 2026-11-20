@@ -1019,7 +1019,10 @@
     return s.normalize ? s.normalize('NFD').replace(/[\u0300-\u036f]/g, '') : s;
   }
 
-  var index = DB.universities.map(function (u) {
+  var indexRevision;
+  function buildSearchIndex() {
+    indexRevision = global.I18N && global.I18N.revision || 0;
+    return DB.universities.map(function (u) {
     var parts = [
       u.name, u.shortName || '', u.city, u.region || '',
       /* earlier and alternative names, so a search for the old name finds the record */
@@ -1059,11 +1062,14 @@
       text += ' · ' + parts.concat(facets).map(tr).join(' · ');
     }
     return { u: u, text: fold(text) };
-  });
+    });
+  }
+  var index = buildSearchIndex();
 
   function search(query, limit) {
     var q = fold(String(query || '').trim());
     if (!q) return [];
+    if (indexRevision !== (global.I18N && global.I18N.revision || 0)) index = buildSearchIndex();
     var terms = q.split(/\s+/);
     var hits = [];
     index.forEach(function (row) {

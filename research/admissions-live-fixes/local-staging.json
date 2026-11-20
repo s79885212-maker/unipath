@@ -1,0 +1,115 @@
+{
+  "root": "http://127.0.0.1:8765/unipath/staging/",
+  "local": true,
+  "scenarios": [
+    {
+      "lang": "ru",
+      "width": 360,
+      "dark": false,
+      "search": {
+        "en": [
+          "frankfurt-school"
+        ],
+        "ru": [
+          "frankfurt-school"
+        ],
+        "revision": 6
+      },
+      "options": {
+        "": "Любой язык обучения",
+        "en": "Английский",
+        "de": "Немецкий",
+        "fr": "Французский",
+        "ja": "Японский",
+        "ko": "Корейский"
+      },
+      "profile": "frankfurt-school",
+      "bootWarning": false,
+      "overflow": false
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "dark": true,
+      "search": {
+        "en": [
+          "frankfurt-school"
+        ],
+        "ru": [],
+        "revision": 0
+      },
+      "options": {
+        "": "Any teaching language",
+        "en": "English",
+        "de": "German",
+        "fr": "French",
+        "ja": "Japanese",
+        "ko": "Korean"
+      },
+      "profile": "frankfurt-school",
+      "bootWarning": false,
+      "overflow": false
+    },
+    {
+      "lang": "ru",
+      "width": 1280,
+      "dark": true,
+      "search": {
+        "en": [
+          "frankfurt-school"
+        ],
+        "ru": [
+          "frankfurt-school"
+        ],
+        "revision": 6
+      },
+      "options": {
+        "": "Любой язык обучения",
+        "en": "Английский",
+        "de": "Немецкий",
+        "fr": "Французский",
+        "ja": "Японский",
+        "ko": "Корейский"
+      },
+      "profile": "frankfurt-school",
+      "bootWarning": false,
+      "overflow": false
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "dark": false,
+      "search": {
+        "en": [
+          "frankfurt-school"
+        ],
+        "ru": [],
+        "revision": 0
+      },
+      "options": {
+        "": "Any teaching language",
+        "en": "English",
+        "de": "German",
+        "fr": "French",
+        "ja": "Japanese",
+        "ko": "Korean"
+      },
+      "profile": "frankfurt-school",
+      "bootWarning": false,
+      "overflow": false
+    },
+    {
+      "fault": "data/requirements.js",
+      "recoveryVisible": true
+    },
+    {
+      "fault": "assets/js/requirements.js",
+      "recoveryVisible": true
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Chrome viewport emulation; no physical iPhone/Safari."
+  ],
+  "browser": "Chrome 157.0.8103.79"
+}

@@ -65,6 +65,10 @@ module.exports=function (env) {
   ok(U.search('Northern Iowa IELTS 6',540).some(function (u) {return u.id==='university-of-northern-iowa';}),'Search indexes the reviewed UNI direct-entry IELTS number before the requirements module starts');
   ok(U.search('Sejong TOPIK',540).some(function (u) {return u.id==='sejong-university';}),'Search indexes reviewed local-language qualifications independently from English');
   ok(U.search('Frankfurt cognitive',540).some(function (u) {return u.id==='frankfurt-school';}),'Search finds academic entrance examinations stored in the reviewed qualification block');
+  var previousI18N=env.global.I18N, entry=U.requirements.routes(U.uniById('frankfurt-school'))[0].academic.entryRequirements;
+  env.global.I18N={lang:'ru',revision:1,lookup:function (key) {return key===entry?'Когнитивные задания при поступлении':null;}};
+  ok(U.search('когнитивные',540).some(function (u) {return u.id==='frankfurt-school';}),'Russian search picks up academic text from a dictionary that arrives after application startup');
+  env.global.I18N=previousI18N;
   var wb=U.requirements.routes(U.uniById('berlin-international-university'))[0];
   ok(wb && wb.english.ielts.min===null && wb.academic.satPolicy==='unknown' && /B2/.test(wb.english.note),'Whitecliffe current programme confirms CEFR B2, not an inferred IELTS score or universal SAT waiver');
   var ka=U.requirements.routes(U.uniById('kaist'))[0];

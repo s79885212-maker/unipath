@@ -1,0 +1,39 @@
+{
+  "version": 268,
+  "readyForDev": true,
+  "tests": {
+    "passed": 632,
+    "failed": 0
+  },
+  "bothBuilds": true,
+  "HTMLPages": 547,
+  "internalLinksPerBuild": 20817,
+  "catalogue": 540,
+  "counts": {
+    "us": 350,
+    "ca": 50,
+    "uk": 50,
+    "de": 30,
+    "jp": 30,
+    "kr": 30
+  },
+  "browser": {
+    "production": {
+      "focusedScenarios": 6,
+      "userFlowRecords": 14,
+      "errors": 0,
+      "browser": "Chrome 157.0.8103.79"
+    },
+    "staging": {
+      "focusedScenarios": 6,
+      "userFlowRecords": 14,
+      "errors": 0,
+      "browser": "Chrome 157.0.8103.79"
+    }
+  },
+  "limits": [
+    "No WebKit executable or actual Safari/iPhone",
+    "Browser mobile widths are emulation",
+    "Live deployment repeat pending; to be published in PR comment"
+  ]
+}
