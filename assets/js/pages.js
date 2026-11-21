@@ -1503,8 +1503,8 @@
       ['Last verified', function (u) { return or(u.lastVerified); }]
     ];
 
-    var head = '<tr><th>Criterion</th>' + us.map(function (u) {
-      return '<th><a href="' + U.uniUrl(u) + '" style="color:#fff">' + esc(u.name) + '</a><br>' +
+    var head = '<tr><th scope="col">Criterion</th>' + us.map(function (u) {
+      return '<th scope="col"><button class="compare-remove" type="button" data-tray-remove="' + esc(u.id) + '" aria-label="Remove ' + esc(u.name) + '">×</button><a href="' + U.uniUrl(u) + '" style="color:#fff">' + esc(u.name) + '</a><br>' +
         '<span class="small" style="font-weight:400;opacity:.8">' + U.country(u.country).flag + ' <span>' + esc(u.city) + '</span></span></th>';
     }).join('') + '</tr>';
 
@@ -1512,10 +1512,10 @@
       if (r[0] === 'group') {
         return '<tr class="row-group"><th colspan="' + (us.length + 1) + '">' + esc(r[1]) + '</th></tr>';
       }
-      return '<tr><th>' + esc(r[0]) + '</th>' + us.map(function (u) { return '<td>' + r[1](u) + '</td>'; }).join('') + '</tr>';
+      return '<tr><th scope="row">' + esc(r[0]) + '</th>' + us.map(function (u) { return '<td>' + r[1](u) + '</td>'; }).join('') + '</tr>';
     }).join('');
 
-    out.innerHTML = '<div class="table-scroll"><table class="compare-table"><thead>' + head + '</thead><tbody>' + body + '</tbody></table></div>' +
+    out.innerHTML = '<div class="table-scroll"><table class="compare-table" role="table" style="--compare-count:' + us.length + '"><thead>' + head + '</thead><tbody>' + body + '</tbody></table></div>' +
       '<div class="notice notice-warn" style="margin-top:20px"><span class="ico">⚠️</span><div>' + esc(U.DISCLAIMER) + '</div></div>' +
       '<p style="margin-top:16px"><button class="btn btn-ghost" type="button" data-tray-clear>Clear comparison</button></p>';
   }

@@ -1343,7 +1343,7 @@
     var tray = document.getElementById('compare-tray');
     if (!tray) return;
     var ids = compareGet();
-    if (!ids.length) {
+    if (!ids.length || document.getElementById('compare-out')) {
       tray.classList.remove('is-open'); tray.innerHTML = '';
       document.body.classList.remove('tray-open');
       return;
