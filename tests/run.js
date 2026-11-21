@@ -1049,6 +1049,8 @@ ok(auditedAwardKinds.every(([id,kind]) => {
     U.needBased(U.uniById('depauw-university')).meetsFullNeed === true,
   'Automatic tuition, selective full cost and demonstrated need stay distinct from a guaranteed budget reduction');
 
+require('./compare-mobile')({U:U, ok:ok, global:sandbox});
+
 require('./six-country-audit')({U:U, DB:DB, M:M, ok:ok});
 require('./admission-requirements')({U:U, DB:DB, M:M, ok:ok, global:sandbox});
 

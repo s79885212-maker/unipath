@@ -121,6 +121,7 @@
         P.renderProfile(u, r.parts[2]);
         U.setActiveNav('universities');
         current = { type: 'university', id: u.id };
+        U.renderTray();
         setCanonical(r);
         document.dispatchEvent(new CustomEvent('unipath:ready'));
         return;
@@ -170,6 +171,7 @@
         current = null;
     }
 
+    U.renderTray(); // Hide the fixed tray here; restore it on other routes.
     setCanonical(r);
     global.scrollTo(0, 0);
     if (U.routeEnter) U.routeEnter(main);

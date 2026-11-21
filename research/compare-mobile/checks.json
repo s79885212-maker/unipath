@@ -1,0 +1,21 @@
+{
+  "version": 269,
+  "ready": true,
+  "tests": 637,
+  "failed": 0,
+  "HTMLPerBuild": 547,
+  "internalLinksPerBuild": 20817,
+  "productionBuild": true,
+  "stagingBuild": true,
+  "sourceBrowserScenarios": 3,
+  "builtBrowserScenarios": 3,
+  "scenarios": "2/3 universities, three-university reload, removal/reload, return to Yale+Princeton, all mobile cells fit, tray hidden/restored",
+  "live": "Pending deployment; will be published in PR comment",
+  "mainSHA": "129c5b96a4562455919a1fc5f18bb7ef1044123f",
+  "browsers": {
+    "Chrome": "Chrome 157.0.8103.79",
+    "realIPhone": false,
+    "Threads": false,
+    "webkitAvailable": false
+  }
+}

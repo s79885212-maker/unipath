@@ -1617,6 +1617,47 @@ body.tray-open {
   min-width: 200px;
 }
 
+
+/* Keep every selected university beside the same criterion on phones.
+   A sticky 200px criterion plus 200px data cells leaves no readable pair. */
+.compare-remove {
+  float: right;
+  margin: -4px -4px 4px 4px;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  padding: 4px 9px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+@media (max-width: 640px) {
+  .compare-table { display: block; }
+  .compare-table thead, .compare-table tbody { display: block; }
+  .compare-table tr {
+    display: grid;
+    grid-template-columns: repeat(var(--compare-count), minmax(0, 1fr));
+  }
+  .compare-table th, .compare-table td {
+    display: block;
+    min-width: 0;
+    width: auto;
+    padding: 10px 8px;
+    overflow-wrap: anywhere;
+  }
+  .compare-table thead th { position: static; font-size: .8rem; }
+  .compare-table thead th:first-child { display: none; }
+  .compare-table tbody th {
+    position: static;
+    grid-column: 1 / -1;
+    width: auto;
+    font-size: .75rem;
+  }
+  .compare-table td { font-size: .8rem; border-right: 1px solid var(--line-soft); }
+  .compare-table td:last-child { border-right: 0; }
+  .compare-remove { float: none; display: block; margin: 0 0 8px auto; min-width: 44px; min-height: 44px; }
+}
+
 /* ---------- Footer ---------- */
 .site-footer {
   background: var(--footer-bg);
