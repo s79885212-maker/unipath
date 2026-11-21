@@ -21,12 +21,13 @@ module.exports = function (ok) {
     'a stalled translation releases navigation without an infinite retry loop');
   c.box.UNIPATH_I18N_ADD('ru', 'ca', {});
   ok(count === 1, 'late translation success never invokes an expired navigation callback twice');
+  ok(c.box.I18N.revision===1,'A completed dictionary chunk invalidates consumers of earlier translations');
   c = chunks(); count = 0; c.box.I18N.need(['ca'], function () { count++; }); c.scripts[0].onerror(); c.scripts[0].onerror(); c.tick(12000);
   ok(count === 1 && c.box.I18N.need(['ca'], function () {}) === true, 'network errors release waiting routes exactly once');
 
   var ids = {}, handlers = {}, inserted = [], reloaded = 0, boot = true;
   function element(tag) { return { tagName: tag.toUpperCase(), children: [], setAttribute: function () {},
-    appendChild: function (el) { this.children.push(el); }, addEventListener: function (name, fn) { this[name] = fn; } }; }
+    appendChild: function (el) { this.children.push(el); }, addEventListener: function (name, fn) { this[name] = fn; }, remove: function () { delete ids[this.id]; } }; }
   var box = { navigator: { language: 'ru' }, URL: URL, localStorage: { getItem: function () {} },
     location: { href: 'http://localhost/unipath/staging/', origin: 'http://localhost', search: '?lang=ru', reload: function () { reloaded++; } },
     addEventListener: function (name, fn) { handlers[name] = fn; }, document: { readyState: 'complete', createElement: element, addEventListener: function (name, fn) { handlers[name] = fn; },
@@ -48,4 +49,12 @@ module.exports = function (ok) {
   ok(inserted.length === 1, 'the watchdog does not wait for DOMContentLoaded behind a stalled script');
   ids = {}; inserted = []; tick = clock(box); run('assets/js/boot.js', box); handlers['unipath:ready'](); tick(20000);
   ok(inserted.length === 0, 'successful first render prevents a false loading error');
+  ids={}; inserted=[]; tick=clock(box);run('assets/js/boot.js',box);tick(20000);handlers['unipath:ready']();
+  ok(!ids['boot-error'],'A delayed successful render removes the earlier watchdog warning');
+  ['data/requirements.js','assets/js/requirements.js'].forEach(function (file) {
+    ids={};inserted=[];tick=clock(box);run('assets/js/boot.js',box);
+    handlers.error({target:{tagName:'SCRIPT',src:'http://localhost/unipath/staging/'+file+'?v=268'}});
+    handlers['unipath:ready']();
+    ok(!!ids['boot-error'],'A missing requirement dependency remains visible even if a partial page renders: '+file);
+  });
 };

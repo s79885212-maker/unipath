@@ -1,0 +1,65 @@
+[
+  {
+    "id": "st-olaf-college",
+    "budget": {
+      "status": "unknown",
+      "text": "The academic year of this cost is not confirmed. It is not compared with your budget."
+    }
+  },
+  {
+    "id": "lawrence-university",
+    "budget": {
+      "status": "unknown",
+      "text": "The academic year of this cost is not confirmed. It is not compared with your budget."
+    }
+  },
+  {
+    "id": "earlham-college",
+    "budget": {
+      "status": "unknown",
+      "text": "The academic year of this cost is not confirmed. It is not compared with your budget."
+    }
+  },
+  {
+    "id": "northeastern-university",
+    "budget": {
+      "status": "unknown",
+      "text": "The academic year of this cost is not confirmed. It is not compared with your budget."
+    }
+  },
+  {
+    "id": "syracuse-university",
+    "budget": {
+      "status": "unknown",
+      "text": "The academic year of this cost is not confirmed. It is not compared with your budget."
+    }
+  },
+  {
+    "id": "texas-christian-university",
+    "budget": {
+      "status": "unknown",
+      "text": "The academic year of this cost is not confirmed. It is not compared with your budget."
+    }
+  },
+  {
+    "id": "kaist",
+    "budget": {
+      "status": "unknown",
+      "text": "The academic year of this cost is not confirmed. It is not compared with your budget."
+    }
+  },
+  {
+    "id": "university-of-southampton",
+    "budget": {
+      "status": "unknown",
+      "text": "The academic year of this cost is not confirmed. It is not compared with your budget."
+    }
+  },
+  {
+    "id": "berlin-international-university",
+    "budget": {
+      "status": "unknown",
+      "text": "The academic year of this cost is not confirmed. It is not compared with your budget."
+    }
+  }
+]

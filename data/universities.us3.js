@@ -1651,7 +1651,10 @@ window.UNIPATH.universities.push(
     "ielts": {
       "min": 6.5,
       "recommended": null,
-      "note": "Required overall score of 6.5 or higher, with no band below 6."
+      "note": "Required overall score of 6.5 or higher, with no band below 6.",
+      "sections": "No IELTS band below 6.0.",
+      "source": "https://admission.kzoo.edu/how-to-apply-2/international-students/english-language-proficiency/",
+      "verified": "2026-11-17"
     },
     "toefl": {
       "min": null,
@@ -1720,7 +1723,8 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 80111,
     "totalText": "$66,308 in tuition and fees and $13,803 in food and housing",
-    "note": "Kalamazoo prints the two figures without a total; $80,111 is their sum."
+    "note": "Kalamazoo prints the two figures without a total; $80,111 is their sum.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -5974,7 +5978,8 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 70668,
     "totalText": "$70,668 charged for the year; the page prints no figure for the full cost of attendance",
-    "note": "The page for international students still shows 2025–26 and estimates other expenses, including $1,567 for health insurance, on top of the charges."
+    "note": "The page for international students still shows 2025–26 and estimates other expenses, including $1,567 for health insurance, on top of the charges.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -6286,7 +6291,8 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 55530,
     "totalText": "$40,560 in tuition and fee plus $14,970 for room and board, as printed; $55,530 is the two added together",
-    "note": "Elmira prints the tuition-and-fee total and the room-and-board total separately. Books, travel, personal costs and health insurance are not listed."
+    "note": "Elmira prints the tuition-and-fee total and the room-and-board total separately. Books, travel, personal costs and health insurance are not listed.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -8709,7 +8715,7 @@ window.UNIPATH.universities.push(
     "internationalAdmissions": "https://via.hendrix.edu/admission-aid/international-applicants",
     "applicationPortal": "http://apply.hendrix.edu/apply",
     "scholarships": "https://www.hendrix.edu/financialaid/scholarships/",
-    "financialAid": "https://www.hendrix.edu/admission-aid/financial-aid",
+    "financialAid": "https://www.hendrix.edu/financialaid/",
     "programs": "https://via.hendrix.edu/academics/departments-and-majors/",
     "cost": "https://www.hendrix.edu/financialaid/default.aspx?id=236"
   },
@@ -8825,62 +8831,54 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "includes": "tuition, fees, housing and food (billed), plus the university’s estimates for books, transportation and personal expenses",
-      "tuition": 40572,
-      "billed": 56400,
-      "budget": 61880
+      "tuition": 41990,
+      "billed": 58620,
+      "period": "year"
     },
-    "academicYear": "2026–2027",
+    "academicYear": "2027–2028",
     "currency": "USD",
     "studentCategory": "Students living on campus for nine months",
     "source": "https://www.hendrix.edu/financialaid/default.aspx?id=236",
-    "verified": "2026-10-12",
-    "headline": "$61,880 total cost of attendance",
+    "verified": "2026-11-17",
+    "headline": "2027–28 direct costs for a new student: $58,620",
     "items": [
       {
         "label": "Tuition",
-        "group": "billed",
-        "amount": 40572
+        "amount": 41990
       },
       {
-        "label": "Fees",
-        "group": "billed",
-        "amount": 550
+        "label": "Mandatory fees",
+        "amount": 740
       },
       {
-        "label": "Housing — double occupancy",
-        "group": "billed",
-        "amount": 7678
+        "label": "Housing, first-year median",
+        "amount": 8030
       },
       {
-        "label": "Food plan — unlimited",
-        "group": "billed",
-        "amount": 7600
-      },
-      {
-        "label": "Loan fees",
-        "group": "estimate",
-        "amount": 60
+        "label": "Unlimited meal plan",
+        "amount": 7860
       },
       {
         "label": "Books",
-        "group": "estimate",
         "amount": 900
       },
       {
         "label": "Transportation",
-        "group": "estimate",
-        "amount": 1520
+        "amount": 1232
       },
       {
-        "label": "Personal",
-        "group": "estimate",
+        "label": "Personal expenses",
         "amount": 3000
+      },
+      {
+        "label": "Loan fees in the general COA",
+        "amount": 56
       }
     ],
-    "billedSubtotal": 56400,
-    "totalText": "$61,880 total cost of attendance, of which $56,400 is billed by the university",
-    "note": "Hendrix marks its 2026–27 tuition and fees as pending Board approval and subject to change. Health insurance is not in the table."
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": "Hendrix publishes $63,808 as the general 2027–28 on-campus cost of attendance for a new student, including $56 in loan fees. International health insurance is not itemised in that table. The international page asks applicants to demonstrate at least $35,000 after an average scholarship; that amount is not an individual net-cost guarantee.",
+    "status": "confirmed"
   },
   "scholarships": {
     "fullRide": {
@@ -20438,7 +20436,8 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 74702,
     "totalText": "$74,702 total tuition and charges for the year, as printed",
-    "note": "All full-time undergraduates are enrolled in and billed for the Student Health Insurance Plan unless they show comparable cover; its price is not on this page."
+    "note": "All full-time undergraduates are enrolled in and billed for the Student Health Insurance Plan unless they show comparable cover; its price is not on this page.",
+    "status": "previous-cycle"
   },
   "scholarships": {
     "fullRide": {
@@ -21414,7 +21413,7 @@ window.UNIPATH.universities.push(
     "internationalAdmissions": "https://www.scu.edu/admission/undergraduate/international-students/",
     "applicationPortal": "https://www.commonapp.org/",
     "scholarships": null,
-    "financialAid": "https://www.scu.edu/admission/financial-aid/",
+    "financialAid": "https://www.scu.edu/financialaid/international/",
     "programs": "https://www.scu.edu/academics/undergraduate-programs/",
     "cost": "https://www.scu.edu/financialaid/cost-of-attendance/"
   },
@@ -24271,7 +24270,8 @@ window.UNIPATH.universities.push(
       "renewable": null,
       "competitiveness": null,
       "howToApply": null,
-      "note": "Texas A&M says aid for international students is need-based, supplements the student’s own funds, does not cover all educational costs and is limited and not guaranteed."
+      "note": "Texas A&M says aid for international students is need-based, supplements the student’s own funds, does not cover all educational costs and is limited and not guaranteed.",
+      "status": "not-published"
     },
     "merit": [],
     "needBased": {
@@ -24282,7 +24282,11 @@ window.UNIPATH.universities.push(
         "Texas Application for State Financial Aid (TASFA)"
       ],
       "deadlines": null,
-      "note": "From the 2026–2027 academic year the TASFA replaces the ISFAA for international students at Texas A&M; it is filed once for each academic year."
+      "note": "ITPEG is unavailable to F-1 students during their first academic year (Fall and Spring), and J-1 students are excluded. The separate Mexican Citizens waiver is restricted by nationality and residence. TASFA alone does not make an Uzbek international first-year applicant eligible for these programmes. No Fall 2027 aid deadline is confirmed here.",
+      "firstYearEligible": null,
+      "source": "https://aggie.tamu.edu/paying-for-college/apply-for-financial-aid/international-student-financial-aid.html",
+      "verified": "2026-11-18",
+      "status": "not-checked"
     }
   },
   "photos": {
@@ -27639,7 +27643,7 @@ window.UNIPATH.universities.push(
       "program": "Industrial Engineering and Operations Research (BS)",
       "level": "bachelor",
       "language": "English",
-      "url": "https://catalog.willamette.edu/programs/BS.IEOR",
+      "url": "https://willamette.edu/academics/college/industrial-engineering/requirements",
       "checked": "2026-10-14"
     },
     "psychology": {
@@ -47759,7 +47763,8 @@ window.UNIPATH.universities.push(
     "unconfirmed": [
       "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
       "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
-      "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
+      "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below.",
+      "The archived exchange agreement used for the teaching-language note could not be recovered. It does not independently verify a degree route."
     ]
   },
   "lastVerified": "2026-11-02",

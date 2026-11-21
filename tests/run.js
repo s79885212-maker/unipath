@@ -34,6 +34,7 @@ var index = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
 var scripts = (index.match(/<script[^>]+src="([^"]+)"/g) || []).map(function (s) { return /src="([^"?]+)/.exec(s)[1]; });
 scripts.filter(function (s) { return /^data\//.test(s) && !/i18n/.test(s); }).forEach(load);
 load('assets/js/app.js');
+load('assets/js/requirements.js');
 load('assets/js/match.js');
 
 var U = sandbox.UP, DB = sandbox.UNIPATH, M = sandbox.UPMatch;
@@ -327,10 +328,19 @@ group('profile rendering');
   });
   ok(broken.length === 0, 'all ' + DB.universities.length + ' profiles render without an error', broken.slice(0, 4).join('; '));
   function page(id) { main.innerHTML = ''; P.renderProfile(U.uniById(id)); return main.innerHTML; }
+  var qualificationBlock=page('university-of-west-florida').split('id="academics"')[1].split('</section>')[0];
+  ok(qualificationBlock.includes('See the verified route-specific academic entry requirements above.') && !qualificationBlock.includes('International qualifications</dt>') && !qualificationBlock.includes('Other standardized tests</dt>'),'A reviewed academic-entry block replaces stale duplicate qualification/test placeholders in the profile');
   var disputedCovers=page('marquette-university').split('<div class="covers">')[1].split('</div>')[0];
   ok(U.fullRide(U.uniById('marquette-university')).covers.housing===true&&
      !/cover-yes/.test(disputedCovers)&&/\? Housing/.test(disputedCovers),
      'conflicting award coverage never receives green item checks, while the source data remains intact');
+  var oldSnuCovers=page('seoul-national-university').split('<div class="covers">')[1].split('</div>')[0];
+  ok(!/cover-yes/.test(oldSnuCovers)&&/\? Tuition/.test(oldSnuCovers),
+     'Historical SNU coverage remains unknown in the profile instead of receiving confirmed item checks');
+  load('assets/js/views.js');
+  var snuAwardList=sandbox.UPViews.scholarships().split('<a href="'+U.uniUrl(U.uniById('seoul-national-university'))+'">')[1].split('</article>')[0];
+  ok(!/cover-yes/.test(snuAwardList)&&/\? Tuition/.test(snuAwardList),
+     'The scholarships overview also leaves historical award coverage unknown');
   var photoFixture=U.uniById('florida-international-university'), originalPhotos=photoFixture.photos;
   photoFixture.photos={main:null,thumb:null,gallery:[]};
   var noPhoto=page('florida-international-university').split('id="photos"')[1].split('</section>')[0];
@@ -806,7 +816,7 @@ group('Canada');
   ok(first('Ryerson') === 'toronto-metropolitan-university' && first('UOIT') === 'ontario-tech-university' && first('MUN') === 'memorial-university-of-newfoundland',
     'former names find the current record: Ryerson → TMU, UOIT → Ontario Tech, MUN → Memorial', [first('Ryerson'), first('UOIT'), first('MUN')].join(', '));
   var tr = U.uniById('trent-university'), unb = U.uniById('university-of-new-brunswick');
-  ok(tr.admissions.deadlines.some(function (d) { return d.kind === 'regular' && d.status === 'not-confirmed'; }) && unb.costs.academicYear === '2026–2027' && unb.costs.status !== 'previous-cycle' &&
+  ok(tr.admissions.deadlines.some(function (d) { return d.kind === 'regular' && d.status === 'not-confirmed'; }) && unb.costs.academicYear === '2026–2027' && unb.costs.status === 'previous-cycle' &&
      (DB.match.annualCost || {})['university-of-new-brunswick'].min === 22754 && U.satPolicy(U.uniById('memorial-university-of-newfoundland')) === 'conditional',
     'Trent: deadlines from a page not yet updated stay unconfirmed; UNB: 2026–27 fee tables read (C$22,754–C$27,722); Memorial: SAT/ACT only for some schools');
   var fr = ['universite-du-quebec-a-montreal', 'universite-de-sherbrooke', 'universite-de-moncton'].map(U.uniById);
@@ -1038,6 +1048,9 @@ ok(auditedAwardKinds.every(([id,kind]) => {
 }) && U.fullRide(U.uniById('university-of-alabama')).basis === 'automatic' &&
     U.needBased(U.uniById('depauw-university')).meetsFullNeed === true,
   'Automatic tuition, selective full cost and demonstrated need stay distinct from a guaranteed budget reduction');
+
+require('./six-country-audit')({U:U, DB:DB, M:M, ok:ok});
+require('./admission-requirements')({U:U, DB:DB, M:M, ok:ok, global:sandbox});
 
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 

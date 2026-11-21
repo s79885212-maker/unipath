@@ -391,18 +391,95 @@ window.UNIPATH.universities.push(
     cost: 'https://www.keio.ac.jp/en/admissions/fees/'
   },
   admissions: {
-    platforms: ['Keio online application (web-entry2.admissions.keio.ac.jp)'],
-    deadlines: [
-      { name: 'PEARL Round I (September 2027 entry)', kind: 'round-1', entryTerm: 'September', entryYear: '2027', dateISO: '2026-12-02', date: '21 October – 2 December 2026', time: '15:00', timezone: 'JST', binding: false, appliesTo: 'Applicants to the PEARL programme in the Faculty of Economics', conditions: 'Applications open at 10:00 JST on 21 October and close at 15:00 JST on 2 December; results on 25 January 2027. Unsuccessful applicants may reapply in a later round.', status: 'confirmed', source: 'https://www.keio.ac.jp/en/admissions/faculty/examinations/pearl/', verified: '2026-11-16', cycleEvidence: {"basis": "explicit-date", "source": "https://www.keio.ac.jp/en/admissions/faculty/examinations/pearl/", "verified": "2026-11-16", "quote": "December 2, 2026 (JST)", "entryTerm": "September", "entryYear": "2027"}, note: null },
-      { name: 'PEARL Round II (September 2027 entry)', kind: 'round-2', entryTerm: 'September', entryYear: '2027', dateISO: '2027-01-27', date: '4 December 2026 – 27 January 2027', time: '15:00', timezone: 'JST', binding: false, appliesTo: 'PEARL applicants', conditions: 'Closes at 15:00 JST; results on 4 March 2027.', status: 'confirmed', source: 'https://www.keio.ac.jp/en/admissions/faculty/examinations/pearl/', verified: '2026-11-16', cycleEvidence: {"basis": "explicit-date", "source": "https://www.keio.ac.jp/en/admissions/faculty/examinations/pearl/", "verified": "2026-11-16", "quote": "January 27, 2027 (JST)", "entryTerm": "September", "entryYear": "2027"}, note: null },
-      { name: 'PEARL Round III (September 2027 entry)', kind: 'round-3', entryTerm: 'September', entryYear: '2027', dateISO: '2027-04-07', date: '24 February – 7 April 2027', time: '15:00', timezone: 'JST', binding: false, appliesTo: 'PEARL applicants', conditions: 'Closes at 15:00 JST; results on 24 May 2027.', status: 'confirmed', source: 'https://www.keio.ac.jp/en/admissions/faculty/examinations/pearl/', verified: '2026-11-16', cycleEvidence: {"basis": "explicit-date", "source": "https://www.keio.ac.jp/en/admissions/faculty/examinations/pearl/", "verified": "2026-11-16", "quote": "April 7, 2027 (JST)", "entryTerm": "September", "entryYear": "2027"}, note: null },
+    "platforms": [
+      "Keio online application (web-entry2.admissions.keio.ac.jp)"
     ],
-    applicationFee: { amount: 35000, currency: 'JPY', waiverAvailableToInternational: null, waiver: null },
-    documents: ['Academic transcripts', 'Standardized test scores', 'English proficiency evidence'],
-    recommendations: null,
-    essay: null,
-    interview: null,
-    notes: ['Japanese proficiency is not required to apply for PEARL or the GIGA programme.', 'The admission quota is approximately 100 students across all three application periods.']
+    "deadlines": [
+      {
+        "name": "PEARL 2027 application — round 1",
+        "kind": "application-window",
+        "entryTerm": "Fall",
+        "entryYear": "2027",
+        "dateISO": "2026-12-02",
+        "date": "2026-12-02",
+        "time": "15:00",
+        "timezone": "JST",
+        "status": "confirmed",
+        "source": "https://www.keio.ac.jp/en/admissions/faculty/examinations/pearl/",
+        "verified": "2026-11-17",
+        "appliesTo": "PEARL first-year applicants",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Fall",
+          "entryYear": "2027",
+          "source": "https://www.keio.ac.jp/en/admissions/faculty/examinations/pearl/",
+          "verified": "2026-11-17",
+          "quote": "Application Schedule for September 2027 Entry"
+        }
+      },
+      {
+        "name": "PEARL 2027 application — round 2",
+        "kind": "application-window",
+        "entryTerm": "Fall",
+        "entryYear": "2027",
+        "dateISO": "2027-01-27",
+        "date": "2027-01-27",
+        "time": "15:00",
+        "timezone": "JST",
+        "status": "confirmed",
+        "source": "https://www.keio.ac.jp/en/admissions/faculty/examinations/pearl/",
+        "verified": "2026-11-17",
+        "appliesTo": "PEARL first-year applicants",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Fall",
+          "entryYear": "2027",
+          "source": "https://www.keio.ac.jp/en/admissions/faculty/examinations/pearl/",
+          "verified": "2026-11-17",
+          "quote": "Application Schedule for September 2027 Entry"
+        }
+      },
+      {
+        "name": "PEARL 2027 application — round 3",
+        "kind": "application-window",
+        "entryTerm": "Fall",
+        "entryYear": "2027",
+        "dateISO": "2027-04-07",
+        "date": "2027-04-07",
+        "time": "15:00",
+        "timezone": "JST",
+        "status": "confirmed",
+        "source": "https://www.keio.ac.jp/en/admissions/faculty/examinations/pearl/",
+        "verified": "2026-11-17",
+        "appliesTo": "PEARL first-year applicants",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Fall",
+          "entryYear": "2027",
+          "source": "https://www.keio.ac.jp/en/admissions/faculty/examinations/pearl/",
+          "verified": "2026-11-17",
+          "quote": "Application Schedule for September 2027 Entry"
+        }
+      }
+    ],
+    "applicationFee": {
+      "amount": 35000,
+      "currency": "JPY",
+      "waiverAvailableToInternational": null,
+      "waiver": null
+    },
+    "documents": [
+      "Academic transcripts",
+      "Standardized test scores",
+      "English proficiency evidence"
+    ],
+    "recommendations": null,
+    "essay": null,
+    "interview": null,
+    "notes": [
+      "Japanese proficiency is not required to apply for PEARL or the GIGA programme.",
+      "The admission quota is approximately 100 students across all three application periods."
+    ]
   },
   english: {
     ielts: null, toefl: null, duolingo: null,
@@ -410,11 +487,21 @@ window.UNIPATH.universities.push(
     note: 'Keio publishes English requirements in the PEARL/GIGA application guidebook rather than on the overview page. Japanese is not required.'
   },
   academics: {
-    gpa: null,
-    sat: { policy: null, note: 'See the PEARL application guidebook.' },
-    act: { policy: null, note: 'See the PEARL application guidebook.' },
-    otherTests: null,
-    internationalQualifications: null
+    "gpa": null,
+    "sat": {
+      "policy": "required-alternatives",
+      "note": "PEARL, September 2027: IB Diploma results or SAT are required. ACT and school-leaving qualifications cannot replace them. IELTS Academic or TOEFL iBT is also required, including for native English speakers. No score cut-off is published. GIGA has separate requirements.",
+      "source": "https://www.keio.ac.jp/en/admissions/faculty/examinations/pearl/",
+      "verified": "2026-11-17"
+    },
+    "act": {
+      "policy": "not-used",
+      "note": "ACT is no longer accepted for PEARL from September 2027 entry.",
+      "source": "https://www.keio.ac.jp/en/admissions/faculty/examinations/pearl/",
+      "verified": "2026-11-17"
+    },
+    "otherTests": null,
+    "internationalQualifications": null
   },
   costs: {
     breakdown: { published: false },
@@ -443,9 +530,30 @@ window.UNIPATH.universities.push(
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
-    { label: 'Degree programmes offered in English', url: 'https://www.keio.ac.jp/en/admissions/international-student/programs-offered-in-english/' },
-    { label: 'PEARL admissions procedures', url: 'https://www.keio.ac.jp/en/admissions/undergraduate/pearl/' },
-    { label: 'Undergraduate academic fees', url: 'https://www.keio.ac.jp/en/admissions/fees/' }
+    {
+      "label": "Degree programmes offered in English",
+      "url": "https://www.keio.ac.jp/en/admissions/international-student/programs-offered-in-english/"
+    },
+    {
+      "label": "PEARL admissions procedures",
+      "url": "https://www.keio.ac.jp/en/admissions/undergraduate/pearl/"
+    },
+    {
+      "label": "Undergraduate academic fees",
+      "url": "https://www.keio.ac.jp/en/admissions/fees/"
+    },
+    {
+      "label": "PEARL FAQ (English tests, no cut-off scores)",
+      "url": "https://www.keio.ac.jp/en/admissions/undergraduate/pearl/faq.html"
+    },
+    {
+      "label": "Keio PEARL application guidebook (PDF)",
+      "url": "https://www.keio.ac.jp/en/admissions/undergraduate/pearl/application_guidebook.pdf"
+    },
+    {
+      "label": "PEARL September 2027 admission and tests",
+      "url": "https://www.keio.ac.jp/en/admissions/faculty/examinations/pearl/"
+    }
   ],
   lastVerified: '2026-09-16'
 },
@@ -603,28 +711,51 @@ window.UNIPATH.universities.push(
     note: 'No Japanese language proficiency is required at the time of application.'
   },
   academics: {
-    gpa: null,
-    sat: { policy: 'required', note: 'Type A applicants must submit SAT or ACT scores. Type B applicants are interviewed instead. ICU does not publish minimum scores.' },
-    act: { policy: 'required', note: 'Type A applicants must submit SAT or ACT scores. Type B applicants are interviewed instead.' },
-    otherTests: null,
-    internationalQualifications: 'Only the IB Full Diploma is accepted — IB Course Certificates and the IBCP Certificate are not.'
+    "gpa": null,
+    "sat": {
+      "policy": "conditional",
+      "note": "Type A applicants must submit SAT or ACT scores (no published minimum). Type B applicants are interviewed instead.",
+      "source": "https://www.icu.ac.jp/en/admissions/undergraduate/engdoc/",
+      "verified": "2026-11-17"
+    },
+    "act": {
+      "policy": "conditional",
+      "note": "Type A applicants: SAT or ACT required.",
+      "source": "https://www.icu.ac.jp/en/admissions/undergraduate/engdoc/",
+      "verified": "2026-11-17"
+    },
+    "otherTests": "Only the full IB Diploma is accepted — IB Course Certificates and the IBCP are not.",
+    "internationalQualifications": "Only the IB Full Diploma is accepted — IB Course Certificates and the IBCP Certificate are not."
   },
   costs: {
-    breakdown: { tuition: 1167000, billed: 1521000, includes: "tuition and the facilities fee for AY2026; a one-time ¥300,000 matriculation fee is charged on entry" },
-    academicYear: '2026',
-    currency: 'JPY',
-    headline: '¥1,521,000 per year',
-    items: [
-      { label: 'Matriculation fee — one-time (regular students)', amount: 300000 },
-      { label: 'Tuition — AY2026', amount: 1167000 },
-      { label: 'Facilities fee — AY2026', amount: 354000 },
-      { label: 'Tuition + facilities — AY2027', amount: 1557000 },
-      { label: 'Tuition + facilities — AY2028', amount: 1578000 },
-      { label: 'Tuition + facilities — AY2029', amount: 1599000 }
+    "breakdown": {
+      "tuition": 1203000,
+      "billed": 1857000,
+      "period": "year"
+    },
+    "academicYear": "2027–2028",
+    "currency": "JPY",
+    "headline": "AY2027 tuition and facilities: ¥1,557,000; entrance fee separate",
+    "items": [
+      {
+        "label": "Annual tuition",
+        "amount": 1203000
+      },
+      {
+        "label": "Annual facilities fee",
+        "amount": 354000
+      },
+      {
+        "label": "Entrance fee, once",
+        "amount": 300000
+      }
     ],
-    billedSubtotal: 1521000,
-    totalText: '¥1,521,000 per year (AY2026), plus a one-time ¥300,000 matriculation fee',
-    note: 'First-year total for AY2026 is approximately ¥1,821,000 including the matriculation fee. ICU publishes rising figures for later years, shown above. A non-resident fee of ¥30,000 per term (¥90,000 annually) applies during a leave of absence or non-ICU study abroad. Living costs in Tokyo are additional.'
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": "For regular new students entering AY2027. UniPath adds the published annual tuition and facilities fee to the one-time ¥300,000 entrance fee: ¥1,857,000 before living expenses. Japanese-language study is part of ICU’s bilingual curriculum; English-based admission does not mean every graduation requirement is English-taught.",
+    "source": "https://www.icu.ac.jp/en/admissions/tuition/",
+    "verified": "2026-11-17",
+    "status": "confirmed"
   },
   scholarships: {
     fullRide: {
@@ -1046,11 +1177,11 @@ window.UNIPATH.universities.push(
   englishTaughtPrograms: ['engineering','biology'],
   programNote: 'Kyushu states it runs five English-taught undergraduate programmes, in the School of Engineering and the School of Agriculture; all classes except Japanese language classes are in English.',
   links: {
-    website: 'https://www.kyushu-u.ac.jp/en/',
-    admissions: 'https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/',
-    applicationPortal: 'https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/',
-    scholarships: 'https://www.kyushu-u.ac.jp/en/admission/fees/scholarships/',
-    cost: 'https://www.kyushu-u.ac.jp/en/admission/fees/expenses'
+    "website": "https://www.kyushu-u.ac.jp/en/",
+    "admissions": "https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/",
+    "applicationPortal": "https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/",
+    "scholarships": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf",
+    "cost": "https://www.kyushu-u.ac.jp/en/admission/fees/expenses"
   },
   admissions: {
     platforms: ['Kyushu University international undergraduate application'],
@@ -1096,21 +1227,94 @@ window.UNIPATH.universities.push(
     note: 'These are the standard national-university rates in Japan; individual universities can differ, and fee waivers or exemptions are awarded separately.'
   },
   scholarships: {
-    fullRide: { available: true, internationalEligible: true, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false, stipend: true }, renewable: true, competitiveness: 'MEXT places are limited and awarded to the strongest applicants.', howToApply: 'Applicants to the international undergraduate programmes can be recommended for the MEXT scholarship through the admission process.', note: 'The MEXT scholarship runs four years, pays ¥117,000 a month, exempts the enrolment and tuition fees and includes flights. Housing and food come out of the stipend.' },
-    merit: [
-      { name: 'Kyushu University International Undergraduate Scholarship', amount: "Engineering: ¥60,000 per month; annual selection for later years", eligibility: "Competitive; eligible foreign-only applicants with a qualification from outside Japan, residence abroad at application, and a new student visa; MEXT recipients excluded.", deadline: null, application: "Complete the scholarship section of the application form.", renewable: true, note: "Living allowance; tuition and other expenses are separate. The ¥48,000 six-month allowance is a distinct Monbukagakusho Honors Scholarship.", source: "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf", verified: "2026-11-16", internationalEligible: true },
-      { name: 'First-year tuition exemption', amount: 'Half of the tuition for the first two semesters', eligibility: "Engineering: only foreign nationality, qualification obtained abroad, residence abroad when applying, and a new student visa.", deadline: null, application: 'Applied through the university', renewable: false, note: "Half tuition for the first two semesters for eligible students. Enrolment fee, housing and other expenses remain.", source: "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf", verified: "2026-11-16" }
+    "fullRide": {
+      "available": true,
+      "internationalEligible": true,
+      "basis": "merit",
+      "covers": {
+        "tuition": true,
+        "housing": false,
+        "meals": false,
+        "insurance": false,
+        "books": false,
+        "stipend": true
+      },
+      "renewable": true,
+      "competitiveness": "MEXT places are limited and awarded to the strongest applicants.",
+      "howToApply": "Applicants to the international undergraduate programmes can be recommended for the MEXT scholarship through the admission process.",
+      "note": "Engineering October 2027, MEXT: selection and university nomination are conditional on Japanese government approval of Kyushu’s new scholarship proposal. Approval is not confirmed here. If approved and awarded, the published terms are four years, JPY 117,000 per month, entrance and tuition exemptions and flights. Housing, meals and personal costs are paid from the allowance. This is not guaranteed aid or a confirmed budget reduction.",
+      "status": "not-confirmed",
+      "source": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf",
+      "verified": "2026-11-18",
+      "guaranteed": false
+    },
+    "merit": [
+      {
+        "name": "Kyushu University International Undergraduate Scholarship",
+        "amount": "Engineering: ¥60,000 per month; annual selection for later years",
+        "eligibility": "Competitive; eligible foreign-only applicants with a qualification from outside Japan, residence abroad at application, and a new student visa; MEXT recipients excluded.",
+        "deadline": null,
+        "application": "Complete the scholarship section of the application form.",
+        "renewable": true,
+        "note": "Living allowance; tuition and other expenses are separate. The ¥48,000 six-month allowance is a distinct Monbukagakusho Honors Scholarship.",
+        "source": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf",
+        "verified": "2026-11-16",
+        "internationalEligible": true
+      },
+      {
+        "name": "First-year tuition exemption",
+        "amount": "Half of the tuition for the first two semesters",
+        "eligibility": "Engineering: only foreign nationality, qualification obtained abroad, residence abroad when applying, and a new student visa.",
+        "deadline": null,
+        "application": "Applied through the university",
+        "renewable": false,
+        "note": "Half tuition for the first two semesters for eligible students. Enrolment fee, housing and other expenses remain.",
+        "source": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf",
+        "verified": "2026-11-16"
+      }
     ],
-    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": false,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not confirmed during this check."
+    }
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
-    { label: 'Enrolling in undergraduate school (language of instruction: English)', url: 'https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/' },
-    { label: 'Scholarships', url: 'https://www.kyushu-u.ac.jp/en/admission/fees/scholarships/' },
-    { label: 'Tuition and fees', url: 'https://www.kyushu-u.ac.jp/en/admission/fees/expenses' },
-    { label: 'About — history and facts', url: 'https://www.kyushu-u.ac.jp/en/university' }
+    {
+      "label": "Enrolling in undergraduate school (language of instruction: English)",
+      "url": "https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/"
+    },
+    {
+      "label": "Engineering October 2027: financial aid, pages 16–17",
+      "url": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf"
+    },
+    {
+      "label": "Tuition and fees",
+      "url": "https://www.kyushu-u.ac.jp/en/admission/fees/expenses"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.kyushu-u.ac.jp/en/university"
+    }
   ],
-  verification: { level: 'partial', checked: ['English-taught programmes','scholarships','previous-cycle application window','english (IELTS and TOEFL minimums)'], unconfirmed: ['2027 application dates','application fee'] },
+  verification: {
+    "level": "partial",
+    "checked": [
+      "English-taught programmes",
+      "scholarships",
+      "previous-cycle application window",
+      "english (IELTS and TOEFL minimums)"
+    ],
+    "unconfirmed": [
+      "2027 application dates",
+      "application fee",
+      "MEXT government approval for Engineering October 2027 is not established by the conditional application guide."
+    ]
+  },
   lastVerified: '2026-09-23'
 },
 
@@ -1454,23 +1658,47 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants normally need 12 years of school education completed outside Japan, or an equivalent qualification such as the IB, A-levels or a recognised national school-leaving certificate.'
   },
   costs: {
-    breakdown: { tuition: 1100000, tuitionText: '\u00a51,100,000\u2013\u00a51,400,000 depending on the major', billed: 1670000, includes: 'tuition, the operations fee and, in the first year, the \u00a5250,000 enrollment fee; a one-time \u00a540,000 alumni association fee is added to the first invoice and accommodation is extra', published: true },
-    academicYear: '2027\u20132028',
-    currency: 'JPY',
-    headline: '\u00a51,670,000\u2013\u00a51,970,000 in the first year',
-    items: [
-      { label: 'Tuition \u2014 Business Economics and International Relations', amount: 1100000 },
-      { label: 'Tuition \u2014 Digital Business and Innovation', amount: 1300000 },
-      { label: 'Tuition \u2014 Data Science and AI', amount: 1400000 },
-      { label: 'Operations fee (per year)', amount: 320000 },
-      { label: 'Enrollment fee (one-time)', amount: 250000 },
-      { label: 'Alumni association fee (one-time)', amount: 40000 }
+    "breakdown": {
+      "tuition": 1100000,
+      "tuitionText": "¥1,100,000–¥1,400,000 depending on the major",
+      "billed": 1670000,
+      "includes": "tuition, the operations fee and, in the first year, the ¥250,000 enrollment fee; a one-time ¥40,000 alumni association fee is added to the first invoice and accommodation is extra",
+      "published": true
+    },
+    "academicYear": "2027–2028",
+    "currency": "JPY",
+    "headline": "¥1,670,000–¥1,970,000 in the first year",
+    "items": [
+      {
+        "label": "Tuition — Business Economics and International Relations",
+        "amount": 1100000
+      },
+      {
+        "label": "Tuition — Digital Business and Innovation",
+        "amount": 1300000
+      },
+      {
+        "label": "Tuition — Data Science and AI",
+        "amount": 1400000
+      },
+      {
+        "label": "Operations fee (per year)",
+        "amount": 320000
+      },
+      {
+        "label": "Enrollment fee (one-time)",
+        "amount": 250000
+      },
+      {
+        "label": "Alumni association fee (one-time)",
+        "amount": 40000
+      }
     ],
-    billedSubtotal: 1670000,
-    totalText: '\u00a51,670,000 in the first year for Business Economics and International Relations, \u00a51,870,000 for Digital Business and Innovation and \u00a51,970,000 for Data Science and AI',
-    note: 'From the second year the totals fall to \u00a51,620,000, \u00a51,820,000 and \u00a51,920,000 because the enrollment fee is only charged once. Accommodation is charged separately.',
-    source: 'https://www.tiu.ac.jp/etrack/admissions/tuition.html',
-    verified: '2026-09-24'
+    "billedSubtotal": 1670000,
+    "totalText": "¥1,670,000 in the first year for Business Economics and International Relations, ¥1,870,000 for Digital Business and Innovation and ¥1,970,000 for Data Science and AI",
+    "note": "The official 2027 table separately lists subsequent-year totals of JPY 1,620,000, JPY 1,820,000 and JPY 1,920,000. Those figures are not derived here by subtracting the entrance fee from the first-year total. The one-time JPY 40,000 alumni fee is added to the first invoice. Housing and other living costs remain separate.",
+    "source": "https://www.tiu.ac.jp/etrack/admissions/tuition.html",
+    "verified": "2026-11-17"
   },
   scholarships: {
     fullRide: { available: true, internationalEligible: true, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: true, competitiveness: 'Awards of 30%, 50%, 80% or 100% are decided on the strength of the application; a 100% award is the top band rather than the norm.', howToApply: 'All E-Track applicants are considered automatically - admission and scholarship screening happen together.', note: 'A 100% TIU Tuition Reduction Scholarship covers tuition only. Housing, food, insurance and travel are not covered. It runs up to four years for first-year students if academic requirements are met.' },
@@ -1703,45 +1931,73 @@ window.UNIPATH.universities.push(
     notes: ['Ritsumeikan states that tuition and fees are expected to rise by about 5–7% a year.']
   },
   english: {
-    ielts: {
-      min: null,
-      recommended: null,
-      varies: true,
-      profilesComplete: false,
-      profiles: [
+    "ielts": {
+      "min": null,
+      "recommended": null,
+      "varies": true,
+      "profilesComplete": false,
+      "profiles": [
         {
-          name: 'Joint Degree Program with American University',
-          overall: 6.5,
-          sections: '6.0 in each component',
-          scope: 'Applicants to the Joint Degree Program',
-          source: 'https://en.ritsumei.ac.jp/e-ug/apply/howto.html/',
-          verified: '2026-09-24'
+          "name": "Joint Degree Program with American University",
+          "overall": 6.5,
+          "sections": "6.0 in each component",
+          "scope": "Applicants to the Joint Degree Program",
+          "source": "https://en.ritsumei.ac.jp/e-ug/apply/howto.html/",
+          "verified": "2026-09-24"
+        },
+        {
+          "name": "Global Studies major",
+          "overall": 6.0,
+          "scope": "Global Studies major",
+          "source": "https://en.ritsumei.ac.jp/e-ug/apply/howto.html/",
+          "verified": "2026-11-17"
+        },
+        {
+          "name": "Community and Regional Policy Studies",
+          "overall": 5.5,
+          "scope": "CRPS major",
+          "source": "https://en.ritsumei.ac.jp/e-ug/apply/howto.html/",
+          "verified": "2026-11-17"
+        },
+        {
+          "name": "Information Systems Science and Engineering",
+          "overall": 6.0,
+          "scope": "ISSE course",
+          "source": "https://en.ritsumei.ac.jp/e-ug/apply/howto.html/",
+          "verified": "2026-11-17"
         }
       ],
-      note: 'Other English-medium programmes publish their own levels. IELTS Online is not accepted, and tests must have been taken within two years before the last day of the application period.'
+      "note": "Minimums vary by English-medium programme. IELTS Online and One Skill Retake are not accepted. These are direct programme minima, not Foundation scores."
     },
-    toefl: {
-      min: null,
-      recommended: null,
-      varies: true,
-      profilesComplete: false,
-      profiles: [
+    "toefl": {
+      "min": null,
+      "recommended": null,
+      "varies": true,
+      "profilesComplete": false,
+      "profiles": [
         {
-          name: 'Joint Degree Program with American University',
-          overall: '80',
-          sections: '20 in each section; TOEFL PBT 550 is also accepted',
-          scope: 'Applicants to the Joint Degree Program',
-          source: 'https://en.ritsumei.ac.jp/e-ug/apply/howto.html/',
-          verified: '2026-09-24'
+          "name": "Joint Degree Program with American University",
+          "overall": "80",
+          "sections": "20 in each section; TOEFL PBT 550 is also accepted",
+          "scope": "Applicants to the Joint Degree Program",
+          "source": "https://en.ritsumei.ac.jp/e-ug/apply/howto.html/",
+          "verified": "2026-09-24"
         }
       ],
-      note: 'Only single-test-date scores count, not MyBest scores.'
+      "note": "Only single-test-date scores count, not MyBest scores.",
+      "variants": "TOEFL iBT Home Edition and TOEFL Essentials not accepted; scores from a single test date only, not MyBest."
     },
-    duolingo: { min: null, recommended: null, note: 'Not confirmed during this check.' },
-    waiver: 'No English test is required from applicants whose most recent six years of formal education before enrolment were conducted and instructed only in English.',
-    note: 'Tests must have been taken within two years before the last day of the application period. Ritsumeikan has published temporary changes to its English proficiency requirements, so check the programme handbook.',
-    source: 'https://en.ritsumei.ac.jp/e-ug/apply/howto.html/',
-    verified: '2026-09-24'
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Not confirmed during this check."
+    },
+    "waiver": "No English test is required from applicants whose most recent six years of formal education before enrolment were conducted and instructed only in English.",
+    "note": "Tests must have been taken within two years before the last day of the application period. Ritsumeikan has published temporary changes to its English proficiency requirements, so check the programme handbook.",
+    "source": "https://en.ritsumei.ac.jp/e-ug/apply/howto.html/",
+    "verified": "2026-09-24",
+    "detailsSource": "https://en.ritsumei.ac.jp/e-ug/apply/howto.html/",
+    "detailsVerified": "2026-10-06"
   },
   academics: {
     gpa: null,
@@ -1751,24 +2007,71 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Applicants normally need 12 years of school education completed outside Japan, or an equivalent qualification such as the IB, A-levels or a recognised national school-leaving certificate.'
   },
   costs: {
-    breakdown: { tuition: 1439200, includes: 'tuition for the Global Studies major across two semesters; entrance and other fees, and living costs, are extra' },
-    academicYear: '2026–2027',
-    currency: 'JPY',
-    headline: '¥1,439,200 tuition per year',
-    items: [
-      { label: 'Tuition (per semester)', amount: 719600 },
-      { label: 'Tuition (per year)', amount: 1439200 }
+    "breakdown": {
+      "tuition": 1469200,
+      "billed": 1669200,
+      "period": "year"
+    },
+    "academicYear": "2027–2028",
+    "currency": "JPY",
+    "headline": "Global Studies 2027 tuition: ¥1,469,200 per year",
+    "items": [
+      {
+        "label": "Global Studies annual tuition",
+        "amount": 1469200
+      },
+      {
+        "label": "Entrance fee, once",
+        "amount": 200000
+      }
     ],
-    billedSubtotal: null,
-    totalText: '¥1,439,200 a year in tuition for the Global Studies major',
-    note: 'Ritsumeikan states that fees are expected to increase 5–7% annually.'
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": "Global Studies major at Kinugasa, 2027 entrants. Admission and membership fees are separate from annual tuition; residence and living costs are extra. Joint-degree semesters at American University and GLA study at ANU use their own charges.",
+    "source": "https://en.ritsumei.ac.jp/e-ug/financial_info/fees.html/",
+    "verified": "2026-11-17",
+    "status": "confirmed"
   },
   scholarships: {
-    fullRide: { available: false, internationalEligible: false, basis: null, covers: { tuition: false, housing: false, meals: false, insurance: false, books: false }, renewable: null, competitiveness: null, howToApply: null, note: 'The main scheme is a tuition reduction rather than a full scholarship.' },
-    merit: [
-      { name: 'RU Tuition Reduction Scheme', amount: 'A reduction in tuition, decided on the admission evaluation', eligibility: 'International students admitted to the English-medium programmes', deadline: null, application: 'Based on the admission evaluation', renewable: null, note: 'Offered initially for one year; the percentage bands were not read during this check.' }
+    "fullRide": {
+      "available": false,
+      "internationalEligible": false,
+      "basis": null,
+      "covers": {
+        "tuition": false,
+        "housing": false,
+        "meals": false,
+        "insurance": false,
+        "books": false
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "The main scheme is a tuition reduction rather than a full scholarship."
+    },
+    "merit": [
+      {
+        "name": "RU Tuition Reduction Scheme",
+        "amount": "2027: tuition reductions of 100%, 50% or 20%, by admission ranking",
+        "eligibility": "International students admitted to the English-medium programmes",
+        "deadline": null,
+        "application": "Based on the admission evaluation",
+        "renewable": null,
+        "note": "The published reductions apply initially to the first year and require Student residence status. Future-year awards use separate criteria. Housing, meals and other fees remain outside the tuition reduction.",
+        "internationalEligible": true,
+        "firstYearEligible": true,
+        "source": "https://en.ritsumei.ac.jp/e-ug/financial_info/scholarships.html/",
+        "verified": "2026-11-17"
+      }
     ],
-    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Ritsumeikan also supports applications to external scholarships such as JASSO.' }
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": false,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Ritsumeikan also supports applications to external scholarships such as JASSO."
+    }
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
@@ -2008,18 +2311,32 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'Secondary school graduation with transcripts; TUJ also runs an entry-year programme for applicants who need it.'
   },
   costs: {
-      breakdown: { tuition: null, budget: 3500000, budgetText: 'About ¥3,500,000 for the first two semesters', includes: 'TUJ estimate covering tuition, school fees and living expenses for the first two semesters; the one-time matriculation fee of ¥434,100 is separate' },
-      academicYear: '2026–2027',
-      currency: 'JPY',
-      headline: 'About ¥3,500,000 for the first two semesters',
-      items: [
-        {"label": "Estimated tuition, fees and living costs (first two semesters)", "amount": 3500000, "group": "estimate"},
-        {"label": "Matriculation fee (one-time, charged separately)", "amount": 434100, "group": "extra"}
-      ],
-      billedSubtotal: null,
-      totalText: 'About ¥3,500,000 for the first year including living costs, plus the matriculation fee',
-      note: 'This is an estimate published by TUJ, not a tuition-only figure.'
+    "breakdown": {
+      "tuition": null,
+      "budget": 3500000,
+      "budgetText": "About ¥3,500,000 for the first two semesters",
+      "includes": "TUJ estimate covering tuition, school fees and living expenses for the first two semesters; the one-time matriculation fee of ¥434,100 is separate"
     },
+    "academicYear": "2026–2027",
+    "currency": "JPY",
+    "headline": "About ¥3,500,000 for the first two semesters",
+    "items": [
+      {
+        "label": "Estimated tuition, fees and living costs (first two semesters)",
+        "amount": 3500000,
+        "group": "estimate"
+      },
+      {
+        "label": "Matriculation fee (one-time, charged separately)",
+        "amount": 434100,
+        "group": "extra"
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": "About ¥3,500,000 for the first year including living costs, plus the matriculation fee",
+    "note": "This is an estimate published by TUJ, not a tuition-only figure.",
+    "status": "previous-cycle"
+  },
   scholarships: {
     fullRide: { available: false, internationalEligible: false, basis: 'merit', covers: { tuition: true, housing: false, meals: false, insurance: false, books: false }, renewable: null, competitiveness: 'Awards go up to 100% of tuition and are decided on merit.', howToApply: 'Considered through the admission process.', note: 'A 100% merit award covers tuition only — living costs in Tokyo and the matriculation fee remain payable, so this is not a full ride.' },
     merit: [
@@ -2234,14 +2551,33 @@ window.UNIPATH.universities.push(
     notes: ['Kwansei Gakuin states that tuition for 2027 entrants had not been finalised when this was checked.']
   },
   english: {
-    ielts: { min: 6, recommended: null, note: 'The School of International Studies asks for IELTS 6.0 or higher from applicants whose first language is not English.' },
-    toefl: { min: 71, recommended: null, scales: [{ period: 'pre2026', min: 71, note: 'TOEFL iBT 71 or higher. The TOEFL iBT Home Edition is not accepted.' }], note: 'TOEFL iBT 71 or higher; the Home Edition is not accepted.' },
-    duolingo: { min: null, recommended: null, note: 'Not listed among the accepted tests.' },
-    otherTests: 'TOEIC L&R 730 or higher, and EIKEN pre-first grade or higher.',
-    waiver: 'Applicants who graduated, or expect to graduate, from an institution teaching in English are exempt, provided they had at least three years of education there.',
-    note: 'Scores must be from a test taken within two years before the application, except for EIKEN.',
-    source: 'https://www.kwansei.ac.jp/en/assets/International_Admission_2026_Application_Handbook.pdf',
-    verified: '2026-09-24'
+    "ielts": {
+      "min": 6,
+      "recommended": null,
+      "note": "The School of International Studies asks for IELTS 6.0 or higher from applicants whose first language is not English."
+    },
+    "toefl": {
+      "min": 71,
+      "recommended": null,
+      "scales": [
+        {
+          "period": "pre2026",
+          "min": 71,
+          "note": "TOEFL iBT 71 or higher. The TOEFL iBT Home Edition is not accepted."
+        }
+      ],
+      "note": "For SIS International Admission 2027, TOEFL iBT 71 or higher; Home Edition is not accepted. For tests from 21 January 2026, eligibility is determined using the previous scale printed alongside the new score."
+    },
+    "duolingo": {
+      "min": null,
+      "recommended": null,
+      "note": "Not listed among the accepted tests."
+    },
+    "otherTests": "TOEIC L&R 730 or higher, and EIKEN pre-first grade or higher.",
+    "waiver": "For SIS International Admission 2027, applicants whose first language is English are exempt. Otherwise, graduates or expected graduates need at least three years of education in English at the most recently attended institution, proved by official transcripts or a letter from its principal.",
+    "note": "Scores must be from a test taken within two years before the application, except for EIKEN.",
+    "source": "https://www.kwansei.ac.jp/en/assets/List_of_Application_Documents2027.pdf",
+    "verified": "2026-11-18"
   },
   academics: {
     gpa: null,
@@ -2269,7 +2605,7 @@ window.UNIPATH.universities.push(
   photos: { main: null, gallery: [], city: null },
   sources: [
     { label: 'Admission and tuition fees - School of International Studies', url: 'https://www.kwansei.ac.jp/en/academics/undergraduate/international-studies/admission.html' },
-    { label: 'International Admission application handbook 2026 (PDF)', url: 'https://www.kwansei.ac.jp/en/assets/International_Admission_2026_Application_Handbook.pdf' },
+    { label: 'International Admission application handbook 2026 (PDF)', url: 'https://www.kwansei.ac.jp/en/assets/List_of_Application_Documents2027.pdf' },
     { label: 'About — history and facts', url: 'https://www.kwansei.ac.jp/en/about/facts.html' }
   ],
   verification: { level: 'partial', checked: ['English-based degree route','compulsory Japanese course','fee publication status','english (IELTS, TOEFL, TOEIC and EIKEN minimums and waiver)'], unconfirmed: ['tuition amounts','2027 dates','scholarships','application fee'] },
@@ -2343,12 +2679,43 @@ window.UNIPATH.universities.push(
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
-    { label: 'Admissions for international students', url: 'https://www.toyo.ac.jp/nyushi/en/admission/' },
-    { label: 'Online entrance examination guide - Global Innovation Studies (PDF)', url: 'https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/admission/admission-data/international-student/requirements-online/online-entry-exam_dgis_2026_sep_en.pdf' },
-    { label: 'Payment of tuition and fees (PDF)', url: 'https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/international-student/payment-of-tuition-and-fees_en.pdf' },
-    { label: 'About — history and facts', url: 'https://www.toyo.ac.jp/about/gakuhou/backnumber/en/268_07/' }
+    {
+      "label": "Admissions for international students",
+      "url": "https://www.toyo.ac.jp/nyushi/en/admission/"
+    },
+    {
+      "label": "Online entrance examination guide - Global Innovation Studies (PDF)",
+      "url": "https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/admission/admission-data/international-student/requirements-online/online-entry-exam_dgis_2026_sep_en.pdf"
+    },
+    {
+      "label": "Payment of tuition and fees (PDF)",
+      "url": "https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/international-student/payment-of-tuition-and-fees_en.pdf"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.toyo.ac.jp/about/gakuhou/backnumber/en/268_07/"
+    },
+    {
+      "label": "Current admissions reference — not a replacement confirmation of the unavailable cycle",
+      "url": "https://www.toyo.ac.jp/nyushi/admission/admission-data/international-student/application-guide/"
+    }
   ],
-  verification: { level: 'partial', checked: ['English-based route','TOEFL requirement','selection method','tuition reduction'], unconfirmed: ['tuition amounts','2027 dates','IELTS acceptance','application fee'] },
+  verification: {
+    "level": "partial",
+    "checked": [
+      "English-based route",
+      "TOEFL requirement",
+      "selection method",
+      "tuition reduction"
+    ],
+    "unconfirmed": [
+      "tuition amounts",
+      "2027 dates",
+      "IELTS acceptance",
+      "application fee",
+      "The September 2026 Global Innovation Studies guide is missing. The current application index covers April 2027 and says the September 2027 guide is pending; it does not verify the old September document."
+    ]
+  },
   lastVerified: '2026-09-23'
 },
 

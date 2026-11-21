@@ -1,0 +1,615 @@
+{
+  "root": "https://s79885212-maker.github.io/unipath/staging/",
+  "live": true,
+  "profiles": [],
+  "scenarios": [
+    {
+      "lang": "en",
+      "width": 1280,
+      "matcher": "intake, historical, lower bound, exact budget, section warning, reload passed"
+    },
+    {
+      "lang": "ru",
+      "width": 390,
+      "matcher": "intake, historical, lower bound, exact budget, section warning, reload passed"
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "savedCompareCalendar": "six countries saved, three compared, reload and removal passed",
+      "calendar": {
+        "expected": [
+          {
+            "id": "college-of-wooster",
+            "date": "2026-11-01"
+          },
+          {
+            "id": "college-of-wooster",
+            "date": "2026-11-01"
+          },
+          {
+            "id": "college-of-wooster",
+            "date": "2027-01-15"
+          },
+          {
+            "id": "college-of-wooster",
+            "date": "2027-02-15"
+          },
+          {
+            "id": "kaist",
+            "date": "2026-10-22"
+          },
+          {
+            "id": "kaist",
+            "date": "2027-01-14"
+          }
+        ],
+        "rows": 6
+      },
+      "controls": [
+        {
+          "id": "browse-q",
+          "type": "search",
+          "placeholder": "Search universities, colleges, cities, programs, scholarships…"
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        }
+      ],
+      "mediaGeometry": {
+        "coverHeight": 521.25,
+        "imageHeight": 521.25
+      }
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "theme": "dark"
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "catalogue": "search, combined filters, reset, reload, Full ride exclusion, locale switch, menu Escape and focus passed"
+    },
+    {
+      "lang": "ru",
+      "width": 390,
+      "savedCompareCalendar": "six countries saved, three compared, reload and removal passed",
+      "calendar": {
+        "expected": [
+          {
+            "id": "college-of-wooster",
+            "date": "2026-11-01"
+          },
+          {
+            "id": "college-of-wooster",
+            "date": "2026-11-01"
+          },
+          {
+            "id": "college-of-wooster",
+            "date": "2027-01-15"
+          },
+          {
+            "id": "college-of-wooster",
+            "date": "2027-02-15"
+          },
+          {
+            "id": "kaist",
+            "date": "2026-10-22"
+          },
+          {
+            "id": "kaist",
+            "date": "2027-01-14"
+          }
+        ],
+        "rows": 6
+      },
+      "controls": [
+        {
+          "id": "browse-q",
+          "type": "search",
+          "placeholder": "Ищите вузы, колледжи, города, программы, стипендии…"
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        }
+      ],
+      "mediaGeometry": {
+        "coverHeight": 217.5,
+        "imageHeight": 217.5
+      }
+    },
+    {
+      "lang": "ru",
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "lang": "ru",
+      "width": 390,
+      "catalogue": "search, combined filters, reset, reload, Full ride exclusion, locale switch, menu Escape and focus passed"
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "No real Safari or iPhone tested. Saved list has an application-date table; no standalone calendar or export exists."
+  ],
+  "browser": "Chrome 157.0.8103.51",
+  "version": "assets/js/app.js?v=250",
+  "turnstile": "The pre-existing staging exemption is active; gate.js was not changed by this task.",
+  "webkitInstalled": false
+}

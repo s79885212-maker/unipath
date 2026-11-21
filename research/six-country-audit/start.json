@@ -1,0 +1,32 @@
+{
+  "main": {
+    "sha": "d2f275a6e39af6be3f25febf4fca434039ea5ea9",
+    "tree": "64ba3f18647db56e44fba35fa62dc6533b6fbafa"
+  },
+  "dev": {
+    "sha": "09e0e3d2c5aa3b725202b2934816dfc9e6c64b9b",
+    "tree": "64ba3f18647db56e44fba35fa62dc6533b6fbafa"
+  },
+  "prs": [
+    {
+      "number": 1,
+      "title": "Исправить фильтры бюджета и грантов для иностранных первокурсников",
+      "html_url": "https://github.com/s79885212-maker/unipath/pull/1",
+      "draft": true,
+      "head": "codex/budget-grant-filters",
+      "base": "dev"
+    }
+  ],
+  "https://s79885212-maker.github.io/unipath/": {
+    "version": [
+      "246"
+    ],
+    "status": 200
+  },
+  "https://s79885212-maker.github.io/unipath/staging/": {
+    "version": [
+      "246"
+    ],
+    "status": 200
+  }
+}

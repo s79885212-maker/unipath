@@ -1,0 +1,48 @@
+{
+  "pr": 24,
+  "url": "https://s79885212-maker.github.io/unipath/staging/",
+  "head": "4366e6044a3aab82650e2f4b684ca5b9daf7077a",
+  "merge": "2e83754539a35ede1fdc58487e89567f81f48976",
+  "base": "dev",
+  "mainUnchanged": "d2f275a6e39af6be3f25febf4fca434039ea5ea9",
+  "version": 250,
+  "stagingCheck": "https://github.com/s79885212-maker/unipath/actions/runs/44208995324",
+  "deployment": "https://github.com/s79885212-maker/unipath/actions/runs/44209072518",
+  "deploymentRun": 44209072518,
+  "assets": [
+    {
+      "path": "assets/js/match.js",
+      "sha256": "ac2aa596055af88670f4c123b286c3714edea2b6e50ede65c7cbcb9dec9c2a92"
+    },
+    {
+      "path": "assets/css/styles.css",
+      "sha256": "c48a9f2ad749f1ebb03367dae221fa82b2d82d9992decf5de6ef9447cc1ffd49"
+    },
+    {
+      "path": "data/universities.kr.js",
+      "sha256": "44510a6f43c5cb85b45b52bc52b2916161efedeef44707e1f127e0034324b87e"
+    },
+    {
+      "path": "data/universities.de.js",
+      "sha256": "f918666e39b71385d8b58e3bc418211f9a3d77e754970479bcf5849f4d466ffa"
+    },
+    {
+      "path": "data/universities.uk.js",
+      "sha256": "1dc7ebe8118f8039bb2aaeb085b503ad14e3c3423cf5fe6f1d017b76cba284c4"
+    },
+    {
+      "path": "data/match.js",
+      "sha256": "08756d825d2937a5923f559bc0d82e4b600d0519a51223b9df6e35088f4d1867"
+    }
+  ],
+  "noindex": true,
+  "productionVersion": 246,
+  "mainAfter": "d2f275a6e39af6be3f25febf4fca434039ea5ea9",
+  "tree": "c39e1157742f854c0d96d30e884c59fde436e4e9",
+  "liveProfiles": 120,
+  "liveScenarioRecords": 8,
+  "uniquePhotos": 151,
+  "liveErrors": 0,
+  "gatePolicy": "Existing staging pathname/noindex exemption, unchanged in this PR",
+  "verdict": "Ready for release review within tested coverage"
+}

@@ -1,0 +1,2962 @@
+{
+  "base": "2e83754539a35ede1fdc58487e89567f81f48976",
+  "generatedAt": "2026-11-18T03:58:32.693Z",
+  "changes": [
+    {
+      "id": "university-of-pennsylvania",
+      "country": "us",
+      "fields": [
+        {
+          "field": "verification",
+          "before": null,
+          "after": {
+            "level": "partial",
+            "checked": [],
+            "unconfirmed": [
+              "Past enrolled-student statistics and degree-area figures: the Box page loads only its shell; the document could not be read."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "university-of-chicago",
+      "country": "us",
+      "fields": [
+        {
+          "field": "sources",
+          "before": [
+            {
+              "label": "International financial aid",
+              "url": "https://collegeadmissions.uchicago.edu/financial-support/international-financial-aid/"
+            },
+            {
+              "label": "International applicants",
+              "url": "https://collegeadmissions.uchicago.edu/apply/international-applicants/"
+            },
+            {
+              "label": "College historical cost of attendance",
+              "url": "https://csl.uchicago.edu/college-historical-cost-of-attendance/"
+            },
+            {
+              "label": "UChicago will offer free tuition for families with incomes below $250,000",
+              "url": "https://news.uchicago.edu/story/uchicago-will-offer-free-tuition-families-incomes-below-250000-greatly-expanding"
+            },
+            {
+              "label": "UChicago launches test-optional admissions process",
+              "url": "https://college.uchicago.edu/news/academic-stories/uchicago-launches-test-optional-admissions-process-expanded-financial-aid"
+            }
+          ],
+          "after": [
+            {
+              "label": "International financial aid",
+              "url": "https://collegeadmissions.uchicago.edu/financial-support/international-financial-aid/"
+            },
+            {
+              "label": "International applicants",
+              "url": "https://collegeadmissions.uchicago.edu/apply/international-applicants/"
+            },
+            {
+              "label": "College historical cost of attendance",
+              "url": "https://csl.uchicago.edu/college-historical-cost-of-attendance/"
+            },
+            {
+              "label": "UChicago will offer free tuition for families with incomes below $250,000",
+              "url": "https://news.uchicago.edu/story/uchicago-will-offer-free-tuition-families-incomes-below-250000-greatly-expanding"
+            },
+            {
+              "label": "UChicago launches test-optional admissions process",
+              "url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "georgetown-university",
+      "country": "us",
+      "fields": [
+        {
+          "field": "verification",
+          "before": null,
+          "after": {
+            "level": "partial",
+            "checked": [],
+            "unconfirmed": [
+              "Historical application fee, enrolled-student statistics and degree-area figures: the Box document could not be read."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tulane-university",
+      "country": "us",
+      "fields": [
+        {
+          "field": "verification",
+          "before": null,
+          "after": {
+            "level": "partial",
+            "checked": [],
+            "unconfirmed": [
+              "Historical application fee, enrolled-student statistics and degree-area figures: the Box document could not be read."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "trinity-college-hartford",
+      "country": "us",
+      "fields": [
+        {
+          "field": "links",
+          "before": {
+            "website": "https://www.trincoll.edu/",
+            "admissions": "https://www.trincoll.edu/admissions/undergraduate-admissions/application-process/",
+            "internationalAdmissions": "https://www.trincoll.edu/admissions/international-admissions/",
+            "applicationPortal": "https://www.commonapp.org/",
+            "scholarships": "https://www.trincoll.edu/admissions/finaid/",
+            "financialAid": "https://www.trincoll.edu/admissions/finaid/international-students/",
+            "programs": "https://www.trincoll.edu/academics/majors",
+            "cost": "https://www.trincoll.edu/student-accounts/tuition-and-fees/"
+          },
+          "after": {
+            "website": "https://www.trincoll.edu/",
+            "admissions": "https://www.trincoll.edu/admissions/undergraduate-admissions/application-process/",
+            "internationalAdmissions": "https://www.trincoll.edu/admissions/international-admissions/",
+            "applicationPortal": "https://www.commonapp.org/",
+            "scholarships": "https://www.trincoll.edu/admissions/finaid/",
+            "financialAid": "https://www.trincoll.edu/admissions/finaid/international-students/",
+            "programs": "https://www.trincoll.edu/dean-of-faculty/academic-programs-and-centers/curriculum/",
+            "cost": "https://www.trincoll.edu/student-accounts/tuition-and-fees/"
+          }
+        },
+        {
+          "field": "sources",
+          "before": [
+            {
+              "label": "Application process and 2026–27 deadlines",
+              "url": "https://www.trincoll.edu/admissions/undergraduate-admissions/application-process/"
+            },
+            {
+              "label": "Financial aid for international students",
+              "url": "https://www.trincoll.edu/admissions/finaid/international-students/"
+            },
+            {
+              "label": "Tuition and fees 2026–27",
+              "url": "https://www.trincoll.edu/student-accounts/tuition-and-fees/"
+            },
+            {
+              "label": "Admissions FAQ",
+              "url": "https://www.trincoll.edu/admissions/undergraduate-admissions/faq/"
+            },
+            {
+              "label": "English proficiency exams",
+              "url": "https://www.trincoll.edu/admissions/international-admissions/english-proficiency-exams/"
+            },
+            {
+              "label": "About — history and facts",
+              "url": "https://www.trincoll.edu/about"
+            }
+          ],
+          "after": [
+            {
+              "label": "Application process and 2026–27 deadlines",
+              "url": "https://www.trincoll.edu/admissions/undergraduate-admissions/application-process/"
+            },
+            {
+              "label": "Financial aid for international students",
+              "url": "https://www.trincoll.edu/admissions/finaid/international-students/"
+            },
+            {
+              "label": "Tuition and fees 2026–27",
+              "url": "https://www.trincoll.edu/student-accounts/tuition-and-fees/"
+            },
+            {
+              "label": "Admissions FAQ",
+              "url": "https://www.trincoll.edu/admissions/undergraduate-admissions/faq/"
+            },
+            {
+              "label": "English proficiency exams",
+              "url": "https://www.trincoll.edu/admissions/international-admissions/english-proficiency-exams/"
+            },
+            {
+              "label": "About — history and facts",
+              "url": "https://www.trincoll.edu/AboutTrinity/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gettysburg-college",
+      "country": "us",
+      "fields": [
+        {
+          "field": "verification",
+          "before": {
+            "level": "partial",
+            "checked": [
+              "deadlines",
+              "testing policy",
+              "English tests",
+              "costs",
+              "aid for international students",
+              "application fee",
+              "founding year"
+            ],
+            "unconfirmed": [
+              "whether the English scores are minimums"
+            ]
+          },
+          "after": {
+            "level": "partial",
+            "checked": [
+              "deadlines",
+              "testing policy",
+              "English tests",
+              "costs",
+              "aid for international students",
+              "application fee",
+              "founding year"
+            ],
+            "unconfirmed": [
+              "whether the English scores are minimums",
+              "Fall 2025 CDS statistics, degree-area figures and its historical application-fee reference: the old PDF is missing; the CDS index links back to itself and does not verify the figures."
+            ]
+          }
+        },
+        {
+          "field": "fieldNotes",
+          "before": {
+            "engineering": {
+              "kind": "pathway",
+              "checked": "2026-10-06",
+              "note": "A dual-degree engineering programme: the engineering major is taken at one of four affiliated universities.",
+              "url": "https://www.gettysburg.edu/academic-programs/physics/programs/engineering-dual-degree"
+            }
+          },
+          "after": {
+            "engineering": {
+              "kind": "pathway",
+              "checked": "2026-10-06",
+              "note": "A dual-degree engineering programme: the engineering major is taken at one of four affiliated universities.",
+              "url": "https://www.gettysburg.edu/academics/all-programs/physics/curriculum"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sewanee-university-of-the-south",
+      "country": "us",
+      "fields": [
+        {
+          "field": "links",
+          "before": {
+            "website": "https://new.sewanee.edu/",
+            "admissions": "https://new.sewanee.edu/admission-aid/",
+            "internationalAdmissions": "https://new.sewanee.edu/admission-aid/application-process/application-review/international-applicants/",
+            "applicationPortal": "https://www.commonapp.org/",
+            "scholarships": "https://new.sewanee.edu/admission-aid/cost-financial-aid/",
+            "financialAid": "https://new.sewanee.edu/admission-aid/cost-financial-aid/need-based-aid/",
+            "programs": "https://new.sewanee.edu/programs-of-study/finding-your-place/",
+            "cost": "https://new.sewanee.edu/admission-aid/cost-financial-aid/"
+          },
+          "after": {
+            "website": "https://new.sewanee.edu/",
+            "admissions": "https://new.sewanee.edu/admission-aid/",
+            "internationalAdmissions": "https://new.sewanee.edu/admission-aid/application-process/application-review/international-applicant/",
+            "applicationPortal": "https://www.commonapp.org/",
+            "scholarships": "https://new.sewanee.edu/admission-aid/cost-financial-aid/",
+            "financialAid": "https://new.sewanee.edu/admission-aid/cost-financial-aid/need-based-aid/",
+            "programs": "https://new.sewanee.edu/programs-of-study/finding-your-place/",
+            "cost": "https://new.sewanee.edu/admission-aid/cost-financial-aid/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "soka-university-of-america",
+      "country": "us",
+      "fields": [
+        {
+          "field": "links",
+          "before": {
+            "website": "https://www.soka.edu/",
+            "admissions": "https://www.soka.edu/admissions-aid/how-apply",
+            "internationalAdmissions": "https://www.soka.edu/admissions-aid/how-apply",
+            "applicationPortal": "https://www.soka.edu/apply",
+            "scholarships": "https://www.soka.edu/admissions-aid/financial-aid/soka-opportunity-plan",
+            "financialAid": "https://www.soka.edu/admissions-aid/aid-international-undergraduate-students",
+            "programs": "https://www.soka.edu/academics",
+            "cost": "https://www.soka.edu/admissions-aid/cost-attendance"
+          },
+          "after": {
+            "website": "https://www.soka.edu/",
+            "admissions": "https://www.soka.edu/admissions-aid/how-apply",
+            "internationalAdmissions": "https://www.soka.edu/admissions-aid/how-apply",
+            "applicationPortal": "https://www.soka.edu/admissions-aid/how-apply",
+            "scholarships": "https://www.soka.edu/admissions-aid/financial-aid/soka-opportunity-plan",
+            "financialAid": "https://www.soka.edu/admissions-aid/aid-international-undergraduate-students",
+            "programs": "https://www.soka.edu/academics",
+            "cost": "https://www.soka.edu/admissions-aid/cost-attendance"
+          }
+        },
+        {
+          "field": "verification",
+          "before": {
+            "level": "partial",
+            "checked": [
+              "deadlines",
+              "application fee",
+              "testing policy",
+              "English tests",
+              "costs",
+              "aid for international students",
+              "founding year",
+              "degree structure and concentrations"
+            ],
+            "unconfirmed": [
+              "whether housing and food can be covered by aid",
+              "merit scholarship amounts"
+            ]
+          },
+          "after": {
+            "level": "partial",
+            "checked": [
+              "deadlines",
+              "application fee",
+              "testing policy",
+              "English tests",
+              "costs",
+              "aid for international students",
+              "founding year",
+              "degree structure and concentrations"
+            ],
+            "unconfirmed": [
+              "whether housing and food can be covered by aid",
+              "merit scholarship amounts",
+              "Past enrolled-student statistics: the Box page loads only its shell; the document could not be read."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hendrix-college",
+      "country": "us",
+      "fields": [
+        {
+          "field": "links",
+          "before": {
+            "website": "https://www.hendrix.edu/",
+            "admissions": "https://www.hendrix.edu/admission-aid/",
+            "internationalAdmissions": "https://via.hendrix.edu/admission-aid/international-applicants",
+            "applicationPortal": "http://apply.hendrix.edu/apply",
+            "scholarships": "https://www.hendrix.edu/financialaid/scholarships/",
+            "financialAid": "https://www.hendrix.edu/admission-aid/financial-aid",
+            "programs": "https://via.hendrix.edu/academics/departments-and-majors/",
+            "cost": "https://www.hendrix.edu/financialaid/default.aspx?id=236"
+          },
+          "after": {
+            "website": "https://www.hendrix.edu/",
+            "admissions": "https://www.hendrix.edu/admission-aid/",
+            "internationalAdmissions": "https://via.hendrix.edu/admission-aid/international-applicants",
+            "applicationPortal": "http://apply.hendrix.edu/apply",
+            "scholarships": "https://www.hendrix.edu/financialaid/scholarships/",
+            "financialAid": "https://www.hendrix.edu/financialaid/",
+            "programs": "https://via.hendrix.edu/academics/departments-and-majors/",
+            "cost": "https://www.hendrix.edu/financialaid/default.aspx?id=236"
+          }
+        }
+      ]
+    },
+    {
+      "id": "santa-clara-university",
+      "country": "us",
+      "fields": [
+        {
+          "field": "links",
+          "before": {
+            "website": "https://www.scu.edu/",
+            "admissions": "https://www.scu.edu/admission/undergraduate/first-year-students/",
+            "internationalAdmissions": "https://www.scu.edu/admission/undergraduate/international-students/",
+            "applicationPortal": "https://www.commonapp.org/",
+            "scholarships": null,
+            "financialAid": "https://www.scu.edu/admission/financial-aid/",
+            "programs": "https://www.scu.edu/academics/undergraduate-programs/",
+            "cost": "https://www.scu.edu/financialaid/cost-of-attendance/"
+          },
+          "after": {
+            "website": "https://www.scu.edu/",
+            "admissions": "https://www.scu.edu/admission/undergraduate/first-year-students/",
+            "internationalAdmissions": "https://www.scu.edu/admission/undergraduate/international-students/",
+            "applicationPortal": "https://www.commonapp.org/",
+            "scholarships": null,
+            "financialAid": "https://www.scu.edu/financialaid/international/",
+            "programs": "https://www.scu.edu/academics/undergraduate-programs/",
+            "cost": "https://www.scu.edu/financialaid/cost-of-attendance/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "texas-a-and-m-university",
+      "country": "us",
+      "fields": [
+        {
+          "field": "scholarships",
+          "before": {
+            "fullRide": {
+              "available": null,
+              "internationalEligible": null,
+              "basis": null,
+              "covers": {
+                "tuition": null,
+                "housing": null,
+                "meals": null,
+                "insurance": null,
+                "books": null
+              },
+              "renewable": null,
+              "competitiveness": null,
+              "howToApply": null,
+              "note": "Texas A&M says aid for international students is need-based, supplements the student’s own funds, does not cover all educational costs and is limited and not guaranteed.",
+              "status": "not-published"
+            },
+            "merit": [],
+            "needBased": {
+              "availableToInternational": true,
+              "meetsFullNeed": false,
+              "needBlindInternational": null,
+              "forms": [
+                "Texas Application for State Financial Aid (TASFA)"
+              ],
+              "deadlines": null,
+              "note": "From the 2026–2027 academic year the TASFA replaces the ISFAA for international students at Texas A&M; it is filed once for each academic year."
+            }
+          },
+          "after": {
+            "fullRide": {
+              "available": null,
+              "internationalEligible": null,
+              "basis": null,
+              "covers": {
+                "tuition": null,
+                "housing": null,
+                "meals": null,
+                "insurance": null,
+                "books": null
+              },
+              "renewable": null,
+              "competitiveness": null,
+              "howToApply": null,
+              "note": "Texas A&M says aid for international students is need-based, supplements the student’s own funds, does not cover all educational costs and is limited and not guaranteed.",
+              "status": "not-published"
+            },
+            "merit": [],
+            "needBased": {
+              "availableToInternational": true,
+              "meetsFullNeed": false,
+              "needBlindInternational": null,
+              "forms": [
+                "Texas Application for State Financial Aid (TASFA)"
+              ],
+              "deadlines": null,
+              "note": "ITPEG is unavailable to F-1 students during their first academic year (Fall and Spring), and J-1 students are excluded. The separate Mexican Citizens waiver is restricted by nationality and residence. TASFA alone does not make an Uzbek international first-year applicant eligible for these programmes. No Fall 2027 aid deadline is confirmed here.",
+              "firstYearEligible": null,
+              "source": "https://aggie.tamu.edu/paying-for-college/apply-for-financial-aid/international-student-financial-aid.html",
+              "verified": "2026-11-18",
+              "status": "not-checked"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "willamette-university",
+      "country": "us",
+      "fields": [
+        {
+          "field": "programEvidence",
+          "before": {
+            "business": {
+              "program": "Business Administration (BS)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://catalog.willamette.edu/programs/BS.BUS",
+              "checked": "2026-10-14"
+            },
+            "economics": {
+              "program": "Economics (BA)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://catalog.willamette.edu/programs/BA.ECON",
+              "checked": "2026-10-14"
+            },
+            "computer-science": {
+              "program": "Computer Science (BS)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://catalog.willamette.edu/programs/BS.CS",
+              "checked": "2026-10-14"
+            },
+            "engineering": {
+              "program": "Industrial Engineering and Operations Research (BS)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://catalog.willamette.edu/programs/BS.IEOR",
+              "checked": "2026-10-14"
+            },
+            "psychology": {
+              "program": "Psychology (BA)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://catalog.willamette.edu/programs/BA.PSYC",
+              "checked": "2026-10-14"
+            },
+            "biology": {
+              "program": "Biology (BS)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://catalog.willamette.edu/programs/BS.BIOL",
+              "checked": "2026-10-14"
+            },
+            "mathematics": {
+              "program": "Mathematics (BA)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://catalog.willamette.edu/programs/BA.MATH",
+              "checked": "2026-10-14"
+            },
+            "social-sciences": {
+              "program": "Sociology (BA)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://catalog.willamette.edu/programs/BA.SOC",
+              "checked": "2026-10-14"
+            },
+            "humanities": {
+              "program": "History (BA)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://catalog.willamette.edu/programs/BA.HIST",
+              "checked": "2026-10-14"
+            },
+            "arts": {
+              "program": "Studio Art (BA)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://catalog.willamette.edu/programs/BA.ARTS",
+              "checked": "2026-10-14"
+            }
+          },
+          "after": {
+            "business": {
+              "program": "Business Administration (BS)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://catalog.willamette.edu/programs/BS.BUS",
+              "checked": "2026-10-14"
+            },
+            "economics": {
+              "program": "Economics (BA)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://catalog.willamette.edu/programs/BA.ECON",
+              "checked": "2026-10-14"
+            },
+            "computer-science": {
+              "program": "Computer Science (BS)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://catalog.willamette.edu/programs/BS.CS",
+              "checked": "2026-10-14"
+            },
+            "engineering": {
+              "program": "Industrial Engineering and Operations Research (BS)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://willamette.edu/academics/college/industrial-engineering/requirements",
+              "checked": "2026-10-14"
+            },
+            "psychology": {
+              "program": "Psychology (BA)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://catalog.willamette.edu/programs/BA.PSYC",
+              "checked": "2026-10-14"
+            },
+            "biology": {
+              "program": "Biology (BS)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://catalog.willamette.edu/programs/BS.BIOL",
+              "checked": "2026-10-14"
+            },
+            "mathematics": {
+              "program": "Mathematics (BA)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://catalog.willamette.edu/programs/BA.MATH",
+              "checked": "2026-10-14"
+            },
+            "social-sciences": {
+              "program": "Sociology (BA)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://catalog.willamette.edu/programs/BA.SOC",
+              "checked": "2026-10-14"
+            },
+            "humanities": {
+              "program": "History (BA)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://catalog.willamette.edu/programs/BA.HIST",
+              "checked": "2026-10-14"
+            },
+            "arts": {
+              "program": "Studio Art (BA)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://catalog.willamette.edu/programs/BA.ARTS",
+              "checked": "2026-10-14"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "university-of-tennessee-knoxville",
+      "country": "us",
+      "fields": [
+        {
+          "field": "verification",
+          "before": {
+            "level": "partial",
+            "checked": [
+              "Named bachelor programme and available official admission instructions."
+            ],
+            "unconfirmed": [
+              "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
+              "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
+              "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below."
+            ]
+          },
+          "after": {
+            "level": "partial",
+            "checked": [
+              "Named bachelor programme and available official admission instructions."
+            ],
+            "unconfirmed": [
+              "Not checked: exact Uzbek Attestat and academic lyceum diploma equivalence, grade and subject thresholds and any foundation requirement remain unconfirmed. General international instructions do not guarantee eligibility.",
+              "The named bachelor majors below have official campus evidence; this is a partial list, not a full catalogue. A missing field is not proof that it is unavailable. School admission, pre-major progression and programme-specific conditions must be checked separately. Teaching language is confirmed only where explicitly shown below.",
+              "Remaining application, 2027–2028 cost, award coverage/renewal, institutional history and photo/licence fields require further research unless explicitly confirmed below.",
+              "The archived exchange agreement used for the teaching-language note could not be recovered. It does not independently verify a degree route."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cal-state-san-bernardino",
+      "country": "us",
+      "fields": [
+        {
+          "field": "links",
+          "before": {
+            "website": "https://www.csusb.edu/",
+            "admissions": "https://www.csusb.edu/international-education/international-admissions/apply/first-year-admissions-requirements",
+            "internationalAdmissions": "https://www.csusb.edu/international-education/international-admissions/apply/first-year-admissions-requirements",
+            "applicationPortal": null,
+            "scholarships": null,
+            "financialAid": null,
+            "programs": "https://www.csusb.edu/join-the-pack/program-finder/biology-bs",
+            "cost": "https://www.csusb.edu/international-education/international-admissions/tuition-and-fees"
+          },
+          "after": {
+            "website": "https://www.csusb.edu/",
+            "admissions": "https://www.csusb.edu/international-education/international-admissions/apply/first-year-admissions-requirements",
+            "internationalAdmissions": "https://www.csusb.edu/international-education/international-admissions/apply/first-year-admissions-requirements",
+            "applicationPortal": null,
+            "scholarships": null,
+            "financialAid": null,
+            "programs": "https://www.csusb.edu/join-the-pack/program-finder/biology-bs",
+            "cost": "https://www.csusb.edu/sites/default/files/upload/file/2026/CSUSB%20Affidavit%20Of%20Support_261027_1.pdf"
+          }
+        },
+        {
+          "field": "admissions",
+          "before": {
+            "platforms": [],
+            "deadlines": [
+              {
+                "id": "cal-state-san-bernardino-admission-2027",
+                "kind": "admission",
+                "name": "Fall admission",
+                "date": "1 June 2027",
+                "dateISO": "2027-06-01",
+                "entryTerm": "Autumn",
+                "entryYear": "2027",
+                "status": "confirmed",
+                "source": "https://www.csusb.edu/international-education/international-admissions/application-document-deadlines",
+                "verified": "2026-11-13",
+                "cycleEvidence": {
+                  "basis": "explicit-date",
+                  "source": "https://www.csusb.edu/international-education/international-admissions/application-document-deadlines",
+                  "verified": "2026-11-13",
+                  "entryTerm": "Autumn",
+                  "entryYear": "2027",
+                  "quote": "Fall 2027 — international undergraduate admission: 1 June 2027"
+                }
+              },
+              {
+                "id": "cal-state-san-bernardino-documents-2027",
+                "kind": "documents",
+                "name": "International admissions documents",
+                "date": "30 June 2027",
+                "dateISO": "2027-06-30",
+                "entryTerm": "Autumn",
+                "entryYear": "2027",
+                "status": "confirmed",
+                "source": "https://www.csusb.edu/international-education/international-admissions/application-document-deadlines",
+                "verified": "2026-11-13",
+                "cycleEvidence": {
+                  "basis": "explicit-date",
+                  "source": "https://www.csusb.edu/international-education/international-admissions/application-document-deadlines",
+                  "verified": "2026-11-13",
+                  "entryTerm": "Autumn",
+                  "entryYear": "2027",
+                  "quote": "Fall 2027 — international undergraduate documents: 30 June 2027"
+                }
+              }
+            ],
+            "applicationFee": {
+              "amount": 70,
+              "currency": "USD",
+              "waiverAvailableToInternational": null,
+              "waiver": null,
+              "note": null,
+              "source": "https://www.csusb.edu/international-education/international-admissions/first-year-students",
+              "verified": "2026-11-13"
+            },
+            "documents": [],
+            "recommendations": null,
+            "essay": null,
+            "interview": null,
+            "notes": []
+          },
+          "after": {
+            "platforms": [],
+            "deadlines": [
+              {
+                "id": "cal-state-san-bernardino-admission-2027",
+                "kind": "admission",
+                "name": "Fall admission",
+                "date": "1 June 2027",
+                "dateISO": "2027-06-01",
+                "entryTerm": "Autumn",
+                "entryYear": "2027",
+                "status": "confirmed",
+                "source": "https://www.csusb.edu/international-education/international-admissions/future-international-students/application-and",
+                "verified": "2026-11-18",
+                "cycleEvidence": {
+                  "basis": "explicit-date",
+                  "source": "https://www.csusb.edu/international-education/international-admissions/future-international-students/application-and",
+                  "verified": "2026-11-18",
+                  "entryTerm": "Autumn",
+                  "entryYear": "2027",
+                  "quote": "Fall 2027 — international undergraduate admission: 1 June 2027"
+                }
+              },
+              {
+                "id": "cal-state-san-bernardino-documents-2027",
+                "kind": "documents",
+                "name": "International admissions documents",
+                "date": "30 June 2027",
+                "dateISO": "2027-06-30",
+                "entryTerm": "Autumn",
+                "entryYear": "2027",
+                "status": "confirmed",
+                "source": "https://www.csusb.edu/international-education/international-admissions/future-international-students/application-and",
+                "verified": "2026-11-18",
+                "cycleEvidence": {
+                  "basis": "explicit-date",
+                  "source": "https://www.csusb.edu/international-education/international-admissions/future-international-students/application-and",
+                  "verified": "2026-11-18",
+                  "entryTerm": "Autumn",
+                  "entryYear": "2027",
+                  "quote": "Fall 2027 — international undergraduate documents: 30 June 2027"
+                }
+              }
+            ],
+            "applicationFee": {
+              "amount": null,
+              "currency": "USD",
+              "waiverAvailableToInternational": null,
+              "waiver": null,
+              "note": "The previously recorded USD 70 fee was not re-confirmed on the replacement international first-year page. Check the application portal before payment.",
+              "source": "https://www.csusb.edu/international-education/international-admissions/apply/first-year-admissions-requirements",
+              "verified": "2026-11-13"
+            },
+            "documents": [],
+            "recommendations": null,
+            "essay": null,
+            "interview": null,
+            "notes": []
+          }
+        },
+        {
+          "field": "english",
+          "before": {
+            "ielts": {
+              "min": 5.5,
+              "recommended": null,
+              "note": null
+            },
+            "toefl": {
+              "min": 61,
+              "recommended": null,
+              "note": null,
+              "scales": [
+                {
+                  "period": "pre2026",
+                  "min": 61,
+                  "recommended": null
+                },
+                {
+                  "period": "post2026",
+                  "min": 3.5,
+                  "recommended": null
+                }
+              ]
+            },
+            "duolingo": {
+              "min": 95,
+              "recommended": null,
+              "note": null
+            },
+            "waiver": null,
+            "note": null,
+            "detailsSource": "https://www.csusb.edu/international-education/international-admissions/first-year-students",
+            "detailsVerified": "2026-11-13"
+          },
+          "after": {
+            "ielts": {
+              "min": 5.5,
+              "recommended": null,
+              "note": null
+            },
+            "toefl": {
+              "min": 61,
+              "recommended": null,
+              "note": null,
+              "scales": [
+                {
+                  "period": "pre2026",
+                  "min": 61,
+                  "recommended": null
+                },
+                {
+                  "period": "post2026",
+                  "min": 3.5,
+                  "recommended": null
+                }
+              ]
+            },
+            "duolingo": {
+              "min": 95,
+              "recommended": null,
+              "note": null
+            },
+            "waiver": null,
+            "note": null,
+            "detailsSource": "https://www.csusb.edu/international-education/international-admissions/future-international-students/english-proficiency",
+            "detailsVerified": "2026-11-18"
+          }
+        },
+        {
+          "field": "costs",
+          "before": {
+            "breakdown": {
+              "includes": null
+            },
+            "academicYear": "2026–2027",
+            "currency": "USD",
+            "studentCategory": "International first-year applicants",
+            "source": "https://www.csusb.edu/international-education/international-admissions/tuition-and-fees",
+            "verified": "2026-11-13",
+            "headline": "$50,944 published international estimate",
+            "items": [
+              {
+                "label": "Tuition and fees",
+                "group": "billed",
+                "amount": 20652
+              },
+              {
+                "label": "Estimated living expenses",
+                "group": "estimate",
+                "amount": 20138
+              },
+              {
+                "label": "Books and supplies",
+                "group": "estimate",
+                "amount": 880
+              },
+              {
+                "label": "Transportation",
+                "group": "estimate",
+                "amount": 2904
+              },
+              {
+                "label": "Health insurance",
+                "group": "estimate",
+                "amount": 1956
+              },
+              {
+                "label": "Personal expenses",
+                "group": "estimate",
+                "amount": 4414
+              }
+            ],
+            "billedSubtotal": null,
+            "totalText": null,
+            "note": "Published 2026–2027 estimate for international undergraduates. Insurance may cost more for students over 24.",
+            "status": "previous-cycle"
+          },
+          "after": {
+            "breakdown": {
+              "includes": null
+            },
+            "academicYear": "2026–2027",
+            "currency": "USD",
+            "studentCategory": "International first-year applicants",
+            "source": "https://www.csusb.edu/sites/default/files/upload/file/2026/CSUSB%20Affidavit%20Of%20Support_261027_1.pdf",
+            "verified": "2026-11-13",
+            "headline": "2026–27 reference: $50,944 nine-month financial-support estimate",
+            "items": [
+              {
+                "label": "Tuition and fees",
+                "group": "billed",
+                "amount": 20652
+              },
+              {
+                "label": "Estimated living expenses",
+                "group": "estimate",
+                "amount": 20138
+              },
+              {
+                "label": "Books and supplies",
+                "group": "estimate",
+                "amount": 880
+              },
+              {
+                "label": "Transportation",
+                "group": "estimate",
+                "amount": 2904
+              },
+              {
+                "label": "Health insurance",
+                "group": "estimate",
+                "amount": 1956
+              },
+              {
+                "label": "Personal expenses",
+                "group": "estimate",
+                "amount": 4414
+              }
+            ],
+            "billedSubtotal": null,
+            "totalText": null,
+            "note": "The affidavit revised 27 October 2026 lists a USD 50,944 minimum proof of funds for 24 undergraduate units and nine months (Fall/Spring). It excludes summer living costs and is not a confirmed full Fall 2027 annual budget. The earlier 2026–27 reference is retained.",
+            "status": "previous-cycle"
+          }
+        },
+        {
+          "field": "sources",
+          "before": [
+            {
+              "label": "International admissions",
+              "url": "https://www.csusb.edu/international-education/international-admissions/first-year-students"
+            },
+            {
+              "label": "Undergraduate programs",
+              "url": "https://www.csusb.edu/join-the-pack/program-finder/biology-bs"
+            },
+            {
+              "label": "SAT and ACT",
+              "url": "https://www.calstate.edu/apply/freshman/getting_into_the_csu/pages/testing-requirements.aspx"
+            },
+            {
+              "label": "Targeted undergraduate program review",
+              "url": "https://catalog.csusb.edu/undergraduate-degree-programs/undergraduate-degrees/"
+            },
+            {
+              "label": "Published costs",
+              "url": "https://www.csusb.edu/international-education/international-admissions/tuition-and-fees"
+            }
+          ],
+          "after": [
+            {
+              "label": "International admissions",
+              "url": "https://www.csusb.edu/international-education/international-admissions/apply/first-year-admissions-requirements"
+            },
+            {
+              "label": "Undergraduate programs",
+              "url": "https://www.csusb.edu/join-the-pack/program-finder/biology-bs"
+            },
+            {
+              "label": "SAT and ACT",
+              "url": "https://www.calstate.edu/apply/freshman/getting_into_the_csu/pages/testing-requirements.aspx"
+            },
+            {
+              "label": "Targeted undergraduate program review",
+              "url": "https://catalog.csusb.edu/undergraduate-degree-programs/undergraduate-degrees/"
+            },
+            {
+              "label": "Published costs",
+              "url": "https://www.csusb.edu/sites/default/files/upload/file/2026/CSUSB%20Affidavit%20Of%20Support_261027_1.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kyushu-university",
+      "country": "jp",
+      "fields": [
+        {
+          "field": "links",
+          "before": {
+            "website": "https://www.kyushu-u.ac.jp/en/",
+            "admissions": "https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/",
+            "applicationPortal": "https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/",
+            "scholarships": "https://www.kyushu-u.ac.jp/en/admission/fees/scholarships/",
+            "cost": "https://www.kyushu-u.ac.jp/en/admission/fees/expenses"
+          },
+          "after": {
+            "website": "https://www.kyushu-u.ac.jp/en/",
+            "admissions": "https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/",
+            "applicationPortal": "https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/",
+            "scholarships": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf",
+            "cost": "https://www.kyushu-u.ac.jp/en/admission/fees/expenses"
+          }
+        },
+        {
+          "field": "scholarships",
+          "before": {
+            "fullRide": {
+              "available": true,
+              "internationalEligible": true,
+              "basis": "merit",
+              "covers": {
+                "tuition": true,
+                "housing": false,
+                "meals": false,
+                "insurance": false,
+                "books": false,
+                "stipend": true
+              },
+              "renewable": true,
+              "competitiveness": "MEXT places are limited and awarded to the strongest applicants.",
+              "howToApply": "Applicants to the international undergraduate programmes can be recommended for the MEXT scholarship through the admission process.",
+              "note": "The MEXT scholarship runs four years, pays ¥117,000 a month, exempts the enrolment and tuition fees and includes flights. Housing and food come out of the stipend."
+            },
+            "merit": [
+              {
+                "name": "Kyushu University International Undergraduate Scholarship",
+                "amount": "Engineering: ¥60,000 per month; annual selection for later years",
+                "eligibility": "Competitive; eligible foreign-only applicants with a qualification from outside Japan, residence abroad at application, and a new student visa; MEXT recipients excluded.",
+                "deadline": null,
+                "application": "Complete the scholarship section of the application form.",
+                "renewable": true,
+                "note": "Living allowance; tuition and other expenses are separate. The ¥48,000 six-month allowance is a distinct Monbukagakusho Honors Scholarship.",
+                "source": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf",
+                "verified": "2026-11-16",
+                "internationalEligible": true
+              },
+              {
+                "name": "First-year tuition exemption",
+                "amount": "Half of the tuition for the first two semesters",
+                "eligibility": "Engineering: only foreign nationality, qualification obtained abroad, residence abroad when applying, and a new student visa.",
+                "deadline": null,
+                "application": "Applied through the university",
+                "renewable": false,
+                "note": "Half tuition for the first two semesters for eligible students. Enrolment fee, housing and other expenses remain.",
+                "source": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf",
+                "verified": "2026-11-16"
+              }
+            ],
+            "needBased": {
+              "availableToInternational": null,
+              "meetsFullNeed": false,
+              "needBlindInternational": null,
+              "forms": [],
+              "deadlines": null,
+              "note": "Not confirmed during this check."
+            }
+          },
+          "after": {
+            "fullRide": {
+              "available": true,
+              "internationalEligible": true,
+              "basis": "merit",
+              "covers": {
+                "tuition": true,
+                "housing": false,
+                "meals": false,
+                "insurance": false,
+                "books": false,
+                "stipend": true
+              },
+              "renewable": true,
+              "competitiveness": "MEXT places are limited and awarded to the strongest applicants.",
+              "howToApply": "Applicants to the international undergraduate programmes can be recommended for the MEXT scholarship through the admission process.",
+              "note": "Engineering October 2027, MEXT: selection and university nomination are conditional on Japanese government approval of Kyushu’s new scholarship proposal. Approval is not confirmed here. If approved and awarded, the published terms are four years, JPY 117,000 per month, entrance and tuition exemptions and flights. Housing, meals and personal costs are paid from the allowance. This is not guaranteed aid or a confirmed budget reduction.",
+              "status": "not-confirmed",
+              "source": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf",
+              "verified": "2026-11-18",
+              "guaranteed": false
+            },
+            "merit": [
+              {
+                "name": "Kyushu University International Undergraduate Scholarship",
+                "amount": "Engineering: ¥60,000 per month; annual selection for later years",
+                "eligibility": "Competitive; eligible foreign-only applicants with a qualification from outside Japan, residence abroad at application, and a new student visa; MEXT recipients excluded.",
+                "deadline": null,
+                "application": "Complete the scholarship section of the application form.",
+                "renewable": true,
+                "note": "Living allowance; tuition and other expenses are separate. The ¥48,000 six-month allowance is a distinct Monbukagakusho Honors Scholarship.",
+                "source": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf",
+                "verified": "2026-11-16",
+                "internationalEligible": true
+              },
+              {
+                "name": "First-year tuition exemption",
+                "amount": "Half of the tuition for the first two semesters",
+                "eligibility": "Engineering: only foreign nationality, qualification obtained abroad, residence abroad when applying, and a new student visa.",
+                "deadline": null,
+                "application": "Applied through the university",
+                "renewable": false,
+                "note": "Half tuition for the first two semesters for eligible students. Enrolment fee, housing and other expenses remain.",
+                "source": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf",
+                "verified": "2026-11-16"
+              }
+            ],
+            "needBased": {
+              "availableToInternational": null,
+              "meetsFullNeed": false,
+              "needBlindInternational": null,
+              "forms": [],
+              "deadlines": null,
+              "note": "Not confirmed during this check."
+            }
+          }
+        },
+        {
+          "field": "sources",
+          "before": [
+            {
+              "label": "Enrolling in undergraduate school (language of instruction: English)",
+              "url": "https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/"
+            },
+            {
+              "label": "Scholarships",
+              "url": "https://www.kyushu-u.ac.jp/en/admission/fees/scholarships/"
+            },
+            {
+              "label": "Tuition and fees",
+              "url": "https://www.kyushu-u.ac.jp/en/admission/fees/expenses"
+            },
+            {
+              "label": "About — history and facts",
+              "url": "https://www.kyushu-u.ac.jp/en/university"
+            }
+          ],
+          "after": [
+            {
+              "label": "Enrolling in undergraduate school (language of instruction: English)",
+              "url": "https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10/"
+            },
+            {
+              "label": "Engineering October 2027: financial aid, pages 16–17",
+              "url": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf"
+            },
+            {
+              "label": "Tuition and fees",
+              "url": "https://www.kyushu-u.ac.jp/en/admission/fees/expenses"
+            },
+            {
+              "label": "About — history and facts",
+              "url": "https://www.kyushu-u.ac.jp/en/university"
+            }
+          ]
+        },
+        {
+          "field": "verification",
+          "before": {
+            "level": "partial",
+            "checked": [
+              "English-taught programmes",
+              "scholarships",
+              "previous-cycle application window",
+              "english (IELTS and TOEFL minimums)"
+            ],
+            "unconfirmed": [
+              "2027 application dates",
+              "application fee"
+            ]
+          },
+          "after": {
+            "level": "partial",
+            "checked": [
+              "English-taught programmes",
+              "scholarships",
+              "previous-cycle application window",
+              "english (IELTS and TOEFL minimums)"
+            ],
+            "unconfirmed": [
+              "2027 application dates",
+              "application fee",
+              "MEXT government approval for Engineering October 2027 is not established by the conditional application guide."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "kwansei-gakuin-university",
+      "country": "jp",
+      "fields": [
+        {
+          "field": "english",
+          "before": {
+            "ielts": {
+              "min": 6,
+              "recommended": null,
+              "note": "The School of International Studies asks for IELTS 6.0 or higher from applicants whose first language is not English."
+            },
+            "toefl": {
+              "min": 71,
+              "recommended": null,
+              "scales": [
+                {
+                  "period": "pre2026",
+                  "min": 71,
+                  "note": "TOEFL iBT 71 or higher. The TOEFL iBT Home Edition is not accepted."
+                }
+              ],
+              "note": "TOEFL iBT 71 or higher; the Home Edition is not accepted."
+            },
+            "duolingo": {
+              "min": null,
+              "recommended": null,
+              "note": "Not listed among the accepted tests."
+            },
+            "otherTests": "TOEIC L&R 730 or higher, and EIKEN pre-first grade or higher.",
+            "waiver": "Applicants who graduated, or expect to graduate, from an institution teaching in English are exempt, provided they had at least three years of education there.",
+            "note": "Scores must be from a test taken within two years before the application, except for EIKEN.",
+            "source": "https://www.kwansei.ac.jp/en/assets/International_Admission_2026_Application_Handbook.pdf",
+            "verified": "2026-09-24"
+          },
+          "after": {
+            "ielts": {
+              "min": 6,
+              "recommended": null,
+              "note": "The School of International Studies asks for IELTS 6.0 or higher from applicants whose first language is not English."
+            },
+            "toefl": {
+              "min": 71,
+              "recommended": null,
+              "scales": [
+                {
+                  "period": "pre2026",
+                  "min": 71,
+                  "note": "TOEFL iBT 71 or higher. The TOEFL iBT Home Edition is not accepted."
+                }
+              ],
+              "note": "For SIS International Admission 2027, TOEFL iBT 71 or higher; Home Edition is not accepted. For tests from 21 January 2026, eligibility is determined using the previous scale printed alongside the new score."
+            },
+            "duolingo": {
+              "min": null,
+              "recommended": null,
+              "note": "Not listed among the accepted tests."
+            },
+            "otherTests": "TOEIC L&R 730 or higher, and EIKEN pre-first grade or higher.",
+            "waiver": "For SIS International Admission 2027, applicants whose first language is English are exempt. Otherwise, graduates or expected graduates need at least three years of education in English at the most recently attended institution, proved by official transcripts or a letter from its principal.",
+            "note": "Scores must be from a test taken within two years before the application, except for EIKEN.",
+            "source": "https://www.kwansei.ac.jp/en/assets/List_of_Application_Documents2027.pdf",
+            "verified": "2026-11-18"
+          }
+        },
+        {
+          "field": "sources",
+          "before": [
+            {
+              "label": "Admission and tuition fees - School of International Studies",
+              "url": "https://www.kwansei.ac.jp/en/academics/undergraduate/international-studies/admission.html"
+            },
+            {
+              "label": "International Admission application handbook 2026 (PDF)",
+              "url": "https://www.kwansei.ac.jp/en/assets/International_Admission_2026_Application_Handbook.pdf"
+            },
+            {
+              "label": "About — history and facts",
+              "url": "https://www.kwansei.ac.jp/en/about/facts.html"
+            }
+          ],
+          "after": [
+            {
+              "label": "Admission and tuition fees - School of International Studies",
+              "url": "https://www.kwansei.ac.jp/en/academics/undergraduate/international-studies/admission.html"
+            },
+            {
+              "label": "International Admission application handbook 2026 (PDF)",
+              "url": "https://www.kwansei.ac.jp/en/assets/List_of_Application_Documents2027.pdf"
+            },
+            {
+              "label": "About — history and facts",
+              "url": "https://www.kwansei.ac.jp/en/about/facts.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toyo-university",
+      "country": "jp",
+      "fields": [
+        {
+          "field": "sources",
+          "before": [
+            {
+              "label": "Admissions for international students",
+              "url": "https://www.toyo.ac.jp/nyushi/en/admission/"
+            },
+            {
+              "label": "Online entrance examination guide - Global Innovation Studies (PDF)",
+              "url": "https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/admission/admission-data/international-student/requirements-online/online-entry-exam_dgis_2026_sep_en.pdf"
+            },
+            {
+              "label": "Payment of tuition and fees (PDF)",
+              "url": "https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/international-student/payment-of-tuition-and-fees_en.pdf"
+            },
+            {
+              "label": "About — history and facts",
+              "url": "https://www.toyo.ac.jp/about/gakuhou/backnumber/en/268_07/"
+            }
+          ],
+          "after": [
+            {
+              "label": "Admissions for international students",
+              "url": "https://www.toyo.ac.jp/nyushi/en/admission/"
+            },
+            {
+              "label": "Online entrance examination guide - Global Innovation Studies (PDF)",
+              "url": "https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/admission/admission-data/international-student/requirements-online/online-entry-exam_dgis_2026_sep_en.pdf"
+            },
+            {
+              "label": "Payment of tuition and fees (PDF)",
+              "url": "https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/international-student/payment-of-tuition-and-fees_en.pdf"
+            },
+            {
+              "label": "About — history and facts",
+              "url": "https://www.toyo.ac.jp/about/gakuhou/backnumber/en/268_07/"
+            },
+            {
+              "label": "Current admissions reference — not a replacement confirmation of the unavailable cycle",
+              "url": "https://www.toyo.ac.jp/nyushi/admission/admission-data/international-student/application-guide/"
+            }
+          ]
+        },
+        {
+          "field": "verification",
+          "before": {
+            "level": "partial",
+            "checked": [
+              "English-based route",
+              "TOEFL requirement",
+              "selection method",
+              "tuition reduction"
+            ],
+            "unconfirmed": [
+              "tuition amounts",
+              "2027 dates",
+              "IELTS acceptance",
+              "application fee"
+            ]
+          },
+          "after": {
+            "level": "partial",
+            "checked": [
+              "English-based route",
+              "TOEFL requirement",
+              "selection method",
+              "tuition reduction"
+            ],
+            "unconfirmed": [
+              "tuition amounts",
+              "2027 dates",
+              "IELTS acceptance",
+              "application fee",
+              "The September 2026 Global Innovation Studies guide is missing. The current application index covers April 2027 and says the September 2027 guide is pending; it does not verify the old September document."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "seoul-national-university",
+      "country": "kr",
+      "fields": [
+        {
+          "field": "verification",
+          "before": null,
+          "after": {
+            "level": "partial",
+            "checked": [],
+            "unconfirmed": [
+              "Historical scholarship reference: the SNU Before Application page says last updated in 2018. It does not confirm 2027 award amounts, eligible routes, renewal conditions or the applicable embassy deadline. Retained figures describe that reference, not confirmed Fall 2027 funding; no scholarship is deducted from the budget."
+            ]
+          }
+        },
+        {
+          "field": "scholarships",
+          "before": {
+            "fullRide": {
+              "available": true,
+              "internationalEligible": true,
+              "basis": "merit",
+              "covers": {
+                "tuition": true,
+                "housing": false,
+                "meals": false,
+                "insurance": false,
+                "books": false,
+                "stipend": true
+              },
+              "renewable": true,
+              "competitiveness": "The Global Korea Scholarship is a national government competition — one of the most competitive scholarships in Asia, screened first by Korean embassies and finally by the National Institute for International Education.",
+              "howToApply": "Apply through a Korean embassy by the September deadline. The embassy runs initial screening; NIIED makes the final selection.",
+              "note": "The Global Korea Scholarship gives full tuition exemption for 8 semesters, a living allowance of KRW 1,200,000 per month, one economy round-trip airfare, and one year of Korean language training. Housing and meals are not separately covered — the monthly allowance is meant to fund living costs."
+            },
+            "merit": [
+              {
+                "name": "Global Korea Scholarship (GKS)",
+                "amount": "Full tuition exemption for 8 semesters, KRW 1,200,000/month living allowance, one economy round-trip airfare, one year of Korean language training",
+                "eligibility": "International applicants for SNU undergraduate programmes",
+                "deadline": "September",
+                "application": "Through a Korean embassy — embassy screening, then final selection by NIIED",
+                "renewable": true,
+                "note": "Korean government scholarship, not an SNU award."
+              },
+              {
+                "name": "Global Talent Scholarship",
+                "amount": "Covers the tuition fee and living costs partially",
+                "eligibility": "Selected admitted students",
+                "deadline": null,
+                "application": "Awarded on selection at admission",
+                "renewable": null,
+                "note": "SNU describes this as partial coverage of living costs — not a full ride."
+              },
+              {
+                "name": "SNU university scholarship (after first semester)",
+                "amount": "Exempts the whole or a partial amount of tuition fees",
+                "eligibility": "Students who have completed one semester successfully",
+                "deadline": null,
+                "application": "Apply after completing one semester",
+                "renewable": null,
+                "note": null
+              },
+              {
+                "name": "Overseas Koreans Scholarship",
+                "amount": "Full tuition exemption for up to 8 semesters (conditions apply), KRW 900,000/month for up to 8 semesters, one economy round-trip airfare, 6 months of language training fees, and medical insurance",
+                "eligibility": "Overseas Korean students",
+                "deadline": "February or March, roughly a one-month recruitment window",
+                "application": "Through Korean embassies, then review by the Overseas Koreans Foundation",
+                "renewable": true,
+                "note": "Restricted to overseas Koreans — not open to most international applicants."
+              }
+            ],
+            "needBased": {
+              "availableToInternational": null,
+              "meetsFullNeed": false,
+              "needBlindInternational": null,
+              "forms": [],
+              "deadlines": null,
+              "note": "SNU's published international awards are merit-based or government-funded rather than need-assessed."
+            }
+          },
+          "after": {
+            "fullRide": {
+              "available": true,
+              "internationalEligible": true,
+              "basis": "merit",
+              "covers": {
+                "tuition": true,
+                "housing": false,
+                "meals": false,
+                "insurance": false,
+                "books": false,
+                "stipend": true
+              },
+              "renewable": true,
+              "competitiveness": "The Global Korea Scholarship is a national government competition — one of the most competitive scholarships in Asia, screened first by Korean embassies and finally by the National Institute for International Education.",
+              "howToApply": "Apply through a Korean embassy by the September deadline. The embassy runs initial screening; NIIED makes the final selection.",
+              "note": "Historical scholarship reference: the SNU Before Application page says last updated in 2018. It does not confirm 2027 award amounts, eligible routes, renewal conditions or the applicable embassy deadline. Retained figures describe that reference, not confirmed Fall 2027 funding; no scholarship is deducted from the budget.",
+              "status": "not-confirmed",
+              "source": "https://en.snu.ac.kr/admission/undergraduate/scholarships/before_admission",
+              "verified": "2026-11-18",
+              "guaranteed": false
+            },
+            "merit": [
+              {
+                "name": "Global Korea Scholarship (GKS)",
+                "amount": "Full tuition exemption for 8 semesters, KRW 1,200,000/month living allowance, one economy round-trip airfare, one year of Korean language training",
+                "eligibility": "International applicants for SNU undergraduate programmes",
+                "deadline": "September",
+                "application": "Through a Korean embassy — embassy screening, then final selection by NIIED",
+                "renewable": true,
+                "note": "Historical scholarship reference: the SNU Before Application page says last updated in 2018. It does not confirm 2027 award amounts, eligible routes, renewal conditions or the applicable embassy deadline. Retained figures describe that reference, not confirmed Fall 2027 funding; no scholarship is deducted from the budget.",
+                "status": "not-confirmed"
+              },
+              {
+                "name": "Global Talent Scholarship",
+                "amount": "Covers the tuition fee and living costs partially",
+                "eligibility": "Selected admitted students",
+                "deadline": null,
+                "application": "Awarded on selection at admission",
+                "renewable": null,
+                "note": "Historical scholarship reference: the SNU Before Application page says last updated in 2018. It does not confirm 2027 award amounts, eligible routes, renewal conditions or the applicable embassy deadline. Retained figures describe that reference, not confirmed Fall 2027 funding; no scholarship is deducted from the budget.",
+                "status": "not-confirmed"
+              },
+              {
+                "name": "SNU university scholarship (after first semester)",
+                "amount": "Exempts the whole or a partial amount of tuition fees",
+                "eligibility": "Students who have completed one semester successfully",
+                "deadline": null,
+                "application": "Apply after completing one semester",
+                "renewable": null,
+                "note": "Historical scholarship reference: the SNU Before Application page says last updated in 2018. It does not confirm 2027 award amounts, eligible routes, renewal conditions or the applicable embassy deadline. Retained figures describe that reference, not confirmed Fall 2027 funding; no scholarship is deducted from the budget.",
+                "status": "not-confirmed",
+                "firstYearEligible": false
+              },
+              {
+                "name": "Overseas Koreans Scholarship",
+                "amount": "Full tuition exemption for up to 8 semesters (conditions apply), KRW 900,000/month for up to 8 semesters, one economy round-trip airfare, 6 months of language training fees, and medical insurance",
+                "eligibility": "Overseas Korean students",
+                "deadline": "February or March, roughly a one-month recruitment window",
+                "application": "Through Korean embassies, then review by the Overseas Koreans Foundation",
+                "renewable": true,
+                "note": "Historical scholarship reference: the SNU Before Application page says last updated in 2018. It does not confirm 2027 award amounts, eligible routes, renewal conditions or the applicable embassy deadline. Retained figures describe that reference, not confirmed Fall 2027 funding; no scholarship is deducted from the budget.",
+                "status": "not-confirmed"
+              }
+            ],
+            "needBased": {
+              "availableToInternational": null,
+              "meetsFullNeed": false,
+              "needBlindInternational": null,
+              "forms": [],
+              "deadlines": null,
+              "note": "SNU's published international awards are merit-based or government-funded rather than need-assessed."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sungkyunkwan-university",
+      "country": "kr",
+      "fields": [
+        {
+          "field": "verification",
+          "before": null,
+          "after": {
+            "level": "partial",
+            "checked": [],
+            "unconfirmed": [
+              "Spring 2027 scholarship and progression evidence does not confirm Fall 2027 terms. Global Leader Type A has a restricted country list; Uzbekistan is not listed in the published Spring 2027 annex. Types B/C have different selection criteria."
+            ]
+          }
+        },
+        {
+          "field": "stats",
+          "before": {
+            "term": "International undergraduate admission",
+            "source": {
+              "label": "SKKU undergraduate scholarships",
+              "url": "https://admission-global.skku.edu/eng/grad/scholarship_undergrad.html"
+            },
+            "official": {
+              "admitRate": null,
+              "note": "SKKU publishes English thresholds (IELTS 6.5 for English-track majors; 7.0/8.0 for scholarships) but no admission averages."
+            },
+            "targets": {
+              "sat": "Not a standard requirement",
+              "gpa": "3.4+ (3.5+ is needed to keep the Global Leader Scholarship)",
+              "basis": "The scholarship thresholds are official. The admission targets are estimates."
+            }
+          },
+          "after": null
+        },
+        {
+          "field": "links",
+          "before": {
+            "website": "https://www.skku.edu/eng/",
+            "admissions": "https://admission-global.skku.edu/eng/",
+            "internationalAdmissions": "https://admission-global.skku.edu/eng/",
+            "applicationPortal": "https://admission-global.skku.edu/eng/",
+            "scholarships": "https://admission-global.skku.edu/eng/grad/scholarship_undergrad.html",
+            "financialAid": "https://www.skku.edu/eng/CampusLife/support/scholarship.do",
+            "programs": "https://www.skku.edu/eng/",
+            "cost": "https://admission-global.skku.edu/eng/"
+          },
+          "after": {
+            "website": "https://www.skku.edu/eng/",
+            "admissions": "https://admission-global.skku.edu/eng/",
+            "internationalAdmissions": "https://admission-global.skku.edu/eng/",
+            "applicationPortal": "https://admission-global.skku.edu/eng/",
+            "scholarships": "https://admission-global.skku.edu/common/download.php?fname=%5BEN%5D+Undergraduate+Freshmen+Admission+Guide_2027+Spring.pdf&fpath=board%2F202611041634513HFFN9.pdf",
+            "financialAid": "https://www.skku.edu/eng/CampusLife/support/scholarship.do",
+            "programs": "https://www.skku.edu/eng/",
+            "cost": "https://admission-global.skku.edu/eng/"
+          }
+        },
+        {
+          "field": "english",
+          "before": {
+            "ielts": {
+              "min": null,
+              "recommended": null,
+              "varies": true,
+              "profilesComplete": false,
+              "profiles": [
+                {
+                  "name": "English-track major selection",
+                  "overall": 6.5,
+                  "scope": "Required before choosing an English-track major at the end of the first year",
+                  "source": "https://admission-global.skku.edu/eng/etc/bbs_list.html?bbsid=global_notice_re_eng&ctg_cd=&page=1&skey=&keyword=&mode=view&bltn_seq=53774",
+                  "verified": "2026-09-18"
+                }
+              ],
+              "note": "Scholarship thresholds are separate from this requirement: IELTS 7.0 earns 50% and IELTS 8.0 earns 100% of first-semester tuition."
+            },
+            "toefl": {
+              "min": null,
+              "recommended": null,
+              "varies": true,
+              "profilesComplete": false,
+              "profiles": [
+                {
+                  "name": "English-track major selection",
+                  "overall": "80 (before 21 Jan 2026) · 4.5 (new scale)",
+                  "scope": "Required before choosing an English-track major at the end of the first year",
+                  "source": "https://admission-global.skku.edu/eng/etc/bbs_list.html?bbsid=global_notice_re_eng&ctg_cd=&page=1&skey=&keyword=&mode=view&bltn_seq=53774",
+                  "verified": "2026-09-18"
+                }
+              ],
+              "note": "Scholarship thresholds are separate: TOEFL iBT 95 earns 50% and 110 (5.5) earns 100% of first-semester tuition."
+            },
+            "duolingo": {
+              "min": null,
+              "recommended": null,
+              "note": "Not listed among the accepted tests on the pages consulted."
+            },
+            "waiver": null,
+            "note": "SKKU requires a TOEFL or IELTS score from international students, with the level varying by major. The English scores above are the published scholarship thresholds, not admission cut-offs."
+          },
+          "after": {
+            "ielts": {
+              "min": null,
+              "recommended": null,
+              "varies": true,
+              "profilesComplete": false,
+              "profiles": [],
+              "note": "Spring 2027 guide: IELTS 6.5 or TOEFL iBT 4.5 (80 before 21 January 2026) applies to Exploratory Studies students choosing an English-track major before year two. It is not a confirmed first-year admission minimum. English-track applicants submit an official English test; this guide gives no general numeric admission cut-off. Fall 2027 rules need separate confirmation.",
+              "source": "https://admission-global.skku.edu/common/download.php?fname=%5BEN%5D+Undergraduate+Freshmen+Admission+Guide_2027+Spring.pdf&fpath=board%2F202611041634513HFFN9.pdf",
+              "verified": "2026-11-18"
+            },
+            "toefl": {
+              "min": null,
+              "recommended": null,
+              "varies": true,
+              "profilesComplete": false,
+              "profiles": [],
+              "note": "Spring 2027 guide: IELTS 6.5 or TOEFL iBT 4.5 (80 before 21 January 2026) applies to Exploratory Studies students choosing an English-track major before year two. It is not a confirmed first-year admission minimum. English-track applicants submit an official English test; this guide gives no general numeric admission cut-off. Fall 2027 rules need separate confirmation.",
+              "source": "https://admission-global.skku.edu/common/download.php?fname=%5BEN%5D+Undergraduate+Freshmen+Admission+Guide_2027+Spring.pdf&fpath=board%2F202611041634513HFFN9.pdf",
+              "verified": "2026-11-18"
+            },
+            "duolingo": {
+              "min": null,
+              "recommended": null,
+              "note": "Not listed among the accepted tests on the pages consulted."
+            },
+            "waiver": null,
+            "note": "Spring 2027 guide: IELTS 6.5 or TOEFL iBT 4.5 (80 before 21 January 2026) applies to Exploratory Studies students choosing an English-track major before year two. It is not a confirmed first-year admission minimum. English-track applicants submit an official English test; this guide gives no general numeric admission cut-off. Fall 2027 rules need separate confirmation."
+          }
+        },
+        {
+          "field": "scholarships",
+          "before": {
+            "fullRide": {
+              "available": true,
+              "internationalEligible": true,
+              "basis": "merit",
+              "covers": {
+                "tuition": true,
+                "housing": null,
+                "meals": false,
+                "insurance": false,
+                "books": false,
+                "stipend": true
+              },
+              "renewable": true,
+              "competitiveness": "The Samsung Global Sungkyun Scholarship is highly selective and carries a demanding GPA condition — 3.7 or above (3.5 for the first two semesters) with no failing grades.",
+              "howToApply": "Selected through SKKU's international admissions process.",
+              "note": "The Samsung Global Sungkyun Scholarship covers full dues for four years (eight semesters), plus monthly living expenses of KRW 570,000, dormitory priority and mentoring. Dormitory priority is not the same as free housing, and meals are not covered."
+            },
+            "merit": [
+              {
+                "name": "Samsung Global Sungkyun Scholarship",
+                "amount": "Full dues for 4 years (8 semesters), KRW 570,000/month living expenses, dormitory priority and mentoring",
+                "eligibility": "Selected international students",
+                "deadline": null,
+                "application": "Through international admissions",
+                "renewable": true,
+                "note": "Renewal requires a GPA of 3.7 or above (3.5 for semesters 1–2) with no F grades."
+              },
+              {
+                "name": "SKKU Global Leader Scholarship",
+                "amount": "50% of tuition for 4 years",
+                "eligibility": "Selected international students",
+                "deadline": null,
+                "application": "Through international admissions",
+                "renewable": true,
+                "note": "Renewal requires a GPA of 3.5 or above."
+              },
+              {
+                "name": "English Language Proficiency Scholarship",
+                "amount": "100% tuition waiver for IELTS 8.0 / TOEFL iBT 110+; 50% tuition waiver for IELTS 7.0 / TOEFL iBT 95+",
+                "eligibility": "Incoming international students meeting the score thresholds",
+                "deadline": null,
+                "application": "Automatic on the basis of submitted scores",
+                "renewable": false,
+                "note": "First semester only — this is not a four-year award."
+              },
+              {
+                "name": "Admission Scholarship",
+                "amount": "10–100% of dues including the entrance fee",
+                "eligibility": "Remarkable freshmen, selected automatically on the admission evaluation",
+                "deadline": null,
+                "application": "Automatic",
+                "renewable": false,
+                "note": "First semester only."
+              },
+              {
+                "name": "Merit-based scholarship (semesters 2–8)",
+                "amount": "70% tuition waiver for the top 6%; 50% for the top 6–18%; 30% for the top 18–30%",
+                "eligibility": "Based on previous-semester GPA ranking",
+                "deadline": null,
+                "application": "Automatic",
+                "renewable": true,
+                "note": "Requires at least 12 credits completed (9 in the seventh semester) with no failing grades."
+              }
+            ],
+            "needBased": {
+              "availableToInternational": null,
+              "meetsFullNeed": false,
+              "needBlindInternational": null,
+              "forms": [],
+              "deadlines": null,
+              "note": "SKKU's published international awards are merit- and language-based rather than need-assessed."
+            }
+          },
+          "after": {
+            "fullRide": {
+              "available": true,
+              "internationalEligible": true,
+              "basis": "merit",
+              "covers": {
+                "tuition": true,
+                "housing": null,
+                "meals": false,
+                "insurance": false,
+                "books": false,
+                "stipend": true
+              },
+              "renewable": true,
+              "competitiveness": "The Samsung Global Sungkyun Scholarship is highly selective and carries a demanding GPA condition — 3.7 or above (3.5 for the first two semesters) with no failing grades.",
+              "howToApply": "Selected through SKKU's international admissions process.",
+              "note": "Spring 2027 reference, selected international freshmen: Samsung Global Sungkyun Type A covers full dues, KRW 3,400,000 academic support per semester and dormitory fees only if assigned. Type B covers full dues without the Type A living package. No separate application; selection may include an interview. Renewal requires 12 credits (9 in semester 7), GPA 3.7, or 3.5 in semesters 1–2, with no F; one failure suspends the next payment, two end eligibility. Meals, insurance and other costs are not promised. Fall 2027 terms are not confirmed.",
+              "source": "https://admission-global.skku.edu/common/download.php?fname=%5BEN%5D+Undergraduate+Freshmen+Admission+Guide_2027+Spring.pdf&fpath=board%2F202611041634513HFFN9.pdf",
+              "verified": "2026-11-18",
+              "guaranteed": false,
+              "status": "not-confirmed"
+            },
+            "merit": [
+              {
+                "name": "Samsung Global Sungkyun Scholarship",
+                "amount": "Spring 2027: full dues; Type A additionally KRW 3,400,000 per semester and assigned dormitory fees",
+                "eligibility": "Selected international students",
+                "deadline": null,
+                "application": "Through international admissions",
+                "renewable": true,
+                "note": "Spring 2027 reference, selected international freshmen: Samsung Global Sungkyun Type A covers full dues, KRW 3,400,000 academic support per semester and dormitory fees only if assigned. Type B covers full dues without the Type A living package. No separate application; selection may include an interview. Renewal requires 12 credits (9 in semester 7), GPA 3.7, or 3.5 in semesters 1–2, with no F; one failure suspends the next payment, two end eligibility. Meals, insurance and other costs are not promised. Fall 2027 terms are not confirmed.",
+                "source": "https://admission-global.skku.edu/common/download.php?fname=%5BEN%5D+Undergraduate+Freshmen+Admission+Guide_2027+Spring.pdf&fpath=board%2F202611041634513HFFN9.pdf",
+                "verified": "2026-11-18",
+                "status": "not-confirmed"
+              },
+              {
+                "name": "SKKU Global Leader Scholarship",
+                "amount": "50% of tuition for 4 years",
+                "eligibility": "Selected international students",
+                "deadline": null,
+                "application": "Through international admissions",
+                "renewable": true,
+                "note": "Renewal requires a GPA of 3.5 or above.",
+                "source": "https://admission-global.skku.edu/common/download.php?fname=%5BEN%5D+Undergraduate+Freshmen+Admission+Guide_2027+Spring.pdf&fpath=board%2F202611041634513HFFN9.pdf",
+                "verified": "2026-11-18",
+                "status": "not-confirmed"
+              },
+              {
+                "name": "English Language Proficiency Scholarship",
+                "amount": "Spring 2027, semester one only: IELTS 8.0 / TOEFL 5.5 (110 old scale): 100%; IELTS 7.0 / TOEFL 5.0 (95 old scale): 50% tuition",
+                "eligibility": "Incoming international students meeting the score thresholds",
+                "deadline": null,
+                "application": "Automatic on the basis of submitted scores",
+                "renewable": false,
+                "note": "First semester only — this is not a four-year award.",
+                "source": "https://admission-global.skku.edu/common/download.php?fname=%5BEN%5D+Undergraduate+Freshmen+Admission+Guide_2027+Spring.pdf&fpath=board%2F202611041634513HFFN9.pdf",
+                "verified": "2026-11-18",
+                "status": "not-confirmed"
+              },
+              {
+                "name": "Admission Scholarship",
+                "amount": "10–100% of dues including the entrance fee",
+                "eligibility": "Remarkable freshmen, selected automatically on the admission evaluation",
+                "deadline": null,
+                "application": "Automatic",
+                "renewable": false,
+                "note": "First semester only.",
+                "source": "https://admission-global.skku.edu/common/download.php?fname=%5BEN%5D+Undergraduate+Freshmen+Admission+Guide_2027+Spring.pdf&fpath=board%2F202611041634513HFFN9.pdf",
+                "verified": "2026-11-18",
+                "status": "not-confirmed"
+              },
+              {
+                "name": "Merit-based scholarship (semesters 2–8)",
+                "amount": "Spring 2027 reference: 30–70% tuition by previous-semester academic ranking",
+                "eligibility": "Based on previous-semester GPA ranking",
+                "deadline": null,
+                "application": "Automatic",
+                "renewable": true,
+                "note": "Requires at least 12 credits completed (9 in the seventh semester) with no failing grades.",
+                "source": "https://admission-global.skku.edu/common/download.php?fname=%5BEN%5D+Undergraduate+Freshmen+Admission+Guide_2027+Spring.pdf&fpath=board%2F202611041634513HFFN9.pdf",
+                "verified": "2026-11-18",
+                "firstYearEligible": false,
+                "status": "not-confirmed"
+              }
+            ],
+            "needBased": {
+              "availableToInternational": null,
+              "meetsFullNeed": false,
+              "needBlindInternational": null,
+              "forms": [],
+              "deadlines": null,
+              "note": "SKKU's published international awards are merit- and language-based rather than need-assessed."
+            }
+          }
+        },
+        {
+          "field": "sources",
+          "before": [
+            {
+              "label": "Undergraduate scholarships for international students",
+              "url": "https://admission-global.skku.edu/eng/grad/scholarship_undergrad.html"
+            },
+            {
+              "label": "Scholarships and financial aid",
+              "url": "https://www.skku.edu/eng/CampusLife/support/scholarship.do"
+            },
+            {
+              "label": "SKKU 2026 Fall / 2027 Spring Admission Guide for International Students (Undergraduate)",
+              "url": "https://admission-global.skku.edu/eng/etc/bbs_list.html?bbsid=global_notice_re_eng&ctg_cd=&page=1&skey=&keyword=&mode=view&bltn_seq=53774"
+            }
+          ],
+          "after": [
+            {
+              "label": "Undergraduate scholarships for international students",
+              "url": "https://admission-global.skku.edu/common/download.php?fname=%5BEN%5D+Undergraduate+Freshmen+Admission+Guide_2027+Spring.pdf&fpath=board%2F202611041634513HFFN9.pdf"
+            },
+            {
+              "label": "Scholarships and financial aid",
+              "url": "https://www.skku.edu/eng/CampusLife/support/scholarship.do"
+            },
+            {
+              "label": "SKKU 2026 Fall / 2027 Spring Admission Guide for International Students (Undergraduate)",
+              "url": "https://admission-global.skku.edu/common/download.php?fname=%5BEN%5D+Undergraduate+Freshmen+Admission+Guide_2027+Spring.pdf&fpath=board%2F202611041634513HFFN9.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "postech",
+      "country": "kr",
+      "fields": [
+        {
+          "field": "links",
+          "before": {
+            "website": "https://www.postech.ac.kr/eng/",
+            "admissions": "https://adm-iu.postech.ac.kr/user/admission/guide/international.do",
+            "applicationPortal": "https://adm-iu.postech.ac.kr/",
+            "scholarships": "https://www.postech.ac.kr/eng/admission-aid/scholarship_types.do",
+            "cost": "https://www.postech.ac.kr/eng/admission-aid/scholarship_information.do"
+          },
+          "after": {
+            "website": "https://www.postech.ac.kr/eng/",
+            "admissions": "https://adm-iu.postech.ac.kr/user/admission/guide/international.do",
+            "applicationPortal": "https://adm-iu.postech.ac.kr/",
+            "scholarships": "https://www.postech.ac.kr/eng/admission-aid/scholarship_types.do",
+            "cost": "https://adm-iu.postech.ac.kr/user/comm/menu/4a69b7aee6a156d3c2ddb7413544ab2c/content/index.do"
+          }
+        },
+        {
+          "field": "costs",
+          "before": {
+            "breakdown": {
+              "tuition": 0,
+              "tuitionText": "Fully waived for admitted international students",
+              "includes": "the full tuition waiver granted with admission, plus a ₩500,000 monthly stipend; housing and meals in Pohang are not covered",
+              "published": true
+            },
+            "academicYear": "2026–2027",
+            "currency": "KRW",
+            "headline": "No tuition for admitted international students",
+            "items": [
+              {
+                "label": "Tuition after the international admission waiver",
+                "amount": 0
+              },
+              {
+                "label": "Living stipend paid to the student (per month)",
+                "amount": 500000
+              }
+            ],
+            "billedSubtotal": null,
+            "totalText": "No tuition: every student admitted through International Admissions receives a full waiver for up to eight semesters",
+            "note": "The waiver is unconditional in the first semester and then needs a GPA of at least 3.0 out of 4.3 in the previous semester. The underlying tuition figure before the waiver was not published on the pages read. Housing and food in Pohang are paid from the stipend.",
+            "source": "https://adm-iu.postech.ac.kr/user/comm/menu/e2afb97fa1b8f43c574be0dabef78f87/content/index.do",
+            "verified": "2026-09-24"
+          },
+          "after": {
+            "breakdown": {
+              "published": true,
+              "period": "year",
+              "includes": "Essential-expense example as of 2026; not a full Fall 2027 budget. Housing covers eight months, food and phone twelve."
+            },
+            "academicYear": "2026",
+            "currency": "KRW",
+            "headline": "2026 cost reference: tuition figures disagree; first-semester waiver separate",
+            "items": [
+              {
+                "label": "Tuition — conflicting 2026 table and footnote",
+                "text": "The 2026 essential-expense table lists tuition of KRW 2,790,000 per semester (5,580,000 for two), but its footnote gives first-semester 2026 tuition as KRW 2,924,000. These figures are not reconciled here. The table is a 2026 reference, not confirmed Fall 2027 pricing."
+              },
+              {
+                "label": "National health insurance, 12 months, 2026 reference",
+                "amount": 951840
+              },
+              {
+                "label": "Housing, two four-month terms, 2026 reference",
+                "amount": 1400000
+              },
+              {
+                "label": "Mobile phone, 12 months, 2026 reference",
+                "amount": 360000
+              },
+              {
+                "label": "Food, three meals daily for 365 days, 2026 reference",
+                "amount": 5475000
+              }
+            ],
+            "billedSubtotal": null,
+            "totalText": "The published 2026 essential-expense subtotal is KRW 13,766,840 before aid. This uses the table tuition, which differs from its 2026 footnote, and excludes vacation housing and additional expenses. It is not a confirmed full budget.",
+            "note": "POSTECH also illustrates KRW 2,186,840 after subtracting tuition support and a KRW 6,000,000 annual living allowance. UniPath does not use that net amount: tuition is unconditional only in semester one, renewal requires previous-semester GPA 3.0/4.3. The reference excludes vacation housing, books, transport and other personal costs; Fall 2027 amounts are not confirmed.",
+            "source": "https://adm-iu.postech.ac.kr/user/comm/menu/4a69b7aee6a156d3c2ddb7413544ab2c/content/index.do",
+            "verified": "2026-11-18",
+            "status": "conflict",
+            "conflict": {
+              "text": "The 2026 essential-expense table lists tuition of KRW 2,790,000 per semester (5,580,000 for two), but its footnote gives first-semester 2026 tuition as KRW 2,924,000. These figures are not reconciled here. The table is a 2026 reference, not confirmed Fall 2027 pricing.",
+              "source": "https://adm-iu.postech.ac.kr/user/comm/menu/4a69b7aee6a156d3c2ddb7413544ab2c/content/index.do",
+              "verified": "2026-11-18"
+            }
+          }
+        },
+        {
+          "field": "sources",
+          "before": [
+            {
+              "label": "International undergraduate admissions guide",
+              "url": "https://adm-iu.postech.ac.kr/user/admission/guide/international.do"
+            },
+            {
+              "label": "POSTECH to admit international undergraduate students from Fall 2026",
+              "url": "https://postech.ac.kr/eng/news-center/university_news.do?mode=view&articleNo=23959&title=POSTECH+to+Admit+International+Undergraduate+Students+Beginning+Fall+2026"
+            },
+            {
+              "label": "Types of scholarships and eligibility",
+              "url": "https://www.postech.ac.kr/eng/admission-aid/scholarship_types.do"
+            },
+            {
+              "label": "About — history and facts",
+              "url": "https://math.postech.ac.kr/en/bbs/page.php?hid=m01_03"
+            }
+          ],
+          "after": [
+            {
+              "label": "International undergraduate admissions guide",
+              "url": "https://adm-iu.postech.ac.kr/user/admission/guide/international.do"
+            },
+            {
+              "label": "POSTECH to admit international undergraduate students from Fall 2026",
+              "url": "https://postech.ac.kr/eng/news-center/university_news.do?mode=view&articleNo=23959&title=POSTECH+to+Admit+International+Undergraduate+Students+Beginning+Fall+2026"
+            },
+            {
+              "label": "Types of scholarships and eligibility",
+              "url": "https://www.postech.ac.kr/eng/admission-aid/scholarship_types.do"
+            },
+            {
+              "label": "About — history and facts",
+              "url": "https://math.postech.ac.kr/en/bbs/page.php?hid=m01_03"
+            },
+            {
+              "label": "2026 essential expenses — tuition discrepancy and scholarship illustration",
+              "url": "https://adm-iu.postech.ac.kr/user/comm/menu/4a69b7aee6a156d3c2ddb7413544ab2c/content/index.do"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unist",
+      "country": "kr",
+      "fields": [
+        {
+          "field": "scholarships",
+          "before": {
+            "fullRide": {
+              "available": false,
+              "internationalEligible": true,
+              "basis": "merit",
+              "covers": {
+                "tuition": true,
+                "housing": false,
+                "meals": true,
+                "insurance": true,
+                "books": false
+              },
+              "renewable": true,
+              "competitiveness": "Every freshman receives the full tuition scholarship; the living scholarship tier is set by UNIST on acceptance.",
+              "howToApply": "Applied automatically to admitted international students.",
+              "note": "All international freshmen receive a full tuition waiver in their first semester. For their second semester, the published freshman exception requires 12 credits and GPA 2.0 for full tuition support. After that, 12 credits and GPA 2.7 qualify for a full waiver, while GPA 2.0 qualifies for half. Living-scholarship tiers are assigned on admission and have their own renewal criteria. Meals mean two per day during the semester. Health-insurance payments of KRW 75,000/month are reimbursed against proof. Housing and personal costs remain separate.",
+              "source": "https://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do",
+              "verified": "2026-11-17"
+            },
+            "merit": [
+              {
+                "name": "International undergraduate tuition waiver",
+                "amount": "Full tuition in semester one; conditional renewal from semester two",
+                "eligibility": "All international freshmen receive a full tuition waiver in their first semester. For their second semester, the published freshman exception requires 12 credits and GPA 2.0 for full tuition support. After that, 12 credits and GPA 2.7 qualify for a full waiver, while GPA 2.0 qualifies for half. Living-scholarship tiers are assigned on admission and have their own renewal criteria. Meals mean two per day during the semester. Health-insurance payments of KRW 75,000/month are reimbursed against proof. Housing and personal costs remain separate.",
+                "deadline": null,
+                "application": "Automatic",
+                "renewable": true,
+                "note": "All international freshmen receive a full tuition waiver in their first semester. For their second semester, the published freshman exception requires 12 credits and GPA 2.0 for full tuition support. After that, 12 credits and GPA 2.7 qualify for a full waiver, while GPA 2.0 qualifies for half. Living-scholarship tiers are assigned on admission and have their own renewal criteria. Meals mean two per day during the semester. Health-insurance payments of KRW 75,000/month are reimbursed against proof. Housing and personal costs remain separate.",
+                "source": "https://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do",
+                "verified": "2026-11-17"
+              },
+              {
+                "name": "Global Uni-Star Scholarship (Gold)",
+                "amount": "₩630,000 a month with meals",
+                "eligibility": "Tier set by UNIST when the offer is made",
+                "deadline": null,
+                "application": "Automatic",
+                "renewable": true,
+                "note": "Renewal needs at least 12 credits and a GPA between 2.0 and 2.7 depending on the tier."
+              },
+              {
+                "name": "Global Uni-Star Scholarship (Silver)",
+                "amount": "₩330,000 a month with meals",
+                "eligibility": "Tier set by UNIST when the offer is made",
+                "deadline": null,
+                "application": "Automatic",
+                "renewable": true,
+                "note": null
+              },
+              {
+                "name": "Global Dream Scholarship",
+                "amount": "₩130,000 a month with meals",
+                "eligibility": "Tier set by UNIST when the offer is made",
+                "deadline": null,
+                "application": "Automatic",
+                "renewable": true,
+                "note": null
+              },
+              {
+                "name": "Health insurance reimbursement",
+                "amount": "₩75,000 a month, reimbursed on proof of payment",
+                "eligibility": "International undergraduate students",
+                "deadline": null,
+                "application": null,
+                "renewable": true,
+                "note": null
+              }
+            ],
+            "needBased": {
+              "availableToInternational": null,
+              "meetsFullNeed": false,
+              "needBlindInternational": null,
+              "forms": [],
+              "deadlines": null,
+              "note": "UNIST awards these on admission and academic results rather than on financial need."
+            },
+            "source": "http://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do",
+            "verified": "2026-09-24"
+          },
+          "after": {
+            "fullRide": {
+              "available": false,
+              "internationalEligible": true,
+              "basis": "merit",
+              "covers": {
+                "tuition": true,
+                "housing": false,
+                "meals": true,
+                "insurance": true,
+                "books": false
+              },
+              "renewable": true,
+              "competitiveness": "Every freshman receives the full tuition scholarship; the living scholarship tier is set by UNIST on acceptance.",
+              "howToApply": "Applied automatically to admitted international students.",
+              "note": "All international freshmen receive a full tuition waiver in their first semester. For their second semester, the published freshman exception requires 12 credits and GPA 2.0 for full tuition support. After that, 12 credits and GPA 2.7 qualify for a full waiver, while GPA 2.0 qualifies for half. Living-scholarship tiers are assigned on admission and have their own renewal criteria. Meals mean two per day during the semester. Health-insurance payments of KRW 75,000/month are reimbursed against proof. Housing and personal costs remain separate.",
+              "source": "https://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do",
+              "verified": "2026-11-17"
+            },
+            "merit": [
+              {
+                "name": "International undergraduate tuition waiver",
+                "amount": "Full tuition in semester one; conditional renewal from semester two",
+                "eligibility": "All international freshmen receive a full tuition waiver in their first semester. For their second semester, the published freshman exception requires 12 credits and GPA 2.0 for full tuition support. After that, 12 credits and GPA 2.7 qualify for a full waiver, while GPA 2.0 qualifies for half. Living-scholarship tiers are assigned on admission and have their own renewal criteria. Meals mean two per day during the semester. Health-insurance payments of KRW 75,000/month are reimbursed against proof. Housing and personal costs remain separate.",
+                "deadline": null,
+                "application": "Automatic",
+                "renewable": true,
+                "note": "All international freshmen receive a full tuition waiver in their first semester. For their second semester, the published freshman exception requires 12 credits and GPA 2.0 for full tuition support. After that, 12 credits and GPA 2.7 qualify for a full waiver, while GPA 2.0 qualifies for half. Living-scholarship tiers are assigned on admission and have their own renewal criteria. Meals mean two per day during the semester. Health-insurance payments of KRW 75,000/month are reimbursed against proof. Housing and personal costs remain separate.",
+                "source": "https://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do",
+                "verified": "2026-11-17",
+                "internationalEligible": true,
+                "firstYearEligible": true
+              },
+              {
+                "name": "Global Uni-Star Scholarship (Gold)",
+                "amount": "₩630,000 a month with meals",
+                "eligibility": "Tier set by UNIST when the offer is made",
+                "deadline": null,
+                "application": "Automatic",
+                "renewable": true,
+                "note": "Renewal needs at least 12 credits and a GPA between 2.0 and 2.7 depending on the tier."
+              },
+              {
+                "name": "Global Uni-Star Scholarship (Silver)",
+                "amount": "₩330,000 a month with meals",
+                "eligibility": "Tier set by UNIST when the offer is made",
+                "deadline": null,
+                "application": "Automatic",
+                "renewable": true,
+                "note": null
+              },
+              {
+                "name": "Global Dream Scholarship",
+                "amount": "₩130,000 a month with meals",
+                "eligibility": "Tier set by UNIST when the offer is made",
+                "deadline": null,
+                "application": "Automatic",
+                "renewable": true,
+                "note": null
+              },
+              {
+                "name": "Health insurance reimbursement",
+                "amount": "₩75,000 a month, reimbursed on proof of payment",
+                "eligibility": "International undergraduate students",
+                "deadline": null,
+                "application": null,
+                "renewable": true,
+                "note": null
+              }
+            ],
+            "needBased": {
+              "availableToInternational": null,
+              "meetsFullNeed": false,
+              "needBlindInternational": null,
+              "forms": [],
+              "deadlines": null,
+              "note": "UNIST awards these on admission and academic results rather than on financial need."
+            },
+            "source": "http://admu-intl.unist.ac.kr/admission-eng/life/scholarships.do",
+            "verified": "2026-09-24"
+          }
+        }
+      ]
+    },
+    {
+      "id": "inha-university",
+      "country": "kr",
+      "fields": [
+        {
+          "field": "verification",
+          "before": {
+            "level": "partial",
+            "checked": [
+              "scholarship structure (score-based)",
+              "international admission route"
+            ],
+            "unconfirmed": [
+              "whether a full bachelor is available in English",
+              "tuition amounts",
+              "English score thresholds",
+              "deadlines"
+            ]
+          },
+          "after": {
+            "level": "partial",
+            "checked": [
+              "scholarship structure (score-based)",
+              "international admission route"
+            ],
+            "unconfirmed": [
+              "whether a full bachelor is available in English",
+              "tuition amounts",
+              "English score thresholds",
+              "deadlines",
+              "The English homepage timed out. This is a transport limitation, not evidence that Inha or its programmes are unavailable."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "chung-ang-university",
+      "country": "kr",
+      "fields": [
+        {
+          "field": "sources",
+          "before": [
+            {
+              "label": "Undergraduate admission",
+              "url": "https://neweng.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=410"
+            },
+            {
+              "label": "Scholarship and benefits",
+              "url": "https://neweng.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=550&CONTENTS_NO=2"
+            },
+            {
+              "label": "Office of International Affairs",
+              "url": "https://oia.cau.ac.kr/sub06/sub03_2.php"
+            },
+            {
+              "label": "About — history and facts",
+              "url": "https://neweng.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=170"
+            }
+          ],
+          "after": [
+            {
+              "label": "Undergraduate admission",
+              "url": "https://neweng.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=410"
+            },
+            {
+              "label": "Scholarship and benefits",
+              "url": "https://neweng.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=550&CONTENTS_NO=2"
+            },
+            {
+              "label": "Office of International Affairs",
+              "url": "https://oia.cau.ac.kr/sub06/sub03_2.php"
+            },
+            {
+              "label": "About — history and facts",
+              "url": "https://neweng.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=170"
+            },
+            {
+              "label": "Current admissions reference — not a replacement confirmation of the unavailable cycle",
+              "url": "https://oias.cau.ac.kr/cauoie/under/recruitment-guidelines.do"
+            }
+          ]
+        },
+        {
+          "field": "verification",
+          "before": {
+            "level": "partial",
+            "checked": [
+              "international admission route exists",
+              "scholarship selection basis",
+              "english (IELTS, TOEFL, TOEIC and TOPIK thresholds)"
+            ],
+            "unconfirmed": [
+              "English-taught degrees",
+              "tuition",
+              "deadlines"
+            ]
+          },
+          "after": {
+            "level": "partial",
+            "checked": [
+              "international admission route exists",
+              "scholarship selection basis",
+              "english (IELTS, TOEFL, TOEIC and TOPIK thresholds)"
+            ],
+            "unconfirmed": [
+              "English-taught degrees",
+              "tuition",
+              "deadlines",
+              "The old undergraduate guide link is missing. The replacement admissions page lists Spring 2027 guidance, which does not by itself verify Fall 2027 conditions."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pusan-national-university",
+      "country": "kr",
+      "fields": [
+        {
+          "field": "sources",
+          "before": [
+            {
+              "label": "Undergraduate admissions",
+              "url": "https://www.pusan.ac.kr/eng/CMS/Contents/Contents.do?mCode=MN013"
+            },
+            {
+              "label": "PNU scholarship programs",
+              "url": "https://www.pusan.ac.kr/eng/CMS/Contents/Contents.do?mCode=MN016"
+            },
+            {
+              "label": "Admissions for international students (PDF brochure)",
+              "url": "https://international.pusan.ac.kr/sites/international/download/brochure/005-Admissons%20For%20International%20Student(English).pdf"
+            },
+            {
+              "label": "About — history and facts",
+              "url": "https://channelpnu.pusan.ac.kr/news/articleView.html?idxno=38735"
+            }
+          ],
+          "after": [
+            {
+              "label": "Undergraduate admissions",
+              "url": "https://www.pusan.ac.kr/eng/CMS/Contents/Contents.do?mCode=MN013"
+            },
+            {
+              "label": "PNU scholarship programs",
+              "url": "https://www.pusan.ac.kr/eng/CMS/Contents/Contents.do?mCode=MN016"
+            },
+            {
+              "label": "Admissions for international students (PDF brochure)",
+              "url": "https://international.pusan.ac.kr/sites/international/download/brochure/005-Admissons%20For%20International%20Student(English).pdf"
+            },
+            {
+              "label": "About — history and facts",
+              "url": "https://channelpnu.pusan.ac.kr/news/articleView.html?idxno=38735"
+            },
+            {
+              "label": "Current admissions reference — not a replacement confirmation of the unavailable cycle",
+              "url": "https://international.pusan.ac.kr/international/15210/subview.do"
+            }
+          ]
+        },
+        {
+          "field": "verification",
+          "before": {
+            "level": "partial",
+            "checked": [
+              "language evidence rule",
+              "scholarship process and one award value"
+            ],
+            "unconfirmed": [
+              "English-taught degrees",
+              "tuition amounts",
+              "score thresholds",
+              "deadlines"
+            ]
+          },
+          "after": {
+            "level": "partial",
+            "checked": [
+              "language evidence rule",
+              "scholarship process and one award value"
+            ],
+            "unconfirmed": [
+              "English-taught degrees",
+              "tuition amounts",
+              "score thresholds",
+              "deadlines",
+              "The old Pusan international admissions brochure is missing. Current notices provide Spring 2027 guidance, not confirmation of Fall 2027 figures."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sejong-university",
+      "country": "kr",
+      "fields": [
+        {
+          "field": "verification",
+          "before": {
+            "level": "partial",
+            "checked": [
+              "English track exists",
+              "scholarship continuation rule",
+              "dormitory cost"
+            ],
+            "unconfirmed": [
+              "fully English-taught degrees",
+              "tuition amounts",
+              "English score requirements",
+              "2027 dates"
+            ]
+          },
+          "after": {
+            "level": "partial",
+            "checked": [
+              "English track exists",
+              "scholarship continuation rule",
+              "dormitory cost"
+            ],
+            "unconfirmed": [
+              "fully English-taught degrees",
+              "tuition amounts",
+              "English score requirements",
+              "2027 dates",
+              "The old international undergraduate policy PDF is unavailable. The current portal links a 43-page online-application tutorial, which cannot verify tuition, language or scholarship rules. Spring 2027 policies must not be extrapolated to Fall 2027."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "imperial-college-london",
+      "country": "uk",
+      "fields": [
+        {
+          "field": "links",
+          "before": {
+            "website": "https://www.imperial.ac.uk/",
+            "admissions": "https://www.imperial.ac.uk/study/apply/undergraduate/",
+            "internationalAdmissions": "https://www.imperial.ac.uk/study/international-students/",
+            "applicationPortal": "https://www.ucas.com/",
+            "scholarships": "https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/scholarships/",
+            "financialAid": "https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/",
+            "programs": "https://www.imperial.ac.uk/study/courses/",
+            "cost": "https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/tuition-fees/"
+          },
+          "after": {
+            "website": "https://www.imperial.ac.uk/",
+            "admissions": "https://www.imperial.ac.uk/study/apply/undergraduate/",
+            "internationalAdmissions": "https://www.imperial.ac.uk/study/international-students/",
+            "applicationPortal": "https://www.ucas.com/",
+            "scholarships": "https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/bursaries-grants-scholarships/",
+            "financialAid": "https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/",
+            "programs": "https://www.imperial.ac.uk/study/courses/",
+            "cost": "https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/tuition-fees/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "university-college-london",
+      "country": "uk",
+      "fields": [
+        {
+          "field": "links",
+          "before": {
+            "website": "https://www.ucl.ac.uk/",
+            "admissions": "https://www.ucl.ac.uk/study/prospective-students/undergraduate",
+            "internationalAdmissions": "https://www.ucl.ac.uk/prospective-students/international",
+            "applicationPortal": "https://www.ucas.com/",
+            "scholarships": "https://www.ucl.ac.uk/scholarships/ucl-global-undergraduate-scholarship",
+            "financialAid": "https://www.ucl.ac.uk/prospective-students/undergraduate/scholarships",
+            "programs": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses",
+            "cost": "https://www.ucl.ac.uk/study/undergraduate-fees-2027-2028"
+          },
+          "after": {
+            "website": "https://www.ucl.ac.uk/",
+            "admissions": "https://www.ucl.ac.uk/study/prospective-students/undergraduate",
+            "internationalAdmissions": "https://www.ucl.ac.uk/prospective-students/international",
+            "applicationPortal": "https://www.ucas.com/",
+            "scholarships": "https://www.ucl.ac.uk/scholarships/ucl-global-undergraduate-scholarship",
+            "financialAid": "https://www.ucl.ac.uk/prospective-students/undergraduate/scholarships",
+            "programs": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses",
+            "cost": "https://www.ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028"
+          }
+        },
+        {
+          "field": "sources",
+          "before": [
+            {
+              "label": "Undergraduate fees for 2027 to 2028",
+              "url": "https://www.ucl.ac.uk/study/undergraduate-fees-2027-2028"
+            },
+            {
+              "label": "Computer Science BSc — key information and fees",
+              "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/computer-science-bsc"
+            },
+            {
+              "label": "English language requirements",
+              "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply/english-language-requirements"
+            },
+            {
+              "label": "UCL Global Undergraduate Scholarship",
+              "url": "https://www.ucl.ac.uk/scholarships/ucl-global-undergraduate-scholarship"
+            }
+          ],
+          "after": [
+            {
+              "label": "Undergraduate fees for 2027 to 2028",
+              "url": "https://www.ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028"
+            },
+            {
+              "label": "Computer Science BSc — key information and fees",
+              "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/computer-science-bsc"
+            },
+            {
+              "label": "English language requirements",
+              "url": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply/english-language-requirements"
+            },
+            {
+              "label": "UCL Global Undergraduate Scholarship",
+              "url": "https://www.ucl.ac.uk/scholarships/ucl-global-undergraduate-scholarship"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "university-of-glasgow",
+      "country": "uk",
+      "fields": [
+        {
+          "field": "links",
+          "before": {
+            "website": "https://www.gla.ac.uk/",
+            "admissions": "https://www.gla.ac.uk/undergraduate/",
+            "applicationPortal": "https://www.ucas.com/",
+            "scholarships": "https://www.gla.ac.uk/undergraduate/fees/scholarships/",
+            "cost": "https://www.gla.ac.uk/undergraduate/fees/intlfees/",
+            "english": "https://www.gla.ac.uk/international/englishlanguage/requirements/"
+          },
+          "after": {
+            "website": "https://www.gla.ac.uk/",
+            "admissions": "https://www.gla.ac.uk/undergraduate/",
+            "applicationPortal": "https://www.ucas.com/",
+            "scholarships": "https://www.gla.ac.uk/scholarships/worldchangersglobalexcellencescholarship/",
+            "cost": "https://www.gla.ac.uk/undergraduate/fees/intlfees/",
+            "english": "https://www.gla.ac.uk/international/englishlanguage/requirements/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "university-of-leeds",
+      "country": "uk",
+      "fields": [
+        {
+          "field": "links",
+          "before": {
+            "website": "https://www.leeds.ac.uk/",
+            "admissions": "https://www.leeds.ac.uk/undergraduate",
+            "applicationPortal": "https://www.ucas.com/",
+            "scholarships": "https://www.leeds.ac.uk/international-fees-costs",
+            "cost": "https://www.leeds.ac.uk/undergraduate-fees",
+            "english": "https://www.leeds.ac.uk/international-applying/doc/entry-requirements"
+          },
+          "after": {
+            "website": "https://www.leeds.ac.uk/",
+            "admissions": "https://www.leeds.ac.uk/undergraduate",
+            "applicationPortal": "https://www.ucas.com/",
+            "scholarships": "https://www.leeds.ac.uk/international-fees-costs",
+            "cost": "https://www.leeds.ac.uk/undergraduate-fees/doc/fees-undergraduate-fees",
+            "english": "https://www.leeds.ac.uk/international-applying/doc/entry-requirements"
+          }
+        }
+      ]
+    },
+    {
+      "id": "frankfurt-school",
+      "country": "de",
+      "fields": [
+        {
+          "field": "links",
+          "before": {
+            "website": "https://www.frankfurt-school.de/en",
+            "admissions": "https://www.frankfurt-school.de/en/study/bachelor",
+            "internationalAdmissions": "https://www.frankfurt-school.de/en/study/bachelor/bachelor-science",
+            "applicationPortal": "https://www.frankfurt-school.de/en/study/bachelor",
+            "scholarships": "https://www.frankfurt-school.de/en/home/programmes/financing",
+            "financialAid": "https://www.frankfurt-school.de/en/home/programmes/financing",
+            "programs": "https://www.frankfurt-school.de/en/study/bachelor/bachelor-science",
+            "cost": "https://www.frankfurt-school.de/cms/dam/jcr:5a373f8b-d6cf-4175-9681-7b36eb573471/COA.Website%202026_27.pdf"
+          },
+          "after": {
+            "website": "https://www.frankfurt-school.de/en",
+            "admissions": "https://www.frankfurt-school.de/en/study/bachelor",
+            "internationalAdmissions": "https://www.frankfurt-school.de/en/home/study/bachelor/bachelor-in-business-administration",
+            "applicationPortal": "https://www.frankfurt-school.de/en/study/bachelor",
+            "scholarships": "https://www.frankfurt-school.de/en/home/students-alumni/financing",
+            "financialAid": "https://www.frankfurt-school.de/en/home/students-alumni/financing",
+            "programs": "https://www.frankfurt-school.de/en/home/study/bachelor/bachelor-in-business-administration",
+            "cost": "https://www.frankfurt-school.de/cms/dam/jcr:5a373f8b-d6cf-4175-9681-7b36eb573471/COA.Website%202026_27.pdf"
+          }
+        },
+        {
+          "field": "scholarships",
+          "before": {
+            "fullRide": {
+              "available": false,
+              "internationalEligible": null,
+              "basis": "merit",
+              "covers": {
+                "tuition": true,
+                "housing": false,
+                "meals": false,
+                "insurance": false,
+                "books": false
+              },
+              "renewable": null,
+              "competitiveness": null,
+              "howToApply": null,
+              "note": "The highest awards remove tuition entirely, but no award listed covers living costs, so this is not a full ride."
+            },
+            "merit": [
+              {
+                "name": "Frankfurt School merit scholarships",
+                "amount": "15%, 25%, 50%, 75% or 100% tuition reduction",
+                "eligibility": "Students with excellent grades and a strong performance in the admissions process; background, motivation, financial need and engagement are also considered",
+                "deadline": null,
+                "application": "Considered through the admissions process",
+                "renewable": null,
+                "note": null
+              }
+            ],
+            "needBased": {
+              "availableToInternational": null,
+              "meetsFullNeed": false,
+              "needBlindInternational": null,
+              "forms": [],
+              "deadlines": null,
+              "note": "Financial need is one of the factors in the merit scholarships; a separate need-based scheme was not confirmed."
+            }
+          },
+          "after": {
+            "fullRide": {
+              "available": false,
+              "internationalEligible": null,
+              "basis": "merit",
+              "covers": {
+                "tuition": null,
+                "housing": false,
+                "meals": false,
+                "insurance": false,
+                "books": false
+              },
+              "renewable": null,
+              "competitiveness": null,
+              "howToApply": null,
+              "note": "The general and diversity awards apply to the full-time bachelor route and may include partner-university exchange semesters. Selection considers academic results and personal background. The separate 75% Studienstiftung route requires German Abitur and a school nomination; it is not a general international award. No 100% award for Fall 2027 is established by this page. Living costs are extra."
+            },
+            "merit": [
+              {
+                "name": "General FS and Diversity Scholarships",
+                "amount": "15%, 25% or 50% tuition reduction",
+                "eligibility": "Students with excellent grades and a strong performance in the admissions process; background, motivation, financial need and engagement are also considered",
+                "deadline": null,
+                "application": "Considered through the admissions process",
+                "renewable": null,
+                "note": "The general and diversity awards apply to the full-time bachelor route and may include partner-university exchange semesters. Selection considers academic results and personal background. The separate 75% Studienstiftung route requires German Abitur and a school nomination; it is not a general international award. No 100% award for Fall 2027 is established by this page. Living costs are extra.",
+                "internationalEligible": true,
+                "firstYearEligible": true,
+                "source": "https://www.frankfurt-school.de/en/home/students-alumni/financing",
+                "verified": "2026-11-18"
+              }
+            ],
+            "needBased": {
+              "availableToInternational": null,
+              "meetsFullNeed": false,
+              "needBlindInternational": null,
+              "forms": [],
+              "deadlines": null,
+              "note": "Financial need is one of the factors in the merit scholarships; a separate need-based scheme was not confirmed."
+            }
+          }
+        },
+        {
+          "field": "sources",
+          "before": [
+            {
+              "label": "Cost of attendance 2026/2027 — BSc programmes (PDF)",
+              "url": "https://www.frankfurt-school.de/cms/dam/jcr:5a373f8b-d6cf-4175-9681-7b36eb573471/COA.Website%202026_27.pdf"
+            },
+            {
+              "label": "Bachelor programmes",
+              "url": "https://www.frankfurt-school.de/en/study/bachelor"
+            },
+            {
+              "label": "Financing your studies",
+              "url": "https://www.frankfurt-school.de/en/home/programmes/financing"
+            },
+            {
+              "label": "BSc Business Administration — deadline and fees",
+              "url": "https://www.frankfurt-school.de/en/study/bachelor/bachelor-in-business-administration"
+            },
+            {
+              "label": "BSc Management, Philosophy & Economics",
+              "url": "https://www.frankfurt-school.de/en/study/bachelor/bachelor-in-management-philosophy-economics"
+            },
+            {
+              "label": "BSc Artificial Intelligence & Data Engineering",
+              "url": "https://www.frankfurt-school.de/en/study/bachelor/bachelor-in-artificial-intelligence-and-data-engineering"
+            }
+          ],
+          "after": [
+            {
+              "label": "Cost of attendance 2026/2027 — BSc programmes (PDF)",
+              "url": "https://www.frankfurt-school.de/cms/dam/jcr:5a373f8b-d6cf-4175-9681-7b36eb573471/COA.Website%202026_27.pdf"
+            },
+            {
+              "label": "Bachelor programmes",
+              "url": "https://www.frankfurt-school.de/en/study/bachelor"
+            },
+            {
+              "label": "Financing your studies",
+              "url": "https://www.frankfurt-school.de/en/home/students-alumni/financing"
+            },
+            {
+              "label": "BSc Business Administration — deadline and fees",
+              "url": "https://www.frankfurt-school.de/en/study/bachelor/bachelor-in-business-administration"
+            },
+            {
+              "label": "BSc Management, Philosophy & Economics",
+              "url": "https://www.frankfurt-school.de/en/study/bachelor/bachelor-in-management-philosophy-economics"
+            },
+            {
+              "label": "BSc Artificial Intelligence & Data Engineering",
+              "url": "https://www.frankfurt-school.de/en/study/bachelor/bachelor-in-artificial-intelligence-and-data-engineering"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "university-of-europe-applied-sciences",
+      "country": "de",
+      "fields": [
+        {
+          "field": "photos",
+          "before": {
+            "main": "assets/img/universities/university-of-europe-applied-sciences/1.jpg",
+            "thumb": "assets/img/universities/university-of-europe-applied-sciences/thumb.jpg",
+            "gallery": [
+              {
+                "src": "assets/img/universities/university-of-europe-applied-sciences/1.jpg",
+                "title": "University of Applied Sciences Europe - Campus Berlin",
+                "caption": "This is the front of campus building of the University of Applied Sciences Europe in Berlin, Germany",
+                "artist": "Jacob Ferguson",
+                "license": "CC BY-SA 4.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                "page": "https://commons.wikimedia.org/wiki/File%3AUniversity_of_Applied_Sciences_Europe_-_Campus_Berlin.jpg"
+              },
+              {
+                "src": "assets/img/universities/university-of-europe-applied-sciences/2.jpg",
+                "title": "University of Europe for Applied Sciences Campus Berlin",
+                "caption": "University of Europe for Applied Sciences Campus Berlin",
+                "artist": "Musa Bandey",
+                "license": "CC0",
+                "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                "page": "https://commons.wikimedia.org/wiki/File%3AUniversity_of_Europe_for_Applied_Sciences_Campus_Berlin.png"
+              }
+            ]
+          },
+          "after": {
+            "main": "assets/img/universities/university-of-europe-applied-sciences/1.jpg",
+            "thumb": "assets/img/universities/university-of-europe-applied-sciences/thumb.jpg",
+            "gallery": [
+              {
+                "src": "assets/img/universities/university-of-europe-applied-sciences/1.jpg",
+                "title": "University of Applied Sciences Europe - Campus Berlin",
+                "caption": "This is the front of campus building of the University of Applied Sciences Europe in Berlin, Germany",
+                "artist": "Jacob Ferguson",
+                "license": "CC BY-SA 4.0",
+                "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+                "page": "https://commons.wikimedia.org/wiki/File%3AUniversity_of_Applied_Sciences_Europe_-_Campus_Berlin.jpg"
+              }
+            ]
+          }
+        },
+        {
+          "field": "verification",
+          "before": {
+            "level": "partial",
+            "checked": [
+              "english (IELTS 5.5 undergraduate)",
+              "language of instruction",
+              "reservation fee",
+              "application documents",
+              "tuition (published bachelor starting rate)"
+            ],
+            "unconfirmed": [
+              "deadlines",
+              "scholarships"
+            ]
+          },
+          "after": {
+            "level": "partial",
+            "checked": [
+              "english (IELTS 5.5 undergraduate)",
+              "language of instruction",
+              "reservation fee",
+              "application documents",
+              "tuition (published bachelor starting rate)"
+            ],
+            "unconfirmed": [
+              "deadlines",
+              "scholarships",
+              "A second Berlin image was removed because its original page and reuse licence could not be verified. The first credited campus image remains."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "university-of-windsor",
+      "country": "ca",
+      "fields": [
+        {
+          "field": "programEvidence",
+          "before": {
+            "business": {
+              "program": "Business",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://future.uwindsor.ca/student-awards",
+              "checked": "2026-10-16"
+            },
+            "computer-science": {
+              "program": "Computer Science",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://future.uwindsor.ca/student-awards",
+              "checked": "2026-10-16"
+            },
+            "engineering": {
+              "program": "Engineering",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://future.uwindsor.ca/student-awards",
+              "checked": "2026-10-16"
+            },
+            "medicine": {
+              "program": "Nursing",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://future.uwindsor.ca/student-awards",
+              "checked": "2026-10-16"
+            },
+            "education": {
+              "program": "Education",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://future.uwindsor.ca/student-awards",
+              "checked": "2026-10-16"
+            },
+            "economics": {
+              "program": "Economics (BA, BSc)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://future.uwindsor.ca/economics",
+              "checked": "2026-10-27"
+            },
+            "psychology": {
+              "program": "Psychology (BA)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://future.uwindsor.ca/psychology",
+              "checked": "2026-10-27"
+            },
+            "mathematics": {
+              "program": "Mathematics & Statistics (BMath)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://future.uwindsor.ca/mathematics-statistics",
+              "checked": "2026-10-27"
+            }
+          },
+          "after": {
+            "business": {
+              "program": "Business",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://future.uwindsor.ca/business",
+              "checked": "2026-11-18"
+            },
+            "computer-science": {
+              "program": "Computer Science",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://www.uwindsor.ca/science/computerscience/",
+              "checked": "2026-11-18"
+            },
+            "engineering": {
+              "program": "Engineering",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://future.uwindsor.ca/engineering",
+              "checked": "2026-11-18"
+            },
+            "medicine": {
+              "program": "Nursing",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://future.uwindsor.ca/nursing",
+              "checked": "2026-11-18"
+            },
+            "education": {
+              "program": "Concurrent Psychology (BA) / Education (BEd) / Early Childhood Education",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://future.uwindsor.ca/education",
+              "checked": "2026-11-18"
+            },
+            "economics": {
+              "program": "Economics (BA, BSc)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://future.uwindsor.ca/economics",
+              "checked": "2026-10-27"
+            },
+            "psychology": {
+              "program": "Psychology (BA)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://future.uwindsor.ca/psychology",
+              "checked": "2026-10-27"
+            },
+            "mathematics": {
+              "program": "Mathematics & Statistics (BMath)",
+              "level": "bachelor",
+              "language": "English",
+              "url": "https://future.uwindsor.ca/mathematics-statistics",
+              "checked": "2026-10-27"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

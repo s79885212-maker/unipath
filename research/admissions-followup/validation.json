@@ -1,0 +1,62 @@
+{
+  "version": 267,
+  "readyForDev": true,
+  "tests": {
+    "passed": 627,
+    "failed": 0
+  },
+  "builds": {
+    "production": {
+      "profiles": 126,
+      "uniqueProfiles": 63,
+      "routeAndScoreScenarios": 4,
+      "userFlowRecords": 14,
+      "errors": 0,
+      "browser": "Chrome 157.0.8103.51",
+      "static": {
+        "build": "local production",
+        "version": [
+          "267"
+        ],
+        "canonical": "https://s79885212-maker.github.io/unipath/",
+        "noindex": false,
+        "profiles": 540
+      }
+    },
+    "staging": {
+      "profiles": 126,
+      "uniqueProfiles": 63,
+      "routeAndScoreScenarios": 4,
+      "userFlowRecords": 14,
+      "errors": 0,
+      "browser": "Chrome 157.0.8103.51",
+      "static": {
+        "build": "local staging",
+        "version": [
+          "267"
+        ],
+        "canonical": "https://s79885212-maker.github.io/unipath/staging/",
+        "noindex": true,
+        "profiles": 540
+      }
+    }
+  },
+  "uniqueCatalogue": 540,
+  "internalLinksPerBuild": 20817,
+  "HTMLPagesPerBuild": 547,
+  "sourceInputsVerified": 37,
+  "stagingPublished": false,
+  "remainingSourceQuestions": 13,
+  "closedInScopedAcademicFramework": 40,
+  "originalQueueAttempted": 53,
+  "originalQueueContentRead": 52,
+  "additionalPriorityContentRead": 4,
+  "separateCounterReview": 24,
+  "liveProtocol": "To be published in PR29 after deployment; local results are not live results.",
+  "limitations": [
+    "WebKit executable missing; no actual Safari/iPhone.",
+    "360/390 px are Chrome viewport emulation.",
+    "A previous parallel v265 run timed out after160 openings; retained separately and superseded by complete sequential runs.",
+    "No standalone calendar/export; saved application-date table tested."
+  ]
+}

@@ -4329,7 +4329,7 @@ window.UNIPATH.universities.push(
     "scholarships": null,
     "financialAid": null,
     "programs": "https://www.csusb.edu/join-the-pack/program-finder/biology-bs",
-    "cost": "https://www.csusb.edu/international-education/international-admissions/tuition-and-fees"
+    "cost": "https://www.csusb.edu/sites/default/files/upload/file/2026/CSUSB%20Affidavit%20Of%20Support_261027_1.pdf"
   },
   "admissions": {
     "platforms": [],
@@ -4343,12 +4343,12 @@ window.UNIPATH.universities.push(
         "entryTerm": "Autumn",
         "entryYear": "2027",
         "status": "confirmed",
-        "source": "https://www.csusb.edu/international-education/international-admissions/application-document-deadlines",
-        "verified": "2026-11-13",
+        "source": "https://www.csusb.edu/international-education/international-admissions/future-international-students/application-and",
+        "verified": "2026-11-18",
         "cycleEvidence": {
           "basis": "explicit-date",
-          "source": "https://www.csusb.edu/international-education/international-admissions/application-document-deadlines",
-          "verified": "2026-11-13",
+          "source": "https://www.csusb.edu/international-education/international-admissions/future-international-students/application-and",
+          "verified": "2026-11-18",
           "entryTerm": "Autumn",
           "entryYear": "2027",
           "quote": "Fall 2027 — international undergraduate admission: 1 June 2027"
@@ -4363,12 +4363,12 @@ window.UNIPATH.universities.push(
         "entryTerm": "Autumn",
         "entryYear": "2027",
         "status": "confirmed",
-        "source": "https://www.csusb.edu/international-education/international-admissions/application-document-deadlines",
-        "verified": "2026-11-13",
+        "source": "https://www.csusb.edu/international-education/international-admissions/future-international-students/application-and",
+        "verified": "2026-11-18",
         "cycleEvidence": {
           "basis": "explicit-date",
-          "source": "https://www.csusb.edu/international-education/international-admissions/application-document-deadlines",
-          "verified": "2026-11-13",
+          "source": "https://www.csusb.edu/international-education/international-admissions/future-international-students/application-and",
+          "verified": "2026-11-18",
           "entryTerm": "Autumn",
           "entryYear": "2027",
           "quote": "Fall 2027 — international undergraduate documents: 30 June 2027"
@@ -4376,12 +4376,12 @@ window.UNIPATH.universities.push(
       }
     ],
     "applicationFee": {
-      "amount": 70,
+      "amount": null,
       "currency": "USD",
       "waiverAvailableToInternational": null,
       "waiver": null,
-      "note": null,
-      "source": "https://www.csusb.edu/international-education/international-admissions/first-year-students",
+      "note": "The previously recorded USD 70 fee was not re-confirmed on the replacement international first-year page. Check the application portal before payment.",
+      "source": "https://www.csusb.edu/international-education/international-admissions/apply/first-year-admissions-requirements",
       "verified": "2026-11-13"
     },
     "documents": [],
@@ -4420,8 +4420,8 @@ window.UNIPATH.universities.push(
     },
     "waiver": null,
     "note": null,
-    "detailsSource": "https://www.csusb.edu/international-education/international-admissions/first-year-students",
-    "detailsVerified": "2026-11-13"
+    "detailsSource": "https://www.csusb.edu/international-education/international-admissions/future-international-students/english-proficiency",
+    "detailsVerified": "2026-11-18"
   },
   "academics": {
     "gpa": null,
@@ -4447,9 +4447,9 @@ window.UNIPATH.universities.push(
     "academicYear": "2026–2027",
     "currency": "USD",
     "studentCategory": "International first-year applicants",
-    "source": "https://www.csusb.edu/international-education/international-admissions/tuition-and-fees",
+    "source": "https://www.csusb.edu/sites/default/files/upload/file/2026/CSUSB%20Affidavit%20Of%20Support_261027_1.pdf",
     "verified": "2026-11-13",
-    "headline": "$50,944 published international estimate",
+    "headline": "2026–27 reference: $50,944 nine-month financial-support estimate",
     "items": [
       {
         "label": "Tuition and fees",
@@ -4484,7 +4484,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": null,
-    "note": "Published 2026–2027 estimate for international undergraduates. Insurance may cost more for students over 24.",
+    "note": "The affidavit revised 27 October 2026 lists a USD 50,944 minimum proof of funds for 24 undergraduate units and nine months (Fall/Spring). It excludes summer living costs and is not a confirmed full Fall 2027 annual budget. The earlier 2026–27 reference is retained.",
     "status": "previous-cycle"
   },
   "scholarships": {
@@ -4522,7 +4522,7 @@ window.UNIPATH.universities.push(
   "sources": [
     {
       "label": "International admissions",
-      "url": "https://www.csusb.edu/international-education/international-admissions/first-year-students"
+      "url": "https://www.csusb.edu/international-education/international-admissions/apply/first-year-admissions-requirements"
     },
     {
       "label": "Undergraduate programs",
@@ -4538,7 +4538,7 @@ window.UNIPATH.universities.push(
     },
     {
       "label": "Published costs",
-      "url": "https://www.csusb.edu/international-education/international-admissions/tuition-and-fees"
+      "url": "https://www.csusb.edu/sites/default/files/upload/file/2026/CSUSB%20Affidavit%20Of%20Support_261027_1.pdf"
     }
   ],
   "verification": {

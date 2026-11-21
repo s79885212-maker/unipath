@@ -1,0 +1,13 @@
+{
+  "total": 5943,
+  "checked": 5943,
+  "counts": {
+    "working": 4732,
+    "redirect": 366,
+    "transport-error": 380,
+    "blocked": 381,
+    "not-found": 54,
+    "http-error": 23,
+    "temporary": 7
+  }
+}

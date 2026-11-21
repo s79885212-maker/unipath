@@ -1,0 +1,3866 @@
+{
+  "root": "http://127.0.0.1:8765/unipath/staging/",
+  "live": false,
+  "profiles": [
+    {
+      "id": "college-of-wooster",
+      "lang": "ru",
+      "width": 360,
+      "heading": "The College of Wooster",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/college-of-wooster/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/college-of-wooster/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/college-of-wooster/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/college-of-wooster/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nCollege of Wooster Bornhuetter Hall\nФото: Theodore Ferringer from Cleveland, OH · Wikimedia Commons · CC BY 2.0\nUniversity Library, University of Wooster, Wooster, Ohio.\nФото: Unknown author · Wikimedia Commons · Общественное достояние\nCollege of Wooster Campus Panorama\nФото: Robert from Zoetermeer, Netherlands · Wikimedia Commons · CC BY 2.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "college-of-wooster",
+      "lang": "en",
+      "width": 1280,
+      "heading": "The College of Wooster",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/college-of-wooster/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/college-of-wooster/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/college-of-wooster/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/college-of-wooster/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nCollege of Wooster Bornhuetter Hall\nPhoto: Theodore Ferringer from Cleveland, OH · Wikimedia Commons · CC BY 2.0\nUniversity Library, University of Wooster, Wooster, Ohio.\nPhoto: Unknown author · Wikimedia Commons · Public domain\nCollege of Wooster Campus Panorama\nPhoto: Robert from Zoetermeer, Netherlands · Wikimedia Commons · CC BY 2.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "st-olaf-college",
+      "lang": "ru",
+      "width": 360,
+      "heading": "St. Olaf College",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/st-olaf-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/st-olaf-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/st-olaf-college/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nStOlaf College Campus\nФото: Daniel Edwins a.k.a. Webmoof of English Wikipedia · Wikimedia Commons · CC BY-SA 2.5\nDittman Center for art at St Olaf\nФото: Runner1928 · Wikimedia Commons · CC BY-SA 3.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "st-olaf-college",
+      "lang": "en",
+      "width": 1280,
+      "heading": "St. Olaf College",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/st-olaf-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/st-olaf-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/st-olaf-college/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nStOlaf College Campus\nPhoto: Daniel Edwins a.k.a. Webmoof of English Wikipedia · Wikimedia Commons · CC BY-SA 2.5\nDittman Center for art at St Olaf\nPhoto: Runner1928 · Wikimedia Commons · CC BY-SA 3.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "knox-college",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Knox College",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/knox-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/knox-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nKnox College Seymour Library 2007\nФото: en:User:Jjacobsmeyer · Wikimedia Commons · CC BY-SA 3.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "knox-college",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Knox College",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/knox-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/knox-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nKnox College Seymour Library 2007\nPhoto: en:User:Jjacobsmeyer · Wikimedia Commons · CC BY-SA 3.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "beloit-college",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Beloit College",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/beloit-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/beloit-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/beloit-college/2.jpg",
+          "loaded": true,
+          "width": 676,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/beloit-college/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\n2013-09-14 Pearsons Hall of Science, Beloit College, Beloit, WI\nФото: Sa magnuson33 · Wikimedia Commons · CC BY-SA 3.0\n2013-09-14 Pearsons Hall of Science, Beloit College, Side View, Beloit, WI\nФото: Sa magnuson33 · Wikimedia Commons · CC BY-SA 3.0\nBeloit College Library\nФото: Robin Zebrowski · Wikimedia Commons · CC BY 2.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "beloit-college",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Beloit College",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/beloit-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/beloit-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/beloit-college/2.jpg",
+          "loaded": true,
+          "width": 676,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/beloit-college/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\n2013-09-14 Pearsons Hall of Science, Beloit College, Beloit, WI\nPhoto: Sa magnuson33 · Wikimedia Commons · CC BY-SA 3.0\n2013-09-14 Pearsons Hall of Science, Beloit College, Side View, Beloit, WI\nPhoto: Sa magnuson33 · Wikimedia Commons · CC BY-SA 3.0\nBeloit College Library\nPhoto: Robin Zebrowski · Wikimedia Commons · CC BY 2.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "lawrence-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Lawrence University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/lawrence-university/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/lawrence-university/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/lawrence-university/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/lawrence-university/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nLawrence University Memorial Chapel\nPhoto: RB Photo · Wikimedia Commons · CC BY 2.0\nMain Hall at Lawrence University\nPhoto: Wyatt21matrix · Wikimedia Commons · CC BY-SA 4.0\nAppleton June 2026 040 (Lawrence University--gate)\nPhoto: Michael Barera · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "lawrence-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Lawrence University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/lawrence-university/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/lawrence-university/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/lawrence-university/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/lawrence-university/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nLawrence University Memorial Chapel\nФото: RB Photo · Wikimedia Commons · CC BY 2.0\nMain Hall at Lawrence University\nФото: Wyatt21matrix · Wikimedia Commons · CC BY-SA 4.0\nAppleton June 2026 040 (Lawrence University--gate)\nФото: Michael Barera · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "kalamazoo-college",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Kalamazoo College",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/kalamazoo-college/1.jpg",
+          "loaded": true,
+          "width": 900,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/kalamazoo-college/1.jpg",
+          "loaded": true,
+          "width": 900,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/kalamazoo-college/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nCapilla Stetson en Kalamazoo College\nPhoto: Gotanero · Wikimedia Commons · CC BY-SA 3.0\nKalamazoo College Fieldhouse (October 2016)\nPhoto: Gotanero · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "kalamazoo-college",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Kalamazoo College",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/kalamazoo-college/1.jpg",
+          "loaded": true,
+          "width": 900,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/kalamazoo-college/1.jpg",
+          "loaded": true,
+          "width": 900,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/kalamazoo-college/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nCapilla Stetson en Kalamazoo College\nФото: Gotanero · Wikimedia Commons · CC BY-SA 3.0\nKalamazoo College Fieldhouse (October 2016)\nФото: Gotanero · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "hendrix-college",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Hendrix College",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/hendrix-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/hendrix-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/hendrix-college/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/hendrix-college/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nMartin Hall, Hendrix College\nPhoto: Valis55 · Wikimedia Commons · CC BY-SA 3.0\nPresident's House, Hendrix College\nPhoto: Valis55 · Wikimedia Commons · CC BY-SA 3.0\nGalloway Hall\nPhoto: Valis55 · Wikimedia Commons · CC BY-SA 3.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "hendrix-college",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Hendrix College",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/hendrix-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/hendrix-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/hendrix-college/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/hendrix-college/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nMartin Hall, Hendrix College\nФото: Valis55 · Wikimedia Commons · CC BY-SA 3.0\nPresident's House, Hendrix College\nФото: Valis55 · Wikimedia Commons · CC BY-SA 3.0\nGalloway Hall\nФото: Valis55 · Wikimedia Commons · CC BY-SA 3.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "lake-forest-college",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Lake Forest College",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/lake-forest-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/lake-forest-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/lake-forest-college/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nYoung Hall of lake forest college\nPhoto: Unknown author · Wikimedia Commons · Public domain\nDurand Art Institute\nPhoto: Eudaimonia86 at English Wikipedia · Wikimedia Commons · Public domain\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "lake-forest-college",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Lake Forest College",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/lake-forest-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/lake-forest-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/lake-forest-college/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nYoung Hall of lake forest college\nФото: Unknown author · Wikimedia Commons · Общественное достояние\nDurand Art Institute\nФото: Eudaimonia86 at English Wikipedia · Wikimedia Commons · Общественное достояние\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "elmira-college",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Elmira College",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/elmira-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/elmira-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/elmira-college/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/elmira-college/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nElmira College Tompkins Hall\nPhoto: Kenneth C. Zirkel · Wikimedia Commons · CC BY 4.0\nElmira College Campus Center\nPhoto: Kenneth C. Zirkel · Wikimedia Commons · CC BY-SA 3.0\nElmira College Cowles Hall panorama\nPhoto: Kenneth C. Zirkel · Wikimedia Commons · CC BY-SA 3.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "elmira-college",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Elmira College",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/elmira-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/elmira-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/elmira-college/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/elmira-college/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nElmira College Tompkins Hall\nФото: Kenneth C. Zirkel · Wikimedia Commons · CC BY 4.0\nElmira College Campus Center\nФото: Kenneth C. Zirkel · Wikimedia Commons · CC BY-SA 3.0\nElmira College Cowles Hall panorama\nФото: Kenneth C. Zirkel · Wikimedia Commons · CC BY-SA 3.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "eckerd-college",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Eckerd College",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/eckerd-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/eckerd-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/eckerd-college/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/eckerd-college/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nEckerd College Armacost Library\nФото: Seekadventuremedia · Wikimedia Commons · CC BY-SA 4.0\nWireman Chapel at Eckerd College\nФото: Seekadventuremedia · Wikimedia Commons · CC BY-SA 4.0\nEckerd College Sunset\nФото: Willgohskr · Wikimedia Commons · CC BY 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "eckerd-college",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Eckerd College",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/eckerd-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/eckerd-college/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/eckerd-college/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/eckerd-college/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nEckerd College Armacost Library\nPhoto: Seekadventuremedia · Wikimedia Commons · CC BY-SA 4.0\nWireman Chapel at Eckerd College\nPhoto: Seekadventuremedia · Wikimedia Commons · CC BY-SA 4.0\nEckerd College Sunset\nPhoto: Willgohskr · Wikimedia Commons · CC BY 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "memorial-university-of-newfoundland",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Memorial University of Newfoundland",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/memorial-university-of-newfoundland/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/memorial-university-of-newfoundland/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/memorial-university-of-newfoundland/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/memorial-university-of-newfoundland/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nMemorialUniversity\nФото: User:Neelix · Wikimedia Commons · Общественное достояние\nLong Pond Twilight, Memorial University of Newfoundland\nФото: Ken Eckert · Wikimedia Commons · CC BY-SA 4.0\nQEII and Clock Tower\nФото: IseDaByThatEditsTheBoat · Wikimedia Commons · CC0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-regina",
+      "lang": "ru",
+      "width": 360,
+      "heading": "University of Regina",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-regina/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-regina/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-regina/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nJohn Archer Library, University of Regina\nФото: Grahampurse · Wikimedia Commons · CC BY-SA 4.0\nUniversity of Regina Continuing Development Centre - Regina (29125895587)\nФото: Haydn Blackey from Cardiff, Wales · Wikimedia Commons · CC BY-SA 2.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "memorial-university-of-newfoundland",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Memorial University of Newfoundland",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/memorial-university-of-newfoundland/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/memorial-university-of-newfoundland/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/memorial-university-of-newfoundland/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/memorial-university-of-newfoundland/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nMemorialUniversity\nPhoto: User:Neelix · Wikimedia Commons · Public domain\nLong Pond Twilight, Memorial University of Newfoundland\nPhoto: Ken Eckert · Wikimedia Commons · CC BY-SA 4.0\nQEII and Clock Tower\nPhoto: IseDaByThatEditsTheBoat · Wikimedia Commons · CC0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-lethbridge",
+      "lang": "ru",
+      "width": 360,
+      "heading": "University of Lethbridge",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-lethbridge/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-lethbridge/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-lethbridge/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-lethbridge/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nUniversity of lethbridge SU\nФото: Keegan Mullin · Wikimedia Commons · Общественное достояние\nUniversity of lethbridge hill\nФото: Keegan Mullin · Wikimedia Commons · Общественное достояние\nEarly University Hall\nФото: Peace7777 · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-regina",
+      "lang": "en",
+      "width": 1280,
+      "heading": "University of Regina",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-regina/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-regina/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-regina/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nJohn Archer Library, University of Regina\nPhoto: Grahampurse · Wikimedia Commons · CC BY-SA 4.0\nUniversity of Regina Continuing Development Centre - Regina (29125895587)\nPhoto: Haydn Blackey from Cardiff, Wales · Wikimedia Commons · CC BY-SA 2.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-saskatchewan",
+      "lang": "ru",
+      "width": 360,
+      "heading": "University of Saskatchewan",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-saskatchewan/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-saskatchewan/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-saskatchewan/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nCollegeBuilding-UofS\nФото: SriMesh · Wikimedia Commons · CC BY-SA 3.0\nHealth Sciences Building located on the University of Saskatchewan Main Campus\nФото: Unknown author · Wikimedia Commons · CC BY-SA 3.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-lethbridge",
+      "lang": "en",
+      "width": 1280,
+      "heading": "University of Lethbridge",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-lethbridge/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-lethbridge/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-lethbridge/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-lethbridge/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nUniversity of lethbridge SU\nPhoto: Keegan Mullin · Wikimedia Commons · Public domain\nUniversity of lethbridge hill\nPhoto: Keegan Mullin · Wikimedia Commons · Public domain\nEarly University Hall\nPhoto: Peace7777 · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-new-brunswick",
+      "lang": "ru",
+      "width": 360,
+      "heading": "University of New Brunswick",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-new-brunswick/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-new-brunswick/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-new-brunswick/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-new-brunswick/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nSirEdmundHeadHall-UNB\nФото: Zoominzoomin · Wikimedia Commons · CC0\nM. Patrick Gillin Hall, University of New Brunswick, Fredericton\nФото: JJonahJackalope · Wikimedia Commons · CC BY-SA 3.0\nUniversity of New Brunswick (Fredericton campus, 2005)\nФото: Vascobattuta at English Wikipedia · Wikimedia Commons · Общественное достояние\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-saskatchewan",
+      "lang": "en",
+      "width": 1280,
+      "heading": "University of Saskatchewan",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-saskatchewan/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-saskatchewan/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-saskatchewan/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nCollegeBuilding-UofS\nPhoto: SriMesh · Wikimedia Commons · CC BY-SA 3.0\nHealth Sciences Building located on the University of Saskatchewan Main Campus\nPhoto: Unknown author · Wikimedia Commons · CC BY-SA 3.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-prince-edward-island",
+      "lang": "ru",
+      "width": 360,
+      "heading": "University of Prince Edward Island",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-prince-edward-island/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-prince-edward-island/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-prince-edward-island/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-prince-edward-island/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nUPEI campus, Charlottetown, PEI (42322106392)\nФото: Larry from Charlottetown, PEI, Canada · Wikimedia Commons · CC BY 2.0\nUPEI Sunset (2846813406)\nФото: Martin Cathrae from Charlottetown, PE, Canada · Wikimedia Commons · CC BY-SA 2.0\nUPEI Sunset (4333759282)\nФото: Martin Cathrae from Charlottetown, PE, Canada · Wikimedia Commons · CC BY-SA 2.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-new-brunswick",
+      "lang": "en",
+      "width": 1280,
+      "heading": "University of New Brunswick",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-new-brunswick/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-new-brunswick/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-new-brunswick/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-new-brunswick/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nSirEdmundHeadHall-UNB\nPhoto: Zoominzoomin · Wikimedia Commons · CC0\nM. Patrick Gillin Hall, University of New Brunswick, Fredericton\nPhoto: JJonahJackalope · Wikimedia Commons · CC BY-SA 3.0\nUniversity of New Brunswick (Fredericton campus, 2005)\nPhoto: Vascobattuta at English Wikipedia · Wikimedia Commons · Public domain\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "saint-marys-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Saint Mary’s University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/saint-marys-university/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/saint-marys-university/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/saint-marys-university/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/saint-marys-university/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nSaint Marys HFX\nФото: Robert Alfers · Wikimedia Commons · Общественное достояние\nSaint Mary's University McNally Main Building\nФото: Aaronboudreau · Wikimedia Commons · CC BY-SA 3.0\nSaint Mary's University (SMU) in Halifax (46275877021)\nФото: Coastal Elite from Halifax, Canada · Wikimedia Commons · CC BY-SA 2.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-prince-edward-island",
+      "lang": "en",
+      "width": 1280,
+      "heading": "University of Prince Edward Island",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-prince-edward-island/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-prince-edward-island/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-prince-edward-island/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-prince-edward-island/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nUPEI campus, Charlottetown, PEI (42322106392)\nPhoto: Larry from Charlottetown, PEI, Canada · Wikimedia Commons · CC BY 2.0\nUPEI Sunset (2846813406)\nPhoto: Martin Cathrae from Charlottetown, PE, Canada · Wikimedia Commons · CC BY-SA 2.0\nUPEI Sunset (4333759282)\nPhoto: Martin Cathrae from Charlottetown, PE, Canada · Wikimedia Commons · CC BY-SA 2.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-northern-british-columbia",
+      "lang": "ru",
+      "width": 360,
+      "heading": "University of Northern British Columbia",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-northern-british-columbia/1.jpg",
+          "loaded": true,
+          "width": 900,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-northern-british-columbia/1.jpg",
+          "loaded": true,
+          "width": 900,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-northern-british-columbia/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nUNBC Library\nФото: Unknown author · Wikimedia Commons · Общественное достояние\nUNBC Research Laboratory\nФото: Unknown author · Wikimedia Commons · Общественное достояние\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "saint-marys-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Saint Mary’s University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/saint-marys-university/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/saint-marys-university/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/saint-marys-university/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/saint-marys-university/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nSaint Marys HFX\nPhoto: Robert Alfers · Wikimedia Commons · Public domain\nSaint Mary's University McNally Main Building\nPhoto: Aaronboudreau · Wikimedia Commons · CC BY-SA 3.0\nSaint Mary's University (SMU) in Halifax (46275877021)\nPhoto: Coastal Elite from Halifax, Canada · Wikimedia Commons · CC BY-SA 2.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-northern-british-columbia",
+      "lang": "en",
+      "width": 1280,
+      "heading": "University of Northern British Columbia",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-northern-british-columbia/1.jpg",
+          "loaded": true,
+          "width": 900,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-northern-british-columbia/1.jpg",
+          "loaded": true,
+          "width": 900,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-northern-british-columbia/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nUNBC Library\nPhoto: Unknown author · Wikimedia Commons · Public domain\nUNBC Research Laboratory\nPhoto: Unknown author · Wikimedia Commons · Public domain\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "vancouver-island-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Vancouver Island University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/vancouver-island-university/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/vancouver-island-university/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/vancouver-island-university/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nVancouver Island University Faculty of Management\nФото: Nle1229 · Wikimedia Commons · CC BY-SA 3.0\nЗдание студенческого союза Vancouver Island University\nФото: Nle1229 · Wikimedia Commons · CC BY-SA 3.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "vancouver-island-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Vancouver Island University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/vancouver-island-university/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/vancouver-island-university/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/vancouver-island-university/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nVancouver Island University Faculty of Management\nPhoto: Nle1229 · Wikimedia Commons · CC BY-SA 3.0\nVancouver Island University student union building\nPhoto: Nle1229 · Wikimedia Commons · CC BY-SA 3.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-the-fraser-valley",
+      "lang": "ru",
+      "width": 360,
+      "heading": "University of the Fraser Valley",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-the-fraser-valley/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-the-fraser-valley/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nAbbotsford Campus Scenics Sept 2017-4 (36815784940)\nФото: University of the Fraser Valley · Wikimedia Commons · CC BY 2.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-the-fraser-valley",
+      "lang": "en",
+      "width": 1280,
+      "heading": "University of the Fraser Valley",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-the-fraser-valley/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-the-fraser-valley/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nAbbotsford Campus Scenics Sept 2017-4 (36815784940)\nPhoto: University of the Fraser Valley · Wikimedia Commons · CC BY 2.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-sussex",
+      "lang": "ru",
+      "width": 360,
+      "heading": "University of Sussex",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-sussex/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-sussex/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-sussex/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-sussex/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nArts Inner courtyard, University of Sussex\nФото: Ak689 · Wikimedia Commons · CC BY-SA 4.0\nLibrary Square (University of Sussex) in Summer\nФото: Ak689 · Wikimedia Commons · CC BY-SA 4.0\nThe Library, University of Sussex\nФото: Ak689 · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-sussex",
+      "lang": "en",
+      "width": 1280,
+      "heading": "University of Sussex",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-sussex/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-sussex/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-sussex/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-sussex/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nArts Inner courtyard, University of Sussex\nPhoto: Ak689 · Wikimedia Commons · CC BY-SA 4.0\nLibrary Square (University of Sussex) in Summer\nPhoto: Ak689 · Wikimedia Commons · CC BY-SA 4.0\nThe Library, University of Sussex\nPhoto: Ak689 · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-strathclyde",
+      "lang": "en",
+      "width": 1280,
+      "heading": "University of Strathclyde",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-strathclyde/1.jpg",
+          "loaded": true,
+          "width": 900,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-strathclyde/1.jpg",
+          "loaded": true,
+          "width": 900,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-strathclyde/2.jpg",
+          "loaded": true,
+          "width": 900,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nDSCN0821 University of Strathclyde Technology and Innovation Centre\nPhoto: AlasdairW · Wikimedia Commons · CC BY-SA 3.0\nAndersonian Library\nPhoto: J.A.Econ · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-strathclyde",
+      "lang": "ru",
+      "width": 360,
+      "heading": "University of Strathclyde",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-strathclyde/1.jpg",
+          "loaded": true,
+          "width": 900,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-strathclyde/1.jpg",
+          "loaded": true,
+          "width": 900,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-strathclyde/2.jpg",
+          "loaded": true,
+          "width": 900,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nDSCN0821 University of Strathclyde Technology and Innovation Centre\nФото: AlasdairW · Wikimedia Commons · CC BY-SA 3.0\nAndersonian Library\nФото: J.A.Econ · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-aberdeen",
+      "lang": "en",
+      "width": 1280,
+      "heading": "University of Aberdeen",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-aberdeen/1.jpg",
+          "loaded": true,
+          "width": 1098,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-aberdeen/1.jpg",
+          "loaded": true,
+          "width": 1098,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-aberdeen/2.jpg",
+          "loaded": true,
+          "width": 756,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-aberdeen/3.jpg",
+          "loaded": true,
+          "width": 684,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nRound Tower, King's College, University of Aberdeen\nPhoto: Bill Harrison · Wikimedia Commons · CC BY-SA 2.0\nUniversity of Aberdeen archway\nPhoto: Bill Harrison · Wikimedia Commons · CC BY-SA 2.0\nTestimonials of Archibald Simpson, M.A., M.D., L.R.C.S.Edin. ... candidate for the Professorship of Midwifery in the University of Aberdeen\nPhoto: Unknown author · Wikimedia Commons · Public domain\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-aberdeen",
+      "lang": "ru",
+      "width": 360,
+      "heading": "University of Aberdeen",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-aberdeen/1.jpg",
+          "loaded": true,
+          "width": 1098,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-aberdeen/1.jpg",
+          "loaded": true,
+          "width": 1098,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-aberdeen/2.jpg",
+          "loaded": true,
+          "width": 756,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-aberdeen/3.jpg",
+          "loaded": true,
+          "width": 684,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nRound Tower, King's College, University of Aberdeen\nФото: Bill Harrison · Wikimedia Commons · CC BY-SA 2.0\nUniversity of Aberdeen archway\nФото: Bill Harrison · Wikimedia Commons · CC BY-SA 2.0\nTestimonials of Archibald Simpson, M.A., M.D., L.R.C.S.Edin. ... candidate for the Professorship of Midwifery in the University of Aberdeen\nФото: Unknown author · Wikimedia Commons · Общественное достояние\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-nottingham",
+      "lang": "en",
+      "width": 1280,
+      "heading": "University of Nottingham",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-nottingham/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-nottingham/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-nottingham/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-nottingham/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\n2023-07-17 University of Nottingham Ningbo China 宁波诺丁汉大学 04\nPhoto: 源義信 · Wikimedia Commons · CC BY-SA 4.0\nPaton House, University of Nottingham\nPhoto: Andrewrabbott · Wikimedia Commons · CC BY-SA 4.0\nTunaku Ja'afar along with Badminton Association at the University of Nottingham, UK. The Tuanku Ja'afar Royal Gallery, Seremban\nPhoto: Osama Shukir Muhammed Amin FRCP(Glasg) · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-nottingham",
+      "lang": "ru",
+      "width": 360,
+      "heading": "University of Nottingham",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-nottingham/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-nottingham/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-nottingham/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-nottingham/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\n2023-07-17 University of Nottingham Ningbo China 宁波诺丁汉大学 04\nФото: 源義信 · Wikimedia Commons · CC BY-SA 4.0\nPaton House, University of Nottingham\nФото: Andrewrabbott · Wikimedia Commons · CC BY-SA 4.0\nTunaku Ja'afar along with Badminton Association at the University of Nottingham, UK. The Tuanku Ja'afar Royal Gallery, Seremban\nФото: Osama Shukir Muhammed Amin FRCP(Glasg) · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-liverpool",
+      "lang": "en",
+      "width": 1280,
+      "heading": "University of Liverpool",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-liverpool/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-liverpool/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-liverpool/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-liverpool/3.jpg",
+          "loaded": true,
+          "width": 825,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nQuadrangle, University of Liverpool (2)\nPhoto: Brit in Seoul · Wikimedia Commons · CC BY-SA 4.0\nThe Green, University of Liverpool 1\nPhoto: John Bradley · Wikimedia Commons · CC BY 3.0\nThe Green, University of Liverpool 2\nPhoto: John Bradley · Wikimedia Commons · CC BY 3.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-liverpool",
+      "lang": "ru",
+      "width": 360,
+      "heading": "University of Liverpool",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-liverpool/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-liverpool/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-liverpool/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-liverpool/3.jpg",
+          "loaded": true,
+          "width": 825,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nQuadrangle, University of Liverpool (2)\nФото: Brit in Seoul · Wikimedia Commons · CC BY-SA 4.0\nThe Green, University of Liverpool 1\nФото: John Bradley · Wikimedia Commons · CC BY 3.0\nThe Green, University of Liverpool 2\nФото: John Bradley · Wikimedia Commons · CC BY 3.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-york",
+      "lang": "en",
+      "width": 1280,
+      "heading": "University of York",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-york/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-york/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-york/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-york/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nJB Morrell Library, University of York\nPhoto: RobertG · Wikimedia Commons · CC BY-SA 3.0\nThe University of York's Central Hall\nPhoto: John Robinson · Wikimedia Commons · CC BY 2.0\nGoodricke College, University of York\nPhoto: John Robinson · Wikimedia Commons · CC BY 2.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-york",
+      "lang": "ru",
+      "width": 360,
+      "heading": "University of York",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-york/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-york/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-york/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-york/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nJB Morrell Library, University of York\nФото: RobertG · Wikimedia Commons · CC BY-SA 3.0\nThe University of York's Central Hall\nФото: John Robinson · Wikimedia Commons · CC BY 2.0\nGoodricke College, University of York\nФото: John Robinson · Wikimedia Commons · CC BY 2.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-exeter",
+      "lang": "en",
+      "width": 1280,
+      "heading": "University of Exeter",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-exeter/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-exeter/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-exeter/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-exeter/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nUniversity of Exeter Clock tower\nPhoto: Myself, Benjamin Evans · Wikimedia Commons · Public domain\nUniversity of Exeter Forum\nPhoto: University of Exeter from United Kingdom · Wikimedia Commons · CC BY 2.0\nUniversity of Exeter Business School\nPhoto: Lisajaynecooksey · Wikimedia Commons · CC BY-SA 3.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-bath",
+      "lang": "en",
+      "width": 1280,
+      "heading": "University of Bath",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-bath/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-bath/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-bath/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-bath/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nUniversity of Bath\nPhoto: Unknown author · Wikimedia Commons · CC BY-SA 3.0\nSchool of architecture and building engineering Bath university1\nPhoto: seier+seier · Wikimedia Commons · CC BY 2.0\n2023-09-15 University of Bath Carpenter House 01\nPhoto: Bärbel Miemietz · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-exeter",
+      "lang": "ru",
+      "width": 360,
+      "heading": "University of Exeter",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-exeter/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-exeter/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-exeter/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-exeter/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nUniversity of Exeter Clock tower\nФото: Myself, Benjamin Evans · Wikimedia Commons · Общественное достояние\nUniversity of Exeter Forum\nФото: University of Exeter from United Kingdom · Wikimedia Commons · CC BY 2.0\nUniversity of Exeter Business School\nФото: Lisajaynecooksey · Wikimedia Commons · CC BY-SA 3.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "cardiff-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Cardiff University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/cardiff-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/cardiff-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/cardiff-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/cardiff-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nAberdare Hall, Cardiff University\nPhoto: Ham · Wikimedia Commons · CC BY-SA 3.0\nCardiff University Science Library\nPhoto: Shootthatsheep · Wikimedia Commons · CC BY-SA 4.0\nMusic Building, Cardiff University\nPhoto: Ham · Wikimedia Commons · CC BY-SA 3.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-bath",
+      "lang": "ru",
+      "width": 360,
+      "heading": "University of Bath",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-bath/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-bath/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-bath/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-bath/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nUniversity of Bath\nФото: Unknown author · Wikimedia Commons · CC BY-SA 3.0\nSchool of architecture and building engineering Bath university1\nФото: seier+seier · Wikimedia Commons · CC BY 2.0\n2023-09-15 University of Bath Carpenter House 01\nФото: Bärbel Miemietz · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "lancaster-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Lancaster University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/lancaster-university/1.jpg",
+          "loaded": true,
+          "width": 825,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/lancaster-university/1.jpg",
+          "loaded": true,
+          "width": 825,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/lancaster-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/lancaster-university/3.jpg",
+          "loaded": true,
+          "width": 736,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nLancaster University Courtyard\nPhoto: Christoph Michels · Wikimedia Commons · CC BY-SA 4.0\nAlexandra Square, Lancaster University\nPhoto: Meailleurs · Wikimedia Commons · CC BY-SA 3.0\nLancaster University Library Tree\nPhoto: Jack W Hollis · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "cardiff-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Cardiff University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/cardiff-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/cardiff-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/cardiff-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/cardiff-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nAberdare Hall, Cardiff University\nФото: Ham · Wikimedia Commons · CC BY-SA 3.0\nCardiff University Science Library\nФото: Shootthatsheep · Wikimedia Commons · CC BY-SA 4.0\nMusic Building, Cardiff University\nФото: Ham · Wikimedia Commons · CC BY-SA 3.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "technical-university-of-munich",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Technical University of Munich",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/technical-university-of-munich/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/technical-university-of-munich/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/technical-university-of-munich/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/technical-university-of-munich/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nTechnische Universität München TUM div Fakultäten Institute Teilbibliotheken im Hochschul- und Forschungszentrum Garching Foto Wolfgang Pehlemann IMG 1588\nPhoto: Wolfgang Pehlemann · Wikimedia Commons · CC BY-SA 3.0 de\nBibliothek der TU München 07\nPhoto: Burkhard Mücke · Wikimedia Commons · CC BY-SA 4.0\nBibliothek der TU München 01\nPhoto: Burkhard Mücke · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "lancaster-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Lancaster University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/lancaster-university/1.jpg",
+          "loaded": true,
+          "width": 825,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/lancaster-university/1.jpg",
+          "loaded": true,
+          "width": 825,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/lancaster-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/lancaster-university/3.jpg",
+          "loaded": true,
+          "width": 736,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nLancaster University Courtyard\nФото: Christoph Michels · Wikimedia Commons · CC BY-SA 4.0\nAlexandra Square, Lancaster University\nФото: Meailleurs · Wikimedia Commons · CC BY-SA 3.0\nLancaster University Library Tree\nФото: Jack W Hollis · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "rhine-waal-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Rhine-Waal University of Applied Sciences",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/rhine-waal-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/rhine-waal-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/rhine-waal-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/rhine-waal-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nHochschule Rhein Waal in Kleve - Flickr - Maarten Takens\nPhoto: Maarten Takens from Emmerich am Rhein, Germany · Wikimedia Commons · CC BY-SA 2.0\nCampus Kamp-Lintfort 20240906 ©HSRW Anja Peters - 817711\nPhoto: Rhine-Waal University · Wikimedia Commons · CC BY-SA 4.0\nFH Rhein-Waal Kleve (2)\nPhoto: EveryPicture · Wikimedia Commons · CC BY-SA 3.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "technical-university-of-munich",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Technical University of Munich",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/technical-university-of-munich/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/technical-university-of-munich/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/technical-university-of-munich/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/technical-university-of-munich/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nTechnische Universität München TUM div Fakultäten Institute Teilbibliotheken im Hochschul- und Forschungszentrum Garching Foto Wolfgang Pehlemann IMG 1588\nФото: Wolfgang Pehlemann · Wikimedia Commons · CC BY-SA 3.0 de\nBibliothek der TU München 07\nФото: Burkhard Mücke · Wikimedia Commons · CC BY-SA 4.0\nBibliothek der TU München 01\nФото: Burkhard Mücke · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "fau-erlangen-nurnberg",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/fau-erlangen-nurnberg/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/fau-erlangen-nurnberg/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/fau-erlangen-nurnberg/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nKollegienhaus universitaet-erlangen\nPhoto: Akriesch (also de:Benutzer:Akriesch) · Wikimedia Commons · CC BY 2.5\nKollegienhaus Universitaet Erlangen 001\nPhoto: Janericloebe · Wikimedia Commons · CC BY 3.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "leuphana-university-luneburg",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Leuphana University Lüneburg",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/leuphana-university-luneburg/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/leuphana-university-luneburg/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/leuphana-university-luneburg/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/leuphana-university-luneburg/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nUniversity Lueneburg Libeskind 2017FEB04\nPhoto: San Andreas · Wikimedia Commons · CC BY-SA 4.0\nLüneburg - Leuphana Universität (01)\nPhoto: Oxfordian Kissuth · Wikimedia Commons · CC BY-SA 3.0\nLeuphana Building\nPhoto: Gerrit Gutzeit · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "rhine-waal-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Rhine-Waal University of Applied Sciences",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/rhine-waal-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/rhine-waal-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/rhine-waal-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/rhine-waal-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nHochschule Rhein Waal in Kleve - Flickr - Maarten Takens\nФото: Maarten Takens from Emmerich am Rhein, Germany · Wikimedia Commons · CC BY-SA 2.0\nCampus Kamp-Lintfort 20240906 ©HSRW Anja Peters - 817711\nФото: Rhine-Waal University · Wikimedia Commons · CC BY-SA 4.0\nFH Rhein-Waal Kleve (2)\nФото: EveryPicture · Wikimedia Commons · CC BY-SA 3.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "deggendorf-institute-of-technology",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Deggendorf Institute of Technology",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/deggendorf-institute-of-technology/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/deggendorf-institute-of-technology/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/deggendorf-institute-of-technology/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/deggendorf-institute-of-technology/3.jpg",
+          "loaded": true,
+          "width": 913,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nHauptcampus der Technischen Hochschule Deggendorf 2018\nPhoto: Danube-Waidler · Wikimedia Commons · CC BY-SA 4.0\nDonau-Wald-Panorama Deggendorf\nPhoto: Danube-Waidler · Wikimedia Commons · CC BY-SA 4.0\nKletterhalle Sektion Deggendorf des DAV\nPhoto: Danube-Waidler · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "fau-erlangen-nurnberg",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/fau-erlangen-nurnberg/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/fau-erlangen-nurnberg/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/fau-erlangen-nurnberg/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nKollegienhaus universitaet-erlangen\nФото: Akriesch (also de:Benutzer:Akriesch) · Wikimedia Commons · CC BY 2.5\nKollegienhaus Universitaet Erlangen 001\nФото: Janericloebe · Wikimedia Commons · CC BY 3.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "hof-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Hof University of Applied Sciences",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/hof-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/hof-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/hof-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/hof-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nCampus Hochschule Hof 20250322 HOF5690 RAW-Export\nPhoto: PantheraLeo1359531 · Wikimedia Commons · CC BY 4.0\nHochschule Hof 2005 (Bayerische Vermessungsverwaltung)\nPhoto: Bayerische Vermessungsverwaltung · Wikimedia Commons · CC BY 4.0\nHochschule Hof 20250322 HOF5691 RAW-Export\nPhoto: PantheraLeo1359531 · Wikimedia Commons · CC BY 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "leuphana-university-luneburg",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Leuphana University Lüneburg",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/leuphana-university-luneburg/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/leuphana-university-luneburg/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/leuphana-university-luneburg/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/leuphana-university-luneburg/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nUniversity Lueneburg Libeskind 2017FEB04\nФото: San Andreas · Wikimedia Commons · CC BY-SA 4.0\nLüneburg - Leuphana Universität (01)\nФото: Oxfordian Kissuth · Wikimedia Commons · CC BY-SA 3.0\nLeuphana Building\nФото: Gerrit Gutzeit · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "stralsund-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Stralsund University of Applied Sciences",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/stralsund-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/stralsund-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/stralsund-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/stralsund-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nFachhochschule FH Stralsund University of Applied Sciences aerial Luftbild\nPhoto: Klugschnacker / Horst-schlaemma · Wikimedia Commons · CC BY-SA 3.0\nPanorama Grillplatz Hochschule Stralsund bei Haus 8\nPhoto: Strubbl · Wikimedia Commons · CC0\nBrandschaden am Gästehaus der Hochschule Stralsund 2023-11-24\nPhoto: Strubbl · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "technische-hochschule-ingolstadt",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Technische Hochschule Ingolstadt",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/technische-hochschule-ingolstadt/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/technische-hochschule-ingolstadt/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nTechnische Hochschule Ingolstadt\nPhoto: Chrisi1964 · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "deggendorf-institute-of-technology",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Deggendorf Institute of Technology",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/deggendorf-institute-of-technology/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/deggendorf-institute-of-technology/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/deggendorf-institute-of-technology/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/deggendorf-institute-of-technology/3.jpg",
+          "loaded": true,
+          "width": 913,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nHauptcampus der Technischen Hochschule Deggendorf 2018\nФото: Danube-Waidler · Wikimedia Commons · CC BY-SA 4.0\nDonau-Wald-Panorama Deggendorf\nФото: Danube-Waidler · Wikimedia Commons · CC BY-SA 4.0\nKletterhalle Sektion Deggendorf des DAV\nФото: Danube-Waidler · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "kuehne-logistics-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Kühne Logistics University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/kuehne-logistics-university/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/kuehne-logistics-university/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/kuehne-logistics-university/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nKLU lecture hall\nPhoto: SteffenMH · Wikimedia Commons · CC BY-SA 4.0\nKühne Logistics University - Wissenschaftliche Hochschule für Logistik und Unternehmensführung (KLU)\nPhoto: SteffenMH · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "berlin-international-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Whitecliffe University of Applied Sciences",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/berlin-international-university/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/berlin-international-university/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nSalzufer 6, Berlin-Charlottenburg — the building at the university’s address\nPhoto: Fridolin freudenfett · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "hof-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Hof University of Applied Sciences",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/hof-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/hof-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/hof-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/hof-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nCampus Hochschule Hof 20250322 HOF5690 RAW-Export\nФото: PantheraLeo1359531 · Wikimedia Commons · CC BY 4.0\nHochschule Hof 2005 (Bayerische Vermessungsverwaltung)\nФото: Bayerische Vermessungsverwaltung · Wikimedia Commons · CC BY 4.0\nHochschule Hof 20250322 HOF5691 RAW-Export\nФото: PantheraLeo1359531 · Wikimedia Commons · CC BY 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "waseda-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Waseda University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/waseda-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/waseda-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/waseda-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/waseda-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nWaseda University Okuma Auditorium\nPhoto: Seiichi Miyashita · Wikimedia Commons · CC0\nWaseda University 2014\nPhoto: Kakidai · Wikimedia Commons · CC BY-SA 4.0\nWaseda University - panorama of Waseda campus\nPhoto: XIIIfromTOKYO · Wikimedia Commons · CC BY-SA 3.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "stralsund-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Stralsund University of Applied Sciences",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/stralsund-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/stralsund-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/stralsund-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/stralsund-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nFachhochschule FH Stralsund University of Applied Sciences aerial Luftbild\nФото: Klugschnacker / Horst-schlaemma · Wikimedia Commons · CC BY-SA 3.0\nPanorama Grillplatz Hochschule Stralsund bei Haus 8\nФото: Strubbl · Wikimedia Commons · CC0\nBrandschaden am Gästehaus der Hochschule Stralsund 2023-11-24\nФото: Strubbl · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "keio-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Keio University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/keio-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/keio-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/keio-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/keio-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nKeio University(mita) - Main gate\nPhoto: Kakidai · Wikimedia Commons · CC BY-SA 4.0\nKeio University Hiyoshi Campus (2)\nPhoto: Kakidai · Wikimedia Commons · CC BY-SA 4.0\nKitasato Memorial Medical Library\nPhoto: 塾生 · Wikimedia Commons · CC BY-SA 3.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "technische-hochschule-ingolstadt",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Technische Hochschule Ingolstadt",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/technische-hochschule-ingolstadt/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/technische-hochschule-ingolstadt/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nTechnische Hochschule Ingolstadt\nФото: Chrisi1964 · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "international-christian-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "International Christian University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/international-christian-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/international-christian-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/international-christian-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nEntrance to ICU in spring\nPhoto: Almondchoco · Wikimedia Commons · CC BY-SA 4.0\nIcu maingate 20100624\nPhoto: Te220168 · Wikimedia Commons · Public domain\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "kuehne-logistics-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Kühne Logistics University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/kuehne-logistics-university/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/kuehne-logistics-university/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/kuehne-logistics-university/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nKLU lecture hall\nФото: SteffenMH · Wikimedia Commons · CC BY-SA 4.0\nKühne Logistics University - Wissenschaftliche Hochschule für Logistik und Unternehmensführung (KLU)\nФото: SteffenMH · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "tokyo-international-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Tokyo International University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/tokyo-international-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/tokyo-international-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/tokyo-international-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/tokyo-international-university/3.jpg",
+          "loaded": true,
+          "width": 825,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nTokyo International University (Ikebukuro Campus)\nPhoto: Kakidai · Wikimedia Commons · CC BY-SA 4.0\nTokyo International University（Ikebukuro Campus)\nPhoto: Kakidai · Wikimedia Commons · CC BY-SA 4.0\nTokyo International University Ikebukuro campus 2023-10-12\nPhoto: Asanagi · Wikimedia Commons · CC0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "berlin-international-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Whitecliffe University of Applied Sciences",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/berlin-international-university/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/berlin-international-university/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nSalzufer 6, Берлин-Шарлоттенбург — здание по адресу университета\nФото: Fridolin freudenfett · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "akita-international-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Akita International University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/akita-international-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/akita-international-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/akita-international-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/akita-international-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nExterior of Akita International University Nakajima Memorial Library\nPhoto: 掬茶 · Wikimedia Commons · CC BY-SA 4.0\nMulti-purpose Hall, Akita International University\nPhoto: 掬茶 · Wikimedia Commons · CC BY-SA 3.0\nCampus of Akita International University\nPhoto: 掬茶 · Wikimedia Commons · CC BY-SA 3.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "waseda-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Waseda University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/waseda-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/waseda-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/waseda-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/waseda-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nWaseda University Okuma Auditorium\nФото: Seiichi Miyashita · Wikimedia Commons · CC0\nWaseda University 2014\nФото: Kakidai · Wikimedia Commons · CC BY-SA 4.0\nWaseda University - panorama of Waseda campus\nФото: XIIIfromTOKYO · Wikimedia Commons · CC BY-SA 3.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "ritsumeikan-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Ritsumeikan University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/ritsumeikan-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/ritsumeikan-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/ritsumeikan-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/ritsumeikan-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nArt Research Center(Ritsumeikan Univ Kyoto)\nPhoto: AngloFrench91 · Wikimedia Commons · CC BY-SA 4.0\nZonshinkan Hall at Ritsumeikan Univ\nPhoto: AngloFrench91 · Wikimedia Commons · CC BY-SA 4.0\nSaionji Memorial Hall (Ritsumeikan University, Kyoto, Japan)\nPhoto: RoyHalzenski · Wikimedia Commons · Public domain\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "keio-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Keio University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/keio-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/keio-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/keio-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/keio-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nKeio University(mita) - Main gate\nФото: Kakidai · Wikimedia Commons · CC BY-SA 4.0\nKeio University Hiyoshi Campus (2)\nФото: Kakidai · Wikimedia Commons · CC BY-SA 4.0\nKitasato Memorial Medical Library\nФото: 塾生 · Wikimedia Commons · CC BY-SA 3.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "doshisha-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Doshisha University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/doshisha-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/doshisha-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/doshisha-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/doshisha-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nMukoku-kan (Kyotanabe Campus, Doshisha University)\nPhoto: RoyHalzenski · Wikimedia Commons · Public domain\nThe Learned Memorial Library at Doshisha University, Kyotanabe, Japan\nPhoto: RoyHalzenski · Wikimedia Commons · Public domain\nDoshisha\nPhoto: honda · Wikimedia Commons · CC BY-SA 3.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "kyoto-university-advanced-science",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Kyoto University of Advanced Science",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/kyoto-university-advanced-science/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/kyoto-university-advanced-science/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\n京都太秦キャンパス南館\nPhoto: 京都先端科学大学広報課 · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "international-christian-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "International Christian University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/international-christian-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/international-christian-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/international-christian-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nEntrance to ICU in spring\nФото: Almondchoco · Wikimedia Commons · CC BY-SA 4.0\nIcu maingate 20100624\nФото: Te220168 · Wikimedia Commons · Общественное достояние\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "yamanashi-gakuin-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Yamanashi Gakuin University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/yamanashi-gakuin-university/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/yamanashi-gakuin-university/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/yamanashi-gakuin-university/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/yamanashi-gakuin-university/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nYamanashi Gakuin University crystal tower\nPhoto: さかおり (talk) · Wikimedia Commons · CC BY-SA 3.0\nYamanashi Gakuin University Campus F\nPhoto: さかおり (talk) · Wikimedia Commons · CC BY-SA 3.0\nYamanashi Gakuin University Campus A\nPhoto: さかおり (talk) · Wikimedia Commons · CC BY-SA 3.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "temple-university-japan",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Temple University, Japan Campus",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/temple-university-japan/1.jpg",
+          "loaded": true,
+          "width": 320,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/temple-university-japan/1.jpg",
+          "loaded": true,
+          "width": 320,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nTemple University Japan — Setagaya, 2019\nPhoto: Temple University Japan · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "tokyo-international-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Tokyo International University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/tokyo-international-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/tokyo-international-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/tokyo-international-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/tokyo-international-university/3.jpg",
+          "loaded": true,
+          "width": 825,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nTokyo International University (Ikebukuro Campus)\nФото: Kakidai · Wikimedia Commons · CC BY-SA 4.0\nTokyo International University（Ikebukuro Campus)\nФото: Kakidai · Wikimedia Commons · CC BY-SA 4.0\nTokyo International University Ikebukuro campus 2023-10-12\nФото: Asanagi · Wikimedia Commons · CC0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "kaist",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Korea Advanced Institute of Science and Technology",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/kaist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/kaist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/kaist/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nKAIST fountains view\nPhoto: AhmadElq · Wikimedia Commons · CC BY-SA 4.0\nA flock of geese at KAIST university\nPhoto: Roost · Wikimedia Commons · CC0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "akita-international-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Akita International University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/akita-international-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/akita-international-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/akita-international-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/akita-international-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nExterior of Akita International University Nakajima Memorial Library\nФото: 掬茶 · Wikimedia Commons · CC BY-SA 4.0\nMulti-purpose Hall, Akita International University\nФото: 掬茶 · Wikimedia Commons · CC BY-SA 3.0\nCampus of Akita International University\nФото: 掬茶 · Wikimedia Commons · CC BY-SA 3.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "yonsei-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Yonsei University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/yonsei-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/yonsei-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/yonsei-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nYonseiunderwood\nPhoto: Kimhs5400 · Wikimedia Commons · CC BY 4.0\nMain Library at Yonsei University\nPhoto: Thinkinglex · Wikimedia Commons · CC BY 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "ritsumeikan-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Ritsumeikan University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/ritsumeikan-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/ritsumeikan-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/ritsumeikan-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/ritsumeikan-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nArt Research Center(Ritsumeikan Univ Kyoto)\nФото: AngloFrench91 · Wikimedia Commons · CC BY-SA 4.0\nZonshinkan Hall at Ritsumeikan Univ\nФото: AngloFrench91 · Wikimedia Commons · CC BY-SA 4.0\nSaionji Memorial Hall (Ritsumeikan University, Kyoto, Japan)\nФото: RoyHalzenski · Wikimedia Commons · Общественное достояние\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "korea-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Korea University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/korea-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/korea-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/korea-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/korea-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nKorea University 0a\nPhoto: CYAN · Wikimedia Commons · CC BY-SA 4.0\nKU Fall\nPhoto: Chocolatte2 · Wikimedia Commons · CC BY-SA 4.0\nLG-POSCO Hall\nPhoto: Chocolatte2 · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "doshisha-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Doshisha University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/doshisha-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/doshisha-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/doshisha-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/doshisha-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nMukoku-kan (Kyotanabe Campus, Doshisha University)\nФото: RoyHalzenski · Wikimedia Commons · Общественное достояние\nThe Learned Memorial Library at Doshisha University, Kyotanabe, Japan\nФото: RoyHalzenski · Wikimedia Commons · Общественное достояние\nDoshisha\nФото: honda · Wikimedia Commons · CC BY-SA 3.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "sungkyunkwan-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Sungkyunkwan University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/sungkyunkwan-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/sungkyunkwan-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/sungkyunkwan-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/sungkyunkwan-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\n600 Anniversary Hall (3)\nPhoto: Christian Bolz · Wikimedia Commons · CC BY-SA 3.0\nOld Sungkyunkwan\nPhoto: Christian Bolz · Wikimedia Commons · CC BY-SA 3.0\nN-center\nPhoto: Srobidx · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "kyoto-university-advanced-science",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Kyoto University of Advanced Science",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/kyoto-university-advanced-science/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/kyoto-university-advanced-science/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\n京都太秦キャンパス南館\nФото: 京都先端科学大学広報課 · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "hanyang-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Hanyang University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/hanyang-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/hanyang-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/hanyang-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/hanyang-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nHanyang University 008\nPhoto: Piotrus · Wikimedia Commons · CC BY-SA 3.0\nLions Lake, Hanyang University Campus, Ansan\nPhoto: Ken Eckert · Wikimedia Commons · CC BY-SA 4.0\nMyPhoto 1092820071 0836\nPhoto: Beatlehoon · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "yamanashi-gakuin-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Yamanashi Gakuin University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/yamanashi-gakuin-university/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/yamanashi-gakuin-university/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/yamanashi-gakuin-university/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/yamanashi-gakuin-university/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nYamanashi Gakuin University, Crystal Tower\nФото: さかおり (talk) · Wikimedia Commons · CC BY-SA 3.0\nYamanashi Gakuin University Campus F\nФото: さかおり (talk) · Wikimedia Commons · CC BY-SA 3.0\nYamanashi Gakuin University Campus A\nФото: さかおり (talk) · Wikimedia Commons · CC BY-SA 3.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "unist",
+      "lang": "en",
+      "width": 1280,
+      "heading": "UNIST (Ulsan National Institute of Science and Technology)",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/unist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/unist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/unist/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/unist/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nUNIST Library\nPhoto: 이강철 · Wikimedia Commons · CC BY-SA 3.0\nUNIST campus 2015\nPhoto: Jongbhak · Wikimedia Commons · CC BY-SA 3.0\nUNIST center square\nPhoto: Jongbhak · Wikimedia Commons · CC BY-SA 3.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "temple-university-japan",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Temple University, Japan Campus",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/temple-university-japan/1.jpg",
+          "loaded": true,
+          "width": 320,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/temple-university-japan/1.jpg",
+          "loaded": true,
+          "width": 320,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nTemple University Japan — Setagaya, 2019\nФото: Temple University Japan · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "gist",
+      "lang": "en",
+      "width": 1280,
+      "heading": "GIST (Gwangju Institute of Science and Technology)",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/gist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/gist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/gist/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nGIST Administrative Building\nPhoto: Wiki.blurbs · Wikimedia Commons · CC BY-SA 4.0\nGIST Student Union Building 2\nPhoto: Wiki.blurbs · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "kaist",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Korea Advanced Institute of Science and Technology",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/kaist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/kaist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/kaist/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nKAIST fountains view\nФото: AhmadElq · Wikimedia Commons · CC BY-SA 4.0\nA flock of geese at KAIST university\nФото: Roost · Wikimedia Commons · CC0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "dgist",
+      "lang": "en",
+      "width": 1280,
+      "heading": "DGIST (Daegu Gyeongbuk Institute of Science and Technology)",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/dgist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/dgist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nDGIST campus night view\nPhoto: Irtofdgist · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "handong-global-university",
+      "lang": "en",
+      "width": 1280,
+      "heading": "Handong Global University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/handong-global-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/handong-global-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/handong-global-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nCAMPUS-HGU\nPhoto: Suyeon89 · Wikimedia Commons · CC BY-SA 4.0\nCampus-HGU\nPhoto: Suyeon89 · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "yonsei-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Yonsei University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/yonsei-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/yonsei-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/yonsei-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nYonseiunderwood\nФото: Kimhs5400 · Wikimedia Commons · CC BY 4.0\nMain Library at Yonsei University\nФото: Thinkinglex · Wikimedia Commons · CC BY 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "suny-korea",
+      "lang": "en",
+      "width": 1280,
+      "heading": "SUNY Korea (The State University of New York, Korea)",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/suny-korea/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/suny-korea/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/suny-korea/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/suny-korea/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nSUNY Korea IGC-Building\nPhoto: Mango0567 · Wikimedia Commons · CC BY-SA 4.0\n글로벌캠퍼스공동관전경\nPhoto: SUNYK · Wikimedia Commons · CC BY-SA 3.0\nSUNY Korea Classroom\nPhoto: Mango0567 · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "korea-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Korea University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/korea-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/korea-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/korea-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/korea-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nKorea University 0a\nФото: CYAN · Wikimedia Commons · CC BY-SA 4.0\nKU Fall\nФото: Chocolatte2 · Wikimedia Commons · CC BY-SA 4.0\nLG-POSCO Hall\nФото: Chocolatte2 · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "sungkyunkwan-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Sungkyunkwan University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/sungkyunkwan-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/sungkyunkwan-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/sungkyunkwan-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/sungkyunkwan-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\n600 Anniversary Hall (3)\nФото: Christian Bolz · Wikimedia Commons · CC BY-SA 3.0\nOld Sungkyunkwan\nФото: Christian Bolz · Wikimedia Commons · CC BY-SA 3.0\nN-center\nФото: Srobidx · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "hanyang-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Hanyang University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/hanyang-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/hanyang-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/hanyang-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/hanyang-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nHanyang University 008\nФото: Piotrus · Wikimedia Commons · CC BY-SA 3.0\nLions Lake, Hanyang University Campus, Ansan\nФото: Ken Eckert · Wikimedia Commons · CC BY-SA 4.0\nMyPhoto 1092820071 0836\nФото: Beatlehoon · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "unist",
+      "lang": "ru",
+      "width": 360,
+      "heading": "UNIST (Ulsan National Institute of Science and Technology)",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/unist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/unist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/unist/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/unist/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nUNIST Library\nФото: 이강철 · Wikimedia Commons · CC BY-SA 3.0\nUNIST campus 2015\nФото: Jongbhak · Wikimedia Commons · CC BY-SA 3.0\nUNIST center square\nФото: Jongbhak · Wikimedia Commons · CC BY-SA 3.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "gist",
+      "lang": "ru",
+      "width": 360,
+      "heading": "GIST (Gwangju Institute of Science and Technology)",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/gist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/gist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/gist/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nGIST Administrative Building\nФото: Wiki.blurbs · Wikimedia Commons · CC BY-SA 4.0\nGIST Student Union Building 2\nФото: Wiki.blurbs · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "dgist",
+      "lang": "ru",
+      "width": 360,
+      "heading": "DGIST (Daegu Gyeongbuk Institute of Science and Technology)",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/dgist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/dgist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nDGIST campus night view\nФото: Irtofdgist · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "handong-global-university",
+      "lang": "ru",
+      "width": 360,
+      "heading": "Handong Global University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/handong-global-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/handong-global-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/handong-global-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nCAMPUS-HGU\nФото: Suyeon89 · Wikimedia Commons · CC BY-SA 4.0\nCampus-HGU\nФото: Suyeon89 · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "suny-korea",
+      "lang": "ru",
+      "width": 360,
+      "heading": "SUNY Korea (The State University of New York, Korea)",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/suny-korea/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/suny-korea/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/suny-korea/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/suny-korea/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nSUNY Korea IGC-Building\nФото: Mango0567 · Wikimedia Commons · CC BY-SA 4.0\n글로벌캠퍼스공동관전경\nФото: SUNYK · Wikimedia Commons · CC BY-SA 3.0\nSUNY Korea Classroom\nФото: Mango0567 · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    }
+  ],
+  "scenarios": [],
+  "errors": [],
+  "limitations": [
+    "No real Safari or iPhone tested. Saved list has an application-date table; no standalone calendar or export exists."
+  ],
+  "browser": "Chrome 157.0.8103.51",
+  "version": "/unipath/staging/assets/js/app.js?v=250",
+  "webkitInstalled": false
+}

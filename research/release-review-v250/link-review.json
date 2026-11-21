@@ -1,0 +1,1208 @@
+[
+  {
+    "url": "https://upenn.box.com/s/woo7d85yxpol6j9e2o121aucjc6dc1k5",
+    "checked": "2026-11-18",
+    "ids": [
+      "university-of-pennsylvania"
+    ],
+    "status": 404,
+    "final": "https://upenn.box.com/s/woo7d85yxpol6j9e2o121aucjc6dc1k5",
+    "kind": "not-found",
+    "seconds": 1.28,
+    "number": 1,
+    "candidate": null,
+    "originalAccess": "html-read",
+    "fields": [
+      "profile.stats.source.url",
+      "profile.degreesByArea.source.url"
+    ],
+    "resolution": "unresolved-explicit-warning",
+    "scope": "Past enrolled-student statistics and degree-area figures: the Box page loads only its shell; the document could not be read."
+  },
+  {
+    "url": "https://college.uchicago.edu/news/academic-stories/uchicago-launches-test-optional-admissions-process-expanded-financial-aid",
+    "checked": "2026-11-18",
+    "ids": [
+      "university-of-chicago"
+    ],
+    "status": 404,
+    "final": "https://college.uchicago.edu/news/academic-stories/uchicago-launches-test-optional-admissions-process-expanded-financial-aid",
+    "kind": "not-found",
+    "seconds": 0.56,
+    "number": 2,
+    "candidate": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.sources[4].url"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "html-read",
+    "textSha256": "6b9b5931f4873c24125934d7b3aa21fa27f51b3f5eada1c70fefa306a60b1f33"
+  },
+  {
+    "url": "https://georgetown.box.com/s/0r8akn4cbm52zjkll6i7uttlb9k36px2",
+    "checked": "2026-11-18",
+    "ids": [
+      "georgetown-university"
+    ],
+    "status": 404,
+    "final": "https://georgetown.box.com/s/0r8akn4cbm52zjkll6i7uttlb9k36px2",
+    "kind": "not-found",
+    "seconds": 0.84,
+    "number": 3,
+    "candidate": null,
+    "originalAccess": "html-read",
+    "fields": [
+      "profile.admissions.applicationFee.source",
+      "profile.sources[5].url",
+      "profile.stats.source.url",
+      "profile.degreesByArea.source.url"
+    ],
+    "resolution": "unresolved-explicit-warning",
+    "scope": "Historical application fee, enrolled-student statistics and degree-area figures: the Box document could not be read."
+  },
+  {
+    "url": "https://tulane.box.com/s/1dgaxpa2x2ie24zgglrg0puwm1h7xrt5",
+    "checked": "2026-11-18",
+    "ids": [
+      "tulane-university"
+    ],
+    "status": 404,
+    "final": "https://tulane.box.com/s/1dgaxpa2x2ie24zgglrg0puwm1h7xrt5",
+    "kind": "not-found",
+    "seconds": 2.16,
+    "number": 4,
+    "candidate": null,
+    "originalAccess": "html-read",
+    "fields": [
+      "profile.admissions.applicationFee.source",
+      "profile.sources[4].url",
+      "profile.stats.source.url",
+      "profile.degreesByArea.source.url"
+    ],
+    "resolution": "unresolved-explicit-warning",
+    "scope": "Historical application fee, enrolled-student statistics and degree-area figures: the Box document could not be read."
+  },
+  {
+    "url": "https://www.trincoll.edu/academics/majors",
+    "checked": "2026-11-18",
+    "ids": [
+      "trinity-college-hartford"
+    ],
+    "status": 404,
+    "final": "https://www.trincoll.edu/academics/majors",
+    "kind": "not-found",
+    "seconds": 1.78,
+    "number": 5,
+    "candidate": "https://www.trincoll.edu/dean-of-faculty/academic-programs-and-centers/curriculum/",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.links.programs"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://www.trincoll.edu/dean-of-faculty/academic-programs-and-centers/curriculum/",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "html-read",
+    "textSha256": "166544cc200a68531378cd16f60f853d5a7275cf545e931d7f4d73d0a4ddda7b"
+  },
+  {
+    "url": "https://www.trincoll.edu/about",
+    "checked": "2026-11-18",
+    "ids": [
+      "trinity-college-hartford"
+    ],
+    "status": 404,
+    "final": "https://www.trincoll.edu/about",
+    "kind": "not-found",
+    "seconds": 1.98,
+    "number": 6,
+    "candidate": "https://www.trincoll.edu/AboutTrinity/",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.sources[5].url"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://www.trincoll.edu/AboutTrinity/",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "html-read",
+    "textSha256": "0cd837c1ea3a617d908130b8cf11a50a84ae433cbabf0abe4e6f74910b10ff75"
+  },
+  {
+    "url": "https://www.gettysburg.edu/offices/institutional-research/pdfs/2026/CDS_2025-2026.pdf",
+    "checked": "2026-11-18",
+    "ids": [
+      "gettysburg-college"
+    ],
+    "status": 404,
+    "final": "https://www.gettysburg.edu/offices/institutional-research/pdfs/2026/CDS_2025-2026.pdf",
+    "kind": "not-found",
+    "seconds": 6.94,
+    "number": 7,
+    "candidate": "https://www.gettysburg.edu/offices/institutional-research/common-data-set",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.sources[4].url",
+      "profile.stats.source.url",
+      "profile.degreesByArea.source.url"
+    ],
+    "resolution": "unresolved-explicit-warning",
+    "scope": "Fall 2025 CDS statistics, degree-area figures and its historical application-fee reference: the old PDF is missing; the CDS index links back to itself and does not verify the figures."
+  },
+  {
+    "url": "https://www.gettysburg.edu/academic-programs/physics/programs/engineering-dual-degree",
+    "checked": "2026-11-18",
+    "ids": [
+      "gettysburg-college"
+    ],
+    "status": 404,
+    "final": "https://www.gettysburg.edu/academic-programs/physics/programs/engineering-dual-degree",
+    "kind": "not-found",
+    "seconds": 7.62,
+    "number": 8,
+    "candidate": "https://www.gettysburg.edu/academics/all-programs/physics/curriculum",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.fieldNotes.engineering.url"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://www.gettysburg.edu/academics/all-programs/physics/curriculum",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "html-read",
+    "textSha256": "b05b85a9fc27b42849d7960c1dc3818de442b181fe3720900721c1759af28a90"
+  },
+  {
+    "url": "https://new.sewanee.edu/admission-aid/application-process/application-review/international-applicants/",
+    "checked": "2026-11-18",
+    "ids": [
+      "sewanee-university-of-the-south"
+    ],
+    "status": 404,
+    "final": "https://new.sewanee.edu/admission-aid/application-process/application-review/international-applicants/",
+    "kind": "not-found",
+    "seconds": 4.0,
+    "number": 9,
+    "candidate": "https://new.sewanee.edu/admission-aid/application-process/application-review/international-applicant/",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.links.internationalAdmissions"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://new.sewanee.edu/admission-aid/application-process/application-review/international-applicant/",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "html-read",
+    "textSha256": "572611c4d6daf22d3904743c5a7845cb3a926682f53a9b0ce07c625be34cbb74"
+  },
+  {
+    "url": "https://www.soka.edu/apply",
+    "checked": "2026-11-18",
+    "ids": [
+      "soka-university-of-america"
+    ],
+    "status": 404,
+    "final": "https://admissions.soka.edu/portal/apply",
+    "kind": "not-found",
+    "seconds": 2.53,
+    "number": 10,
+    "candidate": "https://www.soka.edu/admissions-aid/how-apply",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.links.applicationPortal"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://www.soka.edu/admissions-aid/how-apply",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "html-read",
+    "textSha256": "34d16e173828098d0597a9b08d283e483d73870088d4c5da266c223780e462d2"
+  },
+  {
+    "url": "https://soka.box.com/s/mftw5w4m97uccmsolzra4wd4frs8acpf",
+    "checked": "2026-11-18",
+    "ids": [
+      "soka-university-of-america"
+    ],
+    "status": 404,
+    "final": "https://soka.box.com/s/mftw5w4m97uccmsolzra4wd4frs8acpf",
+    "kind": "not-found",
+    "seconds": 0.55,
+    "number": 11,
+    "candidate": null,
+    "originalAccess": "html-read",
+    "fields": [
+      "profile.stats.source.url"
+    ],
+    "resolution": "unresolved-explicit-warning",
+    "scope": "Past enrolled-student statistics: the Box page loads only its shell; the document could not be read."
+  },
+  {
+    "url": "https://edge.sitecorecloud.io/michiganstab57e-msustrategi129d-prod9868-7e5e/media/project/msu/ir/docs/cds/cds-2025-2026.pdf",
+    "checked": "2026-11-18",
+    "ids": [
+      "michigan-state-university"
+    ],
+    "status": 404,
+    "final": "https://edge.sitecorecloud.io/michiganstab57e-msustrategi129d-prod9868-7e5e/media/project/msu/ir/docs/cds/cds-2025-2026.pdf",
+    "kind": "not-found",
+    "seconds": 0.45,
+    "number": 12,
+    "candidate": null,
+    "originalAccess": "pdf-read",
+    "fields": [
+      "profile.stats.source.url",
+      "profile.degreesByArea.source.url"
+    ],
+    "resolution": "original-content-readable",
+    "replacement": "https://edge.sitecorecloud.io/michiganstab57e-msustrategi129d-prod9868-7e5e/media/project/msu/ir/docs/cds/cds-2025-2026.pdf",
+    "scope": "GET full HTML/PDF content reviewed. Reachability does not upgrade old cycles to Fall 2027.",
+    "access": "pdf-read",
+    "textSha256": "3890f392f05f124e9c0b0693c7c85c95569b84d2a73556f7cc2c91b2aa4cbaf2"
+  },
+  {
+    "url": "https://www.hendrix.edu/admission-aid/financial-aid",
+    "checked": "2026-11-18",
+    "ids": [
+      "hendrix-college"
+    ],
+    "status": 404,
+    "final": "https://www.hendrix.edu/admission-aid/financial-aid/",
+    "kind": "not-found",
+    "seconds": 1.38,
+    "number": 13,
+    "candidate": "https://www.hendrix.edu/financialaid/",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.links.financialAid"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://www.hendrix.edu/financialaid/",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "html-read",
+    "textSha256": "abf986367c9542cc35cc962cdca8cbf84408f875418061b001810cb8a3360f7c"
+  },
+  {
+    "url": "https://www.scu.edu/admission/financial-aid/",
+    "checked": "2026-11-18",
+    "ids": [
+      "santa-clara-university"
+    ],
+    "status": 404,
+    "final": "https://www.scu.edu/404?targetURL=https%3A%2F%2Fwww.scu.edu%2Fadmission%2Ffinancial-aid%2F",
+    "kind": "not-found",
+    "seconds": 3.17,
+    "number": 14,
+    "candidate": "https://www.scu.edu/financialaid/international/",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.links.financialAid"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://www.scu.edu/financialaid/international/",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "html-read",
+    "textSha256": "de52df3842dd8de5b9ac85dd664f7fa64bc14604da3f0bb27c7cda544b54cc58"
+  },
+  {
+    "url": "https://aggie.tamu.edu/paying-for-college/apply-for-financial-aid/international-student-financial-aid.html",
+    "checked": "2026-11-18",
+    "ids": [
+      "texas-a-and-m-university"
+    ],
+    "status": 404,
+    "final": "https://aggie.tamu.edu/paying-for-college/apply-for-financial-aid/international-student-financial-aid.html",
+    "kind": "not-found",
+    "seconds": 1.14,
+    "number": 15,
+    "candidate": "https://aggie.tamu.edu/paying-for-college/apply-for-financial-aid/international-student-financial-aid",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.links.financialAid",
+      "profile.sources[2].url"
+    ],
+    "resolution": "read-official-web-index",
+    "replacement": "https://aggie.tamu.edu/paying-for-college/apply-for-financial-aid/international-student-financial-aid.html",
+    "scope": "Direct GET returns 404 in this environment, but full official page read via web tool. Original content URL retained; no homepage substitution."
+  },
+  {
+    "url": "https://admissions.tamu.edu/apply/international/international-freshman.html",
+    "checked": "2026-11-18",
+    "ids": [
+      "texas-a-and-m-university"
+    ],
+    "status": 404,
+    "final": "https://admissions.tamu.edu/apply/international/international-freshman.html",
+    "kind": "not-found",
+    "seconds": 1.75,
+    "number": 16,
+    "candidate": "https://www.tamu.edu/admissions/how-to-apply/apply-as-international.html",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.admissions.applicationFee.source",
+      "profile.english.detailsSource",
+      "profile.academics.sat.source",
+      "profile.academics.act.source",
+      "profile.sources[0].url"
+    ],
+    "resolution": "read-official-web-index",
+    "replacement": "https://admissions.tamu.edu/apply/international/international-freshman.html",
+    "scope": "Direct GET returns 404 in this environment, but full official page read via web tool. Original content URL retained; no homepage substitution."
+  },
+  {
+    "url": "https://admissions.tamu.edu/apply/freshman",
+    "checked": "2026-11-18",
+    "ids": [
+      "texas-a-and-m-university"
+    ],
+    "status": 404,
+    "final": "https://admissions.tamu.edu/apply/freshman",
+    "kind": "not-found",
+    "seconds": 1.45,
+    "number": 17,
+    "candidate": "https://admissions.tamu.edu/apply/freshman/index.html",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.sources[1].url"
+    ],
+    "resolution": "read-official-web-index",
+    "replacement": "https://admissions.tamu.edu/apply/freshman",
+    "scope": "Direct GET returns 404 in this environment, but full official page read via web tool. Original content URL retained; no homepage substitution."
+  },
+  {
+    "url": "https://catalog.willamette.edu/programs/BS.IEOR",
+    "checked": "2026-11-18",
+    "ids": [
+      "willamette-university"
+    ],
+    "status": 404,
+    "final": "https://catalog.willamette.edu/programs/BS.IEOR",
+    "kind": "not-found",
+    "seconds": 4.88,
+    "number": 18,
+    "candidate": "https://willamette.edu/academics/college/industrial-engineering/requirements",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.programEvidence.engineering.url"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://willamette.edu/academics/college/industrial-engineering/requirements",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "html-read",
+    "textSha256": "367b0308c0e98d84820061c03fc760dbf9e913072e03857938c0e2c4f93c88b8"
+  },
+  {
+    "url": "https://cge.utk.edu/wp-content/uploads/sites/84/2020/08/UG-Student-Exchange-Agreement.pdf",
+    "checked": "2026-11-18",
+    "ids": [
+      "university-of-tennessee-knoxville"
+    ],
+    "status": 404,
+    "final": "http://global.utk.edu/wp-content/uploads/sites/84/2020/08/UG-Student-Exchange-Agreement.pdf",
+    "kind": "not-found",
+    "seconds": 1.53,
+    "number": 19,
+    "candidate": null,
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.sources[7].url"
+    ],
+    "resolution": "unresolved-explicit-warning",
+    "scope": "The archived exchange agreement used for the teaching-language note could not be recovered. It does not independently verify a degree route."
+  },
+  {
+    "url": "https://www.csusb.edu/international-education/international-admissions/tuition-and-fees",
+    "checked": "2026-11-18",
+    "ids": [
+      "cal-state-san-bernardino"
+    ],
+    "status": 404,
+    "final": "https://www.csusb.edu/international-education/international-admissions/tuition-and-fees",
+    "kind": "not-found",
+    "seconds": 0.55,
+    "number": 20,
+    "candidate": "https://www.csusb.edu/sites/default/files/upload/file/2026/CSUSB%20Affidavit%20Of%20Support_261027_1.pdf",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.links.cost",
+      "profile.costs.source",
+      "profile.sources[4].url"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://www.csusb.edu/sites/default/files/upload/file/2026/CSUSB%20Affidavit%20Of%20Support_261027_1.pdf",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "pdf-read",
+    "textSha256": "d996314b25679def9730d64bd0cbc82048c917d2b1d29df68908e11dedd46d9f"
+  },
+  {
+    "url": "https://www.csusb.edu/international-education/international-admissions/application-document-deadlines",
+    "checked": "2026-11-18",
+    "ids": [
+      "cal-state-san-bernardino"
+    ],
+    "status": 404,
+    "final": "https://www.csusb.edu/international-education/international-admissions/application-document-deadlines",
+    "kind": "not-found",
+    "seconds": 1.34,
+    "number": 21,
+    "candidate": "https://www.csusb.edu/international-education/international-admissions/future-international-students/application-and",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.admissions.deadlines[0].source",
+      "profile.admissions.deadlines[0].cycleEvidence.source",
+      "profile.admissions.deadlines[1].source",
+      "profile.admissions.deadlines[1].cycleEvidence.source"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://www.csusb.edu/international-education/international-admissions/future-international-students/application-and",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "html-read",
+    "textSha256": "6b07e0b96f7352de97a0e923f2dfbbae2198c2384c301c18469827e6ed16b203"
+  },
+  {
+    "url": "https://www.csusb.edu/international-education/international-admissions/first-year-students",
+    "checked": "2026-11-18",
+    "ids": [
+      "cal-state-san-bernardino"
+    ],
+    "status": 404,
+    "final": "https://www.csusb.edu/international-education/international-admissions/first-year-students",
+    "kind": "not-found",
+    "seconds": 1.8,
+    "number": 22,
+    "candidate": "https://www.csusb.edu/international-education/international-admissions/apply/first-year-admissions-requirements",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.admissions.applicationFee.source",
+      "profile.english.detailsSource",
+      "profile.sources[0].url"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://www.csusb.edu/international-education/international-admissions/apply/first-year-admissions-requirements",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "html-read",
+    "textSha256": "cc169c2329385a629c820c6d232df2ba715301146591cbb68a76c69adb1784af"
+  },
+  {
+    "url": "https://www.kyushu-u.ac.jp/en/admission/fees/scholarships/",
+    "checked": "2026-11-18",
+    "ids": [
+      "kyushu-university"
+    ],
+    "status": 404,
+    "final": "https://www.kyushu-u.ac.jp/en/admission/fees/scholarships/",
+    "kind": "not-found",
+    "seconds": 1.23,
+    "number": 23,
+    "candidate": "https://www.isc.kyushu-u.ac.jp/financialaid.html",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.links.scholarships",
+      "profile.sources[1].url"
+    ],
+    "resolution": "replaced-content-source",
+    "scope": "Engineering October 2027 only, PDF pages 16–17; MEXT requires government approval, not confirmed. No extrapolation to other programmes.",
+    "replacement": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf",
+    "access": "pdf-read",
+    "facts": [
+      {
+        "page": 16,
+        "quote": "If our new proposal to receive MEXT Scholarship is approved by the Japanese Government"
+      }
+    ]
+  },
+  {
+    "url": "https://www.kwansei.ac.jp/en/assets/International_Admission_2026_Application_Handbook.pdf",
+    "checked": "2026-11-18",
+    "ids": [
+      "kwansei-gakuin-university"
+    ],
+    "status": 404,
+    "final": "https://www.kwansei.ac.jp/en/assets/International_Admission_2026_Application_Handbook.pdf",
+    "kind": "not-found",
+    "seconds": 6.42,
+    "number": 24,
+    "candidate": "https://www.kwansei.ac.jp/en/assets/List_of_Application_Documents2027.pdf",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.english.source",
+      "profile.sources[1].url"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://www.kwansei.ac.jp/en/assets/List_of_Application_Documents2027.pdf",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "pdf-read",
+    "textSha256": "ecb3d2dd3cfd6e0d823180a0db1331b2df7c7ca1ccbb5c73235d971cd45607ac"
+  },
+  {
+    "url": "https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/admission/admission-data/international-student/requirements-online/online-entry-exam_dgis_2026_sep_en.pdf",
+    "checked": "2026-11-18",
+    "ids": [
+      "toyo-university"
+    ],
+    "status": 404,
+    "final": "https://www.toyo.ac.jp/nyushi/content/dam/toyowebstyle/admission/admission-data/international-student/requirements-online/online-entry-exam_dgis_2026_sep_en.pdf",
+    "kind": "not-found",
+    "seconds": 0.89,
+    "number": 25,
+    "candidate": "https://www.toyo.ac.jp/nyushi/admission/admission-data/international-student/application-guide/",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.sources[1].url"
+    ],
+    "resolution": "unresolved-explicit-warning",
+    "scope": "The September 2026 Global Innovation Studies guide is missing. The current application index covers April 2027 and says the September 2027 guide is pending; it does not verify the old September document."
+  },
+  {
+    "url": "https://en.snu.ac.kr/",
+    "checked": "2026-11-18",
+    "ids": [
+      "seoul-national-university"
+    ],
+    "status": 404,
+    "final": "https://en.snu.ac.kr/",
+    "kind": "not-found",
+    "seconds": 1.78,
+    "number": 26,
+    "candidate": null,
+    "originalAccess": "html-read",
+    "fields": [
+      "profile.links.website"
+    ],
+    "resolution": "original-content-readable",
+    "replacement": "https://en.snu.ac.kr/",
+    "scope": "GET full HTML/PDF content reviewed. Reachability does not upgrade old cycles to Fall 2027.",
+    "access": "html-read",
+    "textSha256": "de5334aa3bdf4f01b0e0015f2ea132dfefc2060178ccb07d503764819c91c91d"
+  },
+  {
+    "url": "https://en.snu.ac.kr/admission",
+    "checked": "2026-11-18",
+    "ids": [
+      "seoul-national-university"
+    ],
+    "status": 404,
+    "final": "https://en.snu.ac.kr/admission",
+    "kind": "not-found",
+    "seconds": 1.7,
+    "number": 27,
+    "candidate": null,
+    "originalAccess": "html-read",
+    "fields": [
+      "profile.links.admissions",
+      "profile.links.cost"
+    ],
+    "resolution": "original-content-readable",
+    "replacement": "https://en.snu.ac.kr/admission",
+    "scope": "GET full HTML/PDF content reviewed. Reachability does not upgrade old cycles to Fall 2027.",
+    "access": "html-read",
+    "textSha256": "79569fd1306fa5851b9e137140184dcddc40637b694dd6af214031599445c274"
+  },
+  {
+    "url": "https://en.snu.ac.kr/admission/undergraduate/application",
+    "checked": "2026-11-18",
+    "ids": [
+      "seoul-national-university"
+    ],
+    "status": 404,
+    "final": "https://en.snu.ac.kr/admission/undergraduate/application",
+    "kind": "not-found",
+    "seconds": 3.03,
+    "number": 28,
+    "candidate": null,
+    "originalAccess": "html-read",
+    "fields": [
+      "profile.links.internationalAdmissions",
+      "profile.links.applicationPortal",
+      "profile.admissions.deadlines[0].source",
+      "profile.admissions.deadlines[1].source",
+      "profile.admissions.deadlines[2].source",
+      "profile.sources[1].url"
+    ],
+    "resolution": "original-content-readable",
+    "replacement": "https://en.snu.ac.kr/admission/undergraduate/application",
+    "scope": "GET full HTML/PDF content reviewed. Reachability does not upgrade old cycles to Fall 2027.",
+    "access": "html-read",
+    "textSha256": "11726eee6d5cf4cd5410342b778eeccce8189ecc58f0c559d90deda6abfb0118"
+  },
+  {
+    "url": "https://en.snu.ac.kr/admission/undergraduate/scholarships/before_admission",
+    "checked": "2026-11-18",
+    "ids": [
+      "seoul-national-university"
+    ],
+    "status": 404,
+    "final": "https://en.snu.ac.kr/admission/undergraduate/scholarships/before_admission",
+    "kind": "not-found",
+    "seconds": 2.91,
+    "number": 29,
+    "candidate": null,
+    "originalAccess": "html-read",
+    "fields": [
+      "profile.links.scholarships",
+      "profile.links.financialAid",
+      "profile.sources[0].url"
+    ],
+    "resolution": "original-content-readable",
+    "replacement": "https://en.snu.ac.kr/admission/undergraduate/scholarships/before_admission",
+    "scope": "Official original is readable but last updated in 2018. Historical award figures retained; 2027 eligibility/amounts unconfirmed, funding filter disabled for this unconfirmed evidence.",
+    "access": "html-read",
+    "textSha256": "baa0592f8513af6f4780973f9af2efe27ae9c02d1c11304046a4674b8cfa7ccc"
+  },
+  {
+    "url": "https://en.snu.ac.kr/academics/programs/undergraduate",
+    "checked": "2026-11-18",
+    "ids": [
+      "seoul-national-university"
+    ],
+    "status": 404,
+    "final": "https://en.snu.ac.kr/academics/programs/undergraduate",
+    "kind": "not-found",
+    "seconds": 3.02,
+    "number": 30,
+    "candidate": null,
+    "originalAccess": "html-read",
+    "fields": [
+      "profile.links.programs"
+    ],
+    "resolution": "original-content-readable",
+    "replacement": "https://en.snu.ac.kr/academics/programs/undergraduate",
+    "scope": "GET full HTML/PDF content reviewed. Reachability does not upgrade old cycles to Fall 2027.",
+    "access": "html-read",
+    "textSha256": "67ccf2c69d517d91b66c64a9b04d6786b59547b07f33d70136cd3cfe972fb88e"
+  },
+  {
+    "url": "https://en.snu.ac.kr/admission/overview/faq/admission",
+    "checked": "2026-11-18",
+    "ids": [
+      "seoul-national-university"
+    ],
+    "status": 404,
+    "final": "https://en.snu.ac.kr/admission/overview/faq/admission",
+    "kind": "not-found",
+    "seconds": 2.69,
+    "number": 31,
+    "candidate": null,
+    "originalAccess": "html-read",
+    "fields": [
+      "profile.sources[2].url",
+      "profile.sources[3].url",
+      "profile.stats.source.url"
+    ],
+    "resolution": "original-content-readable",
+    "replacement": "https://en.snu.ac.kr/admission/overview/faq/admission",
+    "scope": "GET full HTML/PDF content reviewed. Reachability does not upgrade old cycles to Fall 2027.",
+    "access": "html-read",
+    "textSha256": "45d8eb9474718ae375c8d125a4dc2ece2e5ab50557a750b0eccd96af12e9086d"
+  },
+  {
+    "url": "https://en.snu.ac.kr/admission/overview/notice?md=v&bbsidx=170606",
+    "checked": "2026-11-18",
+    "ids": [
+      "seoul-national-university"
+    ],
+    "status": 404,
+    "final": "https://en.snu.ac.kr/admission/overview/notice?md=v&bbsidx=170606",
+    "kind": "not-found",
+    "seconds": 2.69,
+    "number": 32,
+    "candidate": null,
+    "originalAccess": "html-read",
+    "fields": [
+      "profile.sources[4].url"
+    ],
+    "resolution": "original-content-readable",
+    "replacement": "https://en.snu.ac.kr/admission/overview/notice?md=v&bbsidx=170606",
+    "scope": "GET full HTML/PDF content reviewed. Reachability does not upgrade old cycles to Fall 2027.",
+    "access": "html-read",
+    "textSha256": "a121ccd413f8147cbc45c980e82cf2fa07a704eec50c5b84cfea2b29fd7187fb"
+  },
+  {
+    "url": "https://admission-global.skku.edu/eng/grad/scholarship_undergrad.html",
+    "checked": "2026-11-18",
+    "ids": [
+      "sungkyunkwan-university"
+    ],
+    "status": 404,
+    "final": "https://admission-global.skku.edu/eng/grad/scholarship_undergrad.html",
+    "kind": "not-found",
+    "seconds": 0.44,
+    "number": 33,
+    "candidate": "https://admission-global.skku.edu/common/download.php?fname=%5BEN%5D+Undergraduate+Freshmen+Admission+Guide_2027+Spring.pdf&fpath=board%2F202611041634513HFFN9.pdf",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.links.scholarships",
+      "profile.sources[0].url",
+      "profile.stats.source.url"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://admission-global.skku.edu/common/download.php?fname=%5BEN%5D+Undergraduate+Freshmen+Admission+Guide_2027+Spring.pdf&fpath=board%2F202611041634513HFFN9.pdf",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "pdf-read",
+    "textSha256": "d62be513717d599ad66bd9afa065245a7866c98c032d4d312d61493d953efd9b"
+  },
+  {
+    "url": "https://admission-global.skku.edu/eng/etc/bbs_list.html?bbsid=global_notice_re_eng&ctg_cd=&page=1&skey=&keyword=&mode=view&bltn_seq=53774",
+    "checked": "2026-11-18",
+    "ids": [
+      "sungkyunkwan-university"
+    ],
+    "status": 404,
+    "final": "https://admission-global.skku.edu/eng/etc/bbs_list.html?bbsid=global_notice_re_eng&ctg_cd=&page=1&skey=&keyword=&mode=view&bltn_seq=53774",
+    "kind": "not-found",
+    "seconds": 0.66,
+    "number": 34,
+    "candidate": "https://admission-global.skku.edu/common/download.php?fname=%5BEN%5D+Undergraduate+Freshmen+Admission+Guide_2027+Spring.pdf&fpath=board%2F202611041634513HFFN9.pdf",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.english.ielts.profiles[0].source",
+      "profile.english.toefl.profiles[0].source",
+      "profile.sources[2].url"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://admission-global.skku.edu/common/download.php?fname=%5BEN%5D+Undergraduate+Freshmen+Admission+Guide_2027+Spring.pdf&fpath=board%2F202611041634513HFFN9.pdf",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "pdf-read",
+    "textSha256": "d62be513717d599ad66bd9afa065245a7866c98c032d4d312d61493d953efd9b"
+  },
+  {
+    "url": "https://eng.inha.ac.kr/eng/",
+    "checked": "2026-11-18",
+    "ids": [
+      "inha-university"
+    ],
+    "status": 404,
+    "final": "https://eng.inha.ac.kr/eng/",
+    "kind": "not-found",
+    "seconds": 1.53,
+    "number": 35,
+    "candidate": null,
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.links.website"
+    ],
+    "resolution": "unresolved-explicit-warning",
+    "scope": "The English homepage timed out. This is a transport limitation, not evidence that Inha or its programmes are unavailable."
+  },
+  {
+    "url": "https://oia.cau.ac.kr/sub06/sub03_2.php",
+    "checked": "2026-11-18",
+    "ids": [
+      "chung-ang-university"
+    ],
+    "status": 404,
+    "final": "https://oia.cau.ac.kr/sub06/sub03_2.php",
+    "kind": "not-found",
+    "seconds": 2.11,
+    "number": 36,
+    "candidate": "https://oias.cau.ac.kr/cauoie/under/recruitment-guidelines.do",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.sources[2].url"
+    ],
+    "resolution": "unresolved-explicit-warning",
+    "scope": "The old undergraduate guide link is missing. The replacement admissions page lists Spring 2027 guidance, which does not by itself verify Fall 2027 conditions."
+  },
+  {
+    "url": "http://bulletin.konkuk.ac.kr/news/articleView.html?idxno=700",
+    "checked": "2026-11-18",
+    "ids": [
+      "konkuk-university"
+    ],
+    "status": 404,
+    "final": "http://bulletin.konkuk.ac.kr/news/articleView.html?idxno=700",
+    "kind": "not-found",
+    "seconds": 1.16,
+    "number": 37,
+    "candidate": null,
+    "originalAccess": "html-read",
+    "fields": [
+      "profile.sources[3].url"
+    ],
+    "resolution": "original-content-readable",
+    "replacement": "http://bulletin.konkuk.ac.kr/news/articleView.html?idxno=700",
+    "scope": "GET full HTML/PDF content reviewed. Reachability does not upgrade old cycles to Fall 2027.",
+    "access": "html-read",
+    "textSha256": "2a9943fcbb7ce79804523d85d777a587fb82f83c3a4e0a7f01bcce9af8f090d8"
+  },
+  {
+    "url": "https://international.pusan.ac.kr/sites/international/download/brochure/005-Admissons%20For%20International%20Student(English).pdf",
+    "checked": "2026-11-18",
+    "ids": [
+      "pusan-national-university"
+    ],
+    "status": 404,
+    "final": "https://international.pusan.ac.kr/sites/international/download/brochure/005-Admissons%20For%20International%20Student(English).pdf",
+    "kind": "not-found",
+    "seconds": 0.53,
+    "number": 38,
+    "candidate": "https://international.pusan.ac.kr/international/15210/subview.do",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.sources[2].url"
+    ],
+    "resolution": "unresolved-explicit-warning",
+    "scope": "The old Pusan international admissions brochure is missing. Current notices provide Spring 2027 guidance, not confirmation of Fall 2027 figures."
+  },
+  {
+    "url": "https://channelpnu.pusan.ac.kr/news/articleView.html?idxno=38735",
+    "checked": "2026-11-18",
+    "ids": [
+      "pusan-national-university"
+    ],
+    "status": 404,
+    "final": "https://channelpnu.pusan.ac.kr/news/articleView.html?idxno=38735",
+    "kind": "not-found",
+    "seconds": 0.72,
+    "number": 39,
+    "candidate": null,
+    "originalAccess": "html-read",
+    "fields": [
+      "profile.sources[3].url"
+    ],
+    "resolution": "original-content-readable",
+    "replacement": "https://channelpnu.pusan.ac.kr/news/articleView.html?idxno=38735",
+    "scope": "GET full HTML/PDF content reviewed. Reachability does not upgrade old cycles to Fall 2027.",
+    "access": "html-read",
+    "textSha256": "8257ae19c869e7f693765f32712aa78096174b60cf963e323dbd3efbe54e0a70"
+  },
+  {
+    "url": "https://sos.sejong.ac.kr/pdf/409094/",
+    "checked": "2026-11-18",
+    "ids": [
+      "sejong-university"
+    ],
+    "status": 404,
+    "final": "https://sos.sejong.ac.kr/pdf/409094/",
+    "kind": "not-found",
+    "seconds": 1.5,
+    "number": 40,
+    "candidate": "https://sos.sejong.ac.kr/content/05sub/style0007/file/(ENG)%202026_UNDERGRADUATE_Application%20Guide.pdf",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.sources[2].url"
+    ],
+    "resolution": "unresolved-explicit-warning",
+    "scope": "Old undergraduate policy PDF unavailable. Current portal links a 43-page online application tutorial, not a substitute for fee/English/aid policy; warning added.",
+    "access": "pdf-read",
+    "textSha256": "96c21b0de5c81bf2597da0cdb696c203f93053e437e5f4ceb9ab12ca984e2fd7"
+  },
+  {
+    "url": "https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/scholarships/",
+    "checked": "2026-11-18",
+    "ids": [
+      "imperial-college-london"
+    ],
+    "status": 404,
+    "final": "https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/scholarships/",
+    "kind": "not-found",
+    "seconds": 0.98,
+    "number": 41,
+    "candidate": "https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/bursaries-grants-scholarships/",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.links.scholarships"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/bursaries-grants-scholarships/",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "html-read",
+    "textSha256": "0003d15577a9d100ebf11e2ab07a9a0c1951fa3b138b2fc1d5e26d6a10381a8e"
+  },
+  {
+    "url": "https://www.ucl.ac.uk/study/undergraduate-fees-2027-2028",
+    "checked": "2026-11-18",
+    "ids": [
+      "university-college-london"
+    ],
+    "status": 404,
+    "final": "https://www.ucl.ac.uk/study/undergraduate-fees-2027-2028",
+    "kind": "not-found",
+    "seconds": 3.44,
+    "number": 42,
+    "candidate": "https://www.ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.links.cost",
+      "profile.sources[0].url"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://www.ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "html-read",
+    "textSha256": "c38790f33aa5e81f5f183dde768b87f10368eb045f9a24f61c24530c10520ea3"
+  },
+  {
+    "url": "https://www.gla.ac.uk/undergraduate/fees/scholarships/",
+    "checked": "2026-11-18",
+    "ids": [
+      "university-of-glasgow"
+    ],
+    "status": 404,
+    "final": "https://www.gla.ac.uk/undergraduate/fees/scholarships/",
+    "kind": "not-found",
+    "seconds": 1.72,
+    "number": 43,
+    "candidate": "https://www.gla.ac.uk/scholarships/worldchangersglobalexcellencescholarship/",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.links.scholarships"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://www.gla.ac.uk/scholarships/worldchangersglobalexcellencescholarship/",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "html-read",
+    "textSha256": "9d2260fdff891e86a0db9447ba36a31ec99419f6b9c80b682f704796f4c463f0"
+  },
+  {
+    "url": "https://www.leeds.ac.uk/undergraduate-fees",
+    "checked": "2026-11-18",
+    "ids": [
+      "university-of-leeds"
+    ],
+    "status": 404,
+    "final": "https://www.leeds.ac.uk/undergraduate-fees",
+    "kind": "not-found",
+    "seconds": 2.73,
+    "number": 44,
+    "candidate": "https://www.leeds.ac.uk/undergraduate-fees/doc/fees-undergraduate-fees",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.links.cost"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://www.leeds.ac.uk/undergraduate-fees/doc/fees-undergraduate-fees",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "html-read",
+    "textSha256": "7a7898ef1464cd6c3c7fd46911dd1c37d7dfc88cee1789b9e0abf1be7700cc64"
+  },
+  {
+    "url": "https://www.frankfurt-school.de/en/study/bachelor/bachelor-science",
+    "checked": "2026-11-18",
+    "ids": [
+      "frankfurt-school"
+    ],
+    "status": 404,
+    "final": "https://www.frankfurt-school.de/en/study/bachelor/bachelor-science",
+    "kind": "not-found",
+    "seconds": 2.02,
+    "number": 45,
+    "candidate": "https://www.frankfurt-school.de/en/home/study/bachelor/bachelor-in-business-administration",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.links.internationalAdmissions",
+      "profile.links.programs"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://www.frankfurt-school.de/en/home/study/bachelor/bachelor-in-business-administration",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "html-read",
+    "textSha256": "c4fbbde85b65260089ea88c4c34982d42809b5d15c894448a081c7add7185c8e"
+  },
+  {
+    "url": "https://www.frankfurt-school.de/en/home/programmes/financing",
+    "checked": "2026-11-18",
+    "ids": [
+      "frankfurt-school"
+    ],
+    "status": 404,
+    "final": "https://www.frankfurt-school.de/en/study/financing",
+    "kind": "not-found",
+    "seconds": 1.34,
+    "number": 46,
+    "candidate": "https://www.frankfurt-school.de/en/home/students-alumni/financing",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.links.scholarships",
+      "profile.links.financialAid",
+      "profile.sources[2].url"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://www.frankfurt-school.de/en/home/students-alumni/financing",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "html-read",
+    "textSha256": "bc44e6b09e8d9230f96582093d039aafc49350f26c9591719025097decfe8f22"
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/File%3AUniversity_of_Europe_for_Applied_Sciences_Campus_Berlin.png",
+    "checked": "2026-11-18",
+    "ids": [
+      "university-of-europe-applied-sciences"
+    ],
+    "status": 404,
+    "final": "https://commons.wikimedia.org/wiki/File%3AUniversity_of_Europe_for_Applied_Sciences_Campus_Berlin.png",
+    "kind": "not-found",
+    "seconds": 0.66,
+    "number": 47,
+    "candidate": null,
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.photos.gallery[1].page"
+    ],
+    "resolution": "unverified-photo-removed",
+    "scope": "Second gallery image and its local file removed; verified first Berlin image remains."
+  },
+  {
+    "url": "https://www.th-deg.de/en/study-with-us/apply/fees",
+    "checked": "2026-11-18",
+    "ids": [
+      "deggendorf-institute-of-technology"
+    ],
+    "status": 404,
+    "final": "https://www.th-deg.de/en-alt/students-alt/documents/application-and-service-fees",
+    "kind": "not-found",
+    "seconds": 0.86,
+    "number": 48,
+    "candidate": "https://www.th-deg.de/en/apply",
+    "originalAccess": "unavailable",
+    "fields": [
+      "profile.links.cost",
+      "profile.sources[0].url"
+    ],
+    "resolution": "replaced-content-source",
+    "replacement": "https://www.th-deg.de/en/apply",
+    "scope": "Full official content reviewed; historical/intake limitations retained in profile.",
+    "access": "html-read",
+    "textSha256": "98673a28eee135b9554be7732808e45ad99f495bb95e7596e643dbbe524104d0"
+  },
+  {
+    "url": "https://future.uwindsor.ca/apply-international",
+    "checked": "2026-11-18",
+    "ids": [
+      "university-of-windsor"
+    ],
+    "status": 404,
+    "final": "https://future.uwindsor.ca/apply-international",
+    "kind": "not-found",
+    "seconds": 1.03,
+    "number": 49,
+    "candidate": null,
+    "originalAccess": "html-read",
+    "fields": [
+      "profile.links.admissions",
+      "profile.links.applicationPortal",
+      "profile.admissions.deadlines[0].source",
+      "profile.admissions.deadlines[0].cycleEvidence.source",
+      "profile.academics.internationalQualificationsSource",
+      "profile.sources[0].url"
+    ],
+    "resolution": "original-content-readable",
+    "replacement": "https://future.uwindsor.ca/apply-international",
+    "scope": "GET full HTML/PDF content reviewed. Reachability does not upgrade old cycles to Fall 2027.",
+    "access": "html-read",
+    "textSha256": "b330323324f32f30a19ddc862e4f20f684a185322451249ed1758ccb9ba55504"
+  },
+  {
+    "url": "https://images.e.uwindsor.ca/Web/UniversityofWindsor/%7Bb8e808b0-fabe-43af-828a-0a549a702830%7D_English_Language_Proficiency_Requirements.pdf",
+    "checked": "2026-11-18",
+    "ids": [
+      "university-of-windsor"
+    ],
+    "status": 404,
+    "final": "https://images.e.uwindsor.ca/Web/UniversityofWindsor/%7Bb8e808b0-fabe-43af-828a-0a549a702830%7D_English_Language_Proficiency_Requirements.pdf",
+    "kind": "not-found",
+    "seconds": 2.12,
+    "number": 50,
+    "candidate": null,
+    "originalAccess": "pdf-read",
+    "fields": [
+      "profile.english.source",
+      "profile.sources[6].url"
+    ],
+    "resolution": "original-content-readable",
+    "replacement": "https://images.e.uwindsor.ca/Web/UniversityofWindsor/%7Bb8e808b0-fabe-43af-828a-0a549a702830%7D_English_Language_Proficiency_Requirements.pdf",
+    "scope": "GET full HTML/PDF content reviewed. Reachability does not upgrade old cycles to Fall 2027.",
+    "access": "pdf-read",
+    "textSha256": "d3872275b6253fa59bb0492c0068438f13e51a9476c51d36f81551f90df2d236"
+  },
+  {
+    "url": "https://future.uwindsor.ca/student-awards",
+    "checked": "2026-11-18",
+    "ids": [
+      "university-of-windsor"
+    ],
+    "status": 404,
+    "final": "https://future.uwindsor.ca/student-awards",
+    "kind": "not-found",
+    "seconds": 0.55,
+    "number": 51,
+    "candidate": null,
+    "originalAccess": "html-read",
+    "fields": [
+      "profile.programEvidence.business.url",
+      "profile.programEvidence.computer-science.url",
+      "profile.programEvidence.engineering.url",
+      "profile.programEvidence.medicine.url",
+      "profile.programEvidence.education.url"
+    ],
+    "resolution": "original-content-readable",
+    "replacement": "https://future.uwindsor.ca/student-awards",
+    "scope": "GET full HTML/PDF content reviewed. Reachability does not upgrade old cycles to Fall 2027.",
+    "access": "html-read",
+    "textSha256": "6e30300ac1acc7ddca1157256f2456b9c3606a7824085fbe37e9dd546b916fe1"
+  },
+  {
+    "url": "https://future.uwindsor.ca/economics",
+    "checked": "2026-11-18",
+    "ids": [
+      "university-of-windsor"
+    ],
+    "status": 404,
+    "final": "https://future.uwindsor.ca/economics",
+    "kind": "not-found",
+    "seconds": 0.58,
+    "number": 52,
+    "candidate": null,
+    "originalAccess": "html-read",
+    "fields": [
+      "profile.programEvidence.economics.url"
+    ],
+    "resolution": "original-content-readable",
+    "replacement": "https://future.uwindsor.ca/economics",
+    "scope": "GET full HTML/PDF content reviewed. Reachability does not upgrade old cycles to Fall 2027.",
+    "access": "html-read",
+    "textSha256": "0e93f7e8779dbac42afe67e2e4c31de92b9b74be442c46cda91f9fa01e2bddc6"
+  },
+  {
+    "url": "https://future.uwindsor.ca/psychology",
+    "checked": "2026-11-18",
+    "ids": [
+      "university-of-windsor"
+    ],
+    "status": 404,
+    "final": "https://future.uwindsor.ca/psychology",
+    "kind": "not-found",
+    "seconds": 0.74,
+    "number": 53,
+    "candidate": null,
+    "originalAccess": "html-read",
+    "fields": [
+      "profile.programEvidence.psychology.url"
+    ],
+    "resolution": "original-content-readable",
+    "replacement": "https://future.uwindsor.ca/psychology",
+    "scope": "GET full HTML/PDF content reviewed. Reachability does not upgrade old cycles to Fall 2027.",
+    "access": "html-read",
+    "textSha256": "cad3a2a29a81c1a0c5f6a9c388dd2d899e66071843d2a6a749db8a582d21f912"
+  },
+  {
+    "url": "https://future.uwindsor.ca/mathematics-statistics",
+    "checked": "2026-11-18",
+    "ids": [
+      "university-of-windsor"
+    ],
+    "status": 404,
+    "final": "https://future.uwindsor.ca/mathematics-statistics",
+    "kind": "not-found",
+    "seconds": 0.53,
+    "number": 54,
+    "candidate": null,
+    "originalAccess": "html-read",
+    "fields": [
+      "profile.programEvidence.mathematics.url"
+    ],
+    "resolution": "original-content-readable",
+    "replacement": "https://future.uwindsor.ca/mathematics-statistics",
+    "scope": "GET full HTML/PDF content reviewed. Reachability does not upgrade old cycles to Fall 2027.",
+    "access": "html-read",
+    "textSha256": "097c8690c4cddbba2b942129d644ec8691e2d25c425df96719311462d4e399fa"
+  }
+]

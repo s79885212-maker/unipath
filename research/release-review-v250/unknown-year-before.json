@@ -1,0 +1,65 @@
+[
+  {
+    "id": "st-olaf-college",
+    "budget": {
+      "status": "fits-billed",
+      "text": "Billed by the university a year: $81,200 — books, travel, personal costs and insurance extra"
+    }
+  },
+  {
+    "id": "lawrence-university",
+    "budget": {
+      "status": "fits-billed",
+      "text": "Billed by the university a year: $75,558 — books, travel, personal costs and insurance extra"
+    }
+  },
+  {
+    "id": "earlham-college",
+    "budget": {
+      "status": "fits-billed",
+      "text": "Billed by the university a year: $73,526 — books, travel, personal costs and insurance extra"
+    }
+  },
+  {
+    "id": "northeastern-university",
+    "budget": {
+      "status": "fits",
+      "text": "Full cost a year: $98,322"
+    }
+  },
+  {
+    "id": "syracuse-university",
+    "budget": {
+      "status": "fits",
+      "text": "Full cost a year: $100,526"
+    }
+  },
+  {
+    "id": "texas-christian-university",
+    "budget": {
+      "status": "fits-billed",
+      "text": "Billed by the university a year: $86,090 — books, travel, personal costs and insurance extra"
+    }
+  },
+  {
+    "id": "kaist",
+    "budget": {
+      "status": "fits-tuition",
+      "text": "Tuition a year: no tuition — living costs extra"
+    }
+  },
+  {
+    "id": "university-of-southampton",
+    "budget": {
+      "status": "fits-tuition",
+      "text": "Tuition a year: $35,600 – $47,600 — living costs extra"
+    }
+  },
+  {
+    "id": "berlin-international-university",
+    "budget": {
+      "status": "fits-tuition",
+      "text": "Tuition a year: $9,400 – $10,400 — living costs extra"
+    }
+  }
+]

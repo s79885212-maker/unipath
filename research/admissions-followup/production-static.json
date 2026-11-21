@@ -1,0 +1,9 @@
+{
+  "build": "local production",
+  "version": [
+    "267"
+  ],
+  "canonical": "https://s79885212-maker.github.io/unipath/",
+  "noindex": false,
+  "profiles": 540
+}

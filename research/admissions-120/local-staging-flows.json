@@ -1,0 +1,662 @@
+{
+  "root": "http://127.0.0.1:8765/unipath/staging/",
+  "live": false,
+  "profiles": [],
+  "scenarios": [
+    {
+      "lang": "en",
+      "width": 1280,
+      "matcher": "intake, historical, lower bound, exact budget, section warning, reload passed"
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "funding": {
+        "firstSemesterAnnualBudget": "unknown",
+        "tamuFirstYear": null,
+        "snuFunding": false,
+        "undatedCost": "unknown",
+        "tamuNeed": false,
+        "skkuFunding": false,
+        "kyushuFunding": false,
+        "unistTuition": true,
+        "skkuMinimumMet": false,
+        "evansvilleLow": "over",
+        "evansvilleExact": "fits",
+        "portsmouth": "unknown"
+      }
+    },
+    {
+      "lang": "ru",
+      "width": 360,
+      "matcher": "intake, historical, lower bound, exact budget, section warning, reload passed"
+    },
+    {
+      "lang": "ru",
+      "width": 360,
+      "funding": {
+        "firstSemesterAnnualBudget": "unknown",
+        "tamuFirstYear": null,
+        "snuFunding": false,
+        "undatedCost": "unknown",
+        "tamuNeed": false,
+        "skkuFunding": false,
+        "kyushuFunding": false,
+        "unistTuition": true,
+        "skkuMinimumMet": false,
+        "evansvilleLow": "over",
+        "evansvilleExact": "fits",
+        "portsmouth": "unknown"
+      }
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "savedCompareCalendar": "six countries saved, three compared, reload and removal passed",
+      "calendar": {
+        "expected": [
+          {
+            "id": "brigham-young-university",
+            "date": "2026-11-02"
+          },
+          {
+            "id": "brigham-young-university",
+            "date": "2026-12-15"
+          },
+          {
+            "id": "wilfrid-laurier-university",
+            "date": "2027-04-01"
+          },
+          {
+            "id": "nagoya-university",
+            "date": "2026-11-19"
+          },
+          {
+            "id": "nagoya-university",
+            "date": "2027-01-21"
+          }
+        ],
+        "rows": 5
+      },
+      "controls": [
+        {
+          "id": "browse-q",
+          "type": "search",
+          "placeholder": "Search universities, colleges, cities, programs, scholarships…"
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        }
+      ],
+      "mediaGeometry": {
+        "coverHeight": 521.25,
+        "imageHeight": 521.25
+      }
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "theme": "dark"
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "catalogue": "search, combined filters, reset, reload, Full ride exclusion, locale switch, menu Escape and focus passed"
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "imageFailure": "An isolated synthetic error removes the image and reveals the stock fallback"
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "historicalCoverage": "SNU overview uses unknown coverage marks; no confirmed checks"
+    },
+    {
+      "lang": "ru",
+      "width": 360,
+      "savedCompareCalendar": "six countries saved, three compared, reload and removal passed",
+      "calendar": {
+        "expected": [
+          {
+            "id": "brigham-young-university",
+            "date": "2026-11-02"
+          },
+          {
+            "id": "brigham-young-university",
+            "date": "2026-12-15"
+          },
+          {
+            "id": "wilfrid-laurier-university",
+            "date": "2027-04-01"
+          },
+          {
+            "id": "nagoya-university",
+            "date": "2026-11-19"
+          },
+          {
+            "id": "nagoya-university",
+            "date": "2027-01-21"
+          }
+        ],
+        "rows": 5
+      },
+      "controls": [
+        {
+          "id": "browse-q",
+          "type": "search",
+          "placeholder": "Ищите вузы, колледжи, города, программы, стипендии…"
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        },
+        {
+          "id": "",
+          "type": "checkbox",
+          "placeholder": ""
+        }
+      ],
+      "mediaGeometry": {
+        "coverHeight": 198.75,
+        "imageHeight": 198.75
+      }
+    },
+    {
+      "lang": "ru",
+      "width": 360,
+      "theme": "dark"
+    },
+    {
+      "lang": "ru",
+      "width": 360,
+      "catalogue": "search, combined filters, reset, reload, Full ride exclusion, locale switch, menu Escape and focus passed"
+    },
+    {
+      "lang": "ru",
+      "width": 360,
+      "imageFailure": "An isolated synthetic error removes the image and reveals the stock fallback"
+    },
+    {
+      "lang": "ru",
+      "width": 360,
+      "historicalCoverage": "SNU overview uses unknown coverage marks; no confirmed checks"
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "No real Safari or iPhone tested. Saved list has an application-date table; no standalone calendar or export exists."
+  ],
+  "browser": "Chrome 157.0.8103.51",
+  "version": "assets/js/app.js?v=259",
+  "webkitInstalled": false
+}

@@ -1,0 +1,398 @@
+{
+  "root": "http://127.0.0.1:8765/unipath/",
+  "live": false,
+  "profiles": [
+    {
+      "id": "college-of-wooster",
+      "lang": "en",
+      "width": 390,
+      "heading": "The College of Wooster",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/assets/img/universities/college-of-wooster/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/assets/img/universities/college-of-wooster/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/assets/img/universities/college-of-wooster/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/assets/img/universities/college-of-wooster/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nCollege of Wooster Bornhuetter Hall\nPhoto: Theodore Ferringer from Cleveland, OH · Wikimedia Commons · CC BY 2.0\nUniversity Library, University of Wooster, Wooster, Ohio.\nPhoto: Unknown author · Wikimedia Commons · Public domain\nCollege of Wooster Campus Panorama\nPhoto: Robert from Zoetermeer, Netherlands · Wikimedia Commons · CC BY 2.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "college-of-wooster",
+      "lang": "ru",
+      "width": 1280,
+      "heading": "The College of Wooster",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/assets/img/universities/college-of-wooster/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/assets/img/universities/college-of-wooster/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/assets/img/universities/college-of-wooster/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/assets/img/universities/college-of-wooster/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nCollege of Wooster Bornhuetter Hall\nФото: Theodore Ferringer from Cleveland, OH · Wikimedia Commons · CC BY 2.0\nUniversity Library, University of Wooster, Wooster, Ohio.\nФото: Unknown author · Wikimedia Commons · Общественное достояние\nCollege of Wooster Campus Panorama\nФото: Robert from Zoetermeer, Netherlands · Wikimedia Commons · CC BY 2.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-regina",
+      "lang": "en",
+      "width": 390,
+      "heading": "University of Regina",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/assets/img/universities/university-of-regina/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/assets/img/universities/university-of-regina/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/assets/img/universities/university-of-regina/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nJohn Archer Library, University of Regina\nPhoto: Grahampurse · Wikimedia Commons · CC BY-SA 4.0\nUniversity of Regina Continuing Development Centre - Regina (29125895587)\nPhoto: Haydn Blackey from Cardiff, Wales · Wikimedia Commons · CC BY-SA 2.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-regina",
+      "lang": "ru",
+      "width": 1280,
+      "heading": "University of Regina",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/assets/img/universities/university-of-regina/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/assets/img/universities/university-of-regina/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/assets/img/universities/university-of-regina/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nJohn Archer Library, University of Regina\nФото: Grahampurse · Wikimedia Commons · CC BY-SA 4.0\nUniversity of Regina Continuing Development Centre - Regina (29125895587)\nФото: Haydn Blackey from Cardiff, Wales · Wikimedia Commons · CC BY-SA 2.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-bath",
+      "lang": "en",
+      "width": 390,
+      "heading": "University of Bath",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/assets/img/universities/university-of-bath/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/assets/img/universities/university-of-bath/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/assets/img/universities/university-of-bath/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/assets/img/universities/university-of-bath/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nUniversity of Bath\nPhoto: Unknown author · Wikimedia Commons · CC BY-SA 3.0\nSchool of architecture and building engineering Bath university1\nPhoto: seier+seier · Wikimedia Commons · CC BY 2.0\n2023-09-15 University of Bath Carpenter House 01\nPhoto: Bärbel Miemietz · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "technical-university-of-munich",
+      "lang": "en",
+      "width": 390,
+      "heading": "Technical University of Munich",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/assets/img/universities/technical-university-of-munich/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/assets/img/universities/technical-university-of-munich/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/assets/img/universities/technical-university-of-munich/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/assets/img/universities/technical-university-of-munich/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nTechnische Universität München TUM div Fakultäten Institute Teilbibliotheken im Hochschul- und Forschungszentrum Garching Foto Wolfgang Pehlemann IMG 1588\nPhoto: Wolfgang Pehlemann · Wikimedia Commons · CC BY-SA 3.0 de\nBibliothek der TU München 07\nPhoto: Burkhard Mücke · Wikimedia Commons · CC BY-SA 4.0\nBibliothek der TU München 01\nPhoto: Burkhard Mücke · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-bath",
+      "lang": "ru",
+      "width": 1280,
+      "heading": "University of Bath",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/assets/img/universities/university-of-bath/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/assets/img/universities/university-of-bath/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/assets/img/universities/university-of-bath/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/assets/img/universities/university-of-bath/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nUniversity of Bath\nФото: Unknown author · Wikimedia Commons · CC BY-SA 3.0\nSchool of architecture and building engineering Bath university1\nФото: seier+seier · Wikimedia Commons · CC BY 2.0\n2023-09-15 University of Bath Carpenter House 01\nФото: Bärbel Miemietz · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "international-christian-university",
+      "lang": "en",
+      "width": 390,
+      "heading": "International Christian University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/assets/img/universities/international-christian-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/assets/img/universities/international-christian-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/assets/img/universities/international-christian-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nEntrance to ICU in spring\nPhoto: Almondchoco · Wikimedia Commons · CC BY-SA 4.0\nIcu maingate 20100624\nPhoto: Te220168 · Wikimedia Commons · Public domain\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "technical-university-of-munich",
+      "lang": "ru",
+      "width": 1280,
+      "heading": "Technical University of Munich",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/assets/img/universities/technical-university-of-munich/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/assets/img/universities/technical-university-of-munich/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/assets/img/universities/technical-university-of-munich/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/assets/img/universities/technical-university-of-munich/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nTechnische Universität München TUM div Fakultäten Institute Teilbibliotheken im Hochschul- und Forschungszentrum Garching Foto Wolfgang Pehlemann IMG 1588\nФото: Wolfgang Pehlemann · Wikimedia Commons · CC BY-SA 3.0 de\nBibliothek der TU München 07\nФото: Burkhard Mücke · Wikimedia Commons · CC BY-SA 4.0\nBibliothek der TU München 01\nФото: Burkhard Mücke · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "kaist",
+      "lang": "en",
+      "width": 390,
+      "heading": "Korea Advanced Institute of Science and Technology",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/assets/img/universities/kaist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/assets/img/universities/kaist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/assets/img/universities/kaist/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nKAIST fountains view\nPhoto: AhmadElq · Wikimedia Commons · CC BY-SA 4.0\nA flock of geese at KAIST university\nPhoto: Roost · Wikimedia Commons · CC0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "international-christian-university",
+      "lang": "ru",
+      "width": 1280,
+      "heading": "International Christian University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/assets/img/universities/international-christian-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/assets/img/universities/international-christian-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/assets/img/universities/international-christian-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nEntrance to ICU in spring\nФото: Almondchoco · Wikimedia Commons · CC BY-SA 4.0\nIcu maingate 20100624\nФото: Te220168 · Wikimedia Commons · Общественное достояние\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "kaist",
+      "lang": "ru",
+      "width": 1280,
+      "heading": "Korea Advanced Institute of Science and Technology",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/assets/img/universities/kaist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/assets/img/universities/kaist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/assets/img/universities/kaist/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nKAIST fountains view\nФото: AhmadElq · Wikimedia Commons · CC BY-SA 4.0\nA flock of geese at KAIST university\nФото: Roost · Wikimedia Commons · CC0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    }
+  ],
+  "scenarios": [],
+  "errors": [],
+  "limitations": [
+    "No real Safari or iPhone tested. Saved list has an application-date table; no standalone calendar or export exists."
+  ],
+  "browser": "Chrome 157.0.8103.51",
+  "version": "/unipath/assets/js/app.js?v=251",
+  "webkitInstalled": false
+}

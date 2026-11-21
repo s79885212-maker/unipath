@@ -1,0 +1,53 @@
+{
+  "contentReviewed": 120,
+  "catalogueInventory": 540,
+  "countries": {
+    "us": {
+      "reviewed": 60,
+      "clearLanguage": 57,
+      "establishedAcademicPolicy": 48,
+      "exactIeltsSections": 9,
+      "cardsWithRemainingFields": 60
+    },
+    "ca": {
+      "reviewed": 15,
+      "clearLanguage": 15,
+      "establishedAcademicPolicy": 5,
+      "exactIeltsSections": 10,
+      "cardsWithRemainingFields": 15
+    },
+    "uk": {
+      "reviewed": 15,
+      "clearLanguage": 15,
+      "establishedAcademicPolicy": 0,
+      "exactIeltsSections": 15,
+      "cardsWithRemainingFields": 15
+    },
+    "de": {
+      "reviewed": 10,
+      "clearLanguage": 10,
+      "establishedAcademicPolicy": 0,
+      "exactIeltsSections": 0,
+      "cardsWithRemainingFields": 10
+    },
+    "jp": {
+      "reviewed": 10,
+      "clearLanguage": 10,
+      "establishedAcademicPolicy": 10,
+      "exactIeltsSections": 0,
+      "cardsWithRemainingFields": 10
+    },
+    "kr": {
+      "reviewed": 10,
+      "clearLanguage": 10,
+      "establishedAcademicPolicy": 4,
+      "exactIeltsSections": 0,
+      "cardsWithRemainingFields": 10
+    }
+  },
+  "definitions": {
+    "clearLanguage": "At least one scoped accepted test/waiver/institutional assessment or explicit local-language qualification; not a claim of a verified 2027 numerical minimum.",
+    "establishedAcademicPolicy": "At least one scoped policy other than unknown/conflict/acceptance-only; exceptions and previous-cycle rules remain marked.",
+    "remaining": "Cards with documented unresolved fields; this is not a count of factual errors."
+  }
+}

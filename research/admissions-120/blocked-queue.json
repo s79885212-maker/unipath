@@ -1,0 +1,23 @@
+[
+  {
+    "country": "us",
+    "id": "dordt-university",
+    "reviewedInstead": "university-of-dallas",
+    "reason": "The official applicant page requires a robot challenge; the official catalogue could not be read.",
+    "status": "source-unavailable-not-content-reviewed"
+  },
+  {
+    "country": "kr",
+    "id": "inha-university",
+    "reviewedInstead": "kaist",
+    "reason": "Official centre and admissions sources timed out; third-party copies were not treated as verified originals.",
+    "status": "source-unavailable-not-content-reviewed"
+  },
+  {
+    "country": "kr",
+    "id": "konkuk-university",
+    "reviewedInstead": "unist",
+    "reason": "Official Seoul admissions board returned a web firewall block; GLOCAL sources cannot substitute for Seoul.",
+    "status": "source-unavailable-not-content-reviewed"
+  }
+]

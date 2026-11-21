@@ -1,0 +1,426 @@
+[
+  {
+    "id": "elmira-college",
+    "country": "us",
+    "status": "pending",
+    "previousUnknown": [
+      "SAT/ACT policy, Fall 2027-specific language rules, section minima and the IELTS 6.5 ELL boundary remain unconfirmed."
+    ]
+  },
+  {
+    "id": "university-of-the-pacific",
+    "country": "us",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027 academic-test conflict, English section minima and exact IELTS variant remain unresolved."
+    ]
+  },
+  {
+    "id": "saint-marys-college-indiana",
+    "country": "us",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027-specific academic-test policy and IELTS section minima not established."
+    ]
+  },
+  {
+    "id": "john-jay-college",
+    "country": "us",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027 SAT policy, IELTS sections and new TOEFL scale not established."
+    ]
+  },
+  {
+    "id": "laurentian-university",
+    "country": "ca",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027-specific applicability and academic requirements for the exact school qualification require confirmation."
+    ]
+  },
+  {
+    "id": "universite-de-montreal",
+    "country": "ca",
+    "status": "pending",
+    "previousUnknown": [
+      "Exact programme/qualification and Fall 2027-specific requirements need individual confirmation; no universal SAT policy inferred."
+    ]
+  },
+  {
+    "id": "universite-laval",
+    "country": "ca",
+    "status": "pending",
+    "previousUnknown": [
+      "Exact programme/qualification and Fall 2027-specific requirements need individual confirmation; no universal SAT policy inferred."
+    ]
+  },
+  {
+    "id": "universite-du-quebec-a-montreal",
+    "country": "ca",
+    "status": "pending",
+    "previousUnknown": [
+      "Exact programme/qualification and Fall 2027-specific requirements need individual confirmation; no universal SAT policy inferred."
+    ]
+  },
+  {
+    "id": "frankfurt-school",
+    "country": "de",
+    "status": "pending",
+    "previousUnknown": [
+      "IELTS acceptance as an assessment substitute and exact foreign-school equivalence not established."
+    ]
+  },
+  {
+    "id": "leuphana-university-luneburg",
+    "country": "de",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027-labelled rules, school equivalence and engineering/teacher-training exceptions need separate verification."
+    ]
+  },
+  {
+    "id": "rhine-waal-university",
+    "country": "de",
+    "status": "pending",
+    "previousUnknown": [
+      "New TOEFL 1–6 cutoff, IELTS sections, exact programme/campus and Fall 2027-specific applicability remain unconfirmed."
+    ]
+  },
+  {
+    "id": "technical-university-of-munich",
+    "country": "de",
+    "status": "pending",
+    "previousUnknown": [
+      "Exact bachelor/campus, SAT or other qualification criteria and a Fall 2027-labelled programme regulation require individual confirmation."
+    ]
+  },
+  {
+    "id": "university-of-strathclyde",
+    "country": "uk",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027 course-specific applicability, accepted alternative test scores, waivers and qualification-specific SAT rules need further official course verification."
+    ]
+  },
+  {
+    "id": "middlesex-university",
+    "country": "uk",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027-specific course acceptance, exact IELTS Academic wording and school-qualification SAT rules remain unconfirmed."
+    ]
+  },
+  {
+    "id": "oxford-brookes-university",
+    "country": "uk",
+    "status": "pending",
+    "previousUnknown": [
+      "Programme-specific Fall 2027 confirmation, academic qualification/SAT conditions and alternative-test table row values need separate verification."
+    ]
+  },
+  {
+    "id": "dgist",
+    "country": "kr",
+    "status": "pending",
+    "previousUnknown": [
+      "The university PDF connection failed; exact 2027 test variants, programme language guarantee and scoped academic test policy remain unconfirmed."
+    ]
+  },
+  {
+    "id": "dongguk-university",
+    "country": "kr",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027 guide, exact programme language, IELTS/TOEFL alternative acceptance and SAT/ACT policy remain unconfirmed."
+    ]
+  },
+  {
+    "id": "milwaukee-school-of-engineering",
+    "country": "us",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027-specific applicability, exact IELTS variant/section minima where unstated and individual waiver eligibility need confirmation."
+    ]
+  },
+  {
+    "id": "brock-university",
+    "country": "ca",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027-specific applicability, exact programme exceptions and qualification-specific SAT/ACT rules need further confirmation."
+    ]
+  },
+  {
+    "id": "mount-royal-university",
+    "country": "ca",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027-specific applicability, exact programme exceptions and qualification-specific SAT/ACT rules need further confirmation."
+    ]
+  },
+  {
+    "id": "acadia-university",
+    "country": "ca",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027-specific applicability, exact programme exceptions and qualification-specific SAT/ACT rules need further confirmation."
+    ]
+  },
+  {
+    "id": "university-of-ottawa",
+    "country": "ca",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027-specific applicability, exact programme exceptions and qualification-specific SAT/ACT rules need further confirmation."
+    ]
+  },
+  {
+    "id": "universite-de-sherbrooke",
+    "country": "ca",
+    "status": "pending",
+    "previousUnknown": [
+      "Exact 2027 programme page, non-engineering language requirements, alternative-test score mappings and academic qualifications remain to be checked."
+    ]
+  },
+  {
+    "id": "universite-de-moncton",
+    "country": "ca",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027 programme-specific French evidence, section scores and school-qualification academic rules remain unconfirmed."
+    ]
+  },
+  {
+    "id": "stockton-university",
+    "country": "us",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027-specific policy, exact specialty exclusions and the conflicting English-speaking-applicant SAT rule require clarification."
+    ]
+  },
+  {
+    "id": "manhattan-university",
+    "country": "us",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027-specific applicability, unstated IELTS section/variant rules and individual waiver approval remain unconfirmed."
+    ]
+  },
+  {
+    "id": "university-of-sussex",
+    "country": "uk",
+    "status": "pending",
+    "previousUnknown": [
+      "Exact course-specific Fall 2027 applicability and academic requirements for the school qualification need confirmation; a general table is not a check of every degree."
+    ]
+  },
+  {
+    "id": "university-of-greenwich",
+    "country": "uk",
+    "status": "pending",
+    "previousUnknown": [
+      "Exact course-specific Fall 2027 applicability and academic requirements for the school qualification need confirmation; a general table is not a check of every degree."
+    ]
+  },
+  {
+    "id": "university-of-westminster",
+    "country": "uk",
+    "status": "pending",
+    "previousUnknown": [
+      "Exact course-specific Fall 2027 applicability and academic requirements for the school qualification need confirmation; a general table is not a check of every degree."
+    ]
+  },
+  {
+    "id": "coventry-university",
+    "country": "uk",
+    "status": "pending",
+    "previousUnknown": [
+      "Exact alternative tests, waiver eligibility and national school-qualification criteria for this degree require confirmation."
+    ]
+  },
+  {
+    "id": "university-of-hertfordshire",
+    "country": "uk",
+    "status": "pending",
+    "previousUnknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ]
+  },
+  {
+    "id": "university-of-huddersfield",
+    "country": "uk",
+    "status": "pending",
+    "previousUnknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ]
+  },
+  {
+    "id": "university-of-salford",
+    "country": "uk",
+    "status": "pending",
+    "previousUnknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ]
+  },
+  {
+    "id": "university-of-derby",
+    "country": "uk",
+    "status": "pending",
+    "previousUnknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ]
+  },
+  {
+    "id": "nottingham-trent-university",
+    "country": "uk",
+    "status": "pending",
+    "previousUnknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ]
+  },
+  {
+    "id": "sheffield-hallam-university",
+    "country": "uk",
+    "status": "pending",
+    "previousUnknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ]
+  },
+  {
+    "id": "birmingham-city-university",
+    "country": "uk",
+    "status": "pending",
+    "previousUnknown": [
+      "Course-specific Fall 2027 confirmation, exact waiver eligibility and school-qualification SAT/ACT criteria remain to be checked."
+    ]
+  },
+  {
+    "id": "de-montfort-university",
+    "country": "uk",
+    "status": "pending",
+    "previousUnknown": [
+      "Exact course/year and school qualification; Business/Science country-table differences; waivers and exact IELTS variant need confirmation."
+    ]
+  },
+  {
+    "id": "anhalt-university",
+    "country": "de",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027-specific applicability, school-equivalence assessment and any programme-specific academic examinations remain unconfirmed."
+    ]
+  },
+  {
+    "id": "university-of-freiburg",
+    "country": "de",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027-specific applicability, school-equivalence assessment and any programme-specific academic examinations remain unconfirmed."
+    ]
+  },
+  {
+    "id": "fau-erlangen-nurnberg",
+    "country": "de",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027-specific applicability, school-equivalence assessment and any programme-specific academic examinations remain unconfirmed."
+    ]
+  },
+  {
+    "id": "technische-hochschule-ingolstadt",
+    "country": "de",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027-specific applicability, school-equivalence assessment and any programme-specific academic examinations remain unconfirmed."
+    ]
+  },
+  {
+    "id": "university-of-cologne",
+    "country": "de",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027-specific applicability, school-equivalence assessment and any programme-specific academic examinations remain unconfirmed."
+    ]
+  },
+  {
+    "id": "deggendorf-institute-of-technology",
+    "country": "de",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027 cycle, precise certificate table row/section mapping and applicant-specific waiver remain to be confirmed."
+    ]
+  },
+  {
+    "id": "sejong-university",
+    "country": "kr",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027 rules, IELTS variant/sections and independent SAT/ACT obligations remain unconfirmed."
+    ]
+  },
+  {
+    "id": "pusan-national-university",
+    "country": "kr",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall intake is not established: the guide states undergraduate curricula follow March entry. IELTS variant/sections, SAT/ACT policy and additional nationality-specific financial documents require further review."
+    ]
+  },
+  {
+    "id": "soongsil-university",
+    "country": "kr",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027 requirements, programme teaching-language mix, English-test alternatives and SAT/ACT policy are not established by the read sections."
+    ]
+  },
+  {
+    "id": "towson-university",
+    "country": "us",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027 cycle, IELTS test variant and independent SAT/ACT selection policy remain unconfirmed."
+    ]
+  },
+  {
+    "id": "grand-valley-state-university",
+    "country": "us",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027 confirmation, IELTS variant/sections, undergraduate waiver details and independent SAT/ACT policy remain unconfirmed."
+    ]
+  },
+  {
+    "id": "elmhurst-university",
+    "country": "us",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027-labelled general policy, IELTS variant/sections and independent SAT/ACT selection rule remain unconfirmed."
+    ]
+  },
+  {
+    "id": "university-of-texas-at-dallas",
+    "country": "us",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027 requirements, independent SAT/ACT policy, IELTS variant/sections and new TOEFL scale remain unconfirmed."
+    ]
+  },
+  {
+    "id": "valparaiso-university",
+    "country": "us",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027 policy, IELTS variant/sections, new TOEFL scale and academic SAT/ACT obligation remain unconfirmed."
+    ]
+  },
+  {
+    "id": "kyungpook-national-university",
+    "country": "kr",
+    "status": "pending",
+    "previousUnknown": [
+      "Fall 2027 department guide, exact programme language, IELTS sections/new TOEFL scale and academic SAT/ACT policy remain unconfirmed."
+    ]
+  }
+]

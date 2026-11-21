@@ -1,0 +1,423 @@
+{
+  "root": "https://s79885212-maker.github.io/unipath/staging/",
+  "live": true,
+  "profiles": [
+    {
+      "id": "college-of-wooster",
+      "lang": "en",
+      "width": 390,
+      "heading": "The College of Wooster",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/college-of-wooster/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/college-of-wooster/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/college-of-wooster/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/college-of-wooster/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nCollege of Wooster Bornhuetter Hall\nPhoto: Theodore Ferringer from Cleveland, OH · Wikimedia Commons · CC BY 2.0\nUniversity Library, University of Wooster, Wooster, Ohio.\nPhoto: Unknown author · Wikimedia Commons · Public domain\nCollege of Wooster Campus Panorama\nPhoto: Robert from Zoetermeer, Netherlands · Wikimedia Commons · CC BY 2.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "college-of-wooster",
+      "lang": "ru",
+      "width": 1280,
+      "heading": "The College of Wooster",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/college-of-wooster/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/college-of-wooster/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/college-of-wooster/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/college-of-wooster/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nCollege of Wooster Bornhuetter Hall\nФото: Theodore Ferringer from Cleveland, OH · Wikimedia Commons · CC BY 2.0\nUniversity Library, University of Wooster, Wooster, Ohio.\nФото: Unknown author · Wikimedia Commons · Общественное достояние\nCollege of Wooster Campus Panorama\nФото: Robert from Zoetermeer, Netherlands · Wikimedia Commons · CC BY 2.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "memorial-university-of-newfoundland",
+      "lang": "en",
+      "width": 390,
+      "heading": "Memorial University of Newfoundland",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/memorial-university-of-newfoundland/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/memorial-university-of-newfoundland/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/memorial-university-of-newfoundland/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/memorial-university-of-newfoundland/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nMemorialUniversity\nPhoto: User:Neelix · Wikimedia Commons · Public domain\nLong Pond Twilight, Memorial University of Newfoundland\nPhoto: Ken Eckert · Wikimedia Commons · CC BY-SA 4.0\nQEII and Clock Tower\nPhoto: IseDaByThatEditsTheBoat · Wikimedia Commons · CC0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-sussex",
+      "lang": "en",
+      "width": 390,
+      "heading": "University of Sussex",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-sussex/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-sussex/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-sussex/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-sussex/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nArts Inner courtyard, University of Sussex\nPhoto: Ak689 · Wikimedia Commons · CC BY-SA 4.0\nLibrary Square (University of Sussex) in Summer\nPhoto: Ak689 · Wikimedia Commons · CC BY-SA 4.0\nThe Library, University of Sussex\nPhoto: Ak689 · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "memorial-university-of-newfoundland",
+      "lang": "ru",
+      "width": 1280,
+      "heading": "Memorial University of Newfoundland",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/memorial-university-of-newfoundland/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/memorial-university-of-newfoundland/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/memorial-university-of-newfoundland/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/memorial-university-of-newfoundland/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nMemorialUniversity\nФото: User:Neelix · Wikimedia Commons · Общественное достояние\nLong Pond Twilight, Memorial University of Newfoundland\nФото: Ken Eckert · Wikimedia Commons · CC BY-SA 4.0\nQEII and Clock Tower\nФото: IseDaByThatEditsTheBoat · Wikimedia Commons · CC0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "technical-university-of-munich",
+      "lang": "en",
+      "width": 390,
+      "heading": "Technical University of Munich",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/technical-university-of-munich/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/technical-university-of-munich/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/technical-university-of-munich/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/technical-university-of-munich/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nTechnische Universität München TUM div Fakultäten Institute Teilbibliotheken im Hochschul- und Forschungszentrum Garching Foto Wolfgang Pehlemann IMG 1588\nPhoto: Wolfgang Pehlemann · Wikimedia Commons · CC BY-SA 3.0 de\nBibliothek der TU München 07\nPhoto: Burkhard Mücke · Wikimedia Commons · CC BY-SA 4.0\nBibliothek der TU München 01\nPhoto: Burkhard Mücke · Wikimedia Commons · CC BY-SA 4.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "university-of-sussex",
+      "lang": "ru",
+      "width": 1280,
+      "heading": "University of Sussex",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-sussex/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-sussex/1.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-sussex/2.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/university-of-sussex/3.jpg",
+          "loaded": true,
+          "width": 1200,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nArts Inner courtyard, University of Sussex\nФото: Ak689 · Wikimedia Commons · CC BY-SA 4.0\nLibrary Square (University of Sussex) in Summer\nФото: Ak689 · Wikimedia Commons · CC BY-SA 4.0\nThe Library, University of Sussex\nФото: Ak689 · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "waseda-university",
+      "lang": "en",
+      "width": 390,
+      "heading": "Waseda University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/waseda-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/waseda-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/waseda-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/waseda-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nWaseda University Okuma Auditorium\nPhoto: Seiichi Miyashita · Wikimedia Commons · CC0\nWaseda University 2014\nPhoto: Kakidai · Wikimedia Commons · CC BY-SA 4.0\nWaseda University - panorama of Waseda campus\nPhoto: XIIIfromTOKYO · Wikimedia Commons · CC BY-SA 3.0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "kaist",
+      "lang": "en",
+      "width": 390,
+      "heading": "Korea Advanced Institute of Science and Technology",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/kaist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/kaist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/kaist/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Photos\nKAIST fountains view\nPhoto: AhmadElq · Wikimedia Commons · CC BY-SA 4.0\nA flock of geese at KAIST university\nPhoto: Roost · Wikimedia Commons · CC0\n\nPhotographs come from Wikimedia Commons under free licences and are credited to their authors. They may not show the most recent state of the campus.",
+      "untranslated": []
+    },
+    {
+      "id": "technical-university-of-munich",
+      "lang": "ru",
+      "width": 1280,
+      "heading": "Technical University of Munich",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/technical-university-of-munich/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/technical-university-of-munich/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/technical-university-of-munich/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/technical-university-of-munich/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nTechnische Universität München TUM div Fakultäten Institute Teilbibliotheken im Hochschul- und Forschungszentrum Garching Foto Wolfgang Pehlemann IMG 1588\nФото: Wolfgang Pehlemann · Wikimedia Commons · CC BY-SA 3.0 de\nBibliothek der TU München 07\nФото: Burkhard Mücke · Wikimedia Commons · CC BY-SA 4.0\nBibliothek der TU München 01\nФото: Burkhard Mücke · Wikimedia Commons · CC BY-SA 4.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "waseda-university",
+      "lang": "ru",
+      "width": 1280,
+      "heading": "Waseda University",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/waseda-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/waseda-university/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/waseda-university/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/waseda-university/3.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nWaseda University Okuma Auditorium\nФото: Seiichi Miyashita · Wikimedia Commons · CC0\nWaseda University 2014\nФото: Kakidai · Wikimedia Commons · CC BY-SA 4.0\nWaseda University - panorama of Waseda campus\nФото: XIIIfromTOKYO · Wikimedia Commons · CC BY-SA 3.0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    },
+    {
+      "id": "kaist",
+      "lang": "ru",
+      "width": 1280,
+      "heading": "Korea Advanced Institute of Science and Technology",
+      "overflow": false,
+      "images": [
+        {
+          "src": "/unipath/staging/assets/img/universities/kaist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "auto"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/kaist/1.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        },
+        {
+          "src": "/unipath/staging/assets/img/universities/kaist/2.jpg",
+          "loaded": true,
+          "width": 1100,
+          "lazy": "lazy"
+        }
+      ],
+      "photoText": "Фото\nKAIST fountains view\nФото: AhmadElq · Wikimedia Commons · CC BY-SA 4.0\nA flock of geese at KAIST university\nФото: Roost · Wikimedia Commons · CC0\n\nФотографии взяты с Wikimedia Commons под свободными лицензиями, у каждой указан автор. Они могут не отражать нынешний вид кампуса.",
+      "untranslated": []
+    }
+  ],
+  "scenarios": [],
+  "errors": [],
+  "limitations": [
+    "No real Safari or iPhone tested. Saved list has an application-date table; no standalone calendar or export exists."
+  ],
+  "browser": "Chrome 157.0.8103.51",
+  "version": "/unipath/staging/assets/js/app.js?v=250",
+  "turnstile": "The pre-existing staging exemption is active; gate.js was not changed by this task.",
+  "webkitInstalled": false
+}

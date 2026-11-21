@@ -1,0 +1,21 @@
+{
+  "method": "GET; 12-second timeout; six workers; no CAPTCHA bypass",
+  "total": 54,
+  "kindCounts": {
+    "redirect": 5,
+    "not-found": 32,
+    "transport-error": 2,
+    "working": 15
+  },
+  "statusCounts": {
+    "200": 20,
+    "404": 32,
+    "None": 2
+  },
+  "blocked": [],
+  "temporary": [],
+  "transport": [
+    "https://www.trincoll.edu/academics/majors",
+    "https://eng.inha.ac.kr/eng/"
+  ]
+}

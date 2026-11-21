@@ -263,7 +263,7 @@ window.UNIPATH.universities.push(
     admissions: 'https://www.imperial.ac.uk/study/apply/undergraduate/',
     internationalAdmissions: 'https://www.imperial.ac.uk/study/international-students/',
     applicationPortal: 'https://www.ucas.com/',
-    scholarships: 'https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/scholarships/',
+    scholarships: 'https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/bursaries-grants-scholarships/',
     financialAid: 'https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/',
     programs: 'https://www.imperial.ac.uk/study/courses/',
     cost: 'https://www.imperial.ac.uk/study/fees-and-funding/undergraduate/tuition-fees/'
@@ -445,7 +445,7 @@ window.UNIPATH.universities.push(
     scholarships: 'https://www.ucl.ac.uk/scholarships/ucl-global-undergraduate-scholarship',
     financialAid: 'https://www.ucl.ac.uk/prospective-students/undergraduate/scholarships',
     programs: 'https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses',
-    cost: 'https://www.ucl.ac.uk/study/undergraduate-fees-2027-2028'
+    cost: 'https://www.ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028'
   },
   admissions: {
     platforms: ['UCAS (required)'],
@@ -590,7 +590,7 @@ window.UNIPATH.universities.push(
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
-    { label: 'Undergraduate fees for 2027 to 2028', url: 'https://www.ucl.ac.uk/study/undergraduate-fees-2027-2028' },
+    { label: 'Undergraduate fees for 2027 to 2028', url: 'https://www.ucl.ac.uk/study/student-finances/tuition-fees/fee-schedules/fee-schedules-2027-2028/undergraduate-fees-2027-2028' },
     { label: 'Computer Science BSc — key information and fees', url: 'https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/computer-science-bsc' },
     { label: 'English language requirements', url: 'https://www.ucl.ac.uk/study/prospective-students/undergraduate/how-apply/english-language-requirements' },
     { label: 'UCL Global Undergraduate Scholarship', url: 'https://www.ucl.ac.uk/scholarships/ucl-global-undergraduate-scholarship' }
@@ -1460,7 +1460,7 @@ window.UNIPATH.universities.push(
     website: 'https://www.gla.ac.uk/',
     admissions: 'https://www.gla.ac.uk/undergraduate/',
     applicationPortal: 'https://www.ucas.com/',
-    scholarships: 'https://www.gla.ac.uk/undergraduate/fees/scholarships/',
+    scholarships: 'https://www.gla.ac.uk/scholarships/worldchangersglobalexcellencescholarship/',
     cost: 'https://www.gla.ac.uk/undergraduate/fees/intlfees/',
     english: 'https://www.gla.ac.uk/international/englishlanguage/requirements/'
   },
@@ -1963,7 +1963,7 @@ window.UNIPATH.universities.push(
     admissions: 'https://www.leeds.ac.uk/undergraduate',
     applicationPortal: 'https://www.ucas.com/',
     scholarships: 'https://www.leeds.ac.uk/international-fees-costs',
-    cost: 'https://www.leeds.ac.uk/undergraduate-fees',
+    cost: 'https://www.leeds.ac.uk/undergraduate-fees/doc/fees-undergraduate-fees',
     english: 'https://www.leeds.ac.uk/international-applying/doc/entry-requirements'
   },
   admissions: {
@@ -2898,17 +2898,25 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
   },
   costs: {
-    status: 'not-published',
-    breakdown: { published: false, includes: 'York published the 2027/28 international undergraduate fee as to be confirmed when this was checked' },
-    academicYear: '2027\u20132028',
-    currency: 'GBP',
-    headline: 'Tuition for 2027 entry not yet published',
-    items: [ { label: 'Tuition (International and EU rate, 2027/28)', text: 'The BSc Economics course page shows the annual international fee as TBC' } ],
-    billedSubtotal: null,
-    totalText: 'Not confirmed \u2014 2027/28 rates published as TBC',
-    note: 'York states that international tuition rises in later years in line with CPI inflation, capped at 10%. Living costs, the visa fee and the immigration health surcharge are extra.',
-    source: 'https://www.york.ac.uk/study/undergraduate/courses/bsc-economics/',
-    verified: '2026-09-24'
+    "status": "confirmed",
+    "breakdown": {
+      "tuition": 28600,
+      "period": "year"
+    },
+    "academicYear": "2027–2028",
+    "currency": "GBP",
+    "headline": "BSc Economics 2027–28 tuition: £28,600",
+    "items": [
+      {
+        "label": "BSc Economics international tuition per year",
+        "amount": 28600
+      }
+    ],
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": "For international entrants to BSc Economics in September 2027. The fee does not include housing, food, insurance or other living costs. Other programmes have their own fees.",
+    "source": "https://www.york.ac.uk/study/undergraduate/courses/bsc-economics/",
+    "verified": "2026-11-17"
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -2917,9 +2925,22 @@ window.UNIPATH.universities.push(
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
-    { label: 'International tuition fees', url: 'https://www.york.ac.uk/study/undergraduate/fees-funding/international/' },
-    { label: 'International students', url: 'https://www.york.ac.uk/study/international/' },
-    { label: 'About — history and facts', url: 'https://www.york.ac.uk/about/' }
+    {
+      "label": "International tuition fees",
+      "url": "https://www.york.ac.uk/study/undergraduate/fees-funding/international/"
+    },
+    {
+      "label": "International students",
+      "url": "https://www.york.ac.uk/study/international/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.york.ac.uk/about/"
+    },
+    {
+      "label": "Official cost and scope review",
+      "url": "https://www.york.ac.uk/study/undergraduate/courses/bsc-economics/"
+    }
   ],
   verification: { level: 'partial', checked: ['rounds','application fee','fee structure','2027 fee publication status','english (published typical bands and validity)'], unconfirmed: ['tuition amount','scholarships'] },
   lastVerified: '2026-09-23'
@@ -3101,18 +3122,117 @@ window.UNIPATH.universities.push(
     english: 'https://www.bath.ac.uk/corporate-information/entry-requirements-for-international-students/'
   },
   admissions: {
-    platforms: ['UCAS (required for all undergraduate courses)'],
-    deadlines: [
-      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
-      { name: 'UCAS: register and start the application (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' },
-      { name: 'UCAS: completed applications can be sent (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-09-01', date: '1 September 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-10-11', note: 'A reference is needed before the application can be sent' }
+    "platforms": [
+      "UCAS (required for all undergraduate courses)"
     ],
-    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
-    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
-    recommendations: 'One academic reference through UCAS',
-    essay: 'UCAS personal statement',
-    interview: 'Interviews are used for a small number of courses.',
-    notes: ['Bath advises international applicants to budget for an increase of up to 8% in each year of the course.']
+    "deadlines": [
+      {
+        "name": "UCAS equal consideration deadline (2027 entry)",
+        "kind": "ucas-main",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-13",
+        "date": "13 January 2027",
+        "time": "18:00",
+        "timezone": "UK time",
+        "binding": false,
+        "appliesTo": "All undergraduate courses except those with a 15 October deadline",
+        "conditions": "Applications received by this time must be considered equally",
+        "status": "confirmed",
+        "source": "https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546",
+        "verified": "2026-09-23",
+        "note": null
+      },
+      {
+        "name": "UCAS: register and start the application (2027 entry)",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-05-12",
+        "date": "12 May 2026",
+        "binding": false,
+        "appliesTo": "All applicants",
+        "status": "confirmed",
+        "source": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+        "verified": "2026-09-23",
+        "note": "One UCAS application holds up to five course choices"
+      },
+      {
+        "name": "UCAS: completed applications can be sent (2027 entry)",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-09-01",
+        "date": "1 September 2026",
+        "binding": false,
+        "appliesTo": "All applicants",
+        "status": "confirmed",
+        "source": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+        "verified": "2026-10-11",
+        "note": "A reference is needed before the application can be sent"
+      },
+      {
+        "name": "Bath International Excellence — scholarship round 1",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-14",
+        "date": "2027-02-14",
+        "awardId": "international-excellence-2027",
+        "awardCategory": "merit",
+        "status": "confirmed",
+        "source": "https://www.bath.ac.uk/guides/bath-international-excellence-scholarship/",
+        "verified": "2026-11-17",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.bath.ac.uk/guides/bath-international-excellence-scholarship/",
+          "verified": "2026-11-17",
+          "quote": "2027/8 overseas entrants"
+        }
+      },
+      {
+        "name": "Bath International Excellence — scholarship round 2",
+        "kind": "scholarship",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-31",
+        "date": "2027-03-31",
+        "awardId": "international-excellence-2027",
+        "awardCategory": "merit",
+        "status": "confirmed",
+        "source": "https://www.bath.ac.uk/guides/bath-international-excellence-scholarship/",
+        "verified": "2026-11-17",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.bath.ac.uk/guides/bath-international-excellence-scholarship/",
+          "verified": "2026-11-17",
+          "quote": "2027/8 overseas entrants"
+        }
+      }
+    ],
+    "applicationFee": {
+      "amount": 34.5,
+      "currency": "GBP",
+      "waiverAvailableToInternational": false,
+      "waiver": null,
+      "note": "The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers."
+    },
+    "documents": [
+      "UCAS application with personal statement",
+      "Academic reference",
+      "Predicted or achieved school-leaving grades",
+      "Proof of English where required"
+    ],
+    "recommendations": "One academic reference through UCAS",
+    "essay": "UCAS personal statement",
+    "interview": "Interviews are used for a small number of courses.",
+    "notes": [
+      "Bath advises international applicants to budget for an increase of up to 8% in each year of the course."
+    ]
   },
   english: {
     ielts: {
@@ -3213,15 +3333,67 @@ window.UNIPATH.universities.push(
     verified: '2026-09-24'
   },
   scholarships: {
-    fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
-    merit: [],
-    needBased: { availableToInternational: null, meetsFullNeed: false, needBlindInternational: null, forms: [], deadlines: null, note: 'Not confirmed during this check.' }
+    "fullRide": {
+      "available": null,
+      "internationalEligible": null,
+      "basis": null,
+      "covers": {
+        "tuition": null,
+        "housing": null,
+        "meals": null,
+        "insurance": null,
+        "books": null
+      },
+      "renewable": null,
+      "competitiveness": null,
+      "howToApply": null,
+      "note": "Not confirmed during this check."
+    },
+    "merit": [
+      {
+        "id": "international-excellence-2027",
+        "category": "merit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "name": "Bath International Excellence Scholarship",
+        "amount": "£8,000 tuition discount per full-time year, at most three years (£24,000)",
+        "internationalEligible": true,
+        "firstYearEligible": true,
+        "basis": "merit",
+        "renewable": true,
+        "application": "Separate form in Bath Application Tracker after an offer and confirmation of Overseas fee status. Bath must become the firm UCAS choice if awarded.",
+        "note": "Competitive, up to 300 awards for September 2027. Tuition only; living costs remain. No discount in placement or study-abroad years. Detailed 2027/28 terms will be published when applications open.",
+        "source": "https://www.bath.ac.uk/guides/bath-international-excellence-scholarship/",
+        "verified": "2026-11-17"
+      }
+    ],
+    "needBased": {
+      "availableToInternational": null,
+      "meetsFullNeed": false,
+      "needBlindInternational": null,
+      "forms": [],
+      "deadlines": null,
+      "note": "Not confirmed during this check."
+    }
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
-    { label: 'Entry requirements for international students', url: 'https://www.bath.ac.uk/corporate-information/entry-requirements-for-international-students/' },
-    { label: 'Tuition fees for undergraduate students starting in 2027', url: 'https://www.bath.ac.uk/corporate-information/tuition-fees-for-undergraduate-students-starting-in-2027/' },
-    { label: 'About — history and facts', url: 'https://www.bath.ac.uk/topics/about-the-university/' }
+    {
+      "label": "Entry requirements for international students",
+      "url": "https://www.bath.ac.uk/corporate-information/entry-requirements-for-international-students/"
+    },
+    {
+      "label": "Tuition fees for undergraduate students starting in 2027",
+      "url": "https://www.bath.ac.uk/corporate-information/tuition-fees-for-undergraduate-students-starting-in-2027/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.bath.ac.uk/topics/about-the-university/"
+    },
+    {
+      "label": "Bath International Excellence 2027",
+      "url": "https://www.bath.ac.uk/guides/bath-international-excellence-scholarship/"
+    }
   ],
   verification: { level: 'partial', checked: ['english (category A, B and C requirements and validity)','rounds','application fee','tuition (2027 fee bands)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'
@@ -3475,19 +3647,114 @@ window.UNIPATH.universities.push(
     english: 'https://www.liverpool.ac.uk/international/applying/entry-requirements/english-language-requirements/international-english-language-tests/'
   },
   admissions: {
-    platforms: ['UCAS (required for all undergraduate courses)'],
-    deadlines: [
-      { name: 'UCAS deadline — medicine, dentistry and veterinary courses (2027 entry)', kind: 'ucas-october', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-10-15', date: '15 October 2026', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'Medicine, dentistry and veterinary medicine/science', conditions: 'Earlier UCAS deadline set for these subjects', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-the-universities-of-oxford-and-cambridge-and-most-courses-in-medicine-475536', verified: '2026-09-23', note: null },
-      { name: 'UCAS equal consideration deadline (2027 entry)', kind: 'ucas-main', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2027-01-13', date: '13 January 2027', time: '18:00', timezone: 'UK time', binding: false, appliesTo: 'All undergraduate courses except those with a 15 October deadline', conditions: 'Applications received by this time must be considered equally', status: 'confirmed', source: 'https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546', verified: '2026-09-23', note: null },
-      { name: 'UCAS: register and start the application (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-05-12', date: '12 May 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-09-23', note: 'One UCAS application holds up to five course choices' },
-      { name: 'UCAS: completed applications can be sent (2027 entry)', kind: 'opens', entryTerm: 'Autumn', entryYear: '2027', dateISO: '2026-09-01', date: '1 September 2026', binding: false, appliesTo: 'All applicants', status: 'confirmed', source: 'https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications', verified: '2026-10-11', note: 'A reference is needed before the application can be sent' }
+    "platforms": [
+      "UCAS (required for all undergraduate courses)"
     ],
-    applicationFee: { amount: 34.5, currency: 'GBP', waiverAvailableToInternational: false, waiver: null, note: 'The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers.' },
-    documents: ['UCAS application with personal statement', 'Academic reference', 'Predicted or achieved school-leaving grades', 'Proof of English where required'],
-    recommendations: 'One academic reference through UCAS',
-    essay: 'UCAS personal statement',
-    interview: 'Interviews are used for medicine, dentistry and veterinary science.',
-    notes: ['Dentistry, medicine and veterinary science require higher English scores than other degrees.']
+    "deadlines": [
+      {
+        "name": "UCAS deadline — medicine, dentistry and veterinary courses (2027 entry)",
+        "kind": "ucas-october",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-10-15",
+        "date": "15 October 2026",
+        "time": "18:00",
+        "timezone": "UK time",
+        "binding": false,
+        "appliesTo": "Medicine, dentistry and veterinary medicine/science",
+        "conditions": "Earlier UCAS deadline set for these subjects",
+        "status": "confirmed",
+        "source": "https://www.ucas.com/events/2027-entry-deadline-for-the-universities-of-oxford-and-cambridge-and-most-courses-in-medicine-475536",
+        "verified": "2026-09-23",
+        "note": null
+      },
+      {
+        "name": "UCAS equal consideration deadline (2027 entry)",
+        "kind": "ucas-main",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-13",
+        "date": "13 January 2027",
+        "time": "18:00",
+        "timezone": "UK time",
+        "binding": false,
+        "appliesTo": "All undergraduate courses except those with a 15 October deadline",
+        "conditions": "Applications received by this time must be considered equally",
+        "status": "confirmed",
+        "source": "https://www.ucas.com/events/2027-entry-deadline-for-all-undergraduate-courses-except-those-with-a-15-october-deadline-475546",
+        "verified": "2026-09-23",
+        "note": null
+      },
+      {
+        "name": "UCAS: register and start the application (2027 entry)",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-05-12",
+        "date": "12 May 2026",
+        "binding": false,
+        "appliesTo": "All applicants",
+        "status": "confirmed",
+        "source": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+        "verified": "2026-09-23",
+        "note": "One UCAS application holds up to five course choices"
+      },
+      {
+        "name": "UCAS: completed applications can be sent (2027 entry)",
+        "kind": "opens",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-09-01",
+        "date": "1 September 2026",
+        "binding": false,
+        "appliesTo": "All applicants",
+        "status": "confirmed",
+        "source": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications",
+        "verified": "2026-10-11",
+        "note": "A reference is needed before the application can be sent"
+      },
+      {
+        "id": "liverpool-economics-international-2027",
+        "programmeId": "liverpool-bsc-economics",
+        "name": "BSc Economics international application",
+        "kind": "admission",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-06-30",
+        "date": "30 June 2027",
+        "appliesTo": "International first-year applicants to BSc Economics",
+        "status": "confirmed",
+        "source": "https://www.liverpool.ac.uk/courses/2027/economics-bsc-hons",
+        "verified": "2026-11-17",
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.liverpool.ac.uk/courses/2027/economics-bsc-hons",
+          "verified": "2026-11-17",
+          "quote": "The deadline for international students is 30 June 2027."
+        }
+      }
+    ],
+    "applicationFee": {
+      "amount": 34.5,
+      "currency": "GBP",
+      "waiverAvailableToInternational": false,
+      "waiver": null,
+      "note": "The £34.50 is the UCAS fee for the whole 2027-cycle application (up to five choices), not a university fee. UCAS waives it only for UK free-school-meal recipients and care leavers."
+    },
+    "documents": [
+      "UCAS application with personal statement",
+      "Academic reference",
+      "Predicted or achieved school-leaving grades",
+      "Proof of English where required"
+    ],
+    "recommendations": "One academic reference through UCAS",
+    "essay": "UCAS personal statement",
+    "interview": "Interviews are used for medicine, dentistry and veterinary science.",
+    "notes": [
+      "Dentistry, medicine and veterinary science require higher English scores than other degrees."
+    ]
   },
   english: {
     ielts: {
@@ -3560,20 +3827,25 @@ window.UNIPATH.universities.push(
     internationalQualifications: 'A-levels, the IB and a published list of international qualifications are accepted, with grades set per course.'
   },
   costs: {
-    breakdown: { tuition: 27000, tuitionText: '\u00a327,000 for BSc Economics \u2014 one confirmed course example', includes: 'the international rate published on the BSc Economics course page; other courses are priced differently and living costs are extra', published: true },
-    academicYear: '2026\u20132027',
-    currency: 'GBP',
-    headline: '\u00a327,000 tuition (BSc Economics example)',
-    items: [
-      { label: 'Tuition \u2014 BSc Economics, international rate', amount: 27000 },
-      { label: 'Year in industry fee \u2014 international rate', amount: 1955 },
-      { label: 'Year abroad fee \u2014 international rate', amount: 13500 }
+    "breakdown": {
+      "tuition": 28000,
+      "period": "year"
+    },
+    "academicYear": "2027–2028",
+    "currency": "GBP",
+    "headline": "BSc Economics 2027 entry tuition: £28,000",
+    "items": [
+      {
+        "label": "BSc Economics international tuition per year",
+        "amount": 28000
+      }
     ],
-    billedSubtotal: null,
-    totalText: '\u00a327,000 a year for BSc Economics; every other course publishes its own rate',
-    note: 'Liverpool prices tuition course by course, so this is one confirmed example rather than a university-wide rate. The page states that the international figure is the 2026/27 rate and is subject to change for 2027/28. Living costs, the visa fee and the immigration health surcharge are extra.',
-    source: 'https://www.liverpool.ac.uk/courses/2027/economics-bsc-hons',
-    verified: '2026-09-24'
+    "billedSubtotal": null,
+    "totalText": null,
+    "note": "Liverpool campus, BSc Economics, September 2027 entry. Tuition only. The course page separately gives 13 January 2027 for UK applicants and 30 June 2027 for international applicants. Other courses and costs require their own checks.",
+    "source": "https://www.liverpool.ac.uk/courses/2027/economics-bsc-hons",
+    "verified": "2026-11-17",
+    "status": "confirmed"
   },
   scholarships: {
     fullRide: { available: null, internationalEligible: null, basis: null, covers: { tuition: null, housing: null, meals: null, insurance: null, books: null }, renewable: null, competitiveness: null, howToApply: null, note: 'Not confirmed during this check.' },
@@ -3582,9 +3854,22 @@ window.UNIPATH.universities.push(
   },
   photos: { main: null, gallery: [], city: null },
   sources: [
-    { label: 'International English language tests', url: 'https://www.liverpool.ac.uk/international/applying/entry-requirements/english-language-requirements/international-english-language-tests/' },
-    { label: 'Tuition fees for international students', url: 'https://www.liverpool.ac.uk/international/scholarships-and-fees/tuition-fees/' },
-    { label: 'About — history and facts', url: 'https://www.liverpool.ac.uk/about/the-university/our-history/' }
+    {
+      "label": "International English language tests",
+      "url": "https://www.liverpool.ac.uk/international/applying/entry-requirements/english-language-requirements/international-english-language-tests/"
+    },
+    {
+      "label": "Tuition fees for international students",
+      "url": "https://www.liverpool.ac.uk/international/scholarships-and-fees/tuition-fees/"
+    },
+    {
+      "label": "About — history and facts",
+      "url": "https://www.liverpool.ac.uk/about/the-university/our-history/"
+    },
+    {
+      "label": "Official cost and scope review",
+      "url": "https://www.liverpool.ac.uk/courses/2027/economics-bsc-hons"
+    }
   ],
   verification: { level: 'partial', checked: ['english (typical requirement)','rounds','application fee','tuition (confirmed course example)'], unconfirmed: ['scholarships'] },
   lastVerified: '2026-09-23'

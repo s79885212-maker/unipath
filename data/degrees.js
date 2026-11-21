@@ -415,7 +415,7 @@ window.UNIPATH.fieldNotes = {
   "gettysburg-college": {
     "engineering": { kind: "pathway", checked: '2026-10-06',
       note: "A dual-degree engineering programme: the engineering major is taken at one of four affiliated universities.",
-      url: "https://www.gettysburg.edu/academic-programs/physics/programs/engineering-dual-degree" }
+      url: "https://www.gettysburg.edu/academics/all-programs/physics/curriculum" }
   },
   "college-of-the-holy-cross": {
     "engineering": { kind: "pathway", checked: '2026-10-06',
