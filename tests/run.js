@@ -78,6 +78,7 @@ ok(DB.universities.every(function (u) { return u.links && /^https:\/\//.test(u.l
                'Marist College': 'marist-university', 'SCAD': 'savannah-college-of-art-and-design', 'WVU': 'west-virginia-university', 'UMass': 'umass-amherst' };
   var wrong = Object.keys(want).filter(function (q) { return first(q) !== want[q]; }).map(function (q) { return q + ' → ' + first(q); });
   ok(!wrong.length, 'old and everyday names rank their own record first', wrong.join('; '));
+  ok(['Гарвард', 'Гарвардский университет', 'Harvard'].every(function (q) { return first(q) === 'harvard-university'; }), 'Russian Harvard aliases and English name rank Harvard first');
   ok(!U.uniById('hampshire-college') && U.uniById('anderson-university-indiana') && U.uniById('adelphi-university'),
     'the USA +50 reserve replacements remain and Hampshire is outside the approved expansion');
 })();
