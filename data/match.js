@@ -431,6 +431,24 @@ window.UNIPATH.match = {
 
 /* EUROPE STARTER COSTS */
 Object.assign(window.UNIPATH.match.annualCost, {
+  "essec-business-school": {
+    "min": 20900,
+    "max": 20900,
+    "currency": "EUR",
+    "basis": "tuition",
+    "year": "2027–2028",
+    "source": "https://essec.edu/en/program/global-bba-international/",
+    "verified": "2026-11-22"
+  },
+  "epita": {
+    "min": 8490,
+    "max": 8490,
+    "currency": "EUR",
+    "basis": "tuition",
+    "year": "2027–2028",
+    "source": "https://www.epita.fr/en/fees-and-funding/",
+    "verified": "2026-11-22"
+  },
   "bocconi-university": {
     "min": 17700,
     "max": 17700,

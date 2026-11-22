@@ -1444,3 +1444,8 @@ Production v265 собран: 547 HTML, 20 817 внутренних ссылок
 ## 22 ноября 2026 — Европа, пакет Италия v270 (черновик)
 
 Отдельная ветка codex/europe-foundation от dev v269. Подключена Италия: Bocconi Management (Milan, English,2027/28) и Bologna CLEF (Bologna, English, опубликованные правила2026/27). Новые факты/переводы в research/europe/country-it.json; генератор tools/europe_batch.py; передача Claude в CLAUDE_EUROPE_HANDOFF.md. EUR17700 Bocconi — tuition+fees, не годовой бюджет; EUR157.04 Bologna — только фиксированная часть прошлого цикла. Неустановленные экзамены/сроки не названы подтверждёнными. Main не меняется, европейский PR не сливается.
+
+
+## 22 ноября 2026 — Европа, пакет Франция v271 (черновик PR32)
+
+Добавлены École Polytechnique BSc, ESSEC Global BBA Cergy и EPITA BSc CS Paris Kremlin-Bicêtre. Годы и кампусы разделены; недатированная цена Polytechnique и противоречивый год таблицы сроков не переносятся на Fall2027. У EPITA французскийB2 — к выпуску, не для приёма. ESSEC tuition/ежегодная регистрация/одноразовый сбор не названы полным бюджетом; конкурсная помощь не вычитается. Передача Claude и источники обновлены. PR остаётся draft, main/dev не меняются.

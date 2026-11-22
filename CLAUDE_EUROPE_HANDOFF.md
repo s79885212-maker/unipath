@@ -1,6 +1,6 @@
 # Europe handoff — 22 November 2026
 
-Branch: codex/europe-foundation. Base dev: f064ff8776ff8fa4f6839acdf25dc9dda6b6be30 (v269 comparison fix, PR31 already merged to dev). Main stays129c5b96a4562455919a1fc5f18bb7ef1044123f, productionv268. Europe PR lookup (draft opens immediately after this push): https://github.com/s79885212-maker/unipath/pulls?q=is%3Apr+head%3Acodex%2Feurope-foundation . Exact PR URL will be inserted in the next package. Do not merge or deploy this European branch.
+Branch: codex/europe-foundation. Base dev: f064ff8776ff8fa4f6839acdf25dc9dda6b6be30 (v269 comparison fix, PR31 already merged to dev). Main stays129c5b96a4562455919a1fc5f18bb7ef1044123f, productionv268. Europe PR lookup (draft opens immediately after this push): https://github.com/s79885212-maker/unipath/pulls?q=is%3Apr+head%3Acodex%2Feurope-foundation . Exact draft PR: https://github.com/s79885212-maker/unipath/pull/32 . Do not merge or deploy this European branch.
 
 ## Current package
 
@@ -26,3 +26,8 @@ Browser: tools/europe_browser.cjs (to be added before final review), RU/EN, coun
 Push after each verified country package. Update this handoff, progress/report and draft PR with exact commit/checks. Keep initial Italy commit usable even if later research is interrupted.
 
 Italy validation:644 passed/0failed, staging550HTML/22028internal links;4 direct profile openings RU/EN and4 catalogue/search/compare flows passed. Full cumulative production build remains pending.
+
+## France package
+Three records: data/country.fr.js and data/universities.fr.js; authoring research/europe/country-fr.json. Polytechnique: English BSc maths double majors; programme feeEUR19600 is undated, timeline heading says2026 while rows are2026–27: not confirmed Fall2027 calendar events. ESSEC: Cergy English Global BBA only;2027tuition20900 +annualregistration2000 +one-offservice2730, not full budget. References checklist saysoptional, FAQ asks2: flagconflict. EUR10000 award competitive, interest in admissionform, not deducted. EPITA: Kremlin-Bicetre EnglishBSc; FrenchB2 at graduation, not admission; IELTS6, entrance mathematics/interview; olddeadline31July2026 not carried forward;2027tuition8490 separately from200additionalcharges and60application. Legacy admissions URL404 replaced by programme admission section.
+
+France package v271: 647 tests passed; local staging build 554 pages / 23,293 internal links; Chrome RU390/EN1280: 10 direct profile openings and 6 catalogue/search/comparison/reload flows, no errors. Country-filter browser isolation fixed: clear prior search between countries. No shared staging deployment.

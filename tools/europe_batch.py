@@ -22,10 +22,11 @@ for path in sorted((ROOT/'research/europe').glob('country-*.json')):
   if x.get('fee') is not None:r['admissions']['applicationFee'].update(x['fee'])
   r['english'].update(x['english']);r['academics'].update(x['academic']);r['costs']=x['costs'];r['scholarships']['needBased']['note']=x.get('fundingNote')
   r['sources']=[{'label':v['label'],'url':v['url'],'verified':'2026-11-22'} for v in x['sources']]
+  r['admissions']['recommendations']=x.get('recommendations');r['admissions']['essay']=x.get('essay');r['admissions']['interview']=x.get('interview')
   r['verification']['checked']=[L('Named programme, campus, teaching language and international entry route.','Указанная программа, кампус, язык обучения и маршрут иностранного абитуриента.')];r['verification']['unconfirmed']=x['gaps']
   route=x.get('route')
   if route:r['admissionRequirements']=[route]
-  if r['costs'].get('status')=='confirmed' and r['costs'].get('breakdown',{}).get('tuition') is not None:
+  if r['costs'].get('status')=='confirmed' and str(r['costs'].get('academicYear','')).startswith('2027') and r['costs'].get('breakdown',{}).get('tuition') is not None:
    n=r['costs']['breakdown']['tuition'];annual[r['id']]={'min':n,'max':n,'currency':'EUR','basis':'tuition','year':r['costs']['academicYear'],'source':r['costs']['source'],'verified':'2026-11-22'}
   records.append(r)
  (ROOT/('data/universities.'+code+'.js')).write_text('/* Reviewed Europe starter batch. Sources and scope: research/europe/country-'+code+'.json. */\nwindow.UNIPATH.universities.push(\n'+',\n'.join(json.dumps(r,ensure_ascii=False,indent=2) for r in records)+'\n);\n',encoding='utf8')
