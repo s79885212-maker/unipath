@@ -1,0 +1,21 @@
+{
+  "version": 271,
+  "total": 545,
+  "countries": 8,
+  "tests": {
+    "passed": 647,
+    "failed": 0
+  },
+  "stagingBuild": {
+    "pages": 554,
+    "internalLinks": 23293,
+    "errors": 0
+  },
+  "browser": {
+    "profiles": 10,
+    "flows": 6,
+    "errors": 0,
+    "browser": "Chrome 157, RU390/EN1280; local staging artifact only"
+  },
+  "productionBuild": "Will run on final combined package"
+}

@@ -428,3 +428,43 @@ window.UNIPATH.match = {
     'frankfurt-school':        { currency: 'EUR', basis: 'total', min: 39120, max: 39120 }
   }
 };
+
+/* EUROPE STARTER COSTS */
+Object.assign(window.UNIPATH.match.annualCost, {
+  "ie-university": {
+    "min": 27300,
+    "max": 27300,
+    "currency": "EUR",
+    "basis": "tuition",
+    "year": "2027–2028",
+    "source": "https://www.ie.edu/university/studies/academic-programs/bachelor-computer-science-artificial-intelligence/admissions-fees/",
+    "verified": "2026-11-22"
+  },
+  "essec-business-school": {
+    "min": 20900,
+    "max": 20900,
+    "currency": "EUR",
+    "basis": "tuition",
+    "year": "2027–2028",
+    "source": "https://essec.edu/en/program/global-bba-international/",
+    "verified": "2026-11-22"
+  },
+  "epita": {
+    "min": 8490,
+    "max": 8490,
+    "currency": "EUR",
+    "basis": "tuition",
+    "year": "2027–2028",
+    "source": "https://www.epita.fr/en/fees-and-funding/",
+    "verified": "2026-11-22"
+  },
+  "bocconi-university": {
+    "min": 17700,
+    "max": 17700,
+    "currency": "EUR",
+    "basis": "tuition",
+    "year": "2027–2028",
+    "source": "https://www.unibocconi.it/sites/default/files/Tuition%20and%20fees%20undergraduate_1.pdf",
+    "verified": "2026-11-22"
+  }
+});

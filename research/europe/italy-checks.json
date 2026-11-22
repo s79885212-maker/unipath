@@ -1,0 +1,23 @@
+{
+  "package": "Italy",
+  "version": 270,
+  "totalUniversities": 542,
+  "countries": 7,
+  "added": [
+    "bocconi-university",
+    "university-of-bologna"
+  ],
+  "testsPassed": 644,
+  "failed": 0,
+  "stagingBuild": true,
+  "HTML": 550,
+  "internalLinks": 22028,
+  "browser": {
+    "profiles": 4,
+    "flows": 4,
+    "errors": 0,
+    "localOnly": true
+  },
+  "productionBuild": "Pending final cumulative verification",
+  "mainUnchanged": "129c5b96a4562455919a1fc5f18bb7ef1044123f"
+}

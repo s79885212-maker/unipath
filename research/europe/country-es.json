@@ -1,0 +1,1025 @@
+{
+  "country": {
+    "code": "es",
+    "name": {
+      "en": "Spain",
+      "ru": "Испания"
+    },
+    "flag": "🇪🇸",
+    "currency": "EUR",
+    "tagline": {
+      "en": "English bachelor programmes with qualification-specific international admission.",
+      "ru": "Английские программы бакалавриата с приёмом по конкретной школьной квалификации."
+    },
+    "overview": {
+      "en": "Three named bachelor routes are reviewed. Madrid-region and Catalan public admission systems differ, and IE uses a separate institutional selection process.",
+      "ru": "Проверены три конкретные программы бакалавриата. Государственные системы Мадридского региона и Каталонии различаются; IE проводит отдельный внутренний отбор."
+    },
+    "applicationInfo": {
+      "en": "Check the school qualification, legal recognition, programme and campus before choosing a route. An English-taught course does not remove academic entrance requirements.",
+      "ru": "До выбора маршрута проверьте школьную квалификацию, её признание, программу и кампус. Англоязычная программа не отменяет академические требования."
+    },
+    "fieldsPopular": [
+      "business",
+      "computer-science",
+      "data-science",
+      "engineering"
+    ],
+    "notes": [
+      {
+        "en": "A full annual living-cost budget, 2027/28 scholarship entitlement and unlisted programme requirements have not been established. Competitive or unconfirmed assistance is not deducted.",
+        "ru": "Полный годовой бюджет с проживанием, право на стипендии 2027/28 и требования других программ не установлены. Конкурсная и неподтверждённая помощь не вычитается."
+      }
+    ],
+    "sources": [
+      {
+        "label": {
+          "en": "Catalan foreign qualification routes",
+          "ru": "Каталонские маршруты иностранных квалификаций"
+        },
+        "url": "https://studyincatalonia.gencat.cat/en/plan-your-studies/accreditations-recognitions"
+      },
+      {
+        "label": {
+          "en": "UC3M international admission",
+          "ru": "Международный приём UC3M"
+        },
+        "url": "https://www.uc3m.es/bachelor-degree/admission/application/international-students/non-european"
+      }
+    ]
+  },
+  "universities": [
+    {
+      "id": "carlos-iii-university-of-madrid",
+      "name": "Universidad Carlos III de Madrid",
+      "shortName": "UC3M",
+      "city": {
+        "en": "Leganés",
+        "ru": "Леганес"
+      },
+      "region": {
+        "en": "Community of Madrid",
+        "ru": "Мадридское сообщество"
+      },
+      "institutionKind": null,
+      "type": {
+        "en": "Higher education institution",
+        "ru": "Высшее учебное заведение"
+      },
+      "description": {
+        "en": "Bachelor in Data Science and Engineering — four years, 240 ECTS, English, Leganés campus.",
+        "ru": "Bachelor in Data Science and Engineering — четыре года, 240 ECTS, английский, кампус Leganés."
+      },
+      "programme": {
+        "en": "Bachelor in Data Science and Engineering — four years, 240 ECTS, English, Leganés campus.",
+        "ru": "Bachelor in Data Science and Engineering — четыре года, 240 ECTS, английский, кампус Leganés."
+      },
+      "fields": [
+        "data-science",
+        "engineering"
+      ],
+      "links": {
+        "website": "https://www.uc3m.es/Home",
+        "programs": "https://www.uc3m.es/bachelor-degree/data-science",
+        "admissions": "https://www.uc3m.es/bachelor-degree/admission/application/international-students/non-european",
+        "international": "https://www.uc3m.es/bachelor-degree/admission/application/international-students/non-european",
+        "portal": "https://www.uc3m.es/bachelor-degree/admission/application/international-students",
+        "cost": "https://www.uc3m.es/bachelor-degree/admission/application/enrollment/prices/non-eu"
+      },
+      "documents": [
+        {
+          "en": "Foreign qualifications follow different routes. For the published general route from non-EU systems without an agreement, UC3M requires UNEDasiss accreditation with the Bachillerato modality and PCE results for the ordinary call; qualification recognition and subject weightings matter. The exceptional July route and early admission have different conditions. SAT/ACT replacement is not established, and the 2027 application calendar is not confirmed.",
+          "ru": "Маршрут зависит от школьной квалификации. Для опубликованного общего порядка из систем вне ЕС без соглашения UC3M требует аккредитацию UNEDasiss с направлением Bachillerato и результатами PCE для основного конкурса; важны признание квалификации и веса предметов. Июльский дополнительный конкурс и ранний приём имеют другие условия. Замена на SAT/ACT и календарь 2027 не подтверждены."
+        }
+      ],
+      "notes": [
+        {
+          "en": "Foreign qualifications follow different routes. For the published general route from non-EU systems without an agreement, UC3M requires UNEDasiss accreditation with the Bachillerato modality and PCE results for the ordinary call; qualification recognition and subject weightings matter. The exceptional July route and early admission have different conditions. SAT/ACT replacement is not established, and the 2027 application calendar is not confirmed.",
+          "ru": "Маршрут зависит от школьной квалификации. Для опубликованного общего порядка из систем вне ЕС без соглашения UC3M требует аккредитацию UNEDasiss с направлением Bachillerato и результатами PCE для основного конкурса; важны признание квалификации и веса предметов. Июльский дополнительный конкурс и ранний приём имеют другие условия. Замена на SAT/ACT и календарь 2027 не подтверждены."
+        },
+        {
+          "en": "The English degree describes B2 competence. The university language page requires proof during the FIRST YEAR: IELTS Academic 5.5 (not General Training), TOEFL 72 on the legacy scale or 4.0 on the new scale, other certificates or qualifying English-medium schooling. Completing 36 ECTS in English in year one can support continuation. These are first-year certification/progression rules, not a verified IELTS 5.5 entry minimum for this degree. Programme-specific entry proof, sections and exemptions for admission remain unconfirmed.",
+          "ru": "Программа на английском описывает уровень B2. Языковая страница требует подтверждение В ТЕЧЕНИЕ ПЕРВОГО КУРСА: IELTS Academic 5,5 (не General Training), TOEFL 72 по прежней шкале либо 4,0 по новой, другие сертификаты или подходящее англоязычное школьное образование. 36 ECTS на английском за первый год могут позволить продолжить обучение. Это правила подтверждения языка и перехода дальше, а не установленный вступительный минимум IELTS 5,5 для этой программы. Отдельные вступительные доказательства, секции и освобождения остаются неподтверждёнными."
+        },
+        {
+          "en": "2026/27 non-EU students without Spanish resident status: €7,714.20 tuition for the published 60-credit first enrolment (€128.57/credit). Administrative services €6.11, opening the record €27.54 and insurance are additional. A student stay permit does not establish resident pricing. This is not a Fall2027 full annual budget.",
+          "ru": "2026/27, студенты вне ЕС без испанского статуса резидента: €7 714,20 за опубликованную первую запись на 60 кредитов (€128,57/кредит). Административные услуги €6,11, открытие дела €27,54 и страховка отдельно. Разрешение на пребывание для учёбы не даёт тариф резидента. Это не полный годовой бюджет Fall2027."
+        }
+      ],
+      "platforms": [],
+      "english": {
+        "ielts": {
+          "min": null,
+          "recommended": null,
+          "note": {
+            "en": "The English degree describes B2 competence. The university language page requires proof during the FIRST YEAR: IELTS Academic 5.5 (not General Training), TOEFL 72 on the legacy scale or 4.0 on the new scale, other certificates or qualifying English-medium schooling. Completing 36 ECTS in English in year one can support continuation. These are first-year certification/progression rules, not a verified IELTS 5.5 entry minimum for this degree. Programme-specific entry proof, sections and exemptions for admission remain unconfirmed.",
+            "ru": "Программа на английском описывает уровень B2. Языковая страница требует подтверждение В ТЕЧЕНИЕ ПЕРВОГО КУРСА: IELTS Academic 5,5 (не General Training), TOEFL 72 по прежней шкале либо 4,0 по новой, другие сертификаты или подходящее англоязычное школьное образование. 36 ECTS на английском за первый год могут позволить продолжить обучение. Это правила подтверждения языка и перехода дальше, а не установленный вступительный минимум IELTS 5,5 для этой программы. Отдельные вступительные доказательства, секции и освобождения остаются неподтверждёнными."
+          }
+        },
+        "toefl": {
+          "min": null,
+          "recommended": null,
+          "note": {
+            "en": "The English degree describes B2 competence. The university language page requires proof during the FIRST YEAR: IELTS Academic 5.5 (not General Training), TOEFL 72 on the legacy scale or 4.0 on the new scale, other certificates or qualifying English-medium schooling. Completing 36 ECTS in English in year one can support continuation. These are first-year certification/progression rules, not a verified IELTS 5.5 entry minimum for this degree. Programme-specific entry proof, sections and exemptions for admission remain unconfirmed.",
+            "ru": "Программа на английском описывает уровень B2. Языковая страница требует подтверждение В ТЕЧЕНИЕ ПЕРВОГО КУРСА: IELTS Academic 5,5 (не General Training), TOEFL 72 по прежней шкале либо 4,0 по новой, другие сертификаты или подходящее англоязычное школьное образование. 36 ECTS на английском за первый год могут позволить продолжить обучение. Это правила подтверждения языка и перехода дальше, а не установленный вступительный минимум IELTS 5,5 для этой программы. Отдельные вступительные доказательства, секции и освобождения остаются неподтверждёнными."
+          }
+        },
+        "waiver": {
+          "en": "The English degree describes B2 competence. The university language page requires proof during the FIRST YEAR: IELTS Academic 5.5 (not General Training), TOEFL 72 on the legacy scale or 4.0 on the new scale, other certificates or qualifying English-medium schooling. Completing 36 ECTS in English in year one can support continuation. These are first-year certification/progression rules, not a verified IELTS 5.5 entry minimum for this degree. Programme-specific entry proof, sections and exemptions for admission remain unconfirmed.",
+          "ru": "Программа на английском описывает уровень B2. Языковая страница требует подтверждение В ТЕЧЕНИЕ ПЕРВОГО КУРСА: IELTS Academic 5,5 (не General Training), TOEFL 72 по прежней шкале либо 4,0 по новой, другие сертификаты или подходящее англоязычное школьное образование. 36 ECTS на английском за первый год могут позволить продолжить обучение. Это правила подтверждения языка и перехода дальше, а не установленный вступительный минимум IELTS 5,5 для этой программы. Отдельные вступительные доказательства, секции и освобождения остаются неподтверждёнными."
+        },
+        "note": {
+          "en": "The English degree describes B2 competence. The university language page requires proof during the FIRST YEAR: IELTS Academic 5.5 (not General Training), TOEFL 72 on the legacy scale or 4.0 on the new scale, other certificates or qualifying English-medium schooling. Completing 36 ECTS in English in year one can support continuation. These are first-year certification/progression rules, not a verified IELTS 5.5 entry minimum for this degree. Programme-specific entry proof, sections and exemptions for admission remain unconfirmed.",
+          "ru": "Программа на английском описывает уровень B2. Языковая страница требует подтверждение В ТЕЧЕНИЕ ПЕРВОГО КУРСА: IELTS Academic 5,5 (не General Training), TOEFL 72 по прежней шкале либо 4,0 по новой, другие сертификаты или подходящее англоязычное школьное образование. 36 ECTS на английском за первый год могут позволить продолжить обучение. Это правила подтверждения языка и перехода дальше, а не установленный вступительный минимум IELTS 5,5 для этой программы. Отдельные вступительные доказательства, секции и освобождения остаются неподтверждёнными."
+        }
+      },
+      "academic": {
+        "sat": {
+          "policy": null,
+          "note": {
+            "en": "Foreign qualifications follow different routes. For the published general route from non-EU systems without an agreement, UC3M requires UNEDasiss accreditation with the Bachillerato modality and PCE results for the ordinary call; qualification recognition and subject weightings matter. The exceptional July route and early admission have different conditions. SAT/ACT replacement is not established, and the 2027 application calendar is not confirmed.",
+            "ru": "Маршрут зависит от школьной квалификации. Для опубликованного общего порядка из систем вне ЕС без соглашения UC3M требует аккредитацию UNEDasiss с направлением Bachillerato и результатами PCE для основного конкурса; важны признание квалификации и веса предметов. Июльский дополнительный конкурс и ранний приём имеют другие условия. Замена на SAT/ACT и календарь 2027 не подтверждены."
+          }
+        },
+        "act": {
+          "policy": null,
+          "note": {
+            "en": "Foreign qualifications follow different routes. For the published general route from non-EU systems without an agreement, UC3M requires UNEDasiss accreditation with the Bachillerato modality and PCE results for the ordinary call; qualification recognition and subject weightings matter. The exceptional July route and early admission have different conditions. SAT/ACT replacement is not established, and the 2027 application calendar is not confirmed.",
+            "ru": "Маршрут зависит от школьной квалификации. Для опубликованного общего порядка из систем вне ЕС без соглашения UC3M требует аккредитацию UNEDasiss с направлением Bachillerato и результатами PCE для основного конкурса; важны признание квалификации и веса предметов. Июльский дополнительный конкурс и ранний приём имеют другие условия. Замена на SAT/ACT и календарь 2027 не подтверждены."
+          }
+        },
+        "otherTests": {
+          "en": "Foreign qualifications follow different routes. For the published general route from non-EU systems without an agreement, UC3M requires UNEDasiss accreditation with the Bachillerato modality and PCE results for the ordinary call; qualification recognition and subject weightings matter. The exceptional July route and early admission have different conditions. SAT/ACT replacement is not established, and the 2027 application calendar is not confirmed.",
+          "ru": "Маршрут зависит от школьной квалификации. Для опубликованного общего порядка из систем вне ЕС без соглашения UC3M требует аккредитацию UNEDasiss с направлением Bachillerato и результатами PCE для основного конкурса; важны признание квалификации и веса предметов. Июльский дополнительный конкурс и ранний приём имеют другие условия. Замена на SAT/ACT и календарь 2027 не подтверждены."
+        },
+        "internationalQualifications": {
+          "en": "Foreign qualifications follow different routes. For the published general route from non-EU systems without an agreement, UC3M requires UNEDasiss accreditation with the Bachillerato modality and PCE results for the ordinary call; qualification recognition and subject weightings matter. The exceptional July route and early admission have different conditions. SAT/ACT replacement is not established, and the 2027 application calendar is not confirmed.",
+          "ru": "Маршрут зависит от школьной квалификации. Для опубликованного общего порядка из систем вне ЕС без соглашения UC3M требует аккредитацию UNEDasiss с направлением Bachillerato и результатами PCE для основного конкурса; важны признание квалификации и веса предметов. Июльский дополнительный конкурс и ранний приём имеют другие условия. Замена на SAT/ACT и календарь 2027 не подтверждены."
+        }
+      },
+      "costs": {
+        "currency": "EUR",
+        "academicYear": "2026–2027",
+        "status": "previous-cycle",
+        "breakdown": {
+          "tuition": 7714.2,
+          "period": "year"
+        },
+        "headline": {
+          "en": "2026/27 non-EU students without Spanish resident status: €7,714.20 tuition for the published 60-credit first enrolment (€128.57/credit). Administrative services €6.11, opening the record €27.54 and insurance are additional. A student stay permit does not establish resident pricing. This is not a Fall2027 full annual budget.",
+          "ru": "2026/27, студенты вне ЕС без испанского статуса резидента: €7 714,20 за опубликованную первую запись на 60 кредитов (€128,57/кредит). Административные услуги €6,11, открытие дела €27,54 и страховка отдельно. Разрешение на пребывание для учёбы не даёт тариф резидента. Это не полный годовой бюджет Fall2027."
+        },
+        "items": [
+          {
+            "label": {
+              "en": "Tuition only, per academic year",
+              "ru": "Только обучение за учебный год"
+            },
+            "amount": 7714.2,
+            "group": "tuition"
+          }
+        ],
+        "billedSubtotal": null,
+        "totalText": null,
+        "note": {
+          "en": "A full annual living-cost budget, 2027/28 scholarship entitlement and unlisted programme requirements have not been established. Competitive or unconfirmed assistance is not deducted.",
+          "ru": "Полный годовой бюджет с проживанием, право на стипендии 2027/28 и требования других программ не установлены. Конкурсная и неподтверждённая помощь не вычитается."
+        },
+        "source": "https://www.uc3m.es/bachelor-degree/admission/application/enrollment/prices/non-eu",
+        "verified": "2026-11-22"
+      },
+      "fundingNote": {
+        "en": "A full annual living-cost budget, 2027/28 scholarship entitlement and unlisted programme requirements have not been established. Competitive or unconfirmed assistance is not deducted.",
+        "ru": "Полный годовой бюджет с проживанием, право на стипендии 2027/28 и требования других программ не установлены. Конкурсная и неподтверждённая помощь не вычитается."
+      },
+      "sources": [
+        {
+          "label": {
+            "en": "Programme and Leganés campus",
+            "ru": "Программа и кампус Leganés"
+          },
+          "url": "https://www.uc3m.es/bachelor-degree/data-science"
+        },
+        {
+          "label": {
+            "en": "General non-EU admission route",
+            "ru": "Общий порядок приёма вне ЕС"
+          },
+          "url": "https://www.uc3m.es/bachelor-degree/admission/application/international-students/non-european"
+        },
+        {
+          "label": {
+            "en": "Language certification during first year",
+            "ru": "Подтверждение языка в течение первого курса"
+          },
+          "url": "https://www.uc3m.es/bachelor-degree/language/level-required"
+        },
+        {
+          "label": {
+            "en": "Non-EU tuition 2026/27",
+            "ru": "Стоимость вне ЕС 2026/27"
+          },
+          "url": "https://www.uc3m.es/bachelor-degree/admission/application/enrollment/prices/non-eu"
+        }
+      ],
+      "gaps": [
+        {
+          "en": "2027/28 application dates and fees; exact language proof for entry; living costs, scholarships and SAT/ACT equivalence.",
+          "ru": "Даты и цены 2027/28; точное подтверждение языка для приёма; проживание, стипендии и эквивалентность SAT/ACT."
+        }
+      ],
+      "route": {
+        "id": "carlos-iii-university-of-madrid-english",
+        "label": {
+          "en": "Bachelor in Data Science and Engineering — four years, 240 ECTS, English, Leganés campus.",
+          "ru": "Bachelor in Data Science and Engineering — четыре года, 240 ECTS, английский, кампус Leganés."
+        },
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [
+          "data-science",
+          "engineering"
+        ],
+        "applicability": {
+          "label": {
+            "en": "Current programme rules; intake year not stated unless explicitly identified below",
+            "ru": "Действующие правила программы; год набора не указан, если ниже не отмечено иное"
+          },
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "unknown",
+          "note": {
+            "en": "The English degree describes B2 competence. The university language page requires proof during the FIRST YEAR: IELTS Academic 5.5 (not General Training), TOEFL 72 on the legacy scale or 4.0 on the new scale, other certificates or qualifying English-medium schooling. Completing 36 ECTS in English in year one can support continuation. These are first-year certification/progression rules, not a verified IELTS 5.5 entry minimum for this degree. Programme-specific entry proof, sections and exemptions for admission remain unconfirmed.",
+            "ru": "Программа на английском описывает уровень B2. Языковая страница требует подтверждение В ТЕЧЕНИЕ ПЕРВОГО КУРСА: IELTS Academic 5,5 (не General Training), TOEFL 72 по прежней шкале либо 4,0 по новой, другие сертификаты или подходящее англоязычное школьное образование. 36 ECTS на английском за первый год могут позволить продолжить обучение. Это правила подтверждения языка и перехода дальше, а не установленный вступительный минимум IELTS 5,5 для этой программы. Отдельные вступительные доказательства, секции и освобождения остаются неподтверждёнными."
+          },
+          "waiver": {
+            "en": "The English degree describes B2 competence. The university language page requires proof during the FIRST YEAR: IELTS Academic 5.5 (not General Training), TOEFL 72 on the legacy scale or 4.0 on the new scale, other certificates or qualifying English-medium schooling. Completing 36 ECTS in English in year one can support continuation. These are first-year certification/progression rules, not a verified IELTS 5.5 entry minimum for this degree. Programme-specific entry proof, sections and exemptions for admission remain unconfirmed.",
+            "ru": "Программа на английском описывает уровень B2. Языковая страница требует подтверждение В ТЕЧЕНИЕ ПЕРВОГО КУРСА: IELTS Academic 5,5 (не General Training), TOEFL 72 по прежней шкале либо 4,0 по новой, другие сертификаты или подходящее англоязычное школьное образование. 36 ECTS на английском за первый год могут позволить продолжить обучение. Это правила подтверждения языка и перехода дальше, а не установленный вступительный минимум IELTS 5,5 для этой программы. Отдельные вступительные доказательства, секции и освобождения остаются неподтверждёнными."
+          },
+          "ielts": {
+            "accepted": null,
+            "variant": "IELTS; variant not stated in this source",
+            "min": null,
+            "sections": {},
+            "role": "admission"
+          }
+        },
+        "academic": {
+          "satPolicy": null,
+          "entryRequirements": {
+            "en": "Foreign qualifications follow different routes. For the published general route from non-EU systems without an agreement, UC3M requires UNEDasiss accreditation with the Bachillerato modality and PCE results for the ordinary call; qualification recognition and subject weightings matter. The exceptional July route and early admission have different conditions. SAT/ACT replacement is not established, and the 2027 application calendar is not confirmed.",
+            "ru": "Маршрут зависит от школьной квалификации. Для опубликованного общего порядка из систем вне ЕС без соглашения UC3M требует аккредитацию UNEDasiss с направлением Bachillerato и результатами PCE для основного конкурса; важны признание квалификации и веса предметов. Июльский дополнительный конкурс и ранний приём имеют другие условия. Замена на SAT/ACT и календарь 2027 не подтверждены."
+          },
+          "note": {
+            "en": "Foreign qualifications follow different routes. For the published general route from non-EU systems without an agreement, UC3M requires UNEDasiss accreditation with the Bachillerato modality and PCE results for the ordinary call; qualification recognition and subject weightings matter. The exceptional July route and early admission have different conditions. SAT/ACT replacement is not established, and the 2027 application calendar is not confirmed.",
+            "ru": "Маршрут зависит от школьной квалификации. Для опубликованного общего порядка из систем вне ЕС без соглашения UC3M требует аккредитацию UNEDasiss с направлением Bachillerato и результатами PCE для основного конкурса; важны признание квалификации и веса предметов. Июльский дополнительный конкурс и ранний приём имеют другие условия. Замена на SAT/ACT и календарь 2027 не подтверждены."
+          }
+        },
+        "localLanguage": [],
+        "documents": [
+          {
+            "en": "Foreign qualifications follow different routes. For the published general route from non-EU systems without an agreement, UC3M requires UNEDasiss accreditation with the Bachillerato modality and PCE results for the ordinary call; qualification recognition and subject weightings matter. The exceptional July route and early admission have different conditions. SAT/ACT replacement is not established, and the 2027 application calendar is not confirmed.",
+            "ru": "Маршрут зависит от школьной квалификации. Для опубликованного общего порядка из систем вне ЕС без соглашения UC3M требует аккредитацию UNEDasiss с направлением Bachillerato и результатами PCE для основного конкурса; важны признание квалификации и веса предметов. Июльский дополнительный конкурс и ранний приём имеют другие условия. Замена на SAT/ACT и календарь 2027 не подтверждены."
+          }
+        ],
+        "sources": [
+          {
+            "label": {
+              "en": "Programme and Leganés campus",
+              "ru": "Программа и кампус Leganés"
+            },
+            "url": "https://www.uc3m.es/bachelor-degree/data-science",
+            "verified": "2026-11-22"
+          },
+          {
+            "label": {
+              "en": "General non-EU admission route",
+              "ru": "Общий порядок приёма вне ЕС"
+            },
+            "url": "https://www.uc3m.es/bachelor-degree/admission/application/international-students/non-european",
+            "verified": "2026-11-22"
+          },
+          {
+            "label": {
+              "en": "Language certification during first year",
+              "ru": "Подтверждение языка в течение первого курса"
+            },
+            "url": "https://www.uc3m.es/bachelor-degree/language/level-required",
+            "verified": "2026-11-22"
+          },
+          {
+            "label": {
+              "en": "Non-EU tuition 2026/27",
+              "ru": "Стоимость вне ЕС 2026/27"
+            },
+            "url": "https://www.uc3m.es/bachelor-degree/admission/application/enrollment/prices/non-eu",
+            "verified": "2026-11-22"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ie-university",
+      "name": "IE University",
+      "shortName": "IE University",
+      "city": {
+        "en": "Madrid or Segovia, depending on programme pathway",
+        "ru": "Мадрид или Сеговия, зависит от маршрута программы"
+      },
+      "region": {
+        "en": "Community of Madrid / Castile and León",
+        "ru": "Мадридское сообщество / Кастилия и Леон"
+      },
+      "institutionKind": null,
+      "type": {
+        "en": "Higher education institution",
+        "ru": "Высшее учебное заведение"
+      },
+      "description": {
+        "en": "Bachelor in Computer Science and Artificial Intelligence — four years, English, September intake. Madrid/Segovia campus arrangement depends on the selected pathway.",
+        "ru": "Bachelor in Computer Science and Artificial Intelligence — четыре года, английский, начало в сентябре. Порядок обучения в Madrid/Segovia зависит от выбранного маршрута."
+      },
+      "programme": {
+        "en": "Bachelor in Computer Science and Artificial Intelligence — four years, English, September intake. Madrid/Segovia campus arrangement depends on the selected pathway.",
+        "ru": "Bachelor in Computer Science and Artificial Intelligence — четыре года, английский, начало в сентябре. Порядок обучения в Madrid/Segovia зависит от выбранного маршрута."
+      },
+      "fields": [
+        "computer-science"
+      ],
+      "links": {
+        "website": "https://www.ie.edu/university/",
+        "programs": "https://www.ie.edu/university/studies/academic-programs/bachelor-computer-science-artificial-intelligence/",
+        "admissions": "https://www.ie.edu/university/admission/access-to-university/freshmen-students/",
+        "international": "https://www.ie.edu/university/admission/access-to-university/freshmen-students/",
+        "portal": "https://www.ie.edu/university/admission/admission-process/",
+        "cost": "https://www.ie.edu/university/studies/academic-programs/bachelor-computer-science-artificial-intelligence/admissions-fees/"
+      },
+      "documents": [
+        {
+          "en": "International freshmen must provide a valid secondary qualification and complete the relevant Spanish university-access recognition procedure. IE admission assessment accepts the IE test, SAT 1300 or ACT 28; the freshman page also lists OMPT-B/OMPT-D for Science and Technology. The testing page expects SAT Math 700/800 for Science and Technology; law-only LNAT is not transferred to this CS programme. Interview and documents remain part of selection. Passing a test does not guarantee admission.",
+          "ru": "Иностранным первокурсникам нужна действительная школьная квалификация и применимое признание права поступления в Испании. Для отбора принимаются тест IE, SAT 1300 либо ACT 28; страница первокурсников также перечисляет OMPT-B/OMPT-D для Science and Technology. Тестовая страница ожидает SAT Math 700/800 для Science and Technology; юридический LNAT не относится к этой CS-программе. Документы и интервью остаются частью отбора. Успешный тест не гарантирует зачисления."
+        }
+      ],
+      "notes": [
+        {
+          "en": "International freshmen must provide a valid secondary qualification and complete the relevant Spanish university-access recognition procedure. IE admission assessment accepts the IE test, SAT 1300 or ACT 28; the freshman page also lists OMPT-B/OMPT-D for Science and Technology. The testing page expects SAT Math 700/800 for Science and Technology; law-only LNAT is not transferred to this CS programme. Interview and documents remain part of selection. Passing a test does not guarantee admission.",
+          "ru": "Иностранным первокурсникам нужна действительная школьная квалификация и применимое признание права поступления в Испании. Для отбора принимаются тест IE, SAT 1300 либо ACT 28; страница первокурсников также перечисляет OMPT-B/OMPT-D для Science and Technology. Тестовая страница ожидает SAT Math 700/800 для Science and Technology; юридический LNAT не относится к этой CS-программе. Документы и интервью остаются частью отбора. Успешный тест не гарантирует зачисления."
+        },
+        {
+          "en": "IELTS minimum 7.0; 7.5 is RECOMMENDED, not the minimum. TOEFL minimum 100 on the legacy scale, recommended 105; the role of the page’s new-scale 5.0 is not unambiguous and is not used as a new minimum. DET 130 or Cambridge C1/C2 are alternatives. Section minima are not stated. Non-native applicants may qualify for exemption through more than two years in an English-speaking country or the specified English-medium schooling; the committee may still request proof. Certificates are valid for two years.",
+          "ru": "Минимум IELTS 7,0; 7,5 — РЕКОМЕНДАЦИЯ, не минимум. TOEFL минимум 100 по прежней шкале, рекомендация 105; роль указанного на странице нового балла 5,0 неоднозначна, поэтому он не используется как новый минимум. Альтернативы: DET 130 либо Cambridge C1/C2. Пороги секций не указаны. Возможны освобождения после более двух лет в англоязычной стране либо указанного англоязычного школьного образования; комиссия вправе запросить доказательство. Сертификаты действуют два года."
+        },
+        {
+          "en": "2027/28 first-year tuition: €27,300. Subsequent years may be revised. Housing, meals, insurance and other charges are not included in a confirmed full annual budget.",
+          "ru": "Обучение первого года 2027/28: €27 300. Цены следующих лет могут пересматриваться. Жильё, питание, страховка и другие расходы не включены в подтверждённый полный годовой бюджет."
+        }
+      ],
+      "platforms": [],
+      "english": {
+        "ielts": {
+          "min": 7,
+          "recommended": 7.5,
+          "note": {
+            "en": "IELTS minimum 7.0; 7.5 is RECOMMENDED, not the minimum. TOEFL minimum 100 on the legacy scale, recommended 105; the role of the page’s new-scale 5.0 is not unambiguous and is not used as a new minimum. DET 130 or Cambridge C1/C2 are alternatives. Section minima are not stated. Non-native applicants may qualify for exemption through more than two years in an English-speaking country or the specified English-medium schooling; the committee may still request proof. Certificates are valid for two years.",
+            "ru": "Минимум IELTS 7,0; 7,5 — РЕКОМЕНДАЦИЯ, не минимум. TOEFL минимум 100 по прежней шкале, рекомендация 105; роль указанного на странице нового балла 5,0 неоднозначна, поэтому он не используется как новый минимум. Альтернативы: DET 130 либо Cambridge C1/C2. Пороги секций не указаны. Возможны освобождения после более двух лет в англоязычной стране либо указанного англоязычного школьного образования; комиссия вправе запросить доказательство. Сертификаты действуют два года."
+          }
+        },
+        "toefl": {
+          "min": 100,
+          "recommended": 105,
+          "note": {
+            "en": "IELTS minimum 7.0; 7.5 is RECOMMENDED, not the minimum. TOEFL minimum 100 on the legacy scale, recommended 105; the role of the page’s new-scale 5.0 is not unambiguous and is not used as a new minimum. DET 130 or Cambridge C1/C2 are alternatives. Section minima are not stated. Non-native applicants may qualify for exemption through more than two years in an English-speaking country or the specified English-medium schooling; the committee may still request proof. Certificates are valid for two years.",
+            "ru": "Минимум IELTS 7,0; 7,5 — РЕКОМЕНДАЦИЯ, не минимум. TOEFL минимум 100 по прежней шкале, рекомендация 105; роль указанного на странице нового балла 5,0 неоднозначна, поэтому он не используется как новый минимум. Альтернативы: DET 130 либо Cambridge C1/C2. Пороги секций не указаны. Возможны освобождения после более двух лет в англоязычной стране либо указанного англоязычного школьного образования; комиссия вправе запросить доказательство. Сертификаты действуют два года."
+          },
+          "scales": [
+            {
+              "period": "pre2026",
+              "min": 100,
+              "recommended": 105
+            }
+          ]
+        },
+        "waiver": {
+          "en": "IELTS minimum 7.0; 7.5 is RECOMMENDED, not the minimum. TOEFL minimum 100 on the legacy scale, recommended 105; the role of the page’s new-scale 5.0 is not unambiguous and is not used as a new minimum. DET 130 or Cambridge C1/C2 are alternatives. Section minima are not stated. Non-native applicants may qualify for exemption through more than two years in an English-speaking country or the specified English-medium schooling; the committee may still request proof. Certificates are valid for two years.",
+          "ru": "Минимум IELTS 7,0; 7,5 — РЕКОМЕНДАЦИЯ, не минимум. TOEFL минимум 100 по прежней шкале, рекомендация 105; роль указанного на странице нового балла 5,0 неоднозначна, поэтому он не используется как новый минимум. Альтернативы: DET 130 либо Cambridge C1/C2. Пороги секций не указаны. Возможны освобождения после более двух лет в англоязычной стране либо указанного англоязычного школьного образования; комиссия вправе запросить доказательство. Сертификаты действуют два года."
+        },
+        "note": {
+          "en": "IELTS minimum 7.0; 7.5 is RECOMMENDED, not the minimum. TOEFL minimum 100 on the legacy scale, recommended 105; the role of the page’s new-scale 5.0 is not unambiguous and is not used as a new minimum. DET 130 or Cambridge C1/C2 are alternatives. Section minima are not stated. Non-native applicants may qualify for exemption through more than two years in an English-speaking country or the specified English-medium schooling; the committee may still request proof. Certificates are valid for two years.",
+          "ru": "Минимум IELTS 7,0; 7,5 — РЕКОМЕНДАЦИЯ, не минимум. TOEFL минимум 100 по прежней шкале, рекомендация 105; роль указанного на странице нового балла 5,0 неоднозначна, поэтому он не используется как новый минимум. Альтернативы: DET 130 либо Cambridge C1/C2. Пороги секций не указаны. Возможны освобождения после более двух лет в англоязычной стране либо указанного англоязычного школьного образования; комиссия вправе запросить доказательство. Сертификаты действуют два года."
+        }
+      },
+      "academic": {
+        "sat": {
+          "policy": "required-alternatives",
+          "note": {
+            "en": "International freshmen must provide a valid secondary qualification and complete the relevant Spanish university-access recognition procedure. IE admission assessment accepts the IE test, SAT 1300 or ACT 28; the freshman page also lists OMPT-B/OMPT-D for Science and Technology. The testing page expects SAT Math 700/800 for Science and Technology; law-only LNAT is not transferred to this CS programme. Interview and documents remain part of selection. Passing a test does not guarantee admission.",
+            "ru": "Иностранным первокурсникам нужна действительная школьная квалификация и применимое признание права поступления в Испании. Для отбора принимаются тест IE, SAT 1300 либо ACT 28; страница первокурсников также перечисляет OMPT-B/OMPT-D для Science and Technology. Тестовая страница ожидает SAT Math 700/800 для Science and Technology; юридический LNAT не относится к этой CS-программе. Документы и интервью остаются частью отбора. Успешный тест не гарантирует зачисления."
+          }
+        },
+        "act": {
+          "policy": "required-alternatives",
+          "note": {
+            "en": "International freshmen must provide a valid secondary qualification and complete the relevant Spanish university-access recognition procedure. IE admission assessment accepts the IE test, SAT 1300 or ACT 28; the freshman page also lists OMPT-B/OMPT-D for Science and Technology. The testing page expects SAT Math 700/800 for Science and Technology; law-only LNAT is not transferred to this CS programme. Interview and documents remain part of selection. Passing a test does not guarantee admission.",
+            "ru": "Иностранным первокурсникам нужна действительная школьная квалификация и применимое признание права поступления в Испании. Для отбора принимаются тест IE, SAT 1300 либо ACT 28; страница первокурсников также перечисляет OMPT-B/OMPT-D для Science and Technology. Тестовая страница ожидает SAT Math 700/800 для Science and Technology; юридический LNAT не относится к этой CS-программе. Документы и интервью остаются частью отбора. Успешный тест не гарантирует зачисления."
+          }
+        },
+        "otherTests": {
+          "en": "International freshmen must provide a valid secondary qualification and complete the relevant Spanish university-access recognition procedure. IE admission assessment accepts the IE test, SAT 1300 or ACT 28; the freshman page also lists OMPT-B/OMPT-D for Science and Technology. The testing page expects SAT Math 700/800 for Science and Technology; law-only LNAT is not transferred to this CS programme. Interview and documents remain part of selection. Passing a test does not guarantee admission.",
+          "ru": "Иностранным первокурсникам нужна действительная школьная квалификация и применимое признание права поступления в Испании. Для отбора принимаются тест IE, SAT 1300 либо ACT 28; страница первокурсников также перечисляет OMPT-B/OMPT-D для Science and Technology. Тестовая страница ожидает SAT Math 700/800 для Science and Technology; юридический LNAT не относится к этой CS-программе. Документы и интервью остаются частью отбора. Успешный тест не гарантирует зачисления."
+        },
+        "internationalQualifications": {
+          "en": "International freshmen must provide a valid secondary qualification and complete the relevant Spanish university-access recognition procedure. IE admission assessment accepts the IE test, SAT 1300 or ACT 28; the freshman page also lists OMPT-B/OMPT-D for Science and Technology. The testing page expects SAT Math 700/800 for Science and Technology; law-only LNAT is not transferred to this CS programme. Interview and documents remain part of selection. Passing a test does not guarantee admission.",
+          "ru": "Иностранным первокурсникам нужна действительная школьная квалификация и применимое признание права поступления в Испании. Для отбора принимаются тест IE, SAT 1300 либо ACT 28; страница первокурсников также перечисляет OMPT-B/OMPT-D для Science and Technology. Тестовая страница ожидает SAT Math 700/800 для Science and Technology; юридический LNAT не относится к этой CS-программе. Документы и интервью остаются частью отбора. Успешный тест не гарантирует зачисления."
+        }
+      },
+      "costs": {
+        "currency": "EUR",
+        "academicYear": "2027–2028",
+        "status": "confirmed",
+        "breakdown": {
+          "tuition": 27300,
+          "period": "year"
+        },
+        "headline": {
+          "en": "2027/28 first-year tuition: €27,300. Subsequent years may be revised. Housing, meals, insurance and other charges are not included in a confirmed full annual budget.",
+          "ru": "Обучение первого года 2027/28: €27 300. Цены следующих лет могут пересматриваться. Жильё, питание, страховка и другие расходы не включены в подтверждённый полный годовой бюджет."
+        },
+        "items": [
+          {
+            "label": {
+              "en": "Tuition only, per academic year",
+              "ru": "Только обучение за учебный год"
+            },
+            "amount": 27300,
+            "group": "tuition"
+          }
+        ],
+        "billedSubtotal": null,
+        "totalText": null,
+        "note": {
+          "en": "A full annual living-cost budget, 2027/28 scholarship entitlement and unlisted programme requirements have not been established. Competitive or unconfirmed assistance is not deducted.",
+          "ru": "Полный годовой бюджет с проживанием, право на стипендии 2027/28 и требования других программ не установлены. Конкурсная и неподтверждённая помощь не вычитается."
+        },
+        "source": "https://www.ie.edu/university/studies/academic-programs/bachelor-computer-science-artificial-intelligence/admissions-fees/",
+        "verified": "2026-11-22"
+      },
+      "fundingNote": {
+        "en": "A full annual living-cost budget, 2027/28 scholarship entitlement and unlisted programme requirements have not been established. Competitive or unconfirmed assistance is not deducted.",
+        "ru": "Полный годовой бюджет с проживанием, право на стипендии 2027/28 и требования других программ не установлены. Конкурсная и неподтверждённая помощь не вычитается."
+      },
+      "sources": [
+        {
+          "label": {
+            "en": "CS and AI programme and campuses",
+            "ru": "Программа CS and AI и кампусы"
+          },
+          "url": "https://www.ie.edu/university/studies/academic-programs/bachelor-computer-science-artificial-intelligence/"
+        },
+        {
+          "label": {
+            "en": "Programme tuition 2027/28",
+            "ru": "Стоимость программы 2027/28"
+          },
+          "url": "https://www.ie.edu/university/studies/academic-programs/bachelor-computer-science-artificial-intelligence/admissions-fees/"
+        },
+        {
+          "label": {
+            "en": "Freshman qualifications and English requirements",
+            "ru": "Квалификации первокурсников и английский"
+          },
+          "url": "https://www.ie.edu/university/admission/access-to-university/freshmen-students/"
+        },
+        {
+          "label": {
+            "en": "2027/28 application rounds",
+            "ru": "Раунды подачи 2027/28"
+          },
+          "url": "https://www.ie.edu/university/admission/admission-process/admissions-rounds/"
+        },
+        {
+          "label": {
+            "en": "Admission test alternatives",
+            "ru": "Альтернативы вступительного теста"
+          },
+          "url": "https://www.ie.edu/university/admission/admission-process/admissions-test/"
+        }
+      ],
+      "gaps": [
+        {
+          "en": "Section minima; unambiguous new TOEFL minimum; pathway-specific campus timetable; full living budget and aid entitlement.",
+          "ru": "Минимумы секций; однозначный минимум новой шкалы TOEFL; расписание кампусов выбранного маршрута; полный бюджет проживания и право на помощь."
+        }
+      ],
+      "route": {
+        "id": "ie-university-english",
+        "label": {
+          "en": "Bachelor in Computer Science and Artificial Intelligence — four years, English, September intake. Madrid/Segovia campus arrangement depends on the selected pathway.",
+          "ru": "Bachelor in Computer Science and Artificial Intelligence — четыре года, английский, начало в сентябре. Порядок обучения в Madrid/Segovia зависит от выбранного маршрута."
+        },
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [
+          "computer-science"
+        ],
+        "applicability": {
+          "label": {
+            "en": "Admissions open for 2027/28; programme-specific tuition and global undergraduate rounds",
+            "ru": "Приём открыт на 2027/28; цена конкретной программы и общие раунды бакалавриата"
+          },
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "note": {
+            "en": "IELTS minimum 7.0; 7.5 is RECOMMENDED, not the minimum. TOEFL minimum 100 on the legacy scale, recommended 105; the role of the page’s new-scale 5.0 is not unambiguous and is not used as a new minimum. DET 130 or Cambridge C1/C2 are alternatives. Section minima are not stated. Non-native applicants may qualify for exemption through more than two years in an English-speaking country or the specified English-medium schooling; the committee may still request proof. Certificates are valid for two years.",
+            "ru": "Минимум IELTS 7,0; 7,5 — РЕКОМЕНДАЦИЯ, не минимум. TOEFL минимум 100 по прежней шкале, рекомендация 105; роль указанного на странице нового балла 5,0 неоднозначна, поэтому он не используется как новый минимум. Альтернативы: DET 130 либо Cambridge C1/C2. Пороги секций не указаны. Возможны освобождения после более двух лет в англоязычной стране либо указанного англоязычного школьного образования; комиссия вправе запросить доказательство. Сертификаты действуют два года."
+          },
+          "waiver": {
+            "en": "IELTS minimum 7.0; 7.5 is RECOMMENDED, not the minimum. TOEFL minimum 100 on the legacy scale, recommended 105; the role of the page’s new-scale 5.0 is not unambiguous and is not used as a new minimum. DET 130 or Cambridge C1/C2 are alternatives. Section minima are not stated. Non-native applicants may qualify for exemption through more than two years in an English-speaking country or the specified English-medium schooling; the committee may still request proof. Certificates are valid for two years.",
+            "ru": "Минимум IELTS 7,0; 7,5 — РЕКОМЕНДАЦИЯ, не минимум. TOEFL минимум 100 по прежней шкале, рекомендация 105; роль указанного на странице нового балла 5,0 неоднозначна, поэтому он не используется как новый минимум. Альтернативы: DET 130 либо Cambridge C1/C2. Пороги секций не указаны. Возможны освобождения после более двух лет в англоязычной стране либо указанного англоязычного школьного образования; комиссия вправе запросить доказательство. Сертификаты действуют два года."
+          },
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS; variant not stated in this source",
+            "min": 7,
+            "sections": {},
+            "role": "admission",
+            "recommended": 7.5
+          },
+          "toefl": {
+            "accepted": true,
+            "variant": "TOEFL",
+            "scales": [
+              {
+                "period": "pre2026",
+                "min": 100,
+                "recommended": 105
+              }
+            ],
+            "note": {
+              "en": "IELTS minimum 7.0; 7.5 is RECOMMENDED, not the minimum. TOEFL minimum 100 on the legacy scale, recommended 105; the role of the page’s new-scale 5.0 is not unambiguous and is not used as a new minimum. DET 130 or Cambridge C1/C2 are alternatives. Section minima are not stated. Non-native applicants may qualify for exemption through more than two years in an English-speaking country or the specified English-medium schooling; the committee may still request proof. Certificates are valid for two years.",
+              "ru": "Минимум IELTS 7,0; 7,5 — РЕКОМЕНДАЦИЯ, не минимум. TOEFL минимум 100 по прежней шкале, рекомендация 105; роль указанного на странице нового балла 5,0 неоднозначна, поэтому он не используется как новый минимум. Альтернативы: DET 130 либо Cambridge C1/C2. Пороги секций не указаны. Возможны освобождения после более двух лет в англоязычной стране либо указанного англоязычного школьного образования; комиссия вправе запросить доказательство. Сертификаты действуют два года."
+            }
+          }
+        },
+        "academic": {
+          "satPolicy": "required-alternatives",
+          "entryRequirements": {
+            "en": "International freshmen must provide a valid secondary qualification and complete the relevant Spanish university-access recognition procedure. IE admission assessment accepts the IE test, SAT 1300 or ACT 28; the freshman page also lists OMPT-B/OMPT-D for Science and Technology. The testing page expects SAT Math 700/800 for Science and Technology; law-only LNAT is not transferred to this CS programme. Interview and documents remain part of selection. Passing a test does not guarantee admission.",
+            "ru": "Иностранным первокурсникам нужна действительная школьная квалификация и применимое признание права поступления в Испании. Для отбора принимаются тест IE, SAT 1300 либо ACT 28; страница первокурсников также перечисляет OMPT-B/OMPT-D для Science and Technology. Тестовая страница ожидает SAT Math 700/800 для Science and Technology; юридический LNAT не относится к этой CS-программе. Документы и интервью остаются частью отбора. Успешный тест не гарантирует зачисления."
+          },
+          "note": {
+            "en": "International freshmen must provide a valid secondary qualification and complete the relevant Spanish university-access recognition procedure. IE admission assessment accepts the IE test, SAT 1300 or ACT 28; the freshman page also lists OMPT-B/OMPT-D for Science and Technology. The testing page expects SAT Math 700/800 for Science and Technology; law-only LNAT is not transferred to this CS programme. Interview and documents remain part of selection. Passing a test does not guarantee admission.",
+            "ru": "Иностранным первокурсникам нужна действительная школьная квалификация и применимое признание права поступления в Испании. Для отбора принимаются тест IE, SAT 1300 либо ACT 28; страница первокурсников также перечисляет OMPT-B/OMPT-D для Science and Technology. Тестовая страница ожидает SAT Math 700/800 для Science and Technology; юридический LNAT не относится к этой CS-программе. Документы и интервью остаются частью отбора. Успешный тест не гарантирует зачисления."
+          }
+        },
+        "localLanguage": [],
+        "documents": [
+          {
+            "en": "International freshmen must provide a valid secondary qualification and complete the relevant Spanish university-access recognition procedure. IE admission assessment accepts the IE test, SAT 1300 or ACT 28; the freshman page also lists OMPT-B/OMPT-D for Science and Technology. The testing page expects SAT Math 700/800 for Science and Technology; law-only LNAT is not transferred to this CS programme. Interview and documents remain part of selection. Passing a test does not guarantee admission.",
+            "ru": "Иностранным первокурсникам нужна действительная школьная квалификация и применимое признание права поступления в Испании. Для отбора принимаются тест IE, SAT 1300 либо ACT 28; страница первокурсников также перечисляет OMPT-B/OMPT-D для Science and Technology. Тестовая страница ожидает SAT Math 700/800 для Science and Technology; юридический LNAT не относится к этой CS-программе. Документы и интервью остаются частью отбора. Успешный тест не гарантирует зачисления."
+          }
+        ],
+        "sources": [
+          {
+            "label": {
+              "en": "CS and AI programme and campuses",
+              "ru": "Программа CS and AI и кампусы"
+            },
+            "url": "https://www.ie.edu/university/studies/academic-programs/bachelor-computer-science-artificial-intelligence/",
+            "verified": "2026-11-22"
+          },
+          {
+            "label": {
+              "en": "Programme tuition 2027/28",
+              "ru": "Стоимость программы 2027/28"
+            },
+            "url": "https://www.ie.edu/university/studies/academic-programs/bachelor-computer-science-artificial-intelligence/admissions-fees/",
+            "verified": "2026-11-22"
+          },
+          {
+            "label": {
+              "en": "Freshman qualifications and English requirements",
+              "ru": "Квалификации первокурсников и английский"
+            },
+            "url": "https://www.ie.edu/university/admission/access-to-university/freshmen-students/",
+            "verified": "2026-11-22"
+          },
+          {
+            "label": {
+              "en": "2027/28 application rounds",
+              "ru": "Раунды подачи 2027/28"
+            },
+            "url": "https://www.ie.edu/university/admission/admission-process/admissions-rounds/",
+            "verified": "2026-11-22"
+          },
+          {
+            "label": {
+              "en": "Admission test alternatives",
+              "ru": "Альтернативы вступительного теста"
+            },
+            "url": "https://www.ie.edu/university/admission/admission-process/admissions-test/",
+            "verified": "2026-11-22"
+          }
+        ]
+      },
+      "deadlines": [
+        {
+          "name": {
+            "en": "2027/28 early — complete application, documents and assessments",
+            "ru": "2027/28 early — полная заявка, документы и испытания"
+          },
+          "kind": "round",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "dateISO": "2026-09-18",
+          "date": "2026-09-18",
+          "status": "confirmed",
+          "binding": false,
+          "appliesTo": {
+            "en": "2027/28 international undergraduate applications",
+            "ru": "Международные заявки бакалавриата 2027/28"
+          },
+          "conditions": {
+            "en": "Submit the application by this date. Aim to complete documents and assessments by the round deadline; the FAQ allows some pending tests, references or English proof to follow, subject to review and possible movement to a later round. Decision communication has a separate date. Closing time and timezone are not published.",
+            "ru": "Подайте заявку к этой дате. Документы и испытания желательно завершить к сроку раунда; FAQ допускает отдельные ожидаемые тесты, рекомендации или языковой сертификат позднее, с проверкой и возможным переносом в следующий раунд. Дата решения отдельная. Час и часовой пояс не опубликованы."
+          },
+          "source": "https://www.ie.edu/university/admission/admission-process/admissions-rounds/",
+          "verified": "2026-11-22",
+          "cycleEvidence": {
+            "basis": "page-context",
+            "entryTerm": "Autumn",
+            "entryYear": "2027",
+            "source": "https://www.ie.edu/university/admission/admission-process/admissions-rounds/",
+            "verified": "2026-11-22",
+            "quote": "Admissions Calendar for 2027-2028"
+          }
+        },
+        {
+          "name": {
+            "en": "2027/28 round-1 — complete application, documents and assessments",
+            "ru": "2027/28 round-1 — полная заявка, документы и испытания"
+          },
+          "kind": "round-1",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "dateISO": "2026-11-06",
+          "date": "2026-11-06",
+          "status": "confirmed",
+          "binding": false,
+          "appliesTo": {
+            "en": "2027/28 international undergraduate applications",
+            "ru": "Международные заявки бакалавриата 2027/28"
+          },
+          "conditions": {
+            "en": "Submit the application by this date. Aim to complete documents and assessments by the round deadline; the FAQ allows some pending tests, references or English proof to follow, subject to review and possible movement to a later round. Decision communication has a separate date. Closing time and timezone are not published.",
+            "ru": "Подайте заявку к этой дате. Документы и испытания желательно завершить к сроку раунда; FAQ допускает отдельные ожидаемые тесты, рекомендации или языковой сертификат позднее, с проверкой и возможным переносом в следующий раунд. Дата решения отдельная. Час и часовой пояс не опубликованы."
+          },
+          "source": "https://www.ie.edu/university/admission/admission-process/admissions-rounds/",
+          "verified": "2026-11-22",
+          "cycleEvidence": {
+            "basis": "page-context",
+            "entryTerm": "Autumn",
+            "entryYear": "2027",
+            "source": "https://www.ie.edu/university/admission/admission-process/admissions-rounds/",
+            "verified": "2026-11-22",
+            "quote": "Admissions Calendar for 2027-2028"
+          }
+        },
+        {
+          "name": {
+            "en": "2027/28 round-2 — complete application, documents and assessments",
+            "ru": "2027/28 round-2 — полная заявка, документы и испытания"
+          },
+          "kind": "round-2",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "dateISO": "2027-01-15",
+          "date": "2027-01-15",
+          "status": "confirmed",
+          "binding": false,
+          "appliesTo": {
+            "en": "2027/28 international undergraduate applications",
+            "ru": "Международные заявки бакалавриата 2027/28"
+          },
+          "conditions": {
+            "en": "Submit the application by this date. Aim to complete documents and assessments by the round deadline; the FAQ allows some pending tests, references or English proof to follow, subject to review and possible movement to a later round. Decision communication has a separate date. Closing time and timezone are not published.",
+            "ru": "Подайте заявку к этой дате. Документы и испытания желательно завершить к сроку раунда; FAQ допускает отдельные ожидаемые тесты, рекомендации или языковой сертификат позднее, с проверкой и возможным переносом в следующий раунд. Дата решения отдельная. Час и часовой пояс не опубликованы."
+          },
+          "source": "https://www.ie.edu/university/admission/admission-process/admissions-rounds/",
+          "verified": "2026-11-22",
+          "cycleEvidence": {
+            "basis": "page-context",
+            "entryTerm": "Autumn",
+            "entryYear": "2027",
+            "source": "https://www.ie.edu/university/admission/admission-process/admissions-rounds/",
+            "verified": "2026-11-22",
+            "quote": "Admissions Calendar for 2027-2028"
+          }
+        },
+        {
+          "name": {
+            "en": "2027/28 round-3 — complete application, documents and assessments",
+            "ru": "2027/28 round-3 — полная заявка, документы и испытания"
+          },
+          "kind": "round-3",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "dateISO": "2027-03-05",
+          "date": "2027-03-05",
+          "status": "confirmed",
+          "binding": false,
+          "appliesTo": {
+            "en": "2027/28 international undergraduate applications",
+            "ru": "Международные заявки бакалавриата 2027/28"
+          },
+          "conditions": {
+            "en": "Submit the application by this date. Aim to complete documents and assessments by the round deadline; the FAQ allows some pending tests, references or English proof to follow, subject to review and possible movement to a later round. Decision communication has a separate date. Closing time and timezone are not published.",
+            "ru": "Подайте заявку к этой дате. Документы и испытания желательно завершить к сроку раунда; FAQ допускает отдельные ожидаемые тесты, рекомендации или языковой сертификат позднее, с проверкой и возможным переносом в следующий раунд. Дата решения отдельная. Час и часовой пояс не опубликованы."
+          },
+          "source": "https://www.ie.edu/university/admission/admission-process/admissions-rounds/",
+          "verified": "2026-11-22",
+          "cycleEvidence": {
+            "basis": "page-context",
+            "entryTerm": "Autumn",
+            "entryYear": "2027",
+            "source": "https://www.ie.edu/university/admission/admission-process/admissions-rounds/",
+            "verified": "2026-11-22",
+            "quote": "Admissions Calendar for 2027-2028"
+          }
+        }
+      ]
+    },
+    {
+      "id": "autonomous-university-of-barcelona",
+      "name": "Universitat Autònoma de Barcelona",
+      "shortName": "UAB",
+      "city": {
+        "en": "Bellaterra / Cerdanyola del Vallès",
+        "ru": "Бельятерра / Серданьола-дель-Вальес"
+      },
+      "region": {
+        "en": "Catalonia",
+        "ru": "Каталония"
+      },
+      "institutionKind": null,
+      "type": {
+        "en": "Higher education institution",
+        "ru": "Высшее учебное заведение"
+      },
+      "description": {
+        "en": "Bachelor in Business Administration — English, Bellaterra Faculty of Economics and Business Studies, four years and 240 ECTS.",
+        "ru": "Bachelor in Business Administration — английский, Faculty of Economics and Business Studies в Bellaterra, четыре года и 240 ECTS."
+      },
+      "programme": {
+        "en": "Bachelor in Business Administration — English, Bellaterra Faculty of Economics and Business Studies, four years and 240 ECTS.",
+        "ru": "Bachelor in Business Administration — английский, Faculty of Economics and Business Studies в Bellaterra, четыре года и 240 ECTS."
+      },
+      "fields": [
+        "business"
+      ],
+      "links": {
+        "website": "https://www.uab.cat/",
+        "programs": "https://www.uab.cat/web/estudiar/ehea-degrees/general-information/x-1216708259085.html?param1=1299656909532",
+        "admissions": "https://studyincatalonia.gencat.cat/en/plan-your-studies/accreditations-recognitions",
+        "international": "https://studyincatalonia.gencat.cat/en/plan-your-studies/accreditations-recognitions",
+        "portal": "https://accesuniversitat.gencat.cat/",
+        "cost": "https://www.uab.cat/web/estudiar/ehea-degrees/general-information/x-1216708259085.html?param1=1299656909532"
+      },
+      "documents": [
+        {
+          "en": "The Catalan admissions authority distinguishes EU/reciprocal-agreement and IB/European Baccalaureate qualifications from other foreign school systems. For the ordinary June route with a non-EU qualification outside an agreement, recognise the school diploma as Spanish Bachillerato and pass PAU/EBAU or the specified UNEDasiss PCE combination; use the Catalan pre-enrolment portal. September alternatives have lower allocation priority. UAB’s linked “non-EU university students” page also discusses university-study validation: that is not the freshman route used here. SAT/ACT substitution and the 2027 calendar are not confirmed.",
+          "ru": "Каталонская служба приёма различает квалификации ЕС/соглашений, IB/European Baccalaureate и остальные школьные системы. Для обычного июньского конкурса с квалификацией вне ЕС без соглашения нужны признание диплома как испанского Bachillerato и PAU/EBAU либо установленная комбинация UNEDasiss PCE; подача через каталонский портал. Сентябрьские альтернативы имеют меньший приоритет распределения мест. Страница UAB «non-EU university students» также описывает зачёт университетского обучения: это не используемый здесь маршрут первокурсника. Замена на SAT/ACT и календарь 2027 не подтверждены."
+        }
+      ],
+      "notes": [
+        {
+          "en": "The Catalan admissions authority distinguishes EU/reciprocal-agreement and IB/European Baccalaureate qualifications from other foreign school systems. For the ordinary June route with a non-EU qualification outside an agreement, recognise the school diploma as Spanish Bachillerato and pass PAU/EBAU or the specified UNEDasiss PCE combination; use the Catalan pre-enrolment portal. September alternatives have lower allocation priority. UAB’s linked “non-EU university students” page also discusses university-study validation: that is not the freshman route used here. SAT/ACT substitution and the 2027 calendar are not confirmed.",
+          "ru": "Каталонская служба приёма различает квалификации ЕС/соглашений, IB/European Baccalaureate и остальные школьные системы. Для обычного июньского конкурса с квалификацией вне ЕС без соглашения нужны признание диплома как испанского Bachillerato и PAU/EBAU либо установленная комбинация UNEDasiss PCE; подача через каталонский портал. Сентябрьские альтернативы имеют меньший приоритет распределения мест. Страница UAB «non-EU university students» также описывает зачёт университетского обучения: это не используемый здесь маршрут первокурсника. Замена на SAT/ACT и календарь 2027 не подтверждены."
+        },
+        {
+          "en": "The Business Administration degree is taught in English at Bellaterra. A freshman IELTS/TOEFL minimum, section thresholds and exemption rules were not established by the inspected programme and regional admission sources. B2 language advice from exchange guides is not treated as a freshman requirement.",
+          "ru": "Business Administration преподаётся на английском в Bellaterra. Вступительные минимумы IELTS/TOEFL, секции и освобождения для первокурсников не установлены по проверенным страницам программы и регионального приёма. Рекомендации B2 из руководств обмена не считаются требованиями первокурсников."
+        },
+        {
+          "en": "The programme page displays €17.69 per credit without a fee year or a confirmed non-EU category. It is retained only as an undated per-credit reference, not multiplied into 2027/28 annual tuition or a full budget.",
+          "ru": "Страница программы показывает €17,69 за кредит без года и подтверждённой категории вне ЕС. Сумма сохранена только как справка за кредит без года, не умножается в годовую плату 2027/28 или полный бюджет."
+        }
+      ],
+      "platforms": [],
+      "english": {
+        "ielts": {
+          "min": null,
+          "recommended": null,
+          "note": {
+            "en": "The Business Administration degree is taught in English at Bellaterra. A freshman IELTS/TOEFL minimum, section thresholds and exemption rules were not established by the inspected programme and regional admission sources. B2 language advice from exchange guides is not treated as a freshman requirement.",
+            "ru": "Business Administration преподаётся на английском в Bellaterra. Вступительные минимумы IELTS/TOEFL, секции и освобождения для первокурсников не установлены по проверенным страницам программы и регионального приёма. Рекомендации B2 из руководств обмена не считаются требованиями первокурсников."
+          }
+        },
+        "toefl": {
+          "min": null,
+          "recommended": null,
+          "note": {
+            "en": "The Business Administration degree is taught in English at Bellaterra. A freshman IELTS/TOEFL minimum, section thresholds and exemption rules were not established by the inspected programme and regional admission sources. B2 language advice from exchange guides is not treated as a freshman requirement.",
+            "ru": "Business Administration преподаётся на английском в Bellaterra. Вступительные минимумы IELTS/TOEFL, секции и освобождения для первокурсников не установлены по проверенным страницам программы и регионального приёма. Рекомендации B2 из руководств обмена не считаются требованиями первокурсников."
+          }
+        },
+        "waiver": {
+          "en": "The Business Administration degree is taught in English at Bellaterra. A freshman IELTS/TOEFL minimum, section thresholds and exemption rules were not established by the inspected programme and regional admission sources. B2 language advice from exchange guides is not treated as a freshman requirement.",
+          "ru": "Business Administration преподаётся на английском в Bellaterra. Вступительные минимумы IELTS/TOEFL, секции и освобождения для первокурсников не установлены по проверенным страницам программы и регионального приёма. Рекомендации B2 из руководств обмена не считаются требованиями первокурсников."
+        },
+        "note": {
+          "en": "The Business Administration degree is taught in English at Bellaterra. A freshman IELTS/TOEFL minimum, section thresholds and exemption rules were not established by the inspected programme and regional admission sources. B2 language advice from exchange guides is not treated as a freshman requirement.",
+          "ru": "Business Administration преподаётся на английском в Bellaterra. Вступительные минимумы IELTS/TOEFL, секции и освобождения для первокурсников не установлены по проверенным страницам программы и регионального приёма. Рекомендации B2 из руководств обмена не считаются требованиями первокурсников."
+        }
+      },
+      "academic": {
+        "sat": {
+          "policy": null,
+          "note": {
+            "en": "The Catalan admissions authority distinguishes EU/reciprocal-agreement and IB/European Baccalaureate qualifications from other foreign school systems. For the ordinary June route with a non-EU qualification outside an agreement, recognise the school diploma as Spanish Bachillerato and pass PAU/EBAU or the specified UNEDasiss PCE combination; use the Catalan pre-enrolment portal. September alternatives have lower allocation priority. UAB’s linked “non-EU university students” page also discusses university-study validation: that is not the freshman route used here. SAT/ACT substitution and the 2027 calendar are not confirmed.",
+            "ru": "Каталонская служба приёма различает квалификации ЕС/соглашений, IB/European Baccalaureate и остальные школьные системы. Для обычного июньского конкурса с квалификацией вне ЕС без соглашения нужны признание диплома как испанского Bachillerato и PAU/EBAU либо установленная комбинация UNEDasiss PCE; подача через каталонский портал. Сентябрьские альтернативы имеют меньший приоритет распределения мест. Страница UAB «non-EU university students» также описывает зачёт университетского обучения: это не используемый здесь маршрут первокурсника. Замена на SAT/ACT и календарь 2027 не подтверждены."
+          }
+        },
+        "act": {
+          "policy": null,
+          "note": {
+            "en": "The Catalan admissions authority distinguishes EU/reciprocal-agreement and IB/European Baccalaureate qualifications from other foreign school systems. For the ordinary June route with a non-EU qualification outside an agreement, recognise the school diploma as Spanish Bachillerato and pass PAU/EBAU or the specified UNEDasiss PCE combination; use the Catalan pre-enrolment portal. September alternatives have lower allocation priority. UAB’s linked “non-EU university students” page also discusses university-study validation: that is not the freshman route used here. SAT/ACT substitution and the 2027 calendar are not confirmed.",
+            "ru": "Каталонская служба приёма различает квалификации ЕС/соглашений, IB/European Baccalaureate и остальные школьные системы. Для обычного июньского конкурса с квалификацией вне ЕС без соглашения нужны признание диплома как испанского Bachillerato и PAU/EBAU либо установленная комбинация UNEDasiss PCE; подача через каталонский портал. Сентябрьские альтернативы имеют меньший приоритет распределения мест. Страница UAB «non-EU university students» также описывает зачёт университетского обучения: это не используемый здесь маршрут первокурсника. Замена на SAT/ACT и календарь 2027 не подтверждены."
+          }
+        },
+        "otherTests": {
+          "en": "The Catalan admissions authority distinguishes EU/reciprocal-agreement and IB/European Baccalaureate qualifications from other foreign school systems. For the ordinary June route with a non-EU qualification outside an agreement, recognise the school diploma as Spanish Bachillerato and pass PAU/EBAU or the specified UNEDasiss PCE combination; use the Catalan pre-enrolment portal. September alternatives have lower allocation priority. UAB’s linked “non-EU university students” page also discusses university-study validation: that is not the freshman route used here. SAT/ACT substitution and the 2027 calendar are not confirmed.",
+          "ru": "Каталонская служба приёма различает квалификации ЕС/соглашений, IB/European Baccalaureate и остальные школьные системы. Для обычного июньского конкурса с квалификацией вне ЕС без соглашения нужны признание диплома как испанского Bachillerato и PAU/EBAU либо установленная комбинация UNEDasiss PCE; подача через каталонский портал. Сентябрьские альтернативы имеют меньший приоритет распределения мест. Страница UAB «non-EU university students» также описывает зачёт университетского обучения: это не используемый здесь маршрут первокурсника. Замена на SAT/ACT и календарь 2027 не подтверждены."
+        },
+        "internationalQualifications": {
+          "en": "The Catalan admissions authority distinguishes EU/reciprocal-agreement and IB/European Baccalaureate qualifications from other foreign school systems. For the ordinary June route with a non-EU qualification outside an agreement, recognise the school diploma as Spanish Bachillerato and pass PAU/EBAU or the specified UNEDasiss PCE combination; use the Catalan pre-enrolment portal. September alternatives have lower allocation priority. UAB’s linked “non-EU university students” page also discusses university-study validation: that is not the freshman route used here. SAT/ACT substitution and the 2027 calendar are not confirmed.",
+          "ru": "Каталонская служба приёма различает квалификации ЕС/соглашений, IB/European Baccalaureate и остальные школьные системы. Для обычного июньского конкурса с квалификацией вне ЕС без соглашения нужны признание диплома как испанского Bachillerato и PAU/EBAU либо установленная комбинация UNEDasiss PCE; подача через каталонский портал. Сентябрьские альтернативы имеют меньший приоритет распределения мест. Страница UAB «non-EU university students» также описывает зачёт университетского обучения: это не используемый здесь маршрут первокурсника. Замена на SAT/ACT и календарь 2027 не подтверждены."
+        }
+      },
+      "costs": {
+        "currency": "EUR",
+        "academicYear": {
+          "en": "Year and international fee category not stated",
+          "ru": "Год и международная тарифная категория не указаны"
+        },
+        "status": "not-published",
+        "breakdown": null,
+        "headline": {
+          "en": "The programme page displays €17.69 per credit without a fee year or a confirmed non-EU category. It is retained only as an undated per-credit reference, not multiplied into 2027/28 annual tuition or a full budget.",
+          "ru": "Страница программы показывает €17,69 за кредит без года и подтверждённой категории вне ЕС. Сумма сохранена только как справка за кредит без года, не умножается в годовую плату 2027/28 или полный бюджет."
+        },
+        "items": [],
+        "billedSubtotal": null,
+        "totalText": null,
+        "note": {
+          "en": "A full annual living-cost budget, 2027/28 scholarship entitlement and unlisted programme requirements have not been established. Competitive or unconfirmed assistance is not deducted.",
+          "ru": "Полный годовой бюджет с проживанием, право на стипендии 2027/28 и требования других программ не установлены. Конкурсная и неподтверждённая помощь не вычитается."
+        },
+        "source": "https://www.uab.cat/web/estudiar/ehea-degrees/general-information/x-1216708259085.html?param1=1299656909532",
+        "verified": "2026-11-22"
+      },
+      "fundingNote": {
+        "en": "A full annual living-cost budget, 2027/28 scholarship entitlement and unlisted programme requirements have not been established. Competitive or unconfirmed assistance is not deducted.",
+        "ru": "Полный годовой бюджет с проживанием, право на стипендии 2027/28 и требования других программ не установлены. Конкурсная и неподтверждённая помощь не вычитается."
+      },
+      "sources": [
+        {
+          "label": {
+            "en": "Programme, language and Bellaterra campus",
+            "ru": "Программа, язык и кампус Bellaterra"
+          },
+          "url": "https://www.uab.cat/web/estudiar/ehea-degrees/general-information/x-1216708259085.html?param1=1299656909532"
+        },
+        {
+          "label": {
+            "en": "Official regional degree register",
+            "ru": "Официальный региональный реестр программы"
+          },
+          "url": "https://universitats.gencat.cat/en/detalls/oferta/2068-Administracion-y-Direccion-de-Empresas-docencia-en-Ingles"
+        },
+        {
+          "label": {
+            "en": "Foreign school qualification admission routes",
+            "ru": "Маршруты приёма с иностранной школьной квалификацией"
+          },
+          "url": "https://studyincatalonia.gencat.cat/en/plan-your-studies/accreditations-recognitions"
+        },
+        {
+          "label": {
+            "en": "UAB validation route, distinct from freshman regional route",
+            "ru": "Маршрут зачёта UAB, отдельно от регионального приёма первокурсников"
+          },
+          "url": "https://www.uab.cat/web/studies/undergraduate/admission/non-eu-university-students-1345666835554.html"
+        }
+      ],
+      "gaps": [
+        {
+          "en": "2027/28 dates and non-EU tuition, freshman language minima and waivers, SAT/ACT equivalence, scholarships and living budget. Historical cut-off marks are not entry guarantees.",
+          "ru": "Даты и тариф вне ЕС 2027/28, вступительные языковые минимумы и освобождения, эквивалентность SAT/ACT, стипендии и проживание. Исторические проходные баллы не гарантируют приём."
+        }
+      ],
+      "route": {
+        "id": "autonomous-university-of-barcelona-english",
+        "label": {
+          "en": "Bachelor in Business Administration — English, Bellaterra Faculty of Economics and Business Studies, four years and 240 ECTS.",
+          "ru": "Bachelor in Business Administration — английский, Faculty of Economics and Business Studies в Bellaterra, четыре года и 240 ECTS."
+        },
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [
+          "business"
+        ],
+        "applicability": {
+          "label": {
+            "en": "Current programme rules; intake year not stated unless explicitly identified below",
+            "ru": "Действующие правила программы; год набора не указан, если ниже не отмечено иное"
+          },
+          "entryYears": [],
+          "status": "year-not-stated"
+        },
+        "english": {
+          "requirement": "unknown",
+          "note": {
+            "en": "The Business Administration degree is taught in English at Bellaterra. A freshman IELTS/TOEFL minimum, section thresholds and exemption rules were not established by the inspected programme and regional admission sources. B2 language advice from exchange guides is not treated as a freshman requirement.",
+            "ru": "Business Administration преподаётся на английском в Bellaterra. Вступительные минимумы IELTS/TOEFL, секции и освобождения для первокурсников не установлены по проверенным страницам программы и регионального приёма. Рекомендации B2 из руководств обмена не считаются требованиями первокурсников."
+          },
+          "waiver": {
+            "en": "The Business Administration degree is taught in English at Bellaterra. A freshman IELTS/TOEFL minimum, section thresholds and exemption rules were not established by the inspected programme and regional admission sources. B2 language advice from exchange guides is not treated as a freshman requirement.",
+            "ru": "Business Administration преподаётся на английском в Bellaterra. Вступительные минимумы IELTS/TOEFL, секции и освобождения для первокурсников не установлены по проверенным страницам программы и регионального приёма. Рекомендации B2 из руководств обмена не считаются требованиями первокурсников."
+          },
+          "ielts": {
+            "accepted": null,
+            "variant": "IELTS; variant not stated in this source",
+            "min": null,
+            "sections": {},
+            "role": "admission"
+          }
+        },
+        "academic": {
+          "satPolicy": null,
+          "entryRequirements": {
+            "en": "The Catalan admissions authority distinguishes EU/reciprocal-agreement and IB/European Baccalaureate qualifications from other foreign school systems. For the ordinary June route with a non-EU qualification outside an agreement, recognise the school diploma as Spanish Bachillerato and pass PAU/EBAU or the specified UNEDasiss PCE combination; use the Catalan pre-enrolment portal. September alternatives have lower allocation priority. UAB’s linked “non-EU university students” page also discusses university-study validation: that is not the freshman route used here. SAT/ACT substitution and the 2027 calendar are not confirmed.",
+            "ru": "Каталонская служба приёма различает квалификации ЕС/соглашений, IB/European Baccalaureate и остальные школьные системы. Для обычного июньского конкурса с квалификацией вне ЕС без соглашения нужны признание диплома как испанского Bachillerato и PAU/EBAU либо установленная комбинация UNEDasiss PCE; подача через каталонский портал. Сентябрьские альтернативы имеют меньший приоритет распределения мест. Страница UAB «non-EU university students» также описывает зачёт университетского обучения: это не используемый здесь маршрут первокурсника. Замена на SAT/ACT и календарь 2027 не подтверждены."
+          },
+          "note": {
+            "en": "The Catalan admissions authority distinguishes EU/reciprocal-agreement and IB/European Baccalaureate qualifications from other foreign school systems. For the ordinary June route with a non-EU qualification outside an agreement, recognise the school diploma as Spanish Bachillerato and pass PAU/EBAU or the specified UNEDasiss PCE combination; use the Catalan pre-enrolment portal. September alternatives have lower allocation priority. UAB’s linked “non-EU university students” page also discusses university-study validation: that is not the freshman route used here. SAT/ACT substitution and the 2027 calendar are not confirmed.",
+            "ru": "Каталонская служба приёма различает квалификации ЕС/соглашений, IB/European Baccalaureate и остальные школьные системы. Для обычного июньского конкурса с квалификацией вне ЕС без соглашения нужны признание диплома как испанского Bachillerato и PAU/EBAU либо установленная комбинация UNEDasiss PCE; подача через каталонский портал. Сентябрьские альтернативы имеют меньший приоритет распределения мест. Страница UAB «non-EU university students» также описывает зачёт университетского обучения: это не используемый здесь маршрут первокурсника. Замена на SAT/ACT и календарь 2027 не подтверждены."
+          }
+        },
+        "localLanguage": [],
+        "documents": [
+          {
+            "en": "The Catalan admissions authority distinguishes EU/reciprocal-agreement and IB/European Baccalaureate qualifications from other foreign school systems. For the ordinary June route with a non-EU qualification outside an agreement, recognise the school diploma as Spanish Bachillerato and pass PAU/EBAU or the specified UNEDasiss PCE combination; use the Catalan pre-enrolment portal. September alternatives have lower allocation priority. UAB’s linked “non-EU university students” page also discusses university-study validation: that is not the freshman route used here. SAT/ACT substitution and the 2027 calendar are not confirmed.",
+            "ru": "Каталонская служба приёма различает квалификации ЕС/соглашений, IB/European Baccalaureate и остальные школьные системы. Для обычного июньского конкурса с квалификацией вне ЕС без соглашения нужны признание диплома как испанского Bachillerato и PAU/EBAU либо установленная комбинация UNEDasiss PCE; подача через каталонский портал. Сентябрьские альтернативы имеют меньший приоритет распределения мест. Страница UAB «non-EU university students» также описывает зачёт университетского обучения: это не используемый здесь маршрут первокурсника. Замена на SAT/ACT и календарь 2027 не подтверждены."
+          }
+        ],
+        "sources": [
+          {
+            "label": {
+              "en": "Programme, language and Bellaterra campus",
+              "ru": "Программа, язык и кампус Bellaterra"
+            },
+            "url": "https://www.uab.cat/web/estudiar/ehea-degrees/general-information/x-1216708259085.html?param1=1299656909532",
+            "verified": "2026-11-22"
+          },
+          {
+            "label": {
+              "en": "Official regional degree register",
+              "ru": "Официальный региональный реестр программы"
+            },
+            "url": "https://universitats.gencat.cat/en/detalls/oferta/2068-Administracion-y-Direccion-de-Empresas-docencia-en-Ingles",
+            "verified": "2026-11-22"
+          },
+          {
+            "label": {
+              "en": "Foreign school qualification admission routes",
+              "ru": "Маршруты приёма с иностранной школьной квалификацией"
+            },
+            "url": "https://studyincatalonia.gencat.cat/en/plan-your-studies/accreditations-recognitions",
+            "verified": "2026-11-22"
+          },
+          {
+            "label": {
+              "en": "UAB validation route, distinct from freshman regional route",
+              "ru": "Маршрут зачёта UAB, отдельно от регионального приёма первокурсников"
+            },
+            "url": "https://www.uab.cat/web/studies/undergraduate/admission/non-eu-university-students-1345666835554.html",
+            "verified": "2026-11-22"
+          }
+        ]
+      }
+    }
+  ]
+}

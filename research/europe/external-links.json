@@ -1,0 +1,407 @@
+{
+  "verified": "2026-11-22",
+  "scope": "Only new Europe programme/source/navigation URLs; HTTP availability is separate from content verification",
+  "rows": [
+    {
+      "url": "https://accesuniversitat.gencat.cat/",
+      "status": 200,
+      "finalURL": "https://accesuniversitat.gencat.cat/accesuniversitat/index.html",
+      "redirect": true,
+      "type": "text/html; charset=UTF-8",
+      "title": "Accés universitat",
+      "seconds": 2.88
+    },
+    {
+      "url": "https://apply.epita.net/",
+      "status": 200,
+      "finalURL": "https://apply.epita.net/login",
+      "redirect": true,
+      "type": "text/html; charset=UTF-8",
+      "title": "Log in!",
+      "seconds": 1.66
+    },
+    {
+      "url": "https://apply.unibocconi.it/",
+      "status": 200,
+      "finalURL": "https://apply.unibocconi.it/",
+      "redirect": false,
+      "type": "text/html; charset=UTF-8",
+      "title": "Apply online! - Bocconi University",
+      "seconds": 1.28
+    },
+    {
+      "url": "https://candidatures.polytechnique.fr/",
+      "status": null,
+      "category": "network-error",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "url": "https://corsi.unibo.it/1cycle/EconomicsFinance/how-to-enrol",
+      "status": 200,
+      "finalURL": "https://corsi.unibo.it/1cycle/EconomicsFinance/how-to-enrol",
+      "redirect": false,
+      "type": "text/html;charset=utf-8",
+      "title": "Programme enrolment: requirements, deadlines and methods — Economics and Finance - Laurea - Bologna",
+      "seconds": 3.17
+    },
+    {
+      "url": "https://corsi.unibo.it/1cycle/EconomicsFinance/overview",
+      "status": 200,
+      "finalURL": "https://corsi.unibo.it/1cycle/EconomicsFinance/overview",
+      "redirect": false,
+      "type": "text/html;charset=utf-8",
+      "title": "Overview — Economics and Finance - Laurea - Bologna",
+      "seconds": 0.89
+    },
+    {
+      "url": "https://essec.edu/en/program/global-bba-international/",
+      "status": 200,
+      "finalURL": "https://essec.edu/en/program/global-bba-international/",
+      "redirect": false,
+      "type": "text/html; charset=utf-8",
+      "title": "ESSEC Global BBA: Apply with an International Diploma || ESSEC",
+      "seconds": 0.83
+    },
+    {
+      "url": "https://essec.my.site.com/Admission/s/available-programs?code=GBBA&lang=en&language=en_US",
+      "status": null,
+      "category": "network-error",
+      "error": "<urlopen error [Errno 11002] getaddrinfo failed>"
+    },
+    {
+      "url": "https://programmes.polytechnique.edu/en/bachelor/about-the-bachelor/bachelor-of-science",
+      "status": 200,
+      "finalURL": "https://programmes.polytechnique.edu/en/bachelor/about-the-bachelor/bachelor-of-science",
+      "redirect": false,
+      "type": "text/html; charset=UTF-8",
+      "title": "Bachelor of Science",
+      "seconds": 0.8
+    },
+    {
+      "url": "https://programmes.polytechnique.edu/en/bachelor/admissions/admissions-criteria-and-procedure",
+      "status": 200,
+      "finalURL": "https://programmes.polytechnique.edu/en/bachelor/admissions/admissions-criteria-and-procedure",
+      "redirect": false,
+      "type": "text/html; charset=UTF-8",
+      "title": "Admissions Criteria and Procedures",
+      "seconds": 0.78
+    },
+    {
+      "url": "https://studenti.unibo.it/",
+      "status": 200,
+      "finalURL": "https://studenti.unibo.it/sol/welcome.htm",
+      "redirect": true,
+      "type": "text/html;charset=UTF-8",
+      "title": "Studenti Online",
+      "seconds": 1.03
+    },
+    {
+      "url": "https://studyincatalonia.gencat.cat/en/plan-your-studies/accreditations-recognitions",
+      "status": 200,
+      "finalURL": "https://studyincatalonia.gencat.cat/en/plan-your-studies/accreditations-recognitions",
+      "redirect": false,
+      "type": "text/html;charset=utf-8",
+      "title": "Official recognitions and validations",
+      "seconds": 0.52
+    },
+    {
+      "url": "https://universitats.gencat.cat/en/detalls/oferta/2068-Administracion-y-Direccion-de-Empresas-docencia-en-Ingles",
+      "status": 200,
+      "finalURL": "https://universitats.gencat.cat/en/detalls/oferta/2068-Administracion-y-Direccion-de-Empresas-docencia-en-Ingles",
+      "redirect": false,
+      "type": "text/html;charset=UTF-8",
+      "title": "Business Administration and Management (Taught in English). Canal Universitats",
+      "seconds": 0.72
+    },
+    {
+      "url": "https://www.epita.fr/en/",
+      "status": 200,
+      "finalURL": "https://www.epita.fr/en/",
+      "redirect": false,
+      "type": "text/html; charset=UTF-8",
+      "title": "EPITA - The Engineering school in Computer Intelligence",
+      "seconds": 0.72
+    },
+    {
+      "url": "https://www.epita.fr/en/bsc-computer-science-program-overview/",
+      "status": 200,
+      "finalURL": "https://www.epita.fr/en/bsc-computer-science-program-overview/",
+      "redirect": false,
+      "type": "text/html; charset=UTF-8",
+      "title": "Bachelor of Science in Computer Science by EPITA school",
+      "seconds": 0.53
+    },
+    {
+      "url": "https://www.epita.fr/en/bsc-computer-science-program-overview/#admission-criteria",
+      "status": 200,
+      "finalURL": "https://www.epita.fr/en/bsc-computer-science-program-overview/#admission-criteria",
+      "redirect": false,
+      "type": "text/html; charset=UTF-8",
+      "title": "Bachelor of Science in Computer Science by EPITA school",
+      "seconds": 0.47
+    },
+    {
+      "url": "https://www.epita.fr/en/campus/campus-life/",
+      "status": 200,
+      "finalURL": "https://www.epita.fr/en/campus/campus-life/",
+      "redirect": false,
+      "type": "text/html; charset=UTF-8",
+      "title": "EPITA&#039;s Campus life in Paris - Computer Engineering School",
+      "seconds": 0.62
+    },
+    {
+      "url": "https://www.epita.fr/en/fees-and-funding/",
+      "status": 200,
+      "finalURL": "https://www.epita.fr/en/fees-and-funding/",
+      "redirect": false,
+      "type": "text/html; charset=UTF-8",
+      "title": "EPITA Tuition Fees, Academic Costs, and Financing Options",
+      "seconds": 0.58
+    },
+    {
+      "url": "https://www.essec.edu/",
+      "status": 200,
+      "finalURL": "https://www.essec.edu/fr/",
+      "redirect": true,
+      "type": "text/html; charset=utf-8",
+      "title": "Accueil || ESSEC Business School",
+      "seconds": 1.11
+    },
+    {
+      "url": "https://www.ie.edu/university/",
+      "status": 200,
+      "finalURL": "https://www.ie.edu/university/",
+      "redirect": false,
+      "type": "text/html",
+      "title": null,
+      "seconds": 2.25
+    },
+    {
+      "url": "https://www.ie.edu/university/admission/access-to-university/freshmen-students/",
+      "status": 200,
+      "finalURL": "https://www.ie.edu/university/admission/access-to-university/freshmen-students/",
+      "redirect": false,
+      "type": "text/html",
+      "title": null,
+      "seconds": 1.98
+    },
+    {
+      "url": "https://www.ie.edu/university/admission/admission-process/",
+      "status": 200,
+      "finalURL": "https://www.ie.edu/university/admission/admission-process/",
+      "redirect": false,
+      "type": "text/html",
+      "title": null,
+      "seconds": 0.8
+    },
+    {
+      "url": "https://www.ie.edu/university/admission/admission-process/admissions-rounds/",
+      "status": 200,
+      "finalURL": "https://www.ie.edu/university/admission/admission-process/admissions-rounds/",
+      "redirect": false,
+      "type": "text/html",
+      "title": null,
+      "seconds": 0.72
+    },
+    {
+      "url": "https://www.ie.edu/university/admission/admission-process/admissions-test/",
+      "status": 200,
+      "finalURL": "https://www.ie.edu/university/admission/admission-process/admissions-test/",
+      "redirect": false,
+      "type": "text/html",
+      "title": null,
+      "seconds": 0.78
+    },
+    {
+      "url": "https://www.ie.edu/university/studies/academic-programs/bachelor-computer-science-artificial-intelligence/",
+      "status": 200,
+      "finalURL": "https://www.ie.edu/university/studies/academic-programs/bachelor-computer-science-artificial-intelligence/",
+      "redirect": false,
+      "type": "text/html",
+      "title": null,
+      "seconds": 0.75
+    },
+    {
+      "url": "https://www.ie.edu/university/studies/academic-programs/bachelor-computer-science-artificial-intelligence/admissions-fees/",
+      "status": 200,
+      "finalURL": "https://www.ie.edu/university/studies/academic-programs/bachelor-computer-science-artificial-intelligence/admissions-fees/",
+      "redirect": false,
+      "type": "text/html",
+      "title": null,
+      "seconds": 0.73
+    },
+    {
+      "url": "https://www.polytechnique.edu/en",
+      "status": null,
+      "category": "network-error",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "url": "https://www.polytechnique.edu/en/contact",
+      "status": null,
+      "category": "network-error",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "url": "https://www.uab.cat/",
+      "status": 200,
+      "finalURL": "https://www.uab.cat/",
+      "redirect": false,
+      "type": "text/html",
+      "title": "Universitat Autònoma de Barcelona - UAB Barcelona",
+      "seconds": 1.14
+    },
+    {
+      "url": "https://www.uab.cat/web/estudiar/ehea-degrees/general-information/x-1216708259085.html?param1=1299656909532",
+      "status": 200,
+      "finalURL": "https://www.uab.cat/web/estudiar/ehea-degrees/general-information/x-1216708259085.html?param1=1299656909532",
+      "redirect": false,
+      "type": "text/html; charset=UTF-8",
+      "title": "Bachelor's Degree in Business Administration - English  - UAB Barcelona",
+      "seconds": 0.92
+    },
+    {
+      "url": "https://www.uab.cat/web/studies/undergraduate/admission/non-eu-university-students-1345666835554.html",
+      "status": 200,
+      "finalURL": "https://www.uab.cat/web/studies/undergraduate/admission/non-eu-university-students-1345666835554.html",
+      "redirect": false,
+      "type": "text/html; charset=UTF-8",
+      "title": "Non-EU university students - Universitat Autònoma de Barcelona - UAB Barcelona",
+      "seconds": 0.78
+    },
+    {
+      "url": "https://www.uc3m.es/Home",
+      "status": 200,
+      "finalURL": "https://www.uc3m.es/Home",
+      "redirect": false,
+      "type": "text/html; charset=UTF-8",
+      "title": "Home | UC3M",
+      "seconds": 1.36
+    },
+    {
+      "url": "https://www.uc3m.es/bachelor-degree/admission/application/enrollment/prices/non-eu",
+      "status": 200,
+      "finalURL": "https://www.uc3m.es/bachelor-degree/admission/application/enrollment/prices/non-eu",
+      "redirect": false,
+      "type": "text/html; charset=UTF-8",
+      "title": "Fees for non European Union students | UC3M",
+      "seconds": 1.17
+    },
+    {
+      "url": "https://www.uc3m.es/bachelor-degree/admission/application/international-students",
+      "status": 200,
+      "finalURL": "https://www.uc3m.es/bachelor-degree/admission/application/international-students",
+      "redirect": false,
+      "type": "text/html; charset=UTF-8",
+      "title": "International students | UC3M",
+      "seconds": 1.0
+    },
+    {
+      "url": "https://www.uc3m.es/bachelor-degree/admission/application/international-students/non-european",
+      "status": 200,
+      "finalURL": "https://www.uc3m.es/bachelor-degree/admission/application/international-students/non-european",
+      "redirect": false,
+      "type": "text/html; charset=UTF-8",
+      "title": "General pre-enrollment for non european students | UC3M",
+      "seconds": 0.95
+    },
+    {
+      "url": "https://www.uc3m.es/bachelor-degree/data-science",
+      "status": 200,
+      "finalURL": "https://www.uc3m.es/bachelor-degree/data-science",
+      "redirect": false,
+      "type": "text/html; charset=UTF-8",
+      "title": "Bachelor in Data Science and Engineering | UC3M",
+      "seconds": 1.53
+    },
+    {
+      "url": "https://www.uc3m.es/bachelor-degree/language/level-required",
+      "status": 200,
+      "finalURL": "https://www.uc3m.es/bachelor-degree/language/level-required",
+      "redirect": false,
+      "type": "text/html; charset=UTF-8",
+      "title": "Level required for studies in English | UC3M",
+      "seconds": 0.94
+    },
+    {
+      "url": "https://www.unibo.it/en",
+      "status": 200,
+      "finalURL": "https://www.unibo.it/en",
+      "redirect": false,
+      "type": "text/html;charset=utf-8",
+      "title": "University of Bologna",
+      "seconds": 1.08
+    },
+    {
+      "url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions/fees-and-exemptions-amounts-deadlines",
+      "status": 200,
+      "finalURL": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions/fees-and-exemptions-amounts-deadlines",
+      "redirect": false,
+      "type": "text/html;charset=utf-8",
+      "title": "Fees and exemptions: amounts and deadlines — University of Bologna",
+      "seconds": 1.78
+    },
+    {
+      "url": "https://www.unibocconi.it/en/",
+      "status": 200,
+      "finalURL": "https://www.unibocconi.it/en",
+      "redirect": true,
+      "type": "text/html; charset=utf-8",
+      "title": "Bocconi University",
+      "seconds": 1.62
+    },
+    {
+      "url": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/admissions",
+      "status": 200,
+      "finalURL": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/admissions",
+      "redirect": false,
+      "type": "text/html; charset=utf-8",
+      "title": "Admissions | Bocconi University",
+      "seconds": 1.27
+    },
+    {
+      "url": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/english-certificates-accepted-enrollment",
+      "status": 200,
+      "finalURL": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/english-certificates-accepted-enrollment",
+      "redirect": false,
+      "type": "text/html; charset=utf-8",
+      "title": "English certificates accepted for enrollment | Bocconi University",
+      "seconds": 0.75
+    },
+    {
+      "url": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/results-and-enrollment-2728-ay",
+      "status": 200,
+      "finalURL": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/results-and-enrollment-2728-ay",
+      "redirect": false,
+      "type": "text/html; charset=utf-8",
+      "title": "Results and Enrollment 27/28 a.y. | Bocconi University",
+      "seconds": 0.97
+    },
+    {
+      "url": "https://www.unibocconi.it/en/programs/bachelor-science/management",
+      "status": 200,
+      "finalURL": "https://www.unibocconi.it/en/programs/bachelor-science/management",
+      "redirect": false,
+      "type": "text/html; charset=utf-8",
+      "title": "Management | Bocconi University",
+      "seconds": 1.12
+    },
+    {
+      "url": "https://www.unibocconi.it/sites/default/files/Tuition%20and%20fees%20undergraduate_1.pdf",
+      "status": 200,
+      "finalURL": "https://www.unibocconi.it/sites/default/files/Tuition%20and%20fees%20undergraduate_1.pdf",
+      "redirect": false,
+      "type": "application/pdf",
+      "title": null,
+      "seconds": 0.84
+    }
+  ],
+  "counts": {
+    "total": 45,
+    "working": 41,
+    "redirects": 5,
+    "blocked": 0,
+    "notFound": 0,
+    "other": 4
+  }
+}

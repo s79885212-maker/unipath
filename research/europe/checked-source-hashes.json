@@ -1,0 +1,15 @@
+{
+  "index.html": "c245dc5b49be71b8e12c54421e754fa12df36d406ea69f734afa09ccacb59647",
+  "assets/js/app.js": "6be944da82a5fe51b895132eb3748e6557f6e8446f63758076f54f3ff4856f24",
+  "tools/europe_batch.py": "0c31756e56232e1f2c10648458adb34d09a0e92f08605d60e91f3288517f6581",
+  "build-artifact.py": "48e8f915997757afc71d6e1b2d1e988d8170d856bd1ffdfca233ce5e73db9750",
+  "tools/prerender.py": "e348e2e2a2a42715bbefcfe92dffe5eb905fc47d5da5dbff2bb2eb03a569d631",
+  "data/country.it.js": "97e68762bbaabf0c7d74b4fdcda1e5504e3100ac8e076d997432a682648a2893",
+  "data/country.fr.js": "9fea4999c66e587c0d12a80ce817bb2fdec27e851613a8952b07329278b77677",
+  "data/country.es.js": "dc5d3c14c90759e25afb7376bb2589bd4bf47108848dd0c34023828e69b3709b",
+  "data/universities.it.js": "4ad837ad0e896782868bef9d22f1eb61806b815dcd1cea3232b779e8107d5e3a",
+  "data/universities.fr.js": "d70b13d3ea81047ef1e8c30b1b995ae5982ca047626b235cd211543e1570f8b2",
+  "data/universities.es.js": "b58a1d7e99fc0bee7276cd51cc8ed338236fb1823f5d777f64aa526b299ecad4",
+  "data/match.js": "cecc4e4b2a1301d38fc093b39d1d8ada1dd91f77106eacf72e95aa55723a9fe8",
+  "data/i18n/ru.js": "b639a95c51587f20c2c428f7d848566bb2a5605f69c2e107d7c9134b46f55c61"
+}

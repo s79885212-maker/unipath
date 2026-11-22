@@ -1,0 +1,17 @@
+{
+  "dev": "f064ff8776ff8fa4f6839acdf25dc9dda6b6be30",
+  "main": "129c5b96a4562455919a1fc5f18bb7ef1044123f",
+  "PR31": {
+    "state": "closed",
+    "merged": true,
+    "base": "dev",
+    "mergeSHA": "f064ff8776ff8fa4f6839acdf25dc9dda6b6be30"
+  },
+  "openPRs": [
+    {
+      "number": 1,
+      "head": "codex/budget-grant-filters",
+      "base": "dev"
+    }
+  ]
+}
