@@ -291,7 +291,7 @@ window.UNIPATH.universities.push(
     "website": "https://www.essec.edu/",
     "admissions": "https://essec.edu/en/program/global-bba-international/",
     "internationalAdmissions": "https://essec.edu/en/program/global-bba-international/",
-    "applicationPortal": "https://essec.my.site.com/",
+    "applicationPortal": "https://essec.my.site.com/Admission/s/available-programs?code=GBBA&lang=en&language=en_US",
     "scholarships": null,
     "financialAid": null,
     "programs": "https://essec.edu/en/program/global-bba-international/",

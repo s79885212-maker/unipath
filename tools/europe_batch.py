@@ -47,5 +47,6 @@ p=ROOT/'data/match.js'
 s=p.read_text(encoding='utf8').split('\n/* EUROPE STARTER COSTS */')[0]
 s+='\n/* EUROPE STARTER COSTS */\nObject.assign(window.UNIPATH.match.annualCost, '+json.dumps(annual,ensure_ascii=False,indent=2)+');\n'
 p.write_text(s,encoding='utf8')
+L('Institution type not confirmed','Тип учреждения не подтверждён')
 flush()
 print({k:len(v) for k,v in manifest.items()})

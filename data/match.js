@@ -431,6 +431,15 @@ window.UNIPATH.match = {
 
 /* EUROPE STARTER COSTS */
 Object.assign(window.UNIPATH.match.annualCost, {
+  "ie-university": {
+    "min": 27300,
+    "max": 27300,
+    "currency": "EUR",
+    "basis": "tuition",
+    "year": "2027–2028",
+    "source": "https://www.ie.edu/university/studies/academic-programs/bachelor-computer-science-artificial-intelligence/admissions-fees/",
+    "verified": "2026-11-22"
+  },
   "essec-business-school": {
     "min": 20900,
     "max": 20900,

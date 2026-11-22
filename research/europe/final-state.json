@@ -1,0 +1,32 @@
+{
+  "phase": "Before Spain push; published branches intentionally unchanged",
+  "main": "129c5b96a4562455919a1fc5f18bb7ef1044123f",
+  "dev": "f064ff8776ff8fa4f6839acdf25dc9dda6b6be30",
+  "PR31": {
+    "state": "closed",
+    "merged": true,
+    "base": "dev"
+  },
+  "PR32": {
+    "url": "https://github.com/s79885212-maker/unipath/pull/32",
+    "head": "b3d0600b097da9a12788723e1808e0ba925ba5e3",
+    "draft": true,
+    "merged": false,
+    "base": "dev"
+  },
+  "checks": [],
+  "production": {
+    "url": "https://s79885212-maker.github.io/unipath/",
+    "versions": [
+      "268"
+    ],
+    "status": 200
+  },
+  "staging": {
+    "url": "https://s79885212-maker.github.io/unipath/staging/",
+    "versions": [
+      "269"
+    ],
+    "status": 200
+  }
+}

@@ -213,9 +213,11 @@
     'community-college': 'Community college',
     'liberal-arts': 'Liberal arts college',
     'public': 'Public university',
-    'private': 'Private university'
+    'private': 'Private university',
+    'unknown': 'Institution type not confirmed'
   };
   function institutionKind(u) {
+    if (Object.prototype.hasOwnProperty.call(u, 'institutionKind') && u.institutionKind === null) return 'unknown';
     if (u.institutionKind && INSTITUTION_KINDS[u.institutionKind]) return u.institutionKind;
     var t = String(u.type || '');
     if (/community college/i.test(t)) return 'community-college';
