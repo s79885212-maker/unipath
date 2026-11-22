@@ -22,8 +22,8 @@ module.exports=function(env){
   ok(base.size===370 && registry.baselineIds.every(function(id){return !!U.uniById(id);}),
      'USA +50 preserves every original institution, including all 370 baseline IDs');
   ok(targets.length===50 && allowed.size===50 && fresh.length===50 &&
-     fresh.every(function(u){return u.country==='us'&&!base.has(u.id);}) && DB.countries.length===6,
-     'USA +50 preserves its 50 approved new IDs and keeps six countries');
+     fresh.every(function(u){return u.country==='us'&&!base.has(u.id);}) && ['us','ca','uk','de','jp','kr'].every(function(c){return DB.countries.some(function(x){return x.code===c;});}),
+     'USA +50 preserves its 50 approved new IDs and preserves the original six countries');
   var getterman=U.uniById('baylor-university'),ga=getterman.scholarships.fullRide;
   ok(ga.id==='baylor-getterman'&&ga.internationalEligible===true&&ga.renewable===true&&
      ga.covers.housing===true&&ga.covers.books===null&&ga.covers.insurance===null&&

@@ -428,3 +428,16 @@ window.UNIPATH.match = {
     'frankfurt-school':        { currency: 'EUR', basis: 'total', min: 39120, max: 39120 }
   }
 };
+
+/* EUROPE STARTER COSTS */
+Object.assign(window.UNIPATH.match.annualCost, {
+  "bocconi-university": {
+    "min": 17700,
+    "max": 17700,
+    "currency": "EUR",
+    "basis": "tuition",
+    "year": "2027–2028",
+    "source": "https://www.unibocconi.it/sites/default/files/Tuition%20and%20fees%20undergraduate_1.pdf",
+    "verified": "2026-11-22"
+  }
+});
