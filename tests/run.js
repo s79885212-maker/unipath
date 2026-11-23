@@ -1059,6 +1059,16 @@ require('./compare-mobile')({U:U, ok:ok, global:sandbox});
 require('./six-country-audit')({U:U, DB:DB, M:M, ok:ok});
 require('./admission-requirements')({U:U, DB:DB, M:M, ok:ok, global:sandbox});
 
+/* Country cards: the whole card is one link. The press effect of .btn
+   (transform) must not reach the cover link, or the overlay shrinks to the
+   button and a click on the card body is lost between mousedown and mouseup. */
+(function () {
+  var css = fs.readFileSync(path.join(ROOT, 'assets/css/styles.css'), 'utf8').replace(/\/\*[\s\S]*?\*\//g, '');
+  var guard = /\.card \.btn\.card-cover-link,\s*\.card \.btn\.card-cover-link:hover,\s*\.card \.btn\.card-cover-link:active\s*\{\s*transform:\s*none;/;
+  ok(guard.test(css) && /\.card-cover-link::after\s*\{[^}]*position:\s*absolute;[^}]*inset:\s*0;/.test(css),
+    'Country card cover link keeps its full-card overlay while pressed');
+})();
+
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 
 /* Exit with a status only when run directly; tests/links.js loads this file for the data. */
