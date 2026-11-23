@@ -10,7 +10,7 @@ for p in (root/'research/europe').glob('country-*.json'):
 def check(url):
  t=time.monotonic()
  try:
-  req=urllib.request.Request(url,headers={'User-Agent':'UniPath source-link verification; standard HTTP client'})
+  req=urllib.request.Request(url,headers={'User-Agent':'UniAtlas source-link verification; standard HTTP client'})
   with urllib.request.urlopen(req,timeout=18) as r:
    content=r.read(262144);title=re.search(rb'<title[^>]*>(.*?)</title>',content,re.I|re.S)
    return {'url':url,'status':r.status,'finalURL':r.url,'redirect':r.url!=url,'type':r.headers.get('Content-Type'),'title':title.group(1).decode('utf8','replace').strip() if title else None,'seconds':round(time.monotonic()-t,2)}

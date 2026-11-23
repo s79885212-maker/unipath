@@ -5562,18 +5562,18 @@ window.UNIPATH.universities.push(
     ielts: {
       min: null,
       recommended: null,
-      note: 'No minimum score. The college lists an average of over 7.0. Mount Holyoke lists this as an average score without saying which students or which year it describes, so UniPath does not show it as a statistic.'
+      note: 'No minimum score. The college lists an average of over 7.0. Mount Holyoke lists this as an average score without saying which students or which year it describes, so UniAtlas does not show it as a statistic.'
     },
     toefl: {
       min: null,
       recommended: null,
       scales: [],
-      note: 'No minimum score. The college lists an average of 100, or 5.5 for tests taken on or after 21 January 2026. Mount Holyoke lists this as an average score without saying which students or which year it describes, so UniPath does not show it as a statistic.'
+      note: 'No minimum score. The college lists an average of 100, or 5.5 for tests taken on or after 21 January 2026. Mount Holyoke lists this as an average score without saying which students or which year it describes, so UniAtlas does not show it as a statistic.'
     },
     duolingo: {
       min: null,
       recommended: null,
-      note: 'No minimum score. The college lists an average of over 130. Mount Holyoke lists this as an average score without saying which students or which year it describes, so UniPath does not show it as a statistic.'
+      note: 'No minimum score. The college lists an average of over 130. Mount Holyoke lists this as an average score without saying which students or which year it describes, so UniAtlas does not show it as a statistic.'
     },
     waiver: 'Required from non-native English speakers.',
     note: 'Mount Holyoke has no minimum score except for Cambridge English (185 for C1 Advanced or C2 Proficiency); the figures shown are average scores. Scores reported inside the Common or Coalition App do not count — upload a PDF to the applicant portal; enrolling students send official results.'

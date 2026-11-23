@@ -1,5 +1,5 @@
 /* ============================================================
-   UniPath — data registry bootstrap
+   UniAtlas — data registry bootstrap
    Every data file pushes into these arrays. Load order:
      registry.js -> countries.js -> universities.*.js
    Adding a country or university NEVER requires touching the UI.

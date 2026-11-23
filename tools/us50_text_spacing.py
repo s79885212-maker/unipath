@@ -44,7 +44,7 @@ KEEP_LETTER_DIGIT = re.compile(r'(?<![A-Za-z])(?:F1|J1|M1|H1B|B1|B2|C1|C2|A1|A2|
 NUM_SUFFIX = re.compile(r'^(?:st|nd|rd|th|s|am|pm|px|k|m|x|K|M|B)(?![A-Za-z])')
 # Words in which a lower-case letter is followed by a capital on purpose.
 CAMEL_OK = {'McGill', 'McDonald', 'McNair', 'McCombs', 'MacArthur', 'DePaul', 'LaGuardia', 'iPhone', 'iPad',
-            'YouTube', 'GitHub', 'OpenStreetMap', 'PhD', 'PhDs', 'MyMajor', 'MyMajors', 'UniPath', 'eCampus',
+            'YouTube', 'GitHub', 'OpenStreetMap', 'PhD', 'PhDs', 'MyMajor', 'MyMajors', 'UniAtlas', 'eCampus',
             'edX', 'WeChat', 'LinkedIn', 'JavaScript', 'PowerPoint', 'SharePoint', 'iCloud', 'eSIM',
             'FAFSA', 'CSSProfile', 'BigFuture', 'CollegeBoard', 'InitialView', 'TOEFLiBT', 'iBT', 'MyUSF',
             'GoldLink', 'PeopleSoft', 'MyUCF', 'MyUD', 'BlueJay', 'NetPrice', 'BearWeb', 'CommonApp',

@@ -8898,7 +8898,7 @@ window.UNIPATH.admissionRequirements = {
           "accepted": null,
           "min": null
         },
-        "note": "This English-taught BA requires English at CEFR B2 or higher; German is not required. The current programme and FAQ do not publish an IELTS/TOEFL numerical equivalence or the former country/degree waiver list. Earlier UniPath listed IELTS 6.0 and TOEFL 74 from the old Berlin International page, which now redirects; these numbers are not used as current admission cutoffs. The English Preparatory School is a separate route before degree study."
+        "note": "This English-taught BA requires English at CEFR B2 or higher; German is not required. The current programme and FAQ do not publish an IELTS/TOEFL numerical equivalence or the former country/degree waiver list. Earlier UniAtlas listed IELTS 6.0 and TOEFL 74 from the old Berlin International page, which now redirects; these numbers are not used as current admission cutoffs. The English Preparatory School is a separate route before degree study."
       },
       "academic": {
         "satPolicy": "unknown",

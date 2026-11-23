@@ -254,7 +254,7 @@ records.append(R('university-of-the-fraser-valley', 'University of the Fraser Va
              (L('UFV — international tuition and fees', 'UFV — плата для иностранцев'), FVT), (L('UFV — English requirements', 'UFV — требования к английскому'), FVE), (L('UFV — International Excellence Entrance Scholarship', 'UFV — International Excellence Entrance Scholarship'), FVS)],
     checked=[DL, FEE, ENG, TUI, SCH],
     unconfirmed=[TESTS, UZU, MAJORS, FOUND]))
-annual['university-of-the-fraser-valley'] = {'currency': 'CAD', 'calc': 'two-semesters', 'basis': 'tuition', 'min': 14346, 'max': 14346, 'note': 'Tuition for two semesters of 9 credits at the 2026–27 rate — calculated by UniPath, not printed by the university; fees, first-semester administration fee, housing and food extra'}
+annual['university-of-the-fraser-valley'] = {'currency': 'CAD', 'calc': 'two-semesters', 'basis': 'tuition', 'min': 14346, 'max': 14346, 'note': 'Tuition for two semesters of 9 credits at the 2026–27 rate — calculated by UniAtlas, not printed by the university; fees, first-semester administration fee, housing and food extra'}
 
 # --------------------------------------------------------------- Capilano
 CP = 'https://www.capilanou.ca/admissions/'
@@ -426,7 +426,7 @@ records.append(R('universite-de-sherbrooke', 'Université de Sherbrooke', 'UdeS'
              (L('UdeS — French language requirements', 'UdeS — требования к французскому'), SBL), (L('UdeS — funding for international students', 'UdeS — финансирование для иностранцев'), SBS)],
     checked=[DL, FEE, FRQ, TUI],
     unconfirmed=[L('French level by programme', 'уровень французского по программам'), L('entrance scholarships', 'вступительные стипендии'), UZU, MAJORS, FOUND]))
-annual['universite-de-sherbrooke'] = {'currency': 'CAD', 'calc': 'two-semesters', 'basis': 'billed', 'min': 23950, 'max': 32140, 'note': 'Two 15-credit terms at the autumn 2026 per-term totals — calculated by UniPath, not printed by the university; insurance, housing and food extra'}
+annual['universite-de-sherbrooke'] = {'currency': 'CAD', 'calc': 'two-semesters', 'basis': 'billed', 'min': 23950, 'max': 32140, 'note': 'Two 15-credit terms at the autumn 2026 per-term totals — calculated by UniAtlas, not printed by the university; insurance, housing and food extra'}
 
 # --------------------------------------------------------------- Moncton
 MO = 'https://www.umoncton.ca/'

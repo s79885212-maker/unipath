@@ -1249,7 +1249,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "The published 2026 essential-expense subtotal is KRW 13,766,840 before aid. This uses the table tuition, which differs from its 2026 footnote, and excludes vacation housing and additional expenses. It is not a confirmed full budget.",
-    "note": "POSTECH also illustrates KRW 2,186,840 after subtracting tuition support and a KRW 6,000,000 annual living allowance. UniPath does not use that net amount: tuition is unconditional only in semester one, renewal requires previous-semester GPA 3.0/4.3. The reference excludes vacation housing, books, transport and other personal costs; Fall 2027 amounts are not confirmed.",
+    "note": "POSTECH also illustrates KRW 2,186,840 after subtracting tuition support and a KRW 6,000,000 annual living allowance. UniAtlas does not use that net amount: tuition is unconditional only in semester one, renewal requires previous-semester GPA 3.0/4.3. The reference excludes vacation housing, books, transport and other personal costs; Fall 2027 amounts are not confirmed.",
     "source": "https://adm-iu.postech.ac.kr/user/comm/menu/4a69b7aee6a156d3c2ddb7413544ab2c/content/index.do",
     "verified": "2026-11-18",
     "status": "conflict",

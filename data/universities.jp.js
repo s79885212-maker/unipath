@@ -752,7 +752,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": null,
-    "note": "For regular new students entering AY2027. UniPath adds the published annual tuition and facilities fee to the one-time ¥300,000 entrance fee: ¥1,857,000 before living expenses. Japanese-language study is part of ICU’s bilingual curriculum; English-based admission does not mean every graduation requirement is English-taught.",
+    "note": "For regular new students entering AY2027. UniAtlas adds the published annual tuition and facilities fee to the one-time ¥300,000 entrance fee: ¥1,857,000 before living expenses. Japanese-language study is part of ICU’s bilingual curriculum; English-based admission does not mean every graduation requirement is English-taught.",
     "source": "https://www.icu.ac.jp/en/admissions/tuition/",
     "verified": "2026-11-17",
     "status": "confirmed"

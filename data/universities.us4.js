@@ -1409,7 +1409,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": null,
-    "note": "Des Moines, 12–18 credits each semester for the 2027–28 entering class. Two semesters of tuition cost $54,578 (calculated by UniPath from $27,289 per semester). The full international yearly estimate, including fees, living expenses and insurance, remains unconfirmed."
+    "note": "Des Moines, 12–18 credits each semester for the 2027–28 entering class. Two semesters of tuition cost $54,578 (calculated by UniAtlas from $27,289 per semester). The full international yearly estimate, including fees, living expenses and insurance, remains unconfirmed."
   },
   "scholarships": {
     "fullRide": {

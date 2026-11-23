@@ -39,7 +39,7 @@ def read(url):
     if fp.exists():return json.loads(fp.read_text(encoding='utf-8'))
     out={'url':url,'ids':targets[url],'checked':'2026-11-17'}
     try:
-        req=urllib.request.Request(url,headers={'User-Agent':'UniPath official-source audit'})
+        req=urllib.request.Request(url,headers={'User-Agent':'UniAtlas official-source audit'})
         with urllib.request.urlopen(req,timeout=14) as f:
             content=f.read(16000000);out.update(status=f.status,final=f.url)
             if content.startswith(b'\x1f\x8b'):content=gzip.decompress(content)

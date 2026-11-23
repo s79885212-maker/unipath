@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="assets/js/boot.js?v=275"></script>
-    <title>UniPath — Find Your University. Find Your Opportunity.</title>
+    <script src="assets/js/boot.js?v=276"></script>
+    <title>UniAtlas — Find Your University. Find Your Opportunity.</title>
     <meta
       name="description"
       content="Explore universities, scholarships, admission requirements and application information for international students in the USA, Canada, the UK, Germany, Japan and South Korea."
@@ -12,7 +12,7 @@
     <meta property="og:type" content="website" />
     <meta
       property="og:title"
-      content="UniPath — вузы, гранты и сроки поступления за рубежом"
+      content="UniAtlas — вузы, гранты и сроки поступления за рубежом"
     />
     <meta
       property="og:description"
@@ -21,7 +21,7 @@
     <meta name="theme-color" content="#0b1b3a" />
     <link
       rel="icon"
-      href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%231b3d78%22/%3E%3Ctext x=%2216%22 y=%2222%22 font-family=%22system-ui,sans-serif%22 font-size=%2214%22 font-weight=%22700%22 fill=%22white%22 text-anchor=%22middle%22%3EUP%3C/text%3E%3C/svg%3E"
+      href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%231b3d78%22/%3E%3Ctext x=%2216%22 y=%2222%22 font-family=%22system-ui,sans-serif%22 font-size=%2214%22 font-weight=%22700%22 fill=%22white%22 text-anchor=%22middle%22%3EUA%3C/text%3E%3C/svg%3E"
     />
     <script>
       /* Apply the saved theme before first paint (no white flash at night). */
@@ -50,13 +50,13 @@
           if (lang !== "ru") return;
           var meta = document.querySelector('meta[name="unipath-root"]');
           var l = document.createElement("link");
-          l.rel = "preload"; l.as = "script"; l.href = (meta ? meta.content : "") + "data/i18n/ru.js?v=275";
+          l.rel = "preload"; l.as = "script"; l.href = (meta ? meta.content : "") + "data/i18n/ru.js?v=276";
           document.head.appendChild(l);
         } catch (e) {}
       })();
     </script>
-    <script src="assets/js/gate.js?v=275"></script>
-    <link rel="stylesheet" href="assets/css/styles.css?v=275" />
+    <script src="assets/js/gate.js?v=276"></script>
+    <link rel="stylesheet" href="assets/css/styles.css?v=276" />
   </head>
   <body>
     <div id="site-header"></div>
@@ -64,8 +64,8 @@
       <div class="boot" id="boot-state" role="status" aria-live="polite">
         <!-- An image (not a styled box): Safari on iPhone and iPad paints a page only once it
              holds enough text or a large enough image, so the mark makes the loading screen show. -->
-        <img class="boot-mark" width="72" height="72" alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232453a0'/%3E%3Cstop offset='1' stop-color='%23122a56'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='72' height='72' rx='20' fill='url(%23g)'/%3E%3Ctext x='36' y='46.5' text-anchor='middle' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='30' font-weight='800' letter-spacing='-1' fill='%23fff'%3EUP%3C/text%3E%3C/svg%3E" />
-        <p class="boot-name">UniPath</p>
+        <img class="boot-mark" width="72" height="72" alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232453a0'/%3E%3Cstop offset='1' stop-color='%23122a56'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='72' height='72' rx='20' fill='url(%23g)'/%3E%3Ctext x='36' y='46.5' text-anchor='middle' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='30' font-weight='800' letter-spacing='-1' fill='%23fff'%3EUA%3C/text%3E%3C/svg%3E" />
+        <p class="boot-name">UniAtlas</p>
         <div class="boot-bar" aria-hidden="true"><span></span></div>
         <p class="boot-text" id="boot-text">Loading universities…</p>
       </div>
@@ -86,35 +86,35 @@
     </main>
     <div id="site-footer"></div>
 
-    <script src="data/registry.js?v=275"></script>
-    <script src="data/countries.js?v=275"></script>
-    <script src="data/universities.us.js?v=275"></script>
-    <script src="data/universities.us2.js?v=275"></script>
-    <script src="data/universities.us3.js?v=275"></script>
-    <script src="data/universities.us4.js?v=275"></script>
-    <script src="data/universities.us5.js?v=275"></script>
-    <script src="data/universities.us6.js?v=275"></script>
-    <script src="data/universities.us7.js?v=275"></script>
-    <script src="data/universities.jp.js?v=275"></script>
-    <script src="data/universities.kr.js?v=275"></script>
-    <script src="data/universities.uk.js?v=275"></script>
-    <script src="data/universities.de.js?v=275"></script>
-    <script src="data/universities.ca.js?v=275"></script>
-    <script src="data/universities.es.js?v=275"></script>
-    <script src="data/country.es.js?v=275"></script>
-    <script src="data/universities.fr.js?v=275"></script>
-    <script src="data/country.fr.js?v=275"></script>
-    <script src="data/universities.it.js?v=275"></script>
-    <script src="data/country.it.js?v=275"></script>
-    <script src="data/photos.js?v=275"></script>
-    <script src="data/admission-profiles.js?v=275"></script>
-    <script src="data/degrees.js?v=275"></script>
-    <script src="data/test-policy.js?v=275"></script>
-    <script src="data/english-details.js?v=275"></script>
-    <script src="data/requirements.js?v=275"></script>
-    <script src="data/award-details.js?v=275"></script>
-    <script src="data/news.js?v=275"></script>
-    <script src="data/match.js?v=275"></script>
+    <script src="data/registry.js?v=276"></script>
+    <script src="data/countries.js?v=276"></script>
+    <script src="data/universities.us.js?v=276"></script>
+    <script src="data/universities.us2.js?v=276"></script>
+    <script src="data/universities.us3.js?v=276"></script>
+    <script src="data/universities.us4.js?v=276"></script>
+    <script src="data/universities.us5.js?v=276"></script>
+    <script src="data/universities.us6.js?v=276"></script>
+    <script src="data/universities.us7.js?v=276"></script>
+    <script src="data/universities.jp.js?v=276"></script>
+    <script src="data/universities.kr.js?v=276"></script>
+    <script src="data/universities.uk.js?v=276"></script>
+    <script src="data/universities.de.js?v=276"></script>
+    <script src="data/universities.ca.js?v=276"></script>
+    <script src="data/universities.es.js?v=276"></script>
+    <script src="data/country.es.js?v=276"></script>
+    <script src="data/universities.fr.js?v=276"></script>
+    <script src="data/country.fr.js?v=276"></script>
+    <script src="data/universities.it.js?v=276"></script>
+    <script src="data/country.it.js?v=276"></script>
+    <script src="data/photos.js?v=276"></script>
+    <script src="data/admission-profiles.js?v=276"></script>
+    <script src="data/degrees.js?v=276"></script>
+    <script src="data/test-policy.js?v=276"></script>
+    <script src="data/english-details.js?v=276"></script>
+    <script src="data/requirements.js?v=276"></script>
+    <script src="data/award-details.js?v=276"></script>
+    <script src="data/news.js?v=276"></script>
+    <script src="data/match.js?v=276"></script>
     <script>
       /* The Russian dictionary is about 1 MB, so it is fetched only when Russian is
    the language in use. The choice is read exactly as assets/js/i18n.js reads it:
@@ -142,18 +142,18 @@
             "<scr" +
               'ipt src="' +
               root +
-              'data/i18n/ru.js?v=275"><\/scr' +
+              'data/i18n/ru.js?v=276"><\/scr' +
               "ipt>",
           );
         } catch (e) {}
       })();
     </script>
-    <script src="assets/js/i18n.js?v=275"></script>
-    <script src="assets/js/app.js?v=275"></script>
-    <script src="assets/js/requirements.js?v=275"></script>
-    <script src="assets/js/pages.js?v=275"></script>
-    <script src="assets/js/views.js?v=275"></script>
-    <script src="assets/js/news.js?v=275"></script>
-    <script src="assets/js/match.js?v=275"></script>
-    <script src="assets/js/router.js?v=275"></script>
+    <script src="assets/js/i18n.js?v=276"></script>
+    <script src="assets/js/app.js?v=276"></script>
+    <script src="assets/js/requirements.js?v=276"></script>
+    <script src="assets/js/pages.js?v=276"></script>
+    <script src="assets/js/views.js?v=276"></script>
+    <script src="assets/js/news.js?v=276"></script>
+    <script src="assets/js/match.js?v=276"></script>
+    <script src="assets/js/router.js?v=276"></script>
   </body>

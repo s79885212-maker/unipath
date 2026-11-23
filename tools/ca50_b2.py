@@ -250,7 +250,7 @@ records.append(R('universite-laval', 'Université Laval', 'ULaval', 'Quebec City
              (L('ULaval — international tuition 2026-27', 'ULaval — плата для иностранцев 2026–27'), LT), (L('ULaval — fees for foreign students', 'ULaval — сборы для иностранцев'), LX)],
     checked=[L('deadlines', 'сроки'), L('application fee', 'сбор за заявку'), L('French requirement', 'требование к французскому'), L('tuition', 'плата за обучение')],
     unconfirmed=[L('entrance scholarships for international students', 'вступительные стипендии для иностранцев'), UZU, L('full list of programmes', 'полный список программ'), FOUND]))
-annual['universite-laval'] = {'currency': 'CAD', 'calc': 'two-semesters', 'basis': 'tuition', 'min': 28232.96, 'max': 28232.96, 'note': 'Two terms of 15 credits at the 2026–27 per-term total — calculated by UniPath, not printed by the university; insurance, housing and food extra'}
+annual['universite-laval'] = {'currency': 'CAD', 'calc': 'two-semesters', 'basis': 'tuition', 'min': 28232.96, 'max': 28232.96, 'note': 'Two terms of 15 credits at the 2026–27 per-term total — calculated by UniAtlas, not printed by the university; insurance, housing and food extra'}
 
 # --------------------------------------------------------------- Saskatchewan
 K = 'https://admissions.usask.ca/'

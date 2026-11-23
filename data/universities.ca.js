@@ -3664,7 +3664,7 @@ window.UNIPATH.universities.push(
       }
     ],
     "billedSubtotal": null,
-    "totalText": "Tuition per term: C$21,667.54 (Political Science) to C$31,582.15 (Mechanical Engineering); two terms are about twice that — calculated by UniPath",
+    "totalText": "Tuition per term: C$21,667.54 (Political Science) to C$31,582.15 (Mechanical Engineering); two terms are about twice that — calculated by UniAtlas",
     "note": "First-year international tuition for 2026–27 is unchanged from 2025–26. The English-programme entrance scholarship (C$15,000 a year) is applied automatically on enrolment but is not subtracted here."
   },
   "scholarships": {
@@ -7230,7 +7230,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "Published tuition rates are for one semester, Cohort 2026; no full-year cost-of-attendance total is selected.",
-    "note": "Two fully enrolled Fall/Winter semesters give C$44,552.20–C$62,950.98 tuition — calculated by UniPath. Fees, health insurance, housing, meals, books and personal expenses are extra. DVM, diploma, part-time study and other entry cohorts are outside this comparison. The former conflicting 2025–26 overall estimates are not used as a current budget."
+    "note": "Two fully enrolled Fall/Winter semesters give C$44,552.20–C$62,950.98 tuition — calculated by UniAtlas. Fees, health insurance, housing, meals, books and personal expenses are extra. DVM, diploma, part-time study and other entry cohorts are outside this comparison. The former conflicting 2025–26 overall estimates are not used as a current budget."
   },
   "scholarships": {
     "fullRide": {
@@ -8554,7 +8554,7 @@ window.UNIPATH.universities.push(
         "amount": 6705
       },
       {
-        "label": "Business annual tuition at 30 credits, calculated by UniPath",
+        "label": "Business annual tuition at 30 credits, calculated by UniAtlas",
         "amount": 42000,
         "source": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html",
         "verified": "2026-10-26",
@@ -8564,7 +8564,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "International tuition is charged per credit: from C$1,010 (Fine Arts) to C$1,400 (John Molson) in Fall 2026 and Winter 2027",
-    "note": "John Molson Business only, Fall 2026/Winter 2027: 30 credits at C$1,400 = C$42,000 tuition, calculated by UniPath. Compulsory fees, insurance and living expenses are extra. Engineering may require more than 30 credits and is outside this example. Exemption eligibility is not assumed."
+    "note": "John Molson Business only, Fall 2026/Winter 2027: 30 credits at C$1,400 = C$42,000 tuition, calculated by UniAtlas. Compulsory fees, insurance and living expenses are extra. Engineering may require more than 30 credits and is outside this example. Exemption eligibility is not assumed."
   },
   "scholarships": {
     "fullRide": {
@@ -14377,7 +14377,7 @@ window.UNIPATH.universities.push(
         "amount": 3334
       },
       {
-        "label": "Business annual tuition at ten courses, calculated by UniPath",
+        "label": "Business annual tuition at ten courses, calculated by UniAtlas",
         "min": 33010,
         "max": 33340,
         "source": "https://www.smu.ca/academics/undergraduate-tuition-and-fees.html",
@@ -14388,7 +14388,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "Tuition for new international students is C$3,301 per course in Arts and Commerce and C$3,334 in Science and Engineering, including per-course mandatory fees; no yearly total is printed",
-    "note": "Business (BComm) only, new 2026–27 international cohort: five courses per term, ten across Fall/Winter. Arts/Commerce courses cost C$3,301; Science courses C$3,334. Ten courses give C$33,010–C$33,340 tuition, calculated by UniPath; ancillary fees, insurance, co-op and living expenses are additional. Engineering has a different normal workload and is not compared with this example. Graduates of some partner programmes (NBISP, NISEP, PEI-ISP, CAIS, UWC, CIS, IB) get C$1,000 off per course; this does not apply to applicants from Uzbekistan’s national schools.",
+    "note": "Business (BComm) only, new 2026–27 international cohort: five courses per term, ten across Fall/Winter. Arts/Commerce courses cost C$3,301; Science courses C$3,334. Ten courses give C$33,010–C$33,340 tuition, calculated by UniAtlas; ancillary fees, insurance, co-op and living expenses are additional. Engineering has a different normal workload and is not compared with this example. Graduates of some partner programmes (NBISP, NISEP, PEI-ISP, CAIS, UWC, CIS, IB) get C$1,000 off per course; this does not apply to applicants from Uzbekistan’s national schools.",
     "status": "previous-cycle"
   },
   "scholarships": {
@@ -16980,7 +16980,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "International tuition is C$1,040.15 per credit hour, with per-semester international and medical insurance fees; a C$9,000 deposit is paid after admission",
-    "note": "The finance page explicitly gives the 2026–27 international rate of C$1,040.15 per credit. For the university’s first-year planning example of 30 credits per academic year, tuition is C$31,204.50 — calculated by UniPath, not a published annual total. Mandatory fees, insurance, housing and food are additional. The C$125 semester fee above retains its earlier calendar source and review date; it is not included in this tuition-only comparison. The admissions-page overall estimate mixes housing-year information and is not used as a current total.",
+    "note": "The finance page explicitly gives the 2026–27 international rate of C$1,040.15 per credit. For the university’s first-year planning example of 30 credits per academic year, tuition is C$31,204.50 — calculated by UniAtlas, not a published annual total. Mandatory fees, insurance, housing and food are additional. The C$125 semester fee above retains its earlier calendar source and review date; it is not included in this tuition-only comparison. The admissions-page overall estimate mixes housing-year information and is not used as a current total.",
     "status": "previous-cycle"
   },
   "scholarships": {

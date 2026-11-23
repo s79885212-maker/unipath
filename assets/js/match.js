@@ -1,5 +1,5 @@
 /* ============================================================
-   UniPath — "Find my match"
+   UniAtlas — "Find my match"
 
    The student enters IELTS, GPA, SAT and a yearly budget; each entered
    number is compared only with a figure the institution itself
@@ -372,13 +372,13 @@
       : c.basis === 'billed' ? 'Billed by the university a year: ' + amount + ' — books, travel, personal costs and insurance extra'
       : 'Tuition a year: ' + amount + ' — living costs extra';
     if (c.example) label += ' (one programme’s fee)';
-    if (c.calc === 'two-semesters') label += '. Two semesters at the published per-semester rates — calculated by UniPath, not a figure the university prints';
+    if (c.calc === 'two-semesters') label += '. Two semesters at the published per-semester rates — calculated by UniAtlas, not a figure the university prints';
     if (c.calc === 'lines') label += '. The sum of the lines the page lists — the page prints no total';
-    if (c.calc === 'credit-load') label += '. ' + c.creditsPerYear + ' ' + 'credits per academic year at the published per-credit rate — calculated by UniPath; mandatory fees, insurance, housing and food are extra';
+    if (c.calc === 'credit-load') label += '. ' + c.creditsPerYear + ' ' + 'credits per academic year at the published per-credit rate — calculated by UniAtlas; mandatory fees, insurance, housing and food are extra';
     if (typeof c.extras === 'number') {
       var ex = convert(c.extras, c.currency, cur);
       label += '. Not included: ' + show(ex) + ' — ' + (c.extrasLabel || 'a required cost') + (c.extrasMore ? ' and other required costs' : '') +
-        ', required and outside the published total. With it: ' + range(lo + ex, hi + ex) + ' (calculated by UniPath)';
+        ', required and outside the published total. With it: ' + range(lo + ex, hi + ex) + ' (calculated by UniAtlas)';
     }
     /* A published total can have important year/category/period limitations
        too. Keep its reviewed scope beside the amount for every budget state. */
@@ -626,7 +626,7 @@
   }
 
   function render(main) {
-    document.title = 'Find my match — UniPath';
+    document.title = 'Find my match — UniAtlas';
     var s = readSaved();
     var countryOpts = '<option value="">All countries</option>' + U.DB.countries.map(function (c) {
       return '<option value="' + esc(c.code) + '"' + (s.country === c.code ? ' selected' : '') + '>' + esc(c.name) + '</option>';

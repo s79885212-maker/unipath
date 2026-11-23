@@ -1,4 +1,4 @@
-/* UniPath — conditions of the largest award, read on the award's own official
+/* UniAtlas — conditions of the largest award, read on the award's own official
    page: whether the award itself asks for a test score, and what renewal
    depends on. Each entry names the page and the day it was read. Merged into
    scholarships.fullRide by UNIPATH.applyLayers (data/registry.js). An award

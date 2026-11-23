@@ -537,7 +537,7 @@ records.append(R('university-of-ottawa', 'University of Ottawa', 'uOttawa', 'Ott
     costs=costs('2026–2027', O + 'fees-financial-support/university-fees/tuition-international', V, L('International undergraduates, full time (flat rate)', 'Иностранные студенты бакалавриата, очно (фиксированная ставка)'),
         [(L('Political Science — per term', 'Political Science — за семестр'), 21667.54, B), (L('Mechanical Engineering — per term', 'Mechanical Engineering — за семестр'), 31582.15, B)],
         L('C$21,667.54–C$31,582.15 tuition per term (2026–27)', 'C$21,667.54–C$31,582.15 — обучение за семестр (2026–27)'),
-        L('Tuition per term: C$21,667.54 (Political Science) to C$31,582.15 (Mechanical Engineering); two terms are about twice that — calculated by UniPath', 'Плата за семестр: от C$21,667.54 (Political Science) до C$31,582.15 (Mechanical Engineering); два семестра — примерно вдвое больше (расчёт UniPath)'),
+        L('Tuition per term: C$21,667.54 (Political Science) to C$31,582.15 (Mechanical Engineering); two terms are about twice that — calculated by UniAtlas', 'Плата за семестр: от C$21,667.54 (Political Science) до C$31,582.15 (Mechanical Engineering); два семестра — примерно вдвое больше (расчёт UniAtlas)'),
         L('tuition only, per term. Ancillary and incidental fees, insurance, housing and food are extra', 'только обучение, за семестр. Сопутствующие сборы, страховка, жильё и питание — сверх этого'), tuition=21667.54,
         note=L('First-year international tuition for 2026–27 is unchanged from 2025–26. The English-programme entrance scholarship (C$15,000 a year) is applied automatically on enrolment but is not subtracted here.', 'Плата первого года для иностранцев на 2026–27 не изменилась по сравнению с 2025–26. Вступительная стипендия англоязычных программ (C$15,000 в год) применяется автоматически при зачислении, но здесь не вычитается.')),
     merit=[award('International Admission Entrance Scholarship', L('C$15,000 a year off tuition', 'C$15,000 в год из платы'), L('International students newly admitted (winter 2026 or later) to an eligible undergraduate programme taught in English', 'Иностранцы, впервые зачисленные (с зимы 2026) на подходящую программу бакалавриата на английском'),
@@ -553,7 +553,7 @@ records.append(R('university-of-ottawa', 'University of Ottawa', 'uOttawa', 'Ott
              (L('OUAC — undergraduate fees', 'OUAC — сборы бакалавриата'), OUAC_SRC)],
     checked=[L('2027 deadlines', 'сроки 2027'), L('English and French requirements', 'требования к английскому и французскому'), L('tuition', 'плата за обучение'), L('scholarships', 'стипендии')],
     unconfirmed=[L('test policy', 'политика тестов'), L('requirements for Uzbekistan', 'требования для Узбекистана'), L('full list of majors', 'полный список специальностей'), L('founding year', 'год основания')]))
-annual['university-of-ottawa'] = {'currency': 'CAD', 'calc': 'two-semesters', 'basis': 'tuition', 'min': 43335.08, 'max': 63164.3, 'note': 'Two terms at the 2026–27 per-term rates — calculated by UniPath, not printed by the university; before the C$15,000 entrance scholarship'}
+annual['university-of-ottawa'] = {'currency': 'CAD', 'calc': 'two-semesters', 'basis': 'tuition', 'min': 43335.08, 'max': 63164.3, 'note': 'Two terms at the 2026–27 per-term rates — calculated by UniAtlas, not printed by the university; before the C$15,000 entrance scholarship'}
 
 # --------------------------------------------------------------- Calgary
 C = 'https://www.ucalgary.ca/future-students/undergraduate/'

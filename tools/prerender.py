@@ -321,7 +321,7 @@ def fee_text(u):
 # campus photo: the home page, country pages and universities with no photo.
 # Source: tools/og_image.html (1200x630).
 SHARE_IMAGE = f"{SITE}/assets/img/og-share.png"
-SHARE_IMAGE_ALT = "UniPath — universities, scholarships and admission deadlines abroad"
+SHARE_IMAGE_ALT = "UniAtlas — universities, scholarships and admission deadlines abroad"
 
 
 def share_tags(image=None):
@@ -342,7 +342,7 @@ def head_tags(title, description, url, image=None, og_type="website"):
         f'<meta name="description" content="{e(description)}">',
         f'<link rel="canonical" href="{e(url)}">',
         f'<meta property="og:type" content="{e(og_type)}">',
-        f'<meta property="og:site_name" content="UniPath">',
+        f'<meta property="og:site_name" content="UniAtlas">',
         f'<meta property="og:title" content="{e(title)}">',
         f'<meta property="og:description" content="{e(description)}">',
         f'<meta property="og:url" content="{e(url)}">',
@@ -410,7 +410,7 @@ def shell(template: str, head: str, main_html: str) -> str:
 def university_page(u, country, fields):
     url = f"{SITE}/university/{u['id']}/"
     c_name = country.get("name", "")
-    title = f"{u['name']} — admissions, costs & scholarships for international students | UniPath"
+    title = f"{u['name']} — admissions, costs & scholarships for international students | UniAtlas"
     description = (f"{u['name']} ({u.get('city', '')}, {c_name}): admission requirements, English scores, "
                    f"costs, deadlines and scholarships for international undergraduates, from official sources. "
                    f"Last verified {u.get('lastVerified', '')}.")
@@ -596,7 +596,7 @@ def university_page(u, country, fields):
 
 def country_page(c, unis):
     url = f"{SITE}/country/{c['code']}/"
-    title = f"Study in {c['name']} as an international student — universities & scholarships | UniPath"
+    title = f"Study in {c['name']} as an international student — universities & scholarships | UniAtlas"
     description = f"{c['name']}: {c.get('tagline', '')} Compare {len(unis)} universities and colleges, costs, deadlines and scholarships from official sources."
     items = "".join(
         f'<li><a href="{BASE}university/{e(u["id"])}/">{e(u["name"])}</a> — {e(u.get("city"))}'
@@ -656,7 +656,7 @@ def build(root: pathlib.Path, dist: pathlib.Path) -> int:
         # Link preview of the home page: address, site name and the share picture.
         if 'property="og:image"' not in text:
             extra = [f'<meta property="og:url" content="{e(SITE)}/">',
-                     '<meta property="og:site_name" content="UniPath">'] + share_tags()
+                     '<meta property="og:site_name" content="UniAtlas">'] + share_tags()
             charset = re.search(r'<meta charset="utf-8"\s*/?>', text)
             text = text[:charset.end()] + "".join("\n    " + t for t in extra) + text[charset.end():]
         home.write_text(text, encoding="utf-8")

@@ -9,7 +9,7 @@
 
    stats.official  → numbers published by the university itself
                      (Common Data Set, admissions statistics page, …)
-   stats.targets   → UniPath ESTIMATES, used only where the university
+   stats.targets   → UniAtlas ESTIMATES, used only where the university
                      publishes no average. Always shown with an
                      "estimate" label and the reasoning in `basis`.
    ============================================================ */

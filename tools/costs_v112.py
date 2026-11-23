@@ -6,7 +6,7 @@ with its academic year, the group of students it is for and the period the
 page gives it for (a year or a semester). Nothing is estimated:
   * a charge published per semester stays per semester; where a flat full-time
     rate is charged in each of the two semesters, the two-semester sum used by
-    the match page is marked as calculated by UniPath;
+    the match page is marked as calculated by UniAtlas;
   * a sum of lines is never called the university's total — where a page prints
     no total, the text says the figure is the sum of the lines shown;
   * a figure for an earlier year is kept as "previous cycle" and is not used by
@@ -21,7 +21,7 @@ head, recs = us3_edit.load()
 D = us3_edit.by_id(recs)
 annual = {}
 SEM = lambda what: L('%s, per semester' % what[0], '%s, за семестр' % what[1])
-CALC2 = L('Two semesters at the published full-time rates — calculated by UniPath, not printed by the university', 'Два семестра по опубликованным ставкам полной нагрузки — рассчитано UniPath, университетом не напечатано')
+CALC2 = L('Two semesters at the published full-time rates — calculated by UniAtlas, not printed by the university', 'Два семестра по опубликованным ставкам полной нагрузки — рассчитано UniAtlas, университетом не напечатано')
 BOOKS1, PERS1 = L('Books', 'Книги'), L('Personal', 'Личные расходы')
 
 def put(uid, c, a=None, checked=True):
@@ -64,7 +64,7 @@ put('goucher-college', semester(costs('2026–2027', S, V, L('Full-time undergra
      (SEM(('Housing: double room', 'Жильё: двухместная комната')), 4740, B),
      (SEM(('Meal plan: 19 meals a week, the minimum for first-year students', 'План питания: 19 приёмов пищи в неделю — минимум для первокурсников')), 4190, B)],
     L('$28,750 tuition per semester for full-time undergraduates', '$28,750 — обучение за семестр для студентов с полной нагрузкой'),
-    L('Published per semester for 2026–2027: tuition $28,750, student activity fee $150, a double room $4,740, the first-year meal plan $4,190. Two semesters of these four charges come to $75,660 — calculated by UniPath; the page prints no yearly total', 'Опубликовано за семестр на 2026–2027: обучение $28,750, сбор на мероприятия $150, двухместная комната $4,740, план питания первокурсника $4,190. Два семестра этих четырёх сборов — $75,660; рассчитано UniPath, годового итога на странице нет'),
+    L('Published per semester for 2026–2027: tuition $28,750, student activity fee $150, a double room $4,740, the first-year meal plan $4,190. Two semesters of these four charges come to $75,660 — calculated by UniAtlas; the page prints no yearly total', 'Опубликовано за семестр на 2026–2027: обучение $28,750, сбор на мероприятия $150, двухместная комната $4,740, план питания первокурсника $4,190. Два семестра этих четырёх сборов — $75,660; рассчитано UniAtlas, годового итога на странице нет'),
     L('the charges of one semester. Health insurance (the page prints “$TBD”), books, travel and personal expenses are extra', 'сборы одного семестра. Медицинская страховка (на странице — «$TBD»), книги, дорога и личные расходы — сверх этого'),
     tuition=28750), '$28,750 per semester'),
     {'currency': 'USD', 'basis': 'billed', 'min': 75660, 'max': 75660, 'note': CALC2})
@@ -76,7 +76,7 @@ put('lesley-university', semester(costs('2026–2027', S, V, L('Full-time on-cam
      (SEM(('Room: double, triple or quad', 'Комната: двух-, трёх- или четырёхместная')), 6520, B), (SEM(('Campus meal plan', 'План питания в кампусе')), 4140, B),
      (SEM(('Health services fee (residents only)', 'Сбор за медицинское обслуживание (только живущие в кампусе)')), 525, B)],
     L('$18,200 tuition per semester for full-time on-campus undergraduates', '$18,200 — обучение за семестр для очных студентов с полной нагрузкой'),
-    L('Published per semester for 2026–27: tuition $18,200, comprehensive fee $525, a shared room $6,520, the meal plan $4,140, health services fee $525. Two semesters of these five charges come to $59,820 — calculated by UniPath; the page prints no yearly total', 'Опубликовано за семестр на 2026–27: обучение $18,200, единый сбор $525, комната на несколько человек $6,520, план питания $4,140, сбор за медицинское обслуживание $525. Два семестра этих пяти сборов — $59,820; рассчитано UniPath, годового итога на странице нет'),
+    L('Published per semester for 2026–27: tuition $18,200, comprehensive fee $525, a shared room $6,520, the meal plan $4,140, health services fee $525. Two semesters of these five charges come to $59,820 — calculated by UniAtlas; the page prints no yearly total', 'Опубликовано за семестр на 2026–27: обучение $18,200, единый сбор $525, комната на несколько человек $6,520, план питания $4,140, сбор за медицинское обслуживание $525. Два семестра этих пяти сборов — $59,820; рассчитано UniAtlas, годового итога на странице нет'),
     L('the charges of one semester. The annual student health insurance premium ($4,173), a $150 orientation fee in the first semester, books and personal expenses are extra', 'сборы одного семестра. Годовая студенческая медицинская страховка ($4,173), сбор за ориентацию $150 в первом семестре, книги и личные расходы — сверх этого'),
     tuition=18200,
     note=L('The page says tuition and fees for 2026–27 “are subject to change June 1”. It lists the student health insurance premium without saying on that page who must buy it.', 'На странице сказано, что плата и сборы на 2026–27 «могут измениться 1 июня». Студенческая медицинская страховка указана без пояснения на этой странице, кто обязан её оформить.')), '$18,200 per semester'),
@@ -173,7 +173,7 @@ S = 'https://www.newschool.edu/tuition-fees-billing/new-students-tuition/'
 put('the-new-school', semester(costs('2026–2027', S, V, L('New full-time undergraduates of Parsons, Eugene Lang College and the College of Performing Arts', 'Новые студенты бакалавриата с полной нагрузкой в Parsons, Eugene Lang College и College of Performing Arts'),
     [(SEM(('Tuition (12–18 credits)', 'Обучение (12–18 кредитов)')), 31174, B), (SEM(('University Services fee', 'Сбор University Services')), 720, B), (SEM(('Student Senate fee', 'Сбор Student Senate')), 9, B)],
     L('$31,174 tuition per semester for full-time undergraduates', '$31,174 — обучение за семестр для студентов с полной нагрузкой'),
-    L('Published per semester for students entering in 2026–2027: tuition $31,174, University Services fee $720, Student Senate fee $9. Two semesters come to $63,806 — calculated by UniPath; the page prints no yearly total', 'Опубликовано за семестр для поступающих в 2026–2027: обучение $31,174, сбор University Services $720, сбор Student Senate $9. Два семестра — $63,806; рассчитано UniPath, годового итога на странице нет'),
+    L('Published per semester for students entering in 2026–2027: tuition $31,174, University Services fee $720, Student Senate fee $9. Two semesters come to $63,806 — calculated by UniAtlas; the page prints no yearly total', 'Опубликовано за семестр для поступающих в 2026–2027: обучение $31,174, сбор University Services $720, сбор Student Senate $9. Два семестра — $63,806; рассчитано UniAtlas, годового итога на странице нет'),
     L('tuition and two fees of one semester. Housing, food, health insurance, books and personal expenses are extra', 'обучение и два сбора одного семестра. Жильё, питание, медицинская страховка, книги и личные расходы — сверх этого'),
     tuition=31174,
     extras=[{'label': L('Student Health Insurance Plan', 'Студенческая медицинская страховка'), 'amount': 4859, 'required': True,

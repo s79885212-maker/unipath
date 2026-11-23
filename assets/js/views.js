@@ -1,5 +1,5 @@
 /* ============================================================
-   UniPath — static views (home, countries, scholarships, about)
+   UniAtlas — static views (home, countries, scholarships, about)
    ============================================================ */
 (function (global) {
   'use strict';
@@ -24,7 +24,7 @@
     var s = stats();
     var flags = U.DB.countries.map(function (c) { return c.flag; }).join(' ');
 
-    document.title = 'UniPath — Find Your University. Find Your Opportunity.';
+    document.title = 'UniAtlas — Find Your University. Find Your Opportunity.';
 
     return '' +
 '<section class="hero"><div class="wrap">' +
@@ -60,7 +60,7 @@
 
 '<section class="section section-alt"><div class="wrap">' +
   '<div class="section-head"><span class="eyebrow">How it works</span><h2>One path, instead of forty browser tabs</h2>' +
-    '<p>UniPath is built so a student can go from “which country?” to “here is the application portal” without leaving the site.</p></div>' +
+    '<p>UniAtlas is built so a student can go from “which country?” to “here is the application portal” without leaving the site.</p></div>' +
   '<div class="grid grid-4">' +
     step('1 · Country', 'Costs, visa reality, how applications are structured and where the scholarship money actually is.') +
     step('2 · University', 'Filter by scholarship, test policy, language of instruction, application fee and field of study.') +
@@ -83,7 +83,7 @@
       '<li>Requirements, costs, deadlines and scholarships come from the universities’ own websites, and every profile lists the exact pages they came from.</li>' +
       '<li data-i18n-html>A missing field says which case it is — <em>not checked</em>, <em>not published in the official source checked</em> or <em>not applicable</em> — instead of showing a plausible number.</li>' +
       '<li data-i18n-html>A scholarship is only labelled a <strong>full ride</strong> when the official source states what it covers. Tuition-only awards are labelled as tuition-only.</li>' +
-      '<li data-i18n-html>A number is shown as what it is: an <strong>official minimum</strong>, a university <strong>recommendation</strong> or a <strong>statistic</strong> about past students. UniPath adds no estimates of its own.</li>' +
+      '<li data-i18n-html>A number is shown as what it is: an <strong>official minimum</strong>, a university <strong>recommendation</strong> or a <strong>statistic</strong> about past students. UniAtlas adds no estimates of its own.</li>' +
       '<li data-i18n-html>Every profile carries a <strong>Last verified</strong> date.</li>' +
     '</ul>' +
     '<a class="btn btn-primary" href="#/about">How the data is sourced →</a>' +
@@ -111,7 +111,7 @@
   /* ---------------- countries ---------------- */
 
   function countries() {
-    document.title = 'Countries — UniPath';
+    document.title = 'Countries — UniAtlas';
     var detail = U.DB.countries.map(function (c) {
       var n = U.unisByCountry(c.code).length;
       return '<div class="card"><div class="card-body">' +
@@ -137,7 +137,7 @@
   /* ---------------- scholarships ---------------- */
 
   function scholarships() {
-    document.title = 'Scholarships — UniPath';
+    document.title = 'Scholarships — UniAtlas';
     var out = [];
     U.DB.countries.forEach(function (c) {
       var list = U.unisByCountry(c.code).filter(function (u) {
@@ -219,7 +219,7 @@
   }
 
   function about() {
-    document.title = 'About — UniPath';
+    document.title = 'About — UniAtlas';
     var s = stats();
     var rows = [
       ['Countries', s.countries], ['Universities &amp; colleges', s.unis], ['Official sources cited', s.sources],
@@ -232,13 +232,13 @@
         '<span>' + n + ' universities</span></li>';
     }).join('');
 
-    return '<section class="page-head"><div class="wrap"><h1>About UniPath</h1>' +
+    return '<section class="page-head"><div class="wrap"><h1>About UniAtlas</h1>' +
       '<p>A research tool for international students who want to understand admission requirements, scholarships and real costs without reading forty university websites.</p>' +
       '</div></section>' +
       '<section class="section"><div class="wrap"><div class="grid grid-2">' +
       '<div>' +
-        '<h2>What UniPath does</h2>' +
-        '<p>UniPath collects the information an international undergraduate applicant actually needs — admission requirements, English and standardized test policies, scholarships, financial aid, full cost of attendance, available programs and the official application links — and puts it in one consistent structure for every university.</p>' +
+        '<h2>What UniAtlas does</h2>' +
+        '<p>UniAtlas collects the information an international undergraduate applicant actually needs — admission requirements, English and standardized test policies, scholarships, financial aid, full cost of attendance, available programs and the official application links — and puts it in one consistent structure for every university.</p>' +
         '<p>You can browse by country, filter by funding, tests and field of study, and compare up to three universities side by side.</p>' +
 
         '<h2 style="margin-top:36px">Who it is for</h2>' +
@@ -252,7 +252,7 @@
         '<p data-i18n-html>Each profile shows a <strong>Last verified</strong> date: the day its information was last checked against the official sources listed on it. Universities update fees, deadlines and requirements every year, so the older the date, the more important it is to re-check the official page.</p>' +
 
         '<h3>No estimates of our own</h3>' +
-        '<p data-i18n-html>UniPath does not show score targets or “chances” of its own. A number on a profile is either an <strong>official minimum</strong>, a level the university <strong>recommends</strong>, or a <strong>statistic</strong> about students of a past intake, and it is labelled as such. Where a university publishes no figure, the profile says so and the <em>Find my match</em> page simply does not compare that score.</p>' +
+        '<p data-i18n-html>UniAtlas does not show score targets or “chances” of its own. A number on a profile is either an <strong>official minimum</strong>, a level the university <strong>recommends</strong>, or a <strong>statistic</strong> about students of a past intake, and it is labelled as such. Where a university publishes no figure, the profile says so and the <em>Find my match</em> page simply does not compare that score.</p>' +
 
         '<h3>The full-ride rule</h3>' +
         '<p data-i18n-html>A scholarship is described as a <strong>full ride</strong> only when the official source states that tuition, housing and meals are covered. An award that pays tuition and a monthly stipend is labelled <strong>full tuition + living stipend</strong>, a tuition-only award <strong>full tuition only</strong>, and a promise to <strong>meet full demonstrated need</strong> is shown separately, because it depends on a family’s finances. Most awards advertised as “100% scholarships” cover 100% of <em>tuition</em> — not housing, food, insurance or flights. Every scholarship on this site shows a coverage breakdown with three states: covered (✓), not covered (✕), and not confirmed (?).</p>' +
@@ -269,7 +269,7 @@
 
         '<h2 style="margin-top:36px">Disclaimer</h2>' +
         '<div class="notice notice-warn"><span class="ico">⚠️</span><div>' + esc(U.DISCLAIMER) + '</div></div>' +
-        '<p class="small muted" style="margin-top:14px">UniPath is an independent research project and is not affiliated with, endorsed by, or connected to any university listed on it.</p>' +
+        '<p class="small muted" style="margin-top:14px">UniAtlas is an independent research project and is not affiliated with, endorsed by, or connected to any university listed on it.</p>' +
       '</div>' +
       '<div>' +
         '<div class="card"><div class="card-body"><h3>Countries covered</h3><ul class="stack" style="padding-left:1.1em;margin:0">' + countryList + '</ul></div></div>' +

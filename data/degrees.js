@@ -1,4 +1,4 @@
-/* UniPath — bachelor's degrees conferred by discipline area.
+/* UniAtlas — bachelor's degrees conferred by discipline area.
    Source: section J of each institution's Common Data Set ("Disciplinary areas
    of DEGREES CONFERRED"), read from the official document linked in `source`.
    `areas` holds the Bachelor's column exactly as published: a percentage of

@@ -1,5 +1,5 @@
 /* ============================================================
-   UniPath — application logic
+   UniAtlas — application logic
    Plain ES5-compatible browser JS. No build step, no framework.
    Works when opened directly from disk (file://).
    ============================================================ */
@@ -255,7 +255,7 @@
   function degreesLabel(u) { return degreesOf(u).map(function (d) { return DEGREE_LABELS[d] || d; }).join(', '); }
   function hasIelts(u) { return !!(u.english && u.english.ielts); }
   /* True only when the university itself publishes an IELTS minimum or
-     recommended score — a UniPath estimate alone does not count. */
+     recommended score — a UniAtlas estimate alone does not count. */
   function ieltsPublished(u) {
     if (u.admissionRequirements) return u.admissionRequirements.some(function (r) { var t=(r.english || {}).ielts || {}; return t.accepted === true && (typeof t.min === 'number' || typeof t.recommended === 'number'); });
     var t = u.english && u.english.ielts;
@@ -909,7 +909,7 @@
     if (!b || typeof b.budget !== 'number') return null;
     return { min: b.budget, max: typeof b.budgetMax === 'number' ? b.budgetMax : b.budget };
   }
-  /* Published budget plus the required extras: a sum made by UniPath and
+  /* Published budget plus the required extras: a sum made by UniAtlas and
      labelled as such wherever it is shown. Null when there is nothing to add. */
   function budgetWithExtras(u) {
     var r = budgetRange(u), ex = costExtras(u);
@@ -1290,7 +1290,7 @@
       '<a class="skip-link" href="#main">Skip to content</a>' +
       '<header class="site-header">' +
         '<div class="wrap nav">' +
-          '<a class="logo" href="#/"><span class="logo-mark"><span>UP</span></span> UniPath</a>' +
+          '<a class="logo" href="#/"><span class="logo-mark"><span>UA</span></span> UniAtlas</a>' +
           '<nav class="nav-links" data-nav-links aria-label="Main">' + links +
             '<div class="nav-tools"><a class="btn btn-primary btn-sm" href="#/universities">🔍 Search</a></div>' +
           '</nav>' +
@@ -1316,7 +1316,7 @@
         '<div class="wrap">' +
           '<div class="footer-grid">' +
             '<div>' +
-              '<a class="logo" href="#/"><span class="logo-mark"><span>UP</span></span> UniPath</a>' +
+              '<a class="logo" href="#/"><span class="logo-mark"><span>UA</span></span> UniAtlas</a>' +
               '<p>A research tool for international students: universities, admission requirements, scholarships, costs and official application links in one place.</p>' +
             '</div>' +
             '<div><h4>Countries</h4><ul>' + countryLinks + '</ul></div>' +
@@ -1334,7 +1334,7 @@
           '</div>' +
           '<div class="footer-disclaimer"><strong>Disclaimer.</strong> ' + esc(DISCLAIMER) + '</div>' +
           '<div class="footer-bottom">' +
-            '<span>UniPath — independent research project. Not affiliated with any university.</span>' +
+            '<span>UniAtlas — independent research project. Not affiliated with any university.</span>' +
             '<span>' + DB.universities.length + ' universities &amp; colleges · ' + DB.countries.length + ' countries</span>' +
           '</div>' +
         '</div>' +

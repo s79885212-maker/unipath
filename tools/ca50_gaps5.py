@@ -4,7 +4,7 @@ Tuition Fee Estimator (international, full time, undergraduate; Fall and Winter 
 same per-term figures). The estimator's "Estimated Total" adds every listed fee, including
 co-op "if applicable", fees of other faculties' societies and fees charged once a year, so
 the record keeps the per-term tuition and lists the main fees as printed; the yearly figure
-in the match table is two terms of tuition, marked as calculated by UniPath.
+in the match table is two terms of tuition, marked as calculated by UniAtlas.
 Run once: python3 tools/ca50_gaps5.py"""
 import io, os, re
 import ca50_gaps as G
@@ -41,8 +41,8 @@ G.save(head, recs, tail)
 
 mp = os.path.join(G.ROOT, 'data/match.js'); m = io.open(mp, encoding='utf-8').read()
 assert "'university-of-windsor'" not in m
-note = L('Base tuition for two terms (Fall and Winter) at the 2026–27 rates for Arts and Computer Science — calculated by UniPath, not printed by the university; fees, health insurance, housing and food extra',
-         'Базовая плата за два семестра (осень и зима) по ставкам 2026–27 для Arts и Computer Science — расчёт UniPath, вуз эту сумму не печатает; сборы, страховка, жильё и питание — отдельно')
+note = L('Base tuition for two terms (Fall and Winter) at the 2026–27 rates for Arts and Computer Science — calculated by UniAtlas, not printed by the university; fees, health insurance, housing and food extra',
+         'Базовая плата за два семестра (осень и зима) по ставкам 2026–27 для Arts и Computer Science — расчёт UniAtlas, вуз эту сумму не печатает; сборы, страховка, жильё и питание — отдельно')
 line = "    'university-of-windsor': { currency: 'CAD', calc: 'two-semesters', basis: 'tuition', min: 33000, max: 37500, note: %s },\n" % repr(str(note))
 anchor = re.search(r"\n    'universite-de-sherbrooke': \{[^\n]*\n", m)
 m = m[:anchor.end()] + line + m[anchor.end():]
