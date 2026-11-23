@@ -17,12 +17,12 @@ def check(row):
     with locks[urllib.parse.urlsplit(url).netloc]:
         for attempt in range(2):
             try:
-                req=urllib.request.Request(url,method='HEAD',headers={'User-Agent':'UniPath link audit','Accept':'text/html,application/pdf,*/*'})
+                req=urllib.request.Request(url,method='HEAD',headers={'User-Agent':'UniAtlas link audit','Accept':'text/html,application/pdf,*/*'})
                 try:
                     response=urllib.request.urlopen(req,timeout=7)
                 except urllib.error.HTTPError as e:
                     if e.code not in (405,501):raise
-                    response=urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'UniPath link audit','Range':'bytes=0-1023'}),timeout=7)
+                    response=urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'UniAtlas link audit','Range':'bytes=0-1023'}),timeout=7)
                 with response:
                     result.update(status=response.status,final=response.url,kind='redirect' if response.url!=url else 'working')
                 break

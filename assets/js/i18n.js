@@ -1,5 +1,5 @@
 /* ============================================================
-   UniPath — translation layer
+   UniAtlas — translation layer
 
    How it works
    • The site is written and rendered in English. When another

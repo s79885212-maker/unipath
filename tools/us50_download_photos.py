@@ -17,7 +17,7 @@ if remaining:
   file='FIU MMC campus.jpg'
   rows=[dict(id='florida-international-university',file=file,filePage='https://commons.wikimedia.org/wiki/File:'+file.replace(' ','_'),metadataOnly=False)]
 allowed={r['id'] for r in json.loads((ROOT/'research/us-expansion-50-targets.json').read_text(encoding='utf-8'))}
-UA='UniPathSourceReview/1.0 (https://github.com/s79885212-maker/unipath; owner-approved Commons campus photos)'
+UA='UniAtlasSourceReview/1.0 (https://github.com/s79885212-maker/unipath; owner-approved Commons campus photos)'
 report=[]
 def get(url,limit):
  parsed=urllib.parse.urlsplit(url)

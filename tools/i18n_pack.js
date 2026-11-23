@@ -57,7 +57,7 @@ for (const k of Object.keys(dict)) {
   (files[cc] = files[cc] || {})[h] = dict[k];
 }
 const chunks = Object.keys(files).filter(c => c).sort();
-const head = '/* UniPath ' + lang + ' dictionary, packed for the published site by tools/i18n_pack.js from data/i18n/' + lang + '.js. */\n';
+const head = '/* UniAtlas ' + lang + ' dictionary, packed for the published site by tools/i18n_pack.js from data/i18n/' + lang + '.js. */\n';
 fs.mkdirSync(OUT, { recursive: true });
 const core = head + 'window.UNIPATH_I18N = window.UNIPATH_I18N || {};\n' +
   'window.UNIPATH_I18N.' + lang + ' = ' + JSON.stringify(plain) + ';\n' +

@@ -1,5 +1,5 @@
 /* ============================================================
-   UniPath — invisible bot check (Cloudflare Turnstile)
+   UniAtlas — invisible bot check (Cloudflare Turnstile)
 
    How it behaves:
    • Real visitors: the site opens immediately. Turnstile runs in the
@@ -30,7 +30,7 @@
 
   var CONFIG = {
     ENABLED: true,
-    SITE_KEY: '0x4AAAAAAE6BW1wHjpWjMwSt',   // UniPath widget (hostname: unipath-edu.netlify.app)
+    SITE_KEY: '0x4AAAAAAE6BW1wHjpWjMwSt',   // UniAtlas widget (hostname: unipath-edu.netlify.app)
     TTL_HOURS: 24,
     STORAGE_KEY: 'unipath.human.v1'
   };
@@ -92,7 +92,7 @@
     modal.setAttribute('aria-labelledby', 'human-gate-title');
     modal.innerHTML =
       '<div class="gate-card">' +
-        '<div class="gate-logo"><span class="logo-mark"><span>UP</span></span> UniPath</div>' +
+        '<div class="gate-logo"><span class="logo-mark"><span>UA</span></span> UniAtlas</div>' +
         '<h1 id="human-gate-title">Quick security check</h1>' +
         '<p>We couldn’t confirm automatically that you are a person. Please complete the check below to continue.</p>' +
         '<div class="gate-widget" id="gate-slot"></div>' +

@@ -1,4 +1,4 @@
-/* UniPath — checks for the data and for the logic of statuses, deadlines and
+/* UniAtlas — checks for the data and for the logic of statuses, deadlines and
    the match page. Run with:  node tests/run.js
    The site's own scripts are loaded unchanged into a small sandbox. */
 'use strict';
@@ -491,12 +491,12 @@ DB.universities.forEach(function (u) {
   var r = M.evaluate(u, input);
   cats[r.category]++;
   r.checks.forEach(function (c) {
-    if (/UniPath estimate/i.test(c.text)) estimate.push(u.id);
+    if (/UniAtlas estimate/i.test(c.text)) estimate.push(u.id);
     if (c.level === 'ok' && !c.basis) okNoBasis.push(u.id + ': ' + c.text);
   });
   if (!r.unchecked.some(function (x) { return /GPA/.test(x); })) gpaNotFlagged.push(u.id);
 });
-ok(!estimate.length, 'no comparison uses a UniPath estimate', estimate.slice(0, 5).join(', '));
+ok(!estimate.length, 'no comparison uses a UniAtlas estimate', estimate.slice(0, 5).join(', '));
 ok(!okNoBasis.length, 'every positive comparison names its basis (minimum, recommendation or statistic)', okNoBasis.slice(0, 3).join(' | '));
 ok(!gpaNotFlagged.length, 'a missing GPA is always listed as not checked', gpaNotFlagged.slice(0, 5).join(', '));
 var src = fs.readFileSync(path.join(ROOT, 'assets/js/match.js'), 'utf8');
@@ -627,14 +627,14 @@ group('corrections after the expansion');
   var perSem = ['goucher-college', 'lesley-university', 'the-new-school'].filter(function (id) { var u = U.uniById(id); return !(U.costPeriod(u) === 'semester' && /per semester/.test(U.cardCost(u).text) && U.cardCost(u).suffix === ''); });
   ok(!perSem.length, 'a charge published per semester is shown per semester on the card, not as a yearly figure', perSem.join(', '));
   var gb = bud('goucher-college', 80000);
-  ok(gb.status === 'fits-billed' && /calculated by UniPath/.test(gb.text), 'Goucher: the two-semester sum used for the budget is marked as calculated, and is not called a full cost', gb.status + ' / ' + gb.text);
+  ok(gb.status === 'fits-billed' && /calculated by UniAtlas/.test(gb.text), 'Goucher: the two-semester sum used for the budget is marked as calculated, and is not called a full cost', gb.status + ' / ' + gb.text);
   ok(/sum of the lines/.test(bud('mcdaniel-college', 80000).text), 'McDaniel: a sum of lines is not presented as the college’s own total');
   var md = bud('university-of-maryland', 100000), dl = bud('dillard-university', 100000);
   ok(md.status === 'unknown' && /earlier year/.test(md.text) && /2025–2026/.test(md.text) && dl.status === 'unknown' && /earlier year/.test(dl.text),
     'a figure of a previous cycle is shown as such and never compared with a budget (Maryland, Dillard)', md.text);
   ok(!DB.match.annualCost['university-of-maryland'] && !DB.match.annualCost['dillard-university'], 'previous-cycle figures are not in the match table');
   var tm = bud('texas-a-and-m-university', 70000);
-  ok(U.costPeriod(U.uniById('texas-a-and-m-university')) === 'semester' && tm.status === 'fits' && /calculated by UniPath/.test(tm.text),
+  ok(U.costPeriod(U.uniById('texas-a-and-m-university')) === 'semester' && tm.status === 'fits' && /calculated by UniAtlas/.test(tm.text),
     'Texas A&M: the calculator’s semester figures stay per semester; the two-semester sum is marked as calculated', tm.status + ' / ' + tm.text);
   var mar = U.uniById('marist-university'), xl = U.uniById('xavier-university-of-louisiana');
   ok(U.budgetAmount(mar) === 76875 && U.billedAmount(mar) === 72040 && bud('marist-university', 76875).status === 'fits', 'Marist: the 2026–27 cost of attendance and its billable part are as printed');
@@ -1078,8 +1078,20 @@ require('./admission-requirements')({U:U, DB:DB, M:M, ok:ok, global:sandbox});
   ok(isPng && w === 1200 && h === 630 && png.length < 600000 &&
      /SHARE_IMAGE = f"\{SITE\}\/assets\/img\/og-share\.png"/.test(pre) &&
      /og:\[a-z_:\]\+/.test(pre) &&
-     /property="og:title"\s+content="UniPath — вузы/.test(index),
+     /property="og:title"\s+content="UniAtlas — вузы/.test(index),
     'Share picture is a 1200x630 PNG used by the home, country and photo-less university pages');
+})();
+
+/* The site is called UniAtlas (renamed from UniPath on 23 November 2026). The web
+   address and the saved-settings keys keep "unipath" so old links and settings work. */
+(function () {
+  var old = 'Uni' + 'Path';
+  var shown = ['index.html', 'assets/js/app.js', 'assets/js/views.js', 'assets/js/pages.js', 'assets/js/router.js',
+    'assets/js/match.js', 'assets/js/news.js', 'assets/js/gate.js', 'data/i18n/ru.js', 'data/match.js', 'tools/prerender.py', 'tools/og_image.html']
+    .filter(function (f) { return fs.readFileSync(path.join(ROOT, f), 'utf8').indexOf(old) >= 0; });
+  var app = fs.readFileSync(path.join(ROOT, 'assets/js/app.js'), 'utf8');
+  ok(!shown.length && /<span>UA<\/span><\/span> UniAtlas/.test(app) && /var THEME_KEY = 'unipath\.theme'/.test(app),
+    'The site name is UniAtlas everywhere it is shown; saved-settings keys are unchanged', shown.join(', '));
 })();
 
 console.log('\n' + passed + ' passed, ' + failed + ' failed');

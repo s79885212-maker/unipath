@@ -158,9 +158,9 @@ module.exports=function(env){
   var davis=U.uniById('university-of-california-davis'),davisMerit=U.meritList(davis).filter(function(a){return a.id==='davis-campus-scholarships';})[0];
   ok(U.budgetAmount(davis)===88279&&U.billedAmount(davis)===null&&davis.costs.billedSubtotal===null&&U.tuitionAmount(davis)===null&&
      davis.costs.status==='previous-cycle'&&U.costArithmetic(davis).length===0&&
-     /UniPath calculates/.test(davis.costs.note)&&/39,270/.test(davis.costs.note)&&
+     /UniAtlas calculates/.test(davis.costs.note)&&/39,270/.test(davis.costs.note)&&
      !DB.match.annualCost[davis.id]&&[null,0,100000].every(function(b){return budget(davis,b).status==='unknown';}),
-     'Davis cohort COA retains its supplement and historical status; a UniPath-calculated subtotal is not assigned to a university-published billing field');
+     'Davis cohort COA retains its supplement and historical status; a UniAtlas-calculated subtotal is not assigned to a university-published billing field');
   ok(U.budgetAmount(conn)===70649&&U.tuitionAmount(conn)===39678&&conn.costs.billedSubtotal===null&&
      conn.costs.status==='previous-cycle'&&U.costArithmetic(conn).length===0&&
      /nine months/.test(conn.costs.studentCategory)&&/already include/.test(conn.costs.note)&&

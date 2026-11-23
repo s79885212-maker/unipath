@@ -1,5 +1,5 @@
 /* ============================================================
-   UniPath — admissions updates
+   UniAtlas — admissions updates
 
    Entries come from data/news.js, where every item carries its
    official source, the date the source published it and the date it
@@ -161,7 +161,7 @@
         '<div id="news-list"></div>' +
         '<p class="small muted" style="margin-top:26px">Nothing here is written from memory: if a source does not state a publication date, this page says so instead of inventing one. Always confirm a deadline on the university’s own page before you rely on it.</p>' +
       '</div></section>';
-    document.title = 'Admissions updates — UniPath';
+    document.title = 'Admissions updates — UniAtlas';
     draw();
   }
 

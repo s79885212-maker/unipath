@@ -1,4 +1,4 @@
-/* UniPath — details of English-test requirements read on official pages:
+/* UniAtlas — details of English-test requirements read on official pages:
    which versions of a test are accepted (Home Edition, MyBest, Indicator,
    Online…), section minimums, and conditional admission. Each entry names the
    page it was read on and the day. A record without an entry has not had these

@@ -10414,7 +10414,7 @@ window.UNIPATH.universities.push(
       }
     ],
     "billedSubtotal": null,
-    "totalText": "Published per semester for 2026–2027: tuition $28,750, student activity fee $150, a double room $4,740, the first-year meal plan $4,190. Two semesters of these four charges come to $75,660 — calculated by UniPath; the page prints no yearly total",
+    "totalText": "Published per semester for 2026–2027: tuition $28,750, student activity fee $150, a double room $4,740, the first-year meal plan $4,190. Two semesters of these four charges come to $75,660 — calculated by UniAtlas; the page prints no yearly total",
     "note": null
   },
   "scholarships": {
@@ -11761,7 +11761,7 @@ window.UNIPATH.universities.push(
       }
     ],
     "billedSubtotal": null,
-    "totalText": "Published per semester for 2026–27: tuition $18,200, comprehensive fee $525, a shared room $6,520, the meal plan $4,140, health services fee $525. Two semesters of these five charges come to $59,820 — calculated by UniPath; the page prints no yearly total",
+    "totalText": "Published per semester for 2026–27: tuition $18,200, comprehensive fee $525, a shared room $6,520, the meal plan $4,140, health services fee $525. Two semesters of these five charges come to $59,820 — calculated by UniAtlas; the page prints no yearly total",
     "note": "The page says tuition and fees for 2026–27 “are subject to change June 1”. It lists the student health insurance premium without saying on that page who must buy it."
   },
   "scholarships": {
@@ -14460,7 +14460,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 71922,
     "totalText": "$71,922 total billed costs a year, as stated for the autumn 2026 session",
-    "note": "With the $37,000 international scholarship the billed amount left to pay is $34,922 a year (calculated by UniPath from the two published figures)."
+    "note": "With the $37,000 international scholarship the billed amount left to pay is $34,922 a year (calculated by UniAtlas from the two published figures)."
   },
   "scholarships": {
     "fullRide": {
@@ -17410,7 +17410,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 47038,
     "totalText": "$47,038 in direct costs that appear on the bill; indirect costs were not read on this check",
-    "note": "With the international grant ($17,000 or $20,000, depending on the page) the billed amount left to pay is $27,038 to $30,038 a year (calculated by UniPath)."
+    "note": "With the international grant ($17,000 or $20,000, depending on the page) the billed amount left to pay is $27,038 to $30,038 a year (calculated by UniAtlas)."
   },
   "scholarships": {
     "fullRide": {
@@ -18605,7 +18605,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 67935,
     "totalText": "$67,935 total tuition and fees, as printed; books and personal expenses are listed separately as estimates",
-    "note": "With the $25,000 minimum scholarship of the $100K+ Promise the billed amount left to pay is at most $42,935 a year (calculated by UniPath)."
+    "note": "With the $25,000 minimum scholarship of the $100K+ Promise the billed amount left to pay is at most $42,935 a year (calculated by UniAtlas)."
   },
   "scholarships": {
     "fullRide": {
@@ -24252,7 +24252,7 @@ window.UNIPATH.universities.push(
       }
     ],
     "billedSubtotal": null,
-    "totalText": "$30,107.28 per semester for English and $31,135.80 for computer science or mechanical engineering, as the calculator prints them. Two semesters come to $60,214.56–$62,271.60 — calculated by UniPath",
+    "totalText": "$30,107.28 per semester for English and $31,135.80 for computer science or mechanical engineering, as the calculator prints them. Two semesters come to $60,214.56–$62,271.60 — calculated by UniAtlas",
     "note": "Read from the university’s tuition calculator with these choices: autumn 2026 or spring 2027, non-resident international, incoming freshman, on campus, 12 or more hours. Tuition differs by major; for English the calculator also deducts $132.72 as a “tuition reduction based on 2022–2023 rates”. Not included: an International Student Services fee of $150 a semester; international student health insurance of $262.50 on arrival, $1,051 for autumn and $2,095 for spring; a $100 deposit and orientation fees."
   },
   "scholarships": {
@@ -27531,7 +27531,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": 74812,
     "totalText": "$74,812 annual cost for two semesters, as printed; health insurance ($4,818) and books ($644) are listed as indirect costs",
-    "note": "With the $52,000 International Student Grant the billed amount left to pay is $22,812 a year (calculated by UniPath); the grant does not rise when tuition, fees, room or board rise."
+    "note": "With the $52,000 International Student Grant the billed amount left to pay is $22,812 a year (calculated by UniAtlas); the grant does not rise when tuition, fees, room or board rise."
   },
   "scholarships": {
     "fullRide": {
@@ -30641,7 +30641,7 @@ window.UNIPATH.universities.push(
       }
     ],
     "billedSubtotal": null,
-    "totalText": "Published per semester for students entering in 2026–2027: tuition $31,174, University Services fee $720, Student Senate fee $9. Two semesters come to $63,806 — calculated by UniPath; the page prints no yearly total",
+    "totalText": "Published per semester for students entering in 2026–2027: tuition $31,174, University Services fee $720, Student Senate fee $9. Two semesters come to $63,806 — calculated by UniAtlas; the page prints no yearly total",
     "note": "University housing is listed at $20,985 for a double room and $18,018 for a triple; the row does not say for what period. Parsons Paris has its own rates.",
     "extras": [
       {
@@ -34672,7 +34672,7 @@ window.UNIPATH.universities.push(
   },
   "costs": {
     "breakdown": {
-      "includes": "Published residence-hall COA before aid; subtotal calculated separately by UniPath",
+      "includes": "Published residence-hall COA before aid; subtotal calculated separately by UniAtlas",
       "budget": 88279,
       "period": "year"
     },
@@ -34736,7 +34736,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "Published nonresident COA: USD 88,279; resident direct costs: USD 44,344, plus USD 39,270 nonresident tuition",
-    "note": "The university publishes total nonresident COA USD 88,279 for the Fall 2026 cohort, three quarters from mid-September to mid-June. UniPath calculates the direct subtotal USD 83,614 as the published resident direct subtotal USD 44,344 plus USD 39,270 nonresident supplement; this subtotal is not separately printed by the university. The USD 15,588 line combines tuition and student services and is not tuition-only. Residence-hall housing requires an official university housing contract. Other housing choices differ. Insurance USD 3,924 is an estimate, may differ from the final approved rate and may be waived with qualifying coverage. Published/proposed rates are subject to final approval. No Fall 2027 price or current budget match is inferred; competitive aid is not deducted.",
+    "note": "The university publishes total nonresident COA USD 88,279 for the Fall 2026 cohort, three quarters from mid-September to mid-June. UniAtlas calculates the direct subtotal USD 83,614 as the published resident direct subtotal USD 44,344 plus USD 39,270 nonresident supplement; this subtotal is not separately printed by the university. The USD 15,588 line combines tuition and student services and is not tuition-only. Residence-hall housing requires an official university housing contract. Other housing choices differ. Insurance USD 3,924 is an estimate, may differ from the final approved rate and may be waived with qualifying coverage. Published/proposed rates are subject to final approval. No Fall 2027 price or current budget match is inferred; competitive aid is not deducted.",
     "status": "previous-cycle"
   },
   "scholarships": {
@@ -35190,7 +35190,7 @@ window.UNIPATH.universities.push(
     "billedSubtotal": null,
     "totalText": "Published Total Nonresident: USD 59,375.05 for Fall/Winter/Spring 2026–2027; inclusions remain unresolved",
     "conflict": {
-      "text": "The university prints USD 59,375.05. UniPath sums the listed annual components to USD 59,802.05, or USD 59,619.05 after removing the explicitly excluded USD 183 document fee: USD 244 still remains unexplained. These are UniPath calculations, not additional university-published totals. No coherent billed subtotal or full budget is asserted."
+      "text": "The university prints USD 59,375.05. UniAtlas sums the listed annual components to USD 59,802.05, or USD 59,619.05 after removing the explicitly excluded USD 183 document fee: USD 244 still remains unexplained. These are UniAtlas calculations, not additional university-published totals. No coherent billed subtotal or full budget is asserted."
     },
     "note": "Previous available cohort and year, not Fall 2027 prices. Base tuition USD 14,202 and nonresident supplemental tuition USD 39,270 are separate components: the base alone is not the international tuition price. Housing, food, books, travel and personal expenses are not included in this table. Conditional summer health-insurance proration is not added to every applicant. Component inclusion is unresolved, so rows are not assigned to a reconciled billed group. Competitive aid is not deducted."
   },
@@ -38717,7 +38717,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "Tuition only — full cost of attendance not established",
-    "note": "2027–28 University Park nonresident first-year/lower-division tuition, 12–19 credits per semester. The university publishes USD 46,356 per academic year, not a UniPath multiplication. This is tuition only: student fee USD 330 per semester, housing, meals, insurance, books, travel and other charges are additional. Upper-division, other campuses and overload rates differ. Competitive awards are not deducted.",
+    "note": "2027–28 University Park nonresident first-year/lower-division tuition, 12–19 credits per semester. The university publishes USD 46,356 per academic year, not a UniAtlas multiplication. This is tuition only: student fee USD 330 per semester, housing, meals, insurance, books, travel and other charges are additional. Upper-division, other campuses and overload rates differ. Competitive awards are not deducted.",
     "status": "confirmed"
   },
   "scholarships": {
@@ -39081,7 +39081,7 @@ window.UNIPATH.universities.push(
     ],
     "billedSubtotal": null,
     "totalText": "School-specific tuition USD 48,812 and mandatory fees USD 2,152; living estimate USD 20,654",
-    "note": "2026–2027 School of Business reference only, not the university-wide or Fall 2027 price. Full-time international undergraduates at Pittsburgh additionally pay USD 500 per fall/spring term in International Services Fees; UniPath would calculate USD 1,000 for two terms, which is not a separately printed annual university total. Health-insurance inclusion is unconfirmed; loan fees are conditional. No complete international total or budget fit is asserted and no competitive award is deducted.",
+    "note": "2026–2027 School of Business reference only, not the university-wide or Fall 2027 price. Full-time international undergraduates at Pittsburgh additionally pay USD 500 per fall/spring term in International Services Fees; UniAtlas would calculate USD 1,000 for two terms, which is not a separately printed annual university total. Health-insurance inclusion is unconfirmed; loan fees are conditional. No complete international total or budget fit is asserted and no competitive award is deducted.",
     "source": "https://www.tuition.pitt.edu/undergraduate/tuition/pittsburgh/school-business",
     "verified": "2026-11-02"
   },
@@ -41784,10 +41784,10 @@ window.UNIPATH.universities.push(
     "items": [],
     "billedSubtotal": null,
     "totalText": null,
-    "note": "Both pages label 2026–27 non-South-Carolina undergraduate costs. Admissions lists tuition/fees USD 42,852; Financial Aid lists tuition 42,020 plus fees 1,832 = USD 43,852 (sum by UniPath). The USD 1,000 discrepancy is unresolved and is not described as programme variation. Admissions 60,308 excludes other expenses and is not comparable to the full COA 66,180 (68,704 with laptop). These are previous-year references, not Fall 2027 rates; no budget sufficiency is confirmed.",
+    "note": "Both pages label 2026–27 non-South-Carolina undergraduate costs. Admissions lists tuition/fees USD 42,852; Financial Aid lists tuition 42,020 plus fees 1,832 = USD 43,852 (sum by UniAtlas). The USD 1,000 discrepancy is unresolved and is not described as programme variation. Admissions 60,308 excludes other expenses and is not comparable to the full COA 66,180 (68,704 with laptop). These are previous-year references, not Fall 2027 rates; no budget sufficiency is confirmed.",
     "status": "conflict",
     "conflict": {
-      "text": "Both pages label 2026–27 non-South-Carolina undergraduate costs. Admissions lists tuition/fees USD 42,852; Financial Aid lists tuition 42,020 plus fees 1,832 = USD 43,852 (sum by UniPath). The USD 1,000 discrepancy is unresolved and is not described as programme variation. Admissions 60,308 excludes other expenses and is not comparable to the full COA 66,180 (68,704 with laptop). These are previous-year references, not Fall 2027 rates; no budget sufficiency is confirmed."
+      "text": "Both pages label 2026–27 non-South-Carolina undergraduate costs. Admissions lists tuition/fees USD 42,852; Financial Aid lists tuition 42,020 plus fees 1,832 = USD 43,852 (sum by UniAtlas). The USD 1,000 discrepancy is unresolved and is not described as programme variation. Admissions 60,308 excludes other expenses and is not comparable to the full COA 66,180 (68,704 with laptop). These are previous-year references, not Fall 2027 rates; no budget sufficiency is confirmed."
     }
   },
   "scholarships": {
@@ -42514,7 +42514,7 @@ window.UNIPATH.universities.push(
     "totalText": "University-printed international on-campus total: USD 85,809; component sum unresolved",
     "note": "Previous 2026–2027 cohort, not Fall 2027. Campus housing, first-term fees, insurance conditions and programme extras require separate review. Competitive merit is not deducted.",
     "conflict": {
-      "text": "The international on-campus rows add to USD 85,284 (UniPath calculation), while the university prints USD 85,809: unexplained difference USD 525. The resident first-year table uses different transportation/personal estimates; those values are not silently substituted. Additional first-term orientation USD 300 and records USD 315 are listed separately and do not reconcile that difference. Both printed rows and total are retained; no reconciled billed or full budget is assigned."
+      "text": "The international on-campus rows add to USD 85,284 (UniAtlas calculation), while the university prints USD 85,809: unexplained difference USD 525. The resident first-year table uses different transportation/personal estimates; those values are not silently substituted. Additional first-term orientation USD 300 and records USD 315 are listed separately and do not reconcile that difference. Both printed rows and total are retained; no reconciled billed or full budget is assigned."
     },
     "source": "https://financialaid.ucr.edu/cost",
     "verified": "2026-11-02"
@@ -53248,7 +53248,7 @@ window.UNIPATH.universities.push(
     "totalText": "Published tuition USD 51,910; living USD 17,990; miscellaneous USD 4,320 with unresolved period",
     "note": "2026–2027 reference, not Fall 2027. Miscellaneous includes insurance, travel, books but its 10/12 month description is contradictory. No published consolidated total is asserted. Merit consideration up to 34,000 USD/year is competitive, not automatically subtracted; the university explicitly does not offer full-tuition scholarships on this international page.",
     "conflict": {
-      "text": "The official international page labels the USD 4,320 miscellaneous estimate as 10 months, then describes the same insurance/transport/books expenses as 12 months. The scope is unresolved. UniPath does not choose a period or publish a consolidated full total; tuition and living reference lines are retained."
+      "text": "The official international page labels the USD 4,320 miscellaneous estimate as 10 months, then describes the same insurance/transport/books expenses as 12 months. The scope is unresolved. UniAtlas does not choose a period or publish a consolidated full total; tuition and living reference lines are retained."
     },
     "source": "https://udayton.edu/tuition-aid/international/undergraduate.php",
     "verified": "2026-11-02"
@@ -53665,7 +53665,7 @@ window.UNIPATH.universities.push(
     "totalText": "Admissions published direct estimate USD 57,412; tuition disagrees with Bursar semester rates",
     "note": "2026–2027 admissions table is a direct-cost estimate, not a full COA. Programme fee 1,580 USD is a weighted average, not every major’s charge. Books, travel, personal spending are indirect and additional. Bursar also lists mandatory insurance 4,000 USD/year for specified student categories and full-time technology 200 USD/semester; special scholarship-reduced nonresident rows cannot be assumed for an international applicant. Source discrepancy is retained even though small. No Fall 2027 budget or aid deduction.",
     "conflict": {
-      "text": "Admissions prints annual nonresident tuition USD 38,098; the 2026–27 Columbia Bursar prints USD 19,050 per full-time semester. Two such semesters would be USD 38,100 (UniPath calculation), USD 2 higher. The difference is not explained or replaced by a programme-price range. No reconciled billed/full budget or scholarship-reduced rate is assigned."
+      "text": "Admissions prints annual nonresident tuition USD 38,098; the 2026–27 Columbia Bursar prints USD 19,050 per full-time semester. Two such semesters would be USD 38,100 (UniAtlas calculation), USD 2 higher. The difference is not explained or replaced by a programme-price range. No reconciled billed/full budget or scholarship-reduced rate is assigned."
     },
     "source": "https://www.sc.edu/about/offices_and_divisions/undergraduate_admissions/tuition_scholarships/index.php",
     "verified": "2026-11-02"

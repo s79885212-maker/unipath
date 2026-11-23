@@ -210,7 +210,7 @@ window.UNIPATH.universities.push(
       }
     ],
     "billedSubtotal": null,
-    "totalText": "For two charged semesters, EUR 2,000–6,000 tuition — calculated by UniPath; contribution and living costs extra",
+    "totalText": "For two charged semesters, EUR 2,000–6,000 tuition — calculated by UniAtlas; contribution and living costs extra",
     "note": "From summer semester 2027, new non-EU/EEA students without a German entrance qualification or established ties generally pay tuition. The full-time BSc Artificial Intelligence rate is EUR 1,000 per semester; other bachelor programmes have their own EUR 1,000–3,000 rates. The page currently lists an additional EUR 82 semester contribution. The annual tuition illustration multiplies two charged semesters and is not a university-published full budget. Exemptions and waivers require the applicable rules.",
     "source": "https://www.fau.eu/studying/international-students/application-and-enrollment-for-international-applicants/tuition-fees-for-students-from-non-eu-states/",
     "verified": "2026-11-17"

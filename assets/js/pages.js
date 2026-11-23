@@ -1,5 +1,5 @@
 /* ============================================================
-   UniPath — page renderers
+   UniAtlas — page renderers
    ============================================================ */
 (function (global) {
   'use strict';
@@ -46,7 +46,7 @@
     var costs = u.costs || {};
     var fr = U.fullRide(u), merit = U.meritList(u), need = U.needBased(u);
 
-    document.title = u.name + ' — UniPath';
+    document.title = u.name + ' — UniAtlas';
 
     var hero = '<section class="uni-hero"><div class="wrap">' +
       '<div class="crumbs"><a href="#/">Home</a> › <a href="#/countries">Countries</a> › ' +
@@ -614,7 +614,7 @@
           ? '<tr class="cost-subtotal"><td>' + esc(U.billedLabel(u) === 'Comprehensive fee' ? 'Comprehensive fee — charged by the university' : 'Subtotal — billed by the university') + '</td><td>' + U.money(costs.billedSubtotal, costs.currency) + '</td></tr>'
           : '');
     }).join('') : '';
-    /* Required costs outside the published total, and UniPath's own sum. */
+    /* Required costs outside the published total, and UniAtlas's own sum. */
     var extras = U.costExtras(u), withExtras = U.budgetWithExtras(u), pubRange = U.budgetRange(u);
     function rangeMoney(r) { return r.min === r.max ? U.money(r.min, costs.currency) : U.money(r.min, costs.currency) + '–' + U.money(r.max, costs.currency); }
     var extrasHtml = extras.length
@@ -627,7 +627,7 @@
           (withExtras && pubRange
             ? '<dl class="deflist cost-sums" style="margin-top:10px">' +
                 row('Published by the university', '<strong>' + rangeMoney(pubRange) + '</strong><br><span class="small muted">Without the costs listed above.</span>') +
-                row('With these required costs', '<strong>' + rangeMoney(withExtras) + '</strong><br><span class="small muted">Calculated by UniPath: the published total plus the required costs above. The university does not publish this sum.</span>') +
+                row('With these required costs', '<strong>' + rangeMoney(withExtras) + '</strong><br><span class="small muted">Calculated by UniAtlas: the published total plus the required costs above. The university does not publish this sum.</span>') +
               '</dl>'
             : '') +
         '</div></div>'
@@ -812,7 +812,7 @@
 
     /* Photos — every image carries its attribution: Wikimedia Commons, or (g.source) the university's own website */
     function credit(g) {
-      if (g.providedByProject) return '<span class="credit">Photo provided by the UniPath project owner</span>';
+      if (g.providedByProject) return '<span class="credit">Photo provided by the UniAtlas project owner</span>';
       return '<span class="credit"><span>Photo:</span> ' + (g.artist ? '<span data-no-i18n>' + esc(g.artist) + '</span>' : '<span>Unknown author</span>') +
         (g.page ? ' · <a href="' + esc(g.page) + '" target="_blank" rel="noopener">' + (g.source ? '<span>' + esc(g.source) + '</span>' : 'Wikimedia Commons') + '</a>' : '') +
         ' · ' + (g.licenseUrl ? '<a href="' + esc(g.licenseUrl) + '" target="_blank" rel="noopener">' + esc(g.license) + '</a>' : esc(g.license)) +
@@ -858,7 +858,7 @@
     /* Report an error: a prepared message the visitor copies or files as a
        public GitHub issue. Nothing is sent from this page by itself. */
     var pageUrl = (global.location.origin || '') + (global.location.pathname || '') + U.uniUrl(u);
-    var reportText = 'UniPath — error report\nInstitution: ' + u.name + '\nPage: ' + pageUrl +
+    var reportText = 'UniAtlas — error report\nInstitution: ' + u.name + '\nPage: ' + pageUrl +
       '\nProfile last checked: ' + (u.lastVerified || 'not stated') + '\n\nWhat is wrong:\n\nOfficial source that shows the correct information (link):\n';
     var reportBase = (U.DB.config && U.DB.config.reportErrorUrl) || null;
     var issueUrl = reportBase && /github\.com\/.+\/issues\/new/.test(reportBase)
@@ -1294,7 +1294,7 @@
         '<div class="wrap section"><div class="empty-state"><h3>Country not found</h3><p><a href="#/countries">Back to countries</a></p></div></div>';
       return;
     }
-    document.title = c.name + ' — UniPath';
+    document.title = c.name + ' — UniAtlas';
 
     var withFullRide = list.filter(function (u) { return U.fullRide(u).available === true; }).length;
     var englishTaught = list.filter(function (u) { return u.englishTaught === true; }).length;
@@ -1430,7 +1430,7 @@
         if (!ex.length) return '<span class="muted">None recorded</span>';
         return ex.map(function (x) { return '<span>' + esc(x.label) + '</span>: <strong>' + esc(U.money(x.amount, cur)) + '</strong>' +
             (has(x.condition) ? '<br><span class="small muted">' + esc(x.condition) + '</span>' : ''); }).join('<br>') +
-          (w ? '<br><span class="small">With them: <strong>' + esc(w.min === w.max ? U.money(w.min, cur) : U.money(w.min, cur) + '–' + U.money(w.max, cur)) + '</strong> <span class="muted">(calculated by UniPath)</span></span>' : '');
+          (w ? '<br><span class="small">With them: <strong>' + esc(w.min === w.max ? U.money(w.min, cur) : U.money(w.min, cur) + '–' + U.money(w.max, cur)) + '</strong> <span class="muted">(calculated by UniAtlas)</span></span>' : '');
       }],
       ['Academic year of the figures', function (u) { return U.costYear(u) ? esc(U.costYear(u)) : UNKNOWN; }],
       ['What the figures cover', function (u) { var i = U.costIncludes(u); return i ? '<span class="small">' + esc(i) + '</span>' : UNKNOWN; }],
@@ -1524,11 +1524,11 @@
 
   function renderSaved() {
     var main = document.getElementById('main');
-    document.title = 'Saved — UniPath';
+    document.title = 'Saved — UniAtlas';
     var ids = U.savedGet(), intake = U.intakeGet();
     var head = '<section class="page-head"><div class="wrap"><h1>Saved institutions</h1>' +
       '<p>Your list and the confirmed application deadlines for the intake you choose.</p></div></section>';
-    var note = '<div class="notice notice-info"><span class="ico">ℹ️</span><div>This list is stored only in this browser on this device. It is not an account, it does not sync to other devices, and clearing the browser data removes it. UniPath sends no reminders — check the dates yourself.</div></div>';
+    var note = '<div class="notice notice-info"><span class="ico">ℹ️</span><div>This list is stored only in this browser on this device. It is not an account, it does not sync to other devices, and clearing the browser data removes it. UniAtlas sends no reminders — check the dates yourself.</div></div>';
     if (!ids.length) {
       main.innerHTML = head + '<section class="section"><div class="wrap">' + note +
         '<div class="empty-state" style="margin-top:18px"><h3>Nothing saved yet</h3>' +

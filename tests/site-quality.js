@@ -134,7 +134,7 @@ module.exports = function (env) {
   ok(budget('university-of-northern-british-columbia', 31204.5, 'CAD').status === 'unknown', 'UNBC historical cost cannot confirm the current full budget');
   U.uniById('university-of-northern-british-columbia').costs.status = 'confirmed';
   var unbcResult = budget('university-of-northern-british-columbia', 31204.5, 'CAD');
-  ok(unbcCost && unbcResult.status === 'fits-tuition' && /2026–27/.test(unbcResult.text) && /30 credits/.test(unbcResult.text) && /calculated by UniPath/.test(unbcResult.text),
+  ok(unbcCost && unbcResult.status === 'fits-tuition' && /2026–27/.test(unbcResult.text) && /30 credits/.test(unbcResult.text) && /calculated by UniAtlas/.test(unbcResult.text),
     'UNBC: sourced 30-credit calculation is labelled and can cover tuition only, never the full budget');
   try {
     DB.match.annualCost['university-of-northern-british-columbia'] = Object.assign({}, unbcCost, { workloadSource: null });

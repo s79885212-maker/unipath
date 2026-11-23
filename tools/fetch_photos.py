@@ -10,7 +10,7 @@ import json, os, re, sys, time, urllib.parse, urllib.request, subprocess
 
 ROOT = '/Users/salmonashurmamadov/Desktop/IL9/WORK'
 OUT = os.path.join(ROOT, 'assets/img/universities')
-UA = 'UniPathPhotoFetcher/1.0 (educational site; contact via GitHub s79885212-maker/unipath)'
+UA = 'UniAtlasPhotoFetcher/1.0 (educational site; contact via GitHub s79885212-maker/unipath)'
 
 TARGETS = json.load(open(os.path.join(os.path.dirname(__file__), 'photo_targets_new.json')))
 

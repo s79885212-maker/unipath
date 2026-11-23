@@ -1,4 +1,4 @@
-/* UniPath — which admission cycle a SAT/ACT policy was stated for.
+/* UniAtlas — which admission cycle a SAT/ACT policy was stated for.
    Each entry was read on the institution's own testing page (`source`) on the
    day in `verified`. `cycle` is the cycle or entry term the page names;
    `exception` is a group the page treats differently; `next` is a change the

@@ -1,4 +1,4 @@
-/* UniPath — checks every internal link of the built site.
+/* UniAtlas — checks every internal link of the built site.
    Run after the build:  python3 build-artifact.py && node tests/links.js
    - every relative href/src in dist/**.html must point to a file that exists;
    - every "#/university/<id>" and "university/<id>/" link must name a record;

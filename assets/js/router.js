@@ -1,5 +1,5 @@
 /* ============================================================
-   UniPath — hash router
+   UniAtlas — hash router
    Routes:
      #/                          home
      #/countries                 all countries
@@ -109,7 +109,7 @@
             '<div class="grid grid-3" id="results"></div>' +
             '<div class="results-more" id="results-more"></div></div>' +
           '</div></div></section>';
-        document.title = 'Universities & colleges — UniPath';
+        document.title = 'Universities & colleges — UniAtlas';
         P.renderBrowse({ stateKey: 'all' });
         U.setActiveNav('universities');
         current = { type: 'universities' };
@@ -148,7 +148,7 @@
         main.innerHTML = '<section class="page-head"><div class="wrap"><h1>Compare universities</h1>' +
           '<p>Up to three at a time, on the things that decide an application: total cost, English and test requirements, deadlines, application fee and funding.</p>' +
           '</div></section><section class="section"><div class="wrap"><div id="compare-out"></div></div></section>';
-        document.title = 'Compare universities — UniPath';
+        document.title = 'Compare universities — UniAtlas';
         P.renderCompare();
         U.setActiveNav('compare');
         current = { type: 'compare' };
