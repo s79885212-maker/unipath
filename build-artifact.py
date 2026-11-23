@@ -146,6 +146,23 @@ for dict_file in sorted((ROOT / "data" / "i18n").glob("*.js")):
         shutil.copy2(dict_file, DIST / "data" / "i18n" / dict_file.name)
         print(f"i18n_pack skipped for {dict_file.name}: {err}")
 
+# Counts and the file-to-country map that let pages load only the records they
+# need (tools/data_summary.js, used by assets/js/data-loader.js). The summary is
+# loaded right before the loader in every page; without Node the site loads all
+# records at once, as before.
+try:
+    print(subprocess.run(["node", str(ROOT / "tools" / "data_summary.js"), str(ROOT), str(DIST)],
+                         capture_output=True, text=True, check=True).stdout.strip())
+    _home = DIST / "index.html"
+    _html = _home.read_text(encoding="utf-8")
+    _loader = re.search(r'<script src="assets/js/data-loader\.js\?v=(\d+)"></script>', _html)
+    if not _loader:
+        raise SystemExit("data_summary: index.html has no data-loader script tag")
+    _html = _html.replace(_loader.group(0), f'<script src="data/summary.js?v={_loader.group(1)}"></script>\n    ' + _loader.group(0), 1)
+    _home.write_text(_html, encoding="utf-8")
+except (OSError, subprocess.CalledProcessError) as err:
+    print(f"data_summary skipped: {err}")
+
 # Indexable static pages (/university/<id>/, /country/<code>/) + sitemap,
 # generated from the same data files — see tools/prerender.py.
 import sys

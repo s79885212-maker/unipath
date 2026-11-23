@@ -622,7 +622,10 @@ def country_page(c, unis):
 # ---------------------------------------------------------------- build ----
 
 def build(root: pathlib.Path, dist: pathlib.Path) -> int:
-    template = (root / "index.html").read_text(encoding="utf-8")
+    # The built home page is the shell: it already loads data/summary.js, so static
+    # pages fetch only the records of their own country (assets/js/data-loader.js).
+    shell_src = dist / "index.html" if (dist / "index.html").exists() else root / "index.html"
+    template = shell_src.read_text(encoding="utf-8")
     db = load_data(root)
     urls = [f"{SITE}/"]
     written = 0

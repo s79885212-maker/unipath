@@ -150,6 +150,20 @@
   function unisByCountry(code) {
     return DB.universities.filter(function (u) { return u.country === code; });
   }
+  /* Universities are loaded country by country (assets/js/data-loader.js). Counts on
+     pages that do not load them come from data/summary.js, written by the build from
+     the same records; without it (the site opened from the repository) everything is
+     loaded and counted directly. */
+  function countIn(code) {
+    var S = DB.summary;
+    return S && S.byCountry ? (S.byCountry[code] || 0) : unisByCountry(code).length;
+  }
+  function totalCount() { return DB.summary ? DB.summary.total : DB.universities.length; }
+  /* An id kept in this browser (compare, saved) that exists in the database, loaded
+     or not yet: a country that is not loaded must never drop it from the list. */
+  function knownId(id) {
+    return !!(uniById(id) || (DB.summary && DB.summary.idCountry && DB.summary.idCountry[id]));
+  }
   function displayName(u) { return u.shortName || u.name; }
   function uniUrl(u) { return '#/university/' + encodeURIComponent(u.id); }
 
@@ -1067,6 +1081,11 @@
     });
   }
   var index = buildSearchIndex();
+  /* More universities were loaded: rebuild what is computed from all of them. */
+  function dataChanged() {
+    index = buildSearchIndex();
+    intakeListCache = null;
+  }
 
   function search(query, limit) {
     var q = fold(String(query || '').trim());
@@ -1212,7 +1231,7 @@
     try {
       var raw = global.localStorage.getItem(COMPARE_KEY);
       var arr = raw ? JSON.parse(raw) : [];
-      return Array.isArray(arr) ? arr.filter(uniById) : [];
+      return Array.isArray(arr) ? arr.filter(knownId) : [];
     } catch (e) { return []; }
   }
   function compareSet(arr) {
@@ -1244,7 +1263,7 @@
   function savedGet() {
     try {
       var arr = JSON.parse(global.localStorage.getItem(SAVED_KEY) || '[]');
-      return Array.isArray(arr) ? arr.filter(uniById) : [];
+      return Array.isArray(arr) ? arr.filter(knownId) : [];
     } catch (e) { return []; }
   }
   function savedHas(id) { return savedGet().indexOf(id) > -1; }
@@ -1335,7 +1354,7 @@
           '<div class="footer-disclaimer"><strong>Disclaimer.</strong> ' + esc(DISCLAIMER) + '</div>' +
           '<div class="footer-bottom">' +
             '<span>UniAtlas — independent research project. Not affiliated with any university.</span>' +
-            '<span>' + DB.universities.length + ' universities &amp; colleges · ' + DB.countries.length + ' countries</span>' +
+            '<span>' + totalCount() + ' universities &amp; colleges · ' + DB.countries.length + ' countries</span>' +
           '</div>' +
         '</div>' +
       '</footer>';
@@ -1351,7 +1370,7 @@
       return;
     }
     var chips = ids.map(function (id) {
-      var u = uniById(id);
+      var u = uniById(id) || { id: id, name: id };
       return '<span class="tray-chip">' + esc(displayName(u)) +
         '<button type="button" aria-label="Remove ' + esc(displayName(u)) + '" data-tray-remove="' + esc(id) + '">×</button></span>';
     }).join('');
@@ -1426,7 +1445,7 @@
   }
 
   function countryCard(c) {
-    var n = unisByCountry(c.code).length;
+    var n = countIn(c.code);
     return '' +
       '<article class="card card-link country-card">' +
         '<div class="card-body">' +
@@ -1465,11 +1484,23 @@
       }).join('');
       box.hidden = false;
     }
-    input.addEventListener('input', function () {
+    /* Search covers every country: the first keystroke loads all of them. */
+    function needAll(then) {
+      if (DB.need && !DB.need('all', then)) return false;
+      if (global.I18N && global.I18N.need && !global.I18N.need('all', then)) return false;
+      return true;
+    }
+    function suggest() {
       var v = input.value.trim();
       if (v.length < 2) { close(); return; }
+      if (!needAll(suggest)) {
+        box.innerHTML = '<div class="suggest-empty">Loading universities…</div>';
+        box.hidden = false; return;
+      }
       render(search(v, 8));
-    });
+    }
+    input.addEventListener('input', suggest);
+    input.addEventListener('focus', function () { needAll(function () {}); });
     input.addEventListener('keydown', function (e) {
       if (box.hidden) {
         if (e.key === 'Enter') { go(); }
@@ -1785,6 +1816,7 @@
     STATUS: STATUS, statusLabel: statusLabel, statusHtml: statusHtml, feeStatus: feeStatus, costStatus: costStatus, cardTuition: cardTuition, cardCost: cardCost, tuitionLabel: tuitionLabel,
     recBasis: recBasis, recInfo: recInfo, programsChecked: programsChecked, programsPartial: programsPartial, fieldUnverified: fieldUnverified, unverifiedFieldsHtml: unverifiedFieldsHtml, awardDates: awardDates, awardDeadlineHtml: awardDeadlineHtml, costAfterAid: costAfterAid, costExtras: costExtras, budgetRange: budgetRange, budgetWithExtras: budgetWithExtras, costArithmetic: costArithmetic, costItemsMismatch: costItemsMismatch, costConflict: costConflict,
     DISCLAIMER: DISCLAIMER,
+    countIn: countIn, totalCount: totalCount, dataChanged: dataChanged,
     country: country, field: field, uniById: uniById, unisByCountry: unisByCountry,
     displayName: displayName, uniUrl: uniUrl,
     testStatus: testStatus, testStatusLabel: testStatusLabel,

@@ -44,12 +44,13 @@ window.UNIPATH = window.UNIPATH || {
    - data/test-policy.js: the cycle a SAT/ACT policy was stated for;
    - data/english-details.js: test versions, section minimums, conditional admission;
    - data/award-details.js: test and renewal conditions of the largest award.
-   Called once by the site (assets/js/app.js) and by the build step that
-   writes static university pages (build-artifact.py). Safe to call twice. */
+   Called by the site (assets/js/app.js, and again by assets/js/data-loader.js
+   after it loads more countries) and by the build step that writes static
+   university pages (build-artifact.py). Each record is merged once, so calling
+   it again only merges the records loaded since. */
 window.UNIPATH.applyLayers = function () {
   var DB = window.UNIPATH;
-  if (DB._layersApplied) return;
-  DB._layersApplied = true;
+  var done = DB._layeredIds = DB._layeredIds || {};
   var profiles = DB.profiles || {};
   var photos = DB.photos || {};
   /* Static pages at /university/<id>/ declare <meta name="unipath-root" content="/">:
@@ -58,6 +59,8 @@ window.UNIPATH.applyLayers = function () {
   var root = rootMeta ? rootMeta.getAttribute('content') || '' : '';
   function at(path) { return root && !/^(\/|[a-z]+:)/i.test(path) ? root + path : path; }
   DB.universities.forEach(function (u) {
+    if (done[u.id]) return;
+    done[u.id] = true;
     if ((DB.admissionRequirements || {})[u.id]) u.admissionRequirements = DB.admissionRequirements[u.id];
     var p = profiles[u.id];
     if (p) {
