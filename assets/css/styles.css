@@ -902,10 +902,13 @@ main {
 }
 /* A transform would make the link the containing block and shrink the
    overlay back to the button, so the button itself never moves; the
-   whole card lifts instead. */
-.card-cover-link,
-.card-cover-link:hover,
-.card-cover-link:active {
+   whole card lifts instead. The selectors are deliberately stronger than
+   the later .btn:hover / .btn:active press effect (scale 0.97): with that
+   effect, mousedown hit the overlay but mouseup hit the text under the
+   shrunken button, so clicks on the card body did nothing. */
+.card .btn.card-cover-link,
+.card .btn.card-cover-link:hover,
+.card .btn.card-cover-link:active {
   transform: none;
 }
 .country-card:hover .card-cover-link {
