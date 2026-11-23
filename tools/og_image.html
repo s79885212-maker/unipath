@@ -1,0 +1,52 @@
+<!doctype html>
+<!-- Source of assets/img/og-share.png, the link preview shown by Telegram,
+     WhatsApp, Instagram and others for the home and country pages.
+     Rebuild (1200x630):
+     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless \
+       --hide-scrollbars --window-size=1200,630 --screenshot=assets/img/og-share.png \
+       "file://$PWD/tools/og_image.html" -->
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<style>
+  html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    font-family: -apple-system, "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+    color: #fff;
+    background:
+      radial-gradient(900px 500px at 85% 0%, rgba(59,111,196,.55), transparent 60%),
+      radial-gradient(700px 420px at 0% 100%, rgba(36,83,160,.45), transparent 60%),
+      #0b1b3a;
+    box-sizing: border-box;
+    padding: 72px 80px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .brand { display: flex; align-items: center; gap: 22px; }
+  .logo {
+    width: 84px; height: 84px; border-radius: 20px; background: #2453a0;
+    display: grid; place-items: center; font-weight: 800; font-size: 38px; letter-spacing: -1px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.35);
+  }
+  .name { font-size: 50px; font-weight: 800; letter-spacing: -1px; }
+  h1 { margin: 0; font-size: 66px; line-height: 1.08; font-weight: 800; letter-spacing: -1.5px; max-width: 1000px; }
+  .sub { margin-top: 22px; font-size: 30px; color: #c9d8f2; }
+  .foot { display: flex; align-items: center; justify-content: space-between; }
+  .flags { font-size: 56px; letter-spacing: 10px; }
+  .tag {
+    font-size: 24px; font-weight: 600; color: #e5edfa;
+    border: 2px solid rgba(229,237,250,.35); border-radius: 999px; padding: 12px 26px;
+  }
+</style>
+</head>
+<body>
+  <div class="brand"><div class="logo">UP</div><div class="name">UniPath</div></div>
+  <div>
+    <h1>Вузы, гранты и сроки поступления за рубежом</h1>
+    <div class="sub">Требования, цены и стипендии — по официальным сайтам университетов</div>
+  </div>
+  <div class="foot">
+    <div class="flags">🇺🇸🇬🇧🇨🇦🇩🇪🇯🇵🇰🇷</div>
+    <div class="tag">Бесплатно · RU / EN</div>
+  </div>
+</body>
+</html>

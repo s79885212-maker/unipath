@@ -1069,6 +1069,19 @@ require('./admission-requirements')({U:U, DB:DB, M:M, ok:ok, global:sandbox});
     'Country card cover link keeps its full-card overlay while pressed');
 })();
 
+/* Link preview in Telegram and other messengers: a 1200x630 PNG and the tags that point to it. */
+(function () {
+  var png = fs.readFileSync(path.join(ROOT, 'assets/img/og-share.png'));
+  var isPng = png.slice(1, 4).toString() === 'PNG';
+  var w = png.readUInt32BE(16), h = png.readUInt32BE(20);
+  var pre = fs.readFileSync(path.join(ROOT, 'tools/prerender.py'), 'utf8');
+  ok(isPng && w === 1200 && h === 630 && png.length < 600000 &&
+     /SHARE_IMAGE = f"\{SITE\}\/assets\/img\/og-share\.png"/.test(pre) &&
+     /og:\[a-z_:\]\+/.test(pre) &&
+     /property="og:title"\s+content="UniPath — вузы/.test(index),
+    'Share picture is a 1200x630 PNG used by the home, country and photo-less university pages');
+})();
+
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 
 /* Exit with a status only when run directly; tests/links.js loads this file for the data. */

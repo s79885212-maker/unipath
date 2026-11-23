@@ -317,6 +317,25 @@ def fee_text(u):
     return "Not checked — see the official source"
 
 
+# Link preview (Telegram, WhatsApp, Instagram, Facebook) for pages without a
+# campus photo: the home page, country pages and universities with no photo.
+# Source: tools/og_image.html (1200x630).
+SHARE_IMAGE = f"{SITE}/assets/img/og-share.png"
+SHARE_IMAGE_ALT = "UniPath — universities, scholarships and admission deadlines abroad"
+
+
+def share_tags(image=None):
+    """og:image and the large-card hint; the generic picture when there is no photo."""
+    if image:
+        return [f'<meta property="og:image" content="{e(image)}">',
+                '<meta name="twitter:card" content="summary_large_image">']
+    return [f'<meta property="og:image" content="{e(SHARE_IMAGE)}">',
+            '<meta property="og:image:width" content="1200">',
+            '<meta property="og:image:height" content="630">',
+            f'<meta property="og:image:alt" content="{e(SHARE_IMAGE_ALT)}">',
+            '<meta name="twitter:card" content="summary_large_image">']
+
+
 def head_tags(title, description, url, image=None, og_type="website"):
     tags = [
         f"<title>{e(title)}</title>",
@@ -327,10 +346,7 @@ def head_tags(title, description, url, image=None, og_type="website"):
         f'<meta property="og:title" content="{e(title)}">',
         f'<meta property="og:description" content="{e(description)}">',
         f'<meta property="og:url" content="{e(url)}">',
-        '<meta name="twitter:card" content="summary_large_image">' if image else '<meta name="twitter:card" content="summary">',
-    ]
-    if image:
-        tags.append(f'<meta property="og:image" content="{e(image)}">')
+    ] + share_tags(image)
     return "\n".join(tags)
 
 
@@ -373,7 +389,7 @@ def shell(template: str, head: str, main_html: str) -> str:
     # Drop the generic tags the page overrides.
     page = re.sub(r"<title>.*?</title>\n?", "", page, flags=re.S)
     # The shell writes these tags over several lines, so the match must span newlines.
-    page = re.sub(r'\s*<meta\s+(name="description"|property="og:[a-z_]+")[^>]*?/?>', "", page, flags=re.S)
+    page = re.sub(r'\s*<meta\s+(name="description"|name="twitter:[a-z_]+"|property="og:[a-z_:]+")[^>]*?/?>', "", page, flags=re.S)
     # Pages live at /university/<id>/, so every local file must be requested
     # from the site root. The meta tag tells the app it is on such a page
     # (photo paths from data/photos.js and #/ links are then made root-based).
@@ -637,6 +653,12 @@ def build(root: pathlib.Path, dist: pathlib.Path) -> int:
             raise SystemExit("prerender: index.html has no <meta charset> to anchor the canonical link")
         if 'rel="canonical"' not in text:
             text = text[:charset.end()] + f'\n    <link rel="canonical" href="{SITE}/">' + text[charset.end():]
+        # Link preview of the home page: address, site name and the share picture.
+        if 'property="og:image"' not in text:
+            extra = [f'<meta property="og:url" content="{e(SITE)}/">',
+                     '<meta property="og:site_name" content="UniPath">'] + share_tags()
+            charset = re.search(r'<meta charset="utf-8"\s*/?>', text)
+            text = text[:charset.end()] + "".join("\n    " + t for t in extra) + text[charset.end():]
         home.write_text(text, encoding="utf-8")
 
     if STAGING:
