@@ -1057,6 +1057,7 @@ require('./europe')({U:U,DB:DB,M:M,ok:ok,manifest:euManifest});
 require('./compare-mobile')({U:U, ok:ok, global:sandbox});
 
 require('./six-country-audit')({U:U, DB:DB, M:M, ok:ok});
+require('./lazy-data')(ok);
 require('./admission-requirements')({U:U, DB:DB, M:M, ok:ok, global:sandbox});
 
 /* Country cards: the whole card is one link. The press effect of .btn

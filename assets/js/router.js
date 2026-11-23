@@ -53,17 +53,42 @@
     if (head === 'university') { var u = U.uniById(r.parts[1]); return u ? [u.country] : []; }
     return 'all';
   }
-  var prefetched = false;
+  /* Which countries' university records a page needs (assets/js/data-loader.js).
+     Home, countries and about use the counts of data/summary.js; a country or a
+     profile needs its own country; lists, search, match and the rest need all. */
+  function dataNeeds(r) {
+    var DB = global.UNIPATH || {}, head = r.parts[0] || '', want;
+    if (head === '' || head === 'countries' || head === 'about') want = [];
+    else if (head === 'country') want = [r.parts[1] || 'us'];
+    else if (head === 'university') {
+      var c = DB.countryOf ? DB.countryOf(r.parts[1]) : null;
+      want = c ? [c] : 'all';
+    } else return 'all';
+    /* The compare tray at the bottom names the universities in it. */
+    U.compareGet().forEach(function (id) {
+      var cc = DB.countryOf ? DB.countryOf(id) : null;
+      if (cc && want.indexOf(cc) < 0) want.push(cc);
+    });
+    return want;
+  }
+  /* While records load after a page was already shown, say so instead of
+     leaving the previous page on screen. */
+  function showLoading() {
+    if (!rendered || document.getElementById('route-loading')) return;
+    main.innerHTML = '<div class="boot" id="route-loading" role="status" aria-live="polite">' +
+      '<div class="boot-bar" aria-hidden="true"><span></span></div>' +
+      '<p class="boot-text">Loading universities…</p></div>';
+    global.scrollTo(0, 0);
+  }
 
   function render() {
     /* A fragment that is not a route never re-renders or scrolls the page. */
     if (rendered && !isRoute(global.location.hash)) return;
-    /* Wait for the translation parts this page needs; render() runs again when they are in. */
-    if (global.I18N && global.I18N.need && !global.I18N.need(textNeeds(parse()), render)) return;
-    if (!prefetched && global.I18N && global.I18N.prefetchAll) {
-      prefetched = true;
-      global.setTimeout(global.I18N.prefetchAll, 1200);
-    }
+    /* Wait for the records and the translation parts this page needs;
+       render() runs again when they are in. */
+    var DB = global.UNIPATH || {};
+    if (DB.need && !DB.need(dataNeeds(parse()), render)) { showLoading(); return; }
+    if (global.I18N && global.I18N.need && !global.I18N.need(textNeeds(parse()), render)) { showLoading(); return; }
     rendered = true;
     var r = parse();
     var head = r.parts[0] || '';

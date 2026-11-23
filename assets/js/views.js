@@ -7,6 +7,7 @@
   var esc = U.esc;
 
   function stats() {
+    if (U.DB.summary && U.DB.summary.stats) return U.DB.summary.stats;
     var all = U.DB.universities;
     return {
       unis: all.length,
@@ -113,7 +114,7 @@
   function countries() {
     document.title = 'Countries — UniAtlas';
     var detail = U.DB.countries.map(function (c) {
-      var n = U.unisByCountry(c.code).length;
+      var n = U.countIn(c.code);
       return '<div class="card"><div class="card-body">' +
         '<h2>' + c.flag + ' <span>' + esc(c.name) + '</span></h2>' +
         '<p>' + esc(c.overview) + '</p>' +
@@ -227,7 +228,7 @@
       ['Merit scholarships listed', s.merit], ['Study fields', U.DB.fields.length]
     ].map(function (r) { return '<div><dt>' + r[0] + '</dt><dd>' + r[1] + '</dd></div>'; }).join('');
     var countryList = U.DB.countries.map(function (c) {
-      var n = U.unisByCountry(c.code).length;
+      var n = U.countIn(c.code);
       return '<li><a href="#/country/' + esc(c.code) + '">' + c.flag + ' <span>' + esc(c.name) + '</span></a> — ' +
         '<span>' + n + ' universities</span></li>';
     }).join('');
@@ -279,5 +280,5 @@
   }
 
 
-  global.UPViews = { home: home, countries: countries, scholarships: scholarships, about: about };
+  global.UPViews = { home: home, countries: countries, scholarships: scholarships, about: about, stats: stats };
 })(window);
