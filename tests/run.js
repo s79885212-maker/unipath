@@ -58,7 +58,9 @@ ok(byCountry.us === US_NOW && US_NOW <= US_TARGET, US_NOW + ' United States reco
 ok(byCountry.ca === CA_NOW && CA_NOW <= CA_TARGET, CA_NOW + ' Canadian records (target ' + CA_TARGET + ')', 'found ' + byCountry.ca);
 /* United Kingdom: 30 records plus 20 for 2027/28 (November 2026). */
 var UK_NOW = 50;
-ok(DB.universities.length === US_NOW + 90 + UK_NOW + CA_NOW, (US_NOW + 90 + UK_NOW + CA_NOW) + ' institutions in all', 'found ' + DB.universities.length);
+var euManifest = JSON.parse(fs.readFileSync(path.join(ROOT, 'research/europe/manifest.json'), 'utf8'));
+var EU_NOW = Object.values(euManifest).reduce(function(n,ids){return n+ids.length;},0);
+ok(DB.universities.length === US_NOW + 90 + UK_NOW + CA_NOW + EU_NOW, (US_NOW + 90 + UK_NOW + CA_NOW + EU_NOW) + ' institutions in all', 'found ' + DB.universities.length);
 ok(byCountry.uk === UK_NOW && byCountry.de === 30 && byCountry.jp === 30 && byCountry.kr === 30,
   UK_NOW + ' / 30 / 30 / 30 in the UK, Germany, Japan and Korea', JSON.stringify(byCountry));
 var ids = {}; var dup = [];
@@ -76,6 +78,7 @@ ok(DB.universities.every(function (u) { return u.links && /^https:\/\//.test(u.l
                'Marist College': 'marist-university', 'SCAD': 'savannah-college-of-art-and-design', 'WVU': 'west-virginia-university', 'UMass': 'umass-amherst' };
   var wrong = Object.keys(want).filter(function (q) { return first(q) !== want[q]; }).map(function (q) { return q + ' → ' + first(q); });
   ok(!wrong.length, 'old and everyday names rank their own record first', wrong.join('; '));
+  ok(['Гарвард', 'Гарвардский университет', 'Harvard'].every(function (q) { return first(q) === 'harvard-university'; }), 'Russian Harvard aliases and English name rank Harvard first');
   ok(!U.uniById('hampshire-college') && U.uniById('anderson-university-indiana') && U.uniById('adelphi-university'),
     'the USA +50 reserve replacements remain and Hampshire is outside the approved expansion');
 })();
@@ -1048,6 +1051,10 @@ ok(auditedAwardKinds.every(([id,kind]) => {
 }) && U.fullRide(U.uniById('university-of-alabama')).basis === 'automatic' &&
     U.needBased(U.uniById('depauw-university')).meetsFullNeed === true,
   'Automatic tuition, selective full cost and demonstrated need stay distinct from a guaranteed budget reduction');
+
+require('./europe')({U:U,DB:DB,M:M,ok:ok,manifest:euManifest});
+
+require('./compare-mobile')({U:U, ok:ok, global:sandbox});
 
 require('./six-country-audit')({U:U, DB:DB, M:M, ok:ok});
 require('./admission-requirements')({U:U, DB:DB, M:M, ok:ok, global:sandbox});

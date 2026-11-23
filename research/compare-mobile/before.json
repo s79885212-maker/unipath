@@ -1,0 +1,139 @@
+{
+  "root": "http://127.0.0.1:8771/",
+  "local": true,
+  "before": true,
+  "scenarios": [
+    {
+      "lang": "ru",
+      "width": 390,
+      "dark": false,
+      "two": {
+        "stored": [
+          "yale-university",
+          "princeton-university"
+        ],
+        "headers": [
+          "Критерий",
+          "Yale University\n🇺🇸 Нью-Хейвен",
+          "Princeton University\n🇺🇸 Принстон"
+        ],
+        "criterion": "СТРАНА",
+        "values": [
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 190.859375,
+              "y": 477.53656005859375,
+              "width": 200,
+              "height": 50.046875,
+              "right": 390.859375,
+              "bottom": 527.5834350585938
+            }
+          },
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 390.859375,
+              "y": 477.53656005859375,
+              "width": 200,
+              "height": 50.046875,
+              "right": 590.859375,
+              "bottom": 527.5834350585938
+            }
+          }
+        ],
+        "scroll": {
+          "client": 348,
+          "width": 570,
+          "left": 0
+        },
+        "table": {
+          "x": 21,
+          "y": 357.13031005859375,
+          "width": 569.859375,
+          "height": 3799.609375,
+          "right": 590.859375,
+          "bottom": 4156.739685058594
+        },
+        "tray": {
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 693.875,
+            "width": 390,
+            "height": 150.125,
+            "right": 390,
+            "bottom": 844
+          }
+        },
+        "overflow": false
+      },
+      "scrolled": {
+        "stored": [
+          "yale-university",
+          "princeton-university"
+        ],
+        "headers": [
+          "Критерий",
+          "Yale University\n🇺🇸 Нью-Хейвен",
+          "Princeton University\n🇺🇸 Принстон"
+        ],
+        "criterion": "СТРАНА",
+        "values": [
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": -31.140625,
+              "y": 473.4186706542969,
+              "width": 200,
+              "height": 50.046905517578125,
+              "right": 168.859375,
+              "bottom": 523.465576171875
+            }
+          },
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 168.859375,
+              "y": 473.4186706542969,
+              "width": 200,
+              "height": 50.046905517578125,
+              "right": 368.859375,
+              "bottom": 523.465576171875
+            }
+          }
+        ],
+        "scroll": {
+          "client": 348,
+          "width": 570,
+          "left": 222
+        },
+        "table": {
+          "x": -201,
+          "y": 353.0124206542969,
+          "width": 569.859375,
+          "height": 3799.609619140625,
+          "right": 368.859375,
+          "bottom": 4152.622039794922
+        },
+        "tray": {
+          "visible": true,
+          "rect": {
+            "x": 0,
+            "y": 693.875,
+            "width": 390,
+            "height": 150.125,
+            "right": 390,
+            "bottom": 844
+          }
+        },
+        "overflow": false
+      }
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Chrome viewport emulation; no real iPhone or Threads browser."
+  ],
+  "browser": "Chrome 157.0.8103.79"
+}

@@ -1,0 +1,638 @@
+{
+  "country": {
+    "code": "it",
+    "name": {
+      "en": "Italy",
+      "ru": "Италия"
+    },
+    "flag": "🇮🇹",
+    "currency": "EUR",
+    "tagline": {
+      "en": "Programme-specific admission, English and Italian routes; tuition is separate from living costs.",
+      "ru": "Приём зависит от программы; есть английские и итальянские маршруты. Обучение и проживание считаются отдельно."
+    },
+    "overview": {
+      "en": "This starter selection records named bachelor programmes and their campuses. Recognition of foreign school qualifications and any visa pre-enrolment are separate from selection by the university.",
+      "ru": "В стартовой подборке указаны конкретные программы бакалавриата и кампусы. Признание иностранного школьного диплома и визовая предварительная регистрация отделены от отбора университетом."
+    },
+    "applicationInfo": {
+      "en": "Use the programme call and the university portal. Non-EU applicants needing a visa may also need Universitaly pre-enrolment. Dates and school-document rules are programme-specific.",
+      "ru": "Используйте конкурс программы и портал университета. Кандидатам вне ЕС, которым нужна виза, может также потребоваться предварительная регистрация Universitaly. Даты и требования к дипломам зависят от программы."
+    },
+    "fieldsPopular": [
+      "business",
+      "economics",
+      "engineering",
+      "computer-science"
+    ],
+    "notes": [
+      {
+        "en": "Full annual living costs, insurance and other expenses have not been established. No scholarship is deducted.",
+        "ru": "Полные годовые расходы на проживание, страховку и другие статьи не установлены. Стипендии не вычитаются."
+      },
+      {
+        "en": "An English-taught programme does not establish a language-test waiver or eligibility for every foreign school diploma.",
+        "ru": "Обучение на английском не означает освобождение от языкового экзамена или признание любого иностранного диплома."
+      }
+    ],
+    "sources": [
+      {
+        "label": {
+          "en": "Official international pre-enrolment portal",
+          "ru": "Официальный портал международной предварительной регистрации"
+        },
+        "url": "https://www.universitaly.it/"
+      }
+    ]
+  },
+  "universities": [
+    {
+      "id": "bocconi-university",
+      "name": "Bocconi University",
+      "shortName": "Bocconi",
+      "city": {
+        "en": "Milan",
+        "ru": "Милан"
+      },
+      "region": {
+        "en": "Lombardy",
+        "ru": "Ломбардия"
+      },
+      "institutionKind": "private",
+      "type": {
+        "en": "Private university",
+        "ru": "Частный университет"
+      },
+      "description": {
+        "en": "Management is a three-year BSc in Milan. The 2027/28 admission table names an English track and a separate Italian programme. Only the English Management route is reviewed here; the older International Economics and Management URL redirects to the current Management programme.",
+        "ru": "Management — трёхлетняя программа BSc в Милане. Таблица приёма 2027/28 выделяет английский трек и отдельную итальянскую программу. Здесь проверен только английский маршрут Management; прежний адрес International Economics and Management перенаправляет на текущую программу."
+      },
+      "fields": [
+        "business"
+      ],
+      "programme": {
+        "en": "Management is a three-year BSc in Milan. The 2027/28 admission table names an English track and a separate Italian programme. Only the English Management route is reviewed here; the older International Economics and Management URL redirects to the current Management programme.",
+        "ru": "Management — трёхлетняя программа BSc в Милане. Таблица приёма 2027/28 выделяет английский трек и отдельную итальянскую программу. Здесь проверен только английский маршрут Management; прежний адрес International Economics and Management перенаправляет на текущую программу."
+      },
+      "documents": [
+        {
+          "en": "A qualifying secondary-school diploma is required and its country-specific validity must be checked. Non-Italian applicants living abroad must be at least 17 on 1 September 2027; those aged 17 need a legal guardian resident in Italy. Selection combines one accepted test (Bocconi online test, SAT or ACT) and grades from the third-last and second-last school years. No score here guarantees admission.",
+          "ru": "Нужен подходящий школьный диплом; его допустимость проверяется по стране выдачи. Иностранным кандидатам, проживающим за пределами Италии, должно быть не менее 17 лет на 1 сентября 2027; в 17 лет нужен законный опекун в Италии. Отбор учитывает один из допустимых экзаменов (Bocconi online test, SAT или ACT) и оценки за третий и предпоследний школьные годы. Балл не гарантирует зачисление."
+        },
+        {
+          "en": "English-track enrolment: IELTS Academic/Online/UKVI 6.5 overall, every section 6.0; One Skill Retake accepted. TOEFL iBT/Home Edition 4.5 on the new scale (88 on the former scale), Duolingo 110 and listed Cambridge qualifications are alternatives. The general certificate page is undated; its use is linked from the 2027/28 enrolment page. Approved English-medium diplomas/native-speaker categories may satisfy the requirement; SAT is not a universal English-test waiver for this track.",
+          "ru": "Для зачисления на английский трек: IELTS Academic/Online/UKVI 6,5 overall, каждая секция 6,0; One Skill Retake принимается. Альтернативы: TOEFL iBT/Home Edition 4,5 по новой шкале (88 по прежней), Duolingo 110 и указанные сертификаты Cambridge. Общая таблица сертификатов не датирована, но на неё ссылается страница зачисления 2027/28. Подходящие англоязычные дипломы и категории носителей могут выполнить требование; SAT не является универсальным освобождением от языкового экзамена на этом треке."
+        }
+      ],
+      "platforms": [
+        "Apply2B"
+      ],
+      "notes": [
+        {
+          "en": "Fall 2027 / academic year 2027/28. Programme and language conditions are scoped to Management, not every Bocconi degree.",
+          "ru": "Осень 2027 / учебный год 2027/28. Программные и языковые условия относятся к Management, а не ко всем дипломам Bocconi."
+        }
+      ],
+      "links": {
+        "website": "https://www.unibocconi.it/en/",
+        "admissions": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/admissions",
+        "international": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/admissions",
+        "portal": "https://apply.unibocconi.it/",
+        "programs": "https://www.unibocconi.it/en/programs/bachelor-science/management",
+        "cost": "https://www.unibocconi.it/sites/default/files/Tuition%20and%20fees%20undergraduate_1.pdf"
+      },
+      "deadlines": [
+        {
+          "name": {
+            "en": "Winter selection application — English Management",
+            "ru": "Заявка Winter — английский Management"
+          },
+          "kind": "round",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "dateISO": "2027-01-26",
+          "date": "26 January 2027",
+          "time": "15:00",
+          "timezone": "Italian time",
+          "status": "confirmed",
+          "binding": false,
+          "appliesTo": {
+            "en": "International first-year applicants, Undergraduate School",
+            "ru": "Иностранные первокурсники Undergraduate School"
+          },
+          "conditions": {
+            "en": "Submit the application with an accepted test score. Test booking and test-sitting deadlines are separate; this is not a results-release date.",
+            "ru": "Подайте заявку с результатом допустимого теста. Сроки записи и сдачи теста отдельные; это не дата публикации решения."
+          },
+          "source": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/admissions",
+          "verified": "2026-11-22",
+          "cycleEvidence": {
+            "basis": "page-context",
+            "entryTerm": "Autumn",
+            "entryYear": "2027",
+            "source": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/admissions",
+            "verified": "2026-11-22",
+            "quote": "For AY 2027-28; Winter Session 26 January 2027"
+          }
+        }
+      ],
+      "english": {
+        "ielts": {
+          "min": 6.5,
+          "recommended": null,
+          "note": {
+            "en": "English-track enrolment: IELTS Academic/Online/UKVI 6.5 overall, every section 6.0; One Skill Retake accepted. TOEFL iBT/Home Edition 4.5 on the new scale (88 on the former scale), Duolingo 110 and listed Cambridge qualifications are alternatives. The general certificate page is undated; its use is linked from the 2027/28 enrolment page. Approved English-medium diplomas/native-speaker categories may satisfy the requirement; SAT is not a universal English-test waiver for this track.",
+            "ru": "Для зачисления на английский трек: IELTS Academic/Online/UKVI 6,5 overall, каждая секция 6,0; One Skill Retake принимается. Альтернативы: TOEFL iBT/Home Edition 4,5 по новой шкале (88 по прежней), Duolingo 110 и указанные сертификаты Cambridge. Общая таблица сертификатов не датирована, но на неё ссылается страница зачисления 2027/28. Подходящие англоязычные дипломы и категории носителей могут выполнить требование; SAT не является универсальным освобождением от языкового экзамена на этом треке."
+          }
+        },
+        "toefl": {
+          "min": 88,
+          "recommended": null,
+          "scales": [
+            {
+              "period": "pre2026",
+              "min": 88
+            },
+            {
+              "period": "post2026",
+              "min": 4.5
+            }
+          ],
+          "note": {
+            "en": "English-track enrolment: IELTS Academic/Online/UKVI 6.5 overall, every section 6.0; One Skill Retake accepted. TOEFL iBT/Home Edition 4.5 on the new scale (88 on the former scale), Duolingo 110 and listed Cambridge qualifications are alternatives. The general certificate page is undated; its use is linked from the 2027/28 enrolment page. Approved English-medium diplomas/native-speaker categories may satisfy the requirement; SAT is not a universal English-test waiver for this track.",
+            "ru": "Для зачисления на английский трек: IELTS Academic/Online/UKVI 6,5 overall, каждая секция 6,0; One Skill Retake принимается. Альтернативы: TOEFL iBT/Home Edition 4,5 по новой шкале (88 по прежней), Duolingo 110 и указанные сертификаты Cambridge. Общая таблица сертификатов не датирована, но на неё ссылается страница зачисления 2027/28. Подходящие англоязычные дипломы и категории носителей могут выполнить требование; SAT не является универсальным освобождением от языкового экзамена на этом треке."
+          }
+        },
+        "duolingo": {
+          "min": 110,
+          "recommended": null,
+          "note": {
+            "en": "English-track enrolment: IELTS Academic/Online/UKVI 6.5 overall, every section 6.0; One Skill Retake accepted. TOEFL iBT/Home Edition 4.5 on the new scale (88 on the former scale), Duolingo 110 and listed Cambridge qualifications are alternatives. The general certificate page is undated; its use is linked from the 2027/28 enrolment page. Approved English-medium diplomas/native-speaker categories may satisfy the requirement; SAT is not a universal English-test waiver for this track.",
+            "ru": "Для зачисления на английский трек: IELTS Academic/Online/UKVI 6,5 overall, каждая секция 6,0; One Skill Retake принимается. Альтернативы: TOEFL iBT/Home Edition 4,5 по новой шкале (88 по прежней), Duolingo 110 и указанные сертификаты Cambridge. Общая таблица сертификатов не датирована, но на неё ссылается страница зачисления 2027/28. Подходящие англоязычные дипломы и категории носителей могут выполнить требование; SAT не является универсальным освобождением от языкового экзамена на этом треке."
+          }
+        },
+        "waiver": {
+          "en": "English-track enrolment: IELTS Academic/Online/UKVI 6.5 overall, every section 6.0; One Skill Retake accepted. TOEFL iBT/Home Edition 4.5 on the new scale (88 on the former scale), Duolingo 110 and listed Cambridge qualifications are alternatives. The general certificate page is undated; its use is linked from the 2027/28 enrolment page. Approved English-medium diplomas/native-speaker categories may satisfy the requirement; SAT is not a universal English-test waiver for this track.",
+          "ru": "Для зачисления на английский трек: IELTS Academic/Online/UKVI 6,5 overall, каждая секция 6,0; One Skill Retake принимается. Альтернативы: TOEFL iBT/Home Edition 4,5 по новой шкале (88 по прежней), Duolingo 110 и указанные сертификаты Cambridge. Общая таблица сертификатов не датирована, но на неё ссылается страница зачисления 2027/28. Подходящие англоязычные дипломы и категории носителей могут выполнить требование; SAT не является универсальным освобождением от языкового экзамена на этом треке."
+        },
+        "note": {
+          "en": "English-track enrolment: IELTS Academic/Online/UKVI 6.5 overall, every section 6.0; One Skill Retake accepted. TOEFL iBT/Home Edition 4.5 on the new scale (88 on the former scale), Duolingo 110 and listed Cambridge qualifications are alternatives. The general certificate page is undated; its use is linked from the 2027/28 enrolment page. Approved English-medium diplomas/native-speaker categories may satisfy the requirement; SAT is not a universal English-test waiver for this track.",
+          "ru": "Для зачисления на английский трек: IELTS Academic/Online/UKVI 6,5 overall, каждая секция 6,0; One Skill Retake принимается. Альтернативы: TOEFL iBT/Home Edition 4,5 по новой шкале (88 по прежней), Duolingo 110 и указанные сертификаты Cambridge. Общая таблица сертификатов не датирована, но на неё ссылается страница зачисления 2027/28. Подходящие англоязычные дипломы и категории носителей могут выполнить требование; SAT не является универсальным освобождением от языкового экзамена на этом треке."
+        }
+      },
+      "academic": {
+        "sat": {
+          "policy": "required-alternatives",
+          "note": {
+            "en": "A qualifying secondary-school diploma is required and its country-specific validity must be checked. Non-Italian applicants living abroad must be at least 17 on 1 September 2027; those aged 17 need a legal guardian resident in Italy. Selection combines one accepted test (Bocconi online test, SAT or ACT) and grades from the third-last and second-last school years. No score here guarantees admission.",
+            "ru": "Нужен подходящий школьный диплом; его допустимость проверяется по стране выдачи. Иностранным кандидатам, проживающим за пределами Италии, должно быть не менее 17 лет на 1 сентября 2027; в 17 лет нужен законный опекун в Италии. Отбор учитывает один из допустимых экзаменов (Bocconi online test, SAT или ACT) и оценки за третий и предпоследний школьные годы. Балл не гарантирует зачисление."
+          },
+          "source": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/admissions",
+          "verified": "2026-11-22",
+          "cycle": "2027/28"
+        },
+        "act": {
+          "policy": "required-alternatives",
+          "note": {
+            "en": "A qualifying secondary-school diploma is required and its country-specific validity must be checked. Non-Italian applicants living abroad must be at least 17 on 1 September 2027; those aged 17 need a legal guardian resident in Italy. Selection combines one accepted test (Bocconi online test, SAT or ACT) and grades from the third-last and second-last school years. No score here guarantees admission.",
+            "ru": "Нужен подходящий школьный диплом; его допустимость проверяется по стране выдачи. Иностранным кандидатам, проживающим за пределами Италии, должно быть не менее 17 лет на 1 сентября 2027; в 17 лет нужен законный опекун в Италии. Отбор учитывает один из допустимых экзаменов (Bocconi online test, SAT или ACT) и оценки за третий и предпоследний школьные годы. Балл не гарантирует зачисление."
+          },
+          "source": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/admissions",
+          "verified": "2026-11-22"
+        },
+        "otherTests": {
+          "en": "A qualifying secondary-school diploma is required and its country-specific validity must be checked. Non-Italian applicants living abroad must be at least 17 on 1 September 2027; those aged 17 need a legal guardian resident in Italy. Selection combines one accepted test (Bocconi online test, SAT or ACT) and grades from the third-last and second-last school years. No score here guarantees admission.",
+          "ru": "Нужен подходящий школьный диплом; его допустимость проверяется по стране выдачи. Иностранным кандидатам, проживающим за пределами Италии, должно быть не менее 17 лет на 1 сентября 2027; в 17 лет нужен законный опекун в Италии. Отбор учитывает один из допустимых экзаменов (Bocconi online test, SAT или ACT) и оценки за третий и предпоследний школьные годы. Балл не гарантирует зачисление."
+        },
+        "internationalQualifications": {
+          "en": "A qualifying secondary-school diploma is required and its country-specific validity must be checked. Non-Italian applicants living abroad must be at least 17 on 1 September 2027; those aged 17 need a legal guardian resident in Italy. Selection combines one accepted test (Bocconi online test, SAT or ACT) and grades from the third-last and second-last school years. No score here guarantees admission.",
+          "ru": "Нужен подходящий школьный диплом; его допустимость проверяется по стране выдачи. Иностранным кандидатам, проживающим за пределами Италии, должно быть не менее 17 лет на 1 сентября 2027; в 17 лет нужен законный опекун в Италии. Отбор учитывает один из допустимых экзаменов (Bocconi online test, SAT или ACT) и оценки за третий и предпоследний школьные годы. Балл не гарантирует зачисление."
+        }
+      },
+      "costs": {
+        "currency": "EUR",
+        "academicYear": "2027–2028",
+        "status": "confirmed",
+        "studentCategory": {
+          "en": "First-year standard BSc; excludes HEC double degree",
+          "ru": "Первый год стандартного BSc; без двойного диплома HEC"
+        },
+        "breakdown": {
+          "tuition": 17700,
+          "tuitionLabel": "Tuition and fees",
+          "period": "year"
+        },
+        "headline": {
+          "en": "2027/28: €17,700 annual tuition and fees only",
+          "ru": "2027/28: €17 700 в год только за обучение и сборы"
+        },
+        "items": [
+          {
+            "label": {
+              "en": "Published annual tuition and fees",
+              "ru": "Опубликованная годовая плата за обучение и сборы"
+            },
+            "amount": 17700,
+            "group": "tuition"
+          }
+        ],
+        "billedSubtotal": null,
+        "totalText": null,
+        "note": {
+          "en": "Full annual living costs, insurance and other expenses have not been established. No scholarship is deducted.",
+          "ru": "Полные годовые расходы на проживание, страховку и другие статьи не установлены. Стипендии не вычитаются."
+        },
+        "source": "https://www.unibocconi.it/sites/default/files/Tuition%20and%20fees%20undergraduate_1.pdf",
+        "verified": "2026-11-22"
+      },
+      "route": {
+        "id": "management-english",
+        "label": {
+          "en": "BSc Management — English track, Milan",
+          "ru": "BSc Management — английский трек, Милан"
+        },
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [
+          "business"
+        ],
+        "applicability": {
+          "label": {
+            "en": "2027/28 admission; linked certificate table is undated",
+            "ru": "Приём 2027/28; связанная таблица сертификатов не датирована"
+          },
+          "entryYears": [
+            2027
+          ],
+          "status": "confirmed"
+        },
+        "english": {
+          "requirement": "required-unless-exempt",
+          "ielts": {
+            "accepted": true,
+            "variant": "IELTS Academic / Online / UKVI",
+            "min": 6.5,
+            "sections": {
+              "reading": 6,
+              "listening": 6,
+              "writing": 6,
+              "speaking": 6
+            },
+            "role": "admission"
+          },
+          "toefl": {
+            "accepted": true,
+            "variant": "TOEFL iBT / Home Edition",
+            "scales": [
+              {
+                "period": "pre2026",
+                "min": 88
+              },
+              {
+                "period": "post2026",
+                "min": 4.5
+              }
+            ]
+          },
+          "alternatives": {
+            "en": "English-track enrolment: IELTS Academic/Online/UKVI 6.5 overall, every section 6.0; One Skill Retake accepted. TOEFL iBT/Home Edition 4.5 on the new scale (88 on the former scale), Duolingo 110 and listed Cambridge qualifications are alternatives. The general certificate page is undated; its use is linked from the 2027/28 enrolment page. Approved English-medium diplomas/native-speaker categories may satisfy the requirement; SAT is not a universal English-test waiver for this track.",
+            "ru": "Для зачисления на английский трек: IELTS Academic/Online/UKVI 6,5 overall, каждая секция 6,0; One Skill Retake принимается. Альтернативы: TOEFL iBT/Home Edition 4,5 по новой шкале (88 по прежней), Duolingo 110 и указанные сертификаты Cambridge. Общая таблица сертификатов не датирована, но на неё ссылается страница зачисления 2027/28. Подходящие англоязычные дипломы и категории носителей могут выполнить требование; SAT не является универсальным освобождением от языкового экзамена на этом треке."
+          },
+          "waiver": {
+            "en": "English-track enrolment: IELTS Academic/Online/UKVI 6.5 overall, every section 6.0; One Skill Retake accepted. TOEFL iBT/Home Edition 4.5 on the new scale (88 on the former scale), Duolingo 110 and listed Cambridge qualifications are alternatives. The general certificate page is undated; its use is linked from the 2027/28 enrolment page. Approved English-medium diplomas/native-speaker categories may satisfy the requirement; SAT is not a universal English-test waiver for this track.",
+            "ru": "Для зачисления на английский трек: IELTS Academic/Online/UKVI 6,5 overall, каждая секция 6,0; One Skill Retake принимается. Альтернативы: TOEFL iBT/Home Edition 4,5 по новой шкале (88 по прежней), Duolingo 110 и указанные сертификаты Cambridge. Общая таблица сертификатов не датирована, но на неё ссылается страница зачисления 2027/28. Подходящие англоязычные дипломы и категории носителей могут выполнить требование; SAT не является универсальным освобождением от языкового экзамена на этом треке."
+          }
+        },
+        "academic": {
+          "satPolicy": "required-alternatives",
+          "entryRequirements": {
+            "en": "A qualifying secondary-school diploma is required and its country-specific validity must be checked. Non-Italian applicants living abroad must be at least 17 on 1 September 2027; those aged 17 need a legal guardian resident in Italy. Selection combines one accepted test (Bocconi online test, SAT or ACT) and grades from the third-last and second-last school years. No score here guarantees admission.",
+            "ru": "Нужен подходящий школьный диплом; его допустимость проверяется по стране выдачи. Иностранным кандидатам, проживающим за пределами Италии, должно быть не менее 17 лет на 1 сентября 2027; в 17 лет нужен законный опекун в Италии. Отбор учитывает один из допустимых экзаменов (Bocconi online test, SAT или ACT) и оценки за третий и предпоследний школьные годы. Балл не гарантирует зачисление."
+          },
+          "note": {
+            "en": "A qualifying secondary-school diploma is required and its country-specific validity must be checked. Non-Italian applicants living abroad must be at least 17 on 1 September 2027; those aged 17 need a legal guardian resident in Italy. Selection combines one accepted test (Bocconi online test, SAT or ACT) and grades from the third-last and second-last school years. No score here guarantees admission.",
+            "ru": "Нужен подходящий школьный диплом; его допустимость проверяется по стране выдачи. Иностранным кандидатам, проживающим за пределами Италии, должно быть не менее 17 лет на 1 сентября 2027; в 17 лет нужен законный опекун в Италии. Отбор учитывает один из допустимых экзаменов (Bocconi online test, SAT или ACT) и оценки за третий и предпоследний школьные годы. Балл не гарантирует зачисление."
+          }
+        },
+        "localLanguage": [],
+        "documents": [
+          {
+            "en": "A qualifying secondary-school diploma is required and its country-specific validity must be checked. Non-Italian applicants living abroad must be at least 17 on 1 September 2027; those aged 17 need a legal guardian resident in Italy. Selection combines one accepted test (Bocconi online test, SAT or ACT) and grades from the third-last and second-last school years. No score here guarantees admission.",
+            "ru": "Нужен подходящий школьный диплом; его допустимость проверяется по стране выдачи. Иностранным кандидатам, проживающим за пределами Италии, должно быть не менее 17 лет на 1 сентября 2027; в 17 лет нужен законный опекун в Италии. Отбор учитывает один из допустимых экзаменов (Bocconi online test, SAT или ACT) и оценки за третий и предпоследний школьные годы. Балл не гарантирует зачисление."
+          }
+        ],
+        "sources": [
+          {
+            "label": {
+              "en": "Management programme",
+              "ru": "Программа Management"
+            },
+            "url": "https://www.unibocconi.it/en/programs/bachelor-science/management",
+            "verified": "2026-11-22"
+          },
+          {
+            "label": {
+              "en": "2027/28 application and selection",
+              "ru": "Заявка и отбор 2027/28"
+            },
+            "url": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/admissions",
+            "verified": "2026-11-22"
+          },
+          {
+            "label": {
+              "en": "Accepted English certificates",
+              "ru": "Допустимые сертификаты английского"
+            },
+            "url": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/english-certificates-accepted-enrollment",
+            "verified": "2026-11-22"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": {
+            "en": "Management programme",
+            "ru": "Программа Management"
+          },
+          "url": "https://www.unibocconi.it/en/programs/bachelor-science/management"
+        },
+        {
+          "label": {
+            "en": "2027/28 admissions",
+            "ru": "Приём 2027/28"
+          },
+          "url": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/admissions"
+        },
+        {
+          "label": {
+            "en": "2027/28 enrolment and exemptions",
+            "ru": "Зачисление и освобождения 2027/28"
+          },
+          "url": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/results-and-enrollment-2728-ay"
+        },
+        {
+          "label": {
+            "en": "English certificates table",
+            "ru": "Таблица сертификатов английского"
+          },
+          "url": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/english-certificates-accepted-enrollment"
+        },
+        {
+          "label": {
+            "en": "2027/28 tuition PDF, page 1",
+            "ru": "PDF платы 2027/28, страница 1"
+          },
+          "url": "https://www.unibocconi.it/sites/default/files/Tuition%20and%20fees%20undergraduate_1.pdf"
+        }
+      ],
+      "gaps": [
+        {
+          "en": "Full annual living costs, insurance and other expenses have not been established. No scholarship is deducted.",
+          "ru": "Полные годовые расходы на проживание, страховку и другие статьи не установлены. Стипендии не вычитаются."
+        },
+        {
+          "en": "Individual diploma recognition, admissions-test minimums and grant entitlement require a separate check.",
+          "ru": "Индивидуальное признание диплома, минимумы вступительных тестов и право на помощь требуют отдельной проверки."
+        }
+      ]
+    },
+    {
+      "id": "university-of-bologna",
+      "name": "University of Bologna",
+      "city": {
+        "en": "Bologna",
+        "ru": "Болонья"
+      },
+      "region": {
+        "en": "Emilia-Romagna",
+        "ru": "Эмилия-Романья"
+      },
+      "institutionKind": "public",
+      "type": {
+        "en": "Public university",
+        "ru": "Государственный университет"
+      },
+      "description": {
+        "en": "Economics and Finance (CLEF) is a three-year English-taught first-cycle degree at Bologna. Restricted admission. The inspected enrolment page describes the 2026/27 route, a foreign qualification after at least twelve years of schooling, an entrance examination, Studenti Online and separate Universitaly steps for visa applicants. The exact 2027/28 call, test rules and language-score thresholds are not established.",
+        "ru": "Economics and Finance (CLEF) — трёхлетний англоязычный бакалавриат в Болонье с конкурсным приёмом. Прочитанная страница зачисления описывает маршрут 2026/27: иностранный диплом после не менее 12 лет школы, вступительный экзамен, Studenti Online и отдельные шаги Universitaly для визовых кандидатов. Точный конкурс 2027/28, правила теста и языковые минимумы не установлены."
+      },
+      "fields": [
+        "economics"
+      ],
+      "programme": {
+        "en": "Economics and Finance (CLEF) is a three-year English-taught first-cycle degree at Bologna. Restricted admission. The inspected enrolment page describes the 2026/27 route, a foreign qualification after at least twelve years of schooling, an entrance examination, Studenti Online and separate Universitaly steps for visa applicants. The exact 2027/28 call, test rules and language-score thresholds are not established.",
+        "ru": "Economics and Finance (CLEF) — трёхлетний англоязычный бакалавриат в Болонье с конкурсным приёмом. Прочитанная страница зачисления описывает маршрут 2026/27: иностранный диплом после не менее 12 лет школы, вступительный экзамен, Studenti Online и отдельные шаги Universitaly для визовых кандидатов. Точный конкурс 2027/28, правила теста и языковые минимумы не установлены."
+      },
+      "documents": [
+        {
+          "en": "Economics and Finance (CLEF) is a three-year English-taught first-cycle degree at Bologna. Restricted admission. The inspected enrolment page describes the 2026/27 route, a foreign qualification after at least twelve years of schooling, an entrance examination, Studenti Online and separate Universitaly steps for visa applicants. The exact 2027/28 call, test rules and language-score thresholds are not established.",
+          "ru": "Economics and Finance (CLEF) — трёхлетний англоязычный бакалавриат в Болонье с конкурсным приёмом. Прочитанная страница зачисления описывает маршрут 2026/27: иностранный диплом после не менее 12 лет школы, вступительный экзамен, Studenti Online и отдельные шаги Universitaly для визовых кандидатов. Точный конкурс 2027/28, правила теста и языковые минимумы не установлены."
+        }
+      ],
+      "platforms": [
+        "Studenti Online",
+        "Universitaly"
+      ],
+      "notes": [
+        {
+          "en": "Economics and Finance (CLEF) is a three-year English-taught first-cycle degree at Bologna. Restricted admission. The inspected enrolment page describes the 2026/27 route, a foreign qualification after at least twelve years of schooling, an entrance examination, Studenti Online and separate Universitaly steps for visa applicants. The exact 2027/28 call, test rules and language-score thresholds are not established.",
+          "ru": "Economics and Finance (CLEF) — трёхлетний англоязычный бакалавриат в Болонье с конкурсным приёмом. Прочитанная страница зачисления описывает маршрут 2026/27: иностранный диплом после не менее 12 лет школы, вступительный экзамен, Studenti Online и отдельные шаги Universitaly для визовых кандидатов. Точный конкурс 2027/28, правила теста и языковые минимумы не установлены."
+        }
+      ],
+      "links": {
+        "website": "https://www.unibo.it/en",
+        "admissions": "https://corsi.unibo.it/1cycle/EconomicsFinance/how-to-enrol",
+        "international": "https://corsi.unibo.it/1cycle/EconomicsFinance/how-to-enrol",
+        "portal": "https://studenti.unibo.it/",
+        "programs": "https://corsi.unibo.it/1cycle/EconomicsFinance/overview",
+        "cost": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions/fees-and-exemptions-amounts-deadlines"
+      },
+      "english": {
+        "ielts": {
+          "min": null,
+          "recommended": null,
+          "note": {
+            "en": "Economics and Finance (CLEF) is a three-year English-taught first-cycle degree at Bologna. Restricted admission. The inspected enrolment page describes the 2026/27 route, a foreign qualification after at least twelve years of schooling, an entrance examination, Studenti Online and separate Universitaly steps for visa applicants. The exact 2027/28 call, test rules and language-score thresholds are not established.",
+            "ru": "Economics and Finance (CLEF) — трёхлетний англоязычный бакалавриат в Болонье с конкурсным приёмом. Прочитанная страница зачисления описывает маршрут 2026/27: иностранный диплом после не менее 12 лет школы, вступительный экзамен, Studenti Online и отдельные шаги Universitaly для визовых кандидатов. Точный конкурс 2027/28, правила теста и языковые минимумы не установлены."
+          }
+        },
+        "toefl": {
+          "min": null,
+          "recommended": null,
+          "note": {
+            "en": "Economics and Finance (CLEF) is a three-year English-taught first-cycle degree at Bologna. Restricted admission. The inspected enrolment page describes the 2026/27 route, a foreign qualification after at least twelve years of schooling, an entrance examination, Studenti Online and separate Universitaly steps for visa applicants. The exact 2027/28 call, test rules and language-score thresholds are not established.",
+            "ru": "Economics and Finance (CLEF) — трёхлетний англоязычный бакалавриат в Болонье с конкурсным приёмом. Прочитанная страница зачисления описывает маршрут 2026/27: иностранный диплом после не менее 12 лет школы, вступительный экзамен, Studenti Online и отдельные шаги Universitaly для визовых кандидатов. Точный конкурс 2027/28, правила теста и языковые минимумы не установлены."
+          }
+        },
+        "note": {
+          "en": "Economics and Finance (CLEF) is a three-year English-taught first-cycle degree at Bologna. Restricted admission. The inspected enrolment page describes the 2026/27 route, a foreign qualification after at least twelve years of schooling, an entrance examination, Studenti Online and separate Universitaly steps for visa applicants. The exact 2027/28 call, test rules and language-score thresholds are not established.",
+          "ru": "Economics and Finance (CLEF) — трёхлетний англоязычный бакалавриат в Болонье с конкурсным приёмом. Прочитанная страница зачисления описывает маршрут 2026/27: иностранный диплом после не менее 12 лет школы, вступительный экзамен, Studenti Online и отдельные шаги Universitaly для визовых кандидатов. Точный конкурс 2027/28, правила теста и языковые минимумы не установлены."
+        }
+      },
+      "academic": {
+        "sat": {
+          "policy": null,
+          "note": {
+            "en": "Economics and Finance (CLEF) is a three-year English-taught first-cycle degree at Bologna. Restricted admission. The inspected enrolment page describes the 2026/27 route, a foreign qualification after at least twelve years of schooling, an entrance examination, Studenti Online and separate Universitaly steps for visa applicants. The exact 2027/28 call, test rules and language-score thresholds are not established.",
+            "ru": "Economics and Finance (CLEF) — трёхлетний англоязычный бакалавриат в Болонье с конкурсным приёмом. Прочитанная страница зачисления описывает маршрут 2026/27: иностранный диплом после не менее 12 лет школы, вступительный экзамен, Studenti Online и отдельные шаги Universitaly для визовых кандидатов. Точный конкурс 2027/28, правила теста и языковые минимумы не установлены."
+          }
+        },
+        "act": {
+          "policy": null,
+          "note": {
+            "en": "Economics and Finance (CLEF) is a three-year English-taught first-cycle degree at Bologna. Restricted admission. The inspected enrolment page describes the 2026/27 route, a foreign qualification after at least twelve years of schooling, an entrance examination, Studenti Online and separate Universitaly steps for visa applicants. The exact 2027/28 call, test rules and language-score thresholds are not established.",
+            "ru": "Economics and Finance (CLEF) — трёхлетний англоязычный бакалавриат в Болонье с конкурсным приёмом. Прочитанная страница зачисления описывает маршрут 2026/27: иностранный диплом после не менее 12 лет школы, вступительный экзамен, Studenti Online и отдельные шаги Universitaly для визовых кандидатов. Точный конкурс 2027/28, правила теста и языковые минимумы не установлены."
+          }
+        },
+        "otherTests": {
+          "en": "Economics and Finance (CLEF) is a three-year English-taught first-cycle degree at Bologna. Restricted admission. The inspected enrolment page describes the 2026/27 route, a foreign qualification after at least twelve years of schooling, an entrance examination, Studenti Online and separate Universitaly steps for visa applicants. The exact 2027/28 call, test rules and language-score thresholds are not established.",
+          "ru": "Economics and Finance (CLEF) — трёхлетний англоязычный бакалавриат в Болонье с конкурсным приёмом. Прочитанная страница зачисления описывает маршрут 2026/27: иностранный диплом после не менее 12 лет школы, вступительный экзамен, Studenti Online и отдельные шаги Universitaly для визовых кандидатов. Точный конкурс 2027/28, правила теста и языковые минимумы не установлены."
+        },
+        "internationalQualifications": {
+          "en": "Economics and Finance (CLEF) is a three-year English-taught first-cycle degree at Bologna. Restricted admission. The inspected enrolment page describes the 2026/27 route, a foreign qualification after at least twelve years of schooling, an entrance examination, Studenti Online and separate Universitaly steps for visa applicants. The exact 2027/28 call, test rules and language-score thresholds are not established.",
+          "ru": "Economics and Finance (CLEF) — трёхлетний англоязычный бакалавриат в Болонье с конкурсным приёмом. Прочитанная страница зачисления описывает маршрут 2026/27: иностранный диплом после не менее 12 лет школы, вступительный экзамен, Studenti Online и отдельные шаги Universitaly для визовых кандидатов. Точный конкурс 2027/28, правила теста и языковые минимумы не установлены."
+        }
+      },
+      "costs": {
+        "currency": "EUR",
+        "academicYear": "2026–2027",
+        "status": "previous-cycle",
+        "studentCategory": {
+          "en": "Foreign first-year applicant; variable fee depends on programme and financial documentation",
+          "ru": "Иностранный первокурсник; переменная часть зависит от программы и финансовых документов"
+        },
+        "breakdown": {
+          "period": "year"
+        },
+        "headline": {
+          "en": "2026/27: €157.04 fixed fee plus an unestablished variable programme fee",
+          "ru": "2026/27: фиксированный сбор €157,04 плюс неустановленная переменная плата программы"
+        },
+        "items": [
+          {
+            "label": {
+              "en": "Fixed component only, 2026/27",
+              "ru": "Только фиксированная часть, 2026/27"
+            },
+            "amount": 157.04,
+            "group": "fees"
+          }
+        ],
+        "billedSubtotal": null,
+        "totalText": null,
+        "note": {
+          "en": "Full annual living costs, insurance and other expenses have not been established. No scholarship is deducted.",
+          "ru": "Полные годовые расходы на проживание, страховку и другие статьи не установлены. Стипендии не вычитаются."
+        },
+        "source": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions/fees-and-exemptions-amounts-deadlines",
+        "verified": "2026-11-22"
+      },
+      "route": {
+        "id": "clef-english",
+        "label": {
+          "en": "Economics and Finance — English, Bologna (2026/27 rules)",
+          "ru": "Economics and Finance — английский, Болонья (правила 2026/27)"
+        },
+        "language": "en",
+        "kind": "direct",
+        "level": "bachelor",
+        "applicant": "international-first-year",
+        "programmeIds": [
+          "economics"
+        ],
+        "applicability": {
+          "label": {
+            "en": "Published 2026/27 procedure; 2027/28 call not confirmed",
+            "ru": "Опубликованная процедура 2026/27; конкурс 2027/28 не подтверждён"
+          },
+          "entryYears": [
+            2026
+          ],
+          "status": "previous-cycle"
+        },
+        "english": {
+          "requirement": "unknown",
+          "alternatives": {
+            "en": "Economics and Finance (CLEF) is a three-year English-taught first-cycle degree at Bologna. Restricted admission. The inspected enrolment page describes the 2026/27 route, a foreign qualification after at least twelve years of schooling, an entrance examination, Studenti Online and separate Universitaly steps for visa applicants. The exact 2027/28 call, test rules and language-score thresholds are not established.",
+            "ru": "Economics and Finance (CLEF) — трёхлетний англоязычный бакалавриат в Болонье с конкурсным приёмом. Прочитанная страница зачисления описывает маршрут 2026/27: иностранный диплом после не менее 12 лет школы, вступительный экзамен, Studenti Online и отдельные шаги Universitaly для визовых кандидатов. Точный конкурс 2027/28, правила теста и языковые минимумы не установлены."
+          }
+        },
+        "academic": {
+          "satPolicy": null,
+          "entryRequirements": {
+            "en": "Economics and Finance (CLEF) is a three-year English-taught first-cycle degree at Bologna. Restricted admission. The inspected enrolment page describes the 2026/27 route, a foreign qualification after at least twelve years of schooling, an entrance examination, Studenti Online and separate Universitaly steps for visa applicants. The exact 2027/28 call, test rules and language-score thresholds are not established.",
+            "ru": "Economics and Finance (CLEF) — трёхлетний англоязычный бакалавриат в Болонье с конкурсным приёмом. Прочитанная страница зачисления описывает маршрут 2026/27: иностранный диплом после не менее 12 лет школы, вступительный экзамен, Studenti Online и отдельные шаги Universitaly для визовых кандидатов. Точный конкурс 2027/28, правила теста и языковые минимумы не установлены."
+          },
+          "note": {
+            "en": "Economics and Finance (CLEF) is a three-year English-taught first-cycle degree at Bologna. Restricted admission. The inspected enrolment page describes the 2026/27 route, a foreign qualification after at least twelve years of schooling, an entrance examination, Studenti Online and separate Universitaly steps for visa applicants. The exact 2027/28 call, test rules and language-score thresholds are not established.",
+            "ru": "Economics and Finance (CLEF) — трёхлетний англоязычный бакалавриат в Болонье с конкурсным приёмом. Прочитанная страница зачисления описывает маршрут 2026/27: иностранный диплом после не менее 12 лет школы, вступительный экзамен, Studenti Online и отдельные шаги Universitaly для визовых кандидатов. Точный конкурс 2027/28, правила теста и языковые минимумы не установлены."
+          }
+        },
+        "localLanguage": [],
+        "documents": [
+          {
+            "en": "Economics and Finance (CLEF) is a three-year English-taught first-cycle degree at Bologna. Restricted admission. The inspected enrolment page describes the 2026/27 route, a foreign qualification after at least twelve years of schooling, an entrance examination, Studenti Online and separate Universitaly steps for visa applicants. The exact 2027/28 call, test rules and language-score thresholds are not established.",
+            "ru": "Economics and Finance (CLEF) — трёхлетний англоязычный бакалавриат в Болонье с конкурсным приёмом. Прочитанная страница зачисления описывает маршрут 2026/27: иностранный диплом после не менее 12 лет школы, вступительный экзамен, Studenti Online и отдельные шаги Universitaly для визовых кандидатов. Точный конкурс 2027/28, правила теста и языковые минимумы не установлены."
+          }
+        ],
+        "sources": [
+          {
+            "label": {
+              "en": "CLEF programme and campus",
+              "ru": "Программа и кампус CLEF"
+            },
+            "url": "https://corsi.unibo.it/1cycle/EconomicsFinance/overview",
+            "verified": "2026-11-22"
+          },
+          {
+            "label": {
+              "en": "Programme entry procedure",
+              "ru": "Порядок поступления на программу"
+            },
+            "url": "https://corsi.unibo.it/1cycle/EconomicsFinance/how-to-enrol",
+            "verified": "2026-11-22"
+          }
+        ]
+      },
+      "fundingNote": {
+        "en": "The 2026/27 fees page describes income-dependent exemptions and ER-GO benefits. Award amounts and 2027/28 eligibility have not been verified; no aid is deducted.",
+        "ru": "Страница сборов 2026/27 описывает освобождения по доходу и помощь ER-GO. Суммы и допуск на 2027/28 не проверены; помощь не вычитается."
+      },
+      "sources": [
+        {
+          "label": {
+            "en": "Economics and Finance programme",
+            "ru": "Программа Economics and Finance"
+          },
+          "url": "https://corsi.unibo.it/1cycle/EconomicsFinance/overview"
+        },
+        {
+          "label": {
+            "en": "2026/27 international entry procedure",
+            "ru": "Порядок международного приёма 2026/27"
+          },
+          "url": "https://corsi.unibo.it/1cycle/EconomicsFinance/how-to-enrol"
+        },
+        {
+          "label": {
+            "en": "2026/27 fees and exemptions",
+            "ru": "Сборы и освобождения 2026/27"
+          },
+          "url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions/fees-and-exemptions-amounts-deadlines"
+        }
+      ],
+      "gaps": [
+        {
+          "en": "Full annual living costs, insurance and other expenses have not been established. No scholarship is deducted.",
+          "ru": "Полные годовые расходы на проживание, страховку и другие статьи не установлены. Стипендии не вычитаются."
+        },
+        {
+          "en": "Economics and Finance (CLEF) is a three-year English-taught first-cycle degree at Bologna. Restricted admission. The inspected enrolment page describes the 2026/27 route, a foreign qualification after at least twelve years of schooling, an entrance examination, Studenti Online and separate Universitaly steps for visa applicants. The exact 2027/28 call, test rules and language-score thresholds are not established.",
+          "ru": "Economics and Finance (CLEF) — трёхлетний англоязычный бакалавриат в Болонье с конкурсным приёмом. Прочитанная страница зачисления описывает маршрут 2026/27: иностранный диплом после не менее 12 лет школы, вступительный экзамен, Studenti Online и отдельные шаги Universitaly для визовых кандидатов. Точный конкурс 2027/28, правила теста и языковые минимумы не установлены."
+        }
+      ]
+    }
+  ]
+}

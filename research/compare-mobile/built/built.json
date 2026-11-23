@@ -1,0 +1,1053 @@
+{
+  "root": "http://127.0.0.1:8771/",
+  "local": true,
+  "before": false,
+  "scenarios": [
+    {
+      "lang": "ru",
+      "width": 390,
+      "dark": false,
+      "two": {
+        "version": "assets/js/app.js?v=269",
+        "allCellsFit": true,
+        "stored": [
+          "yale-university",
+          "princeton-university"
+        ],
+        "headers": [
+          "Критерий",
+          "×\nYale University\n🇺🇸 Нью-Хейвен",
+          "×\nPrinceton University\n🇺🇸 Принстон"
+        ],
+        "criterion": "СТРАНА",
+        "values": [
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 21,
+              "y": 595.43896484375,
+              "width": 174,
+              "height": 41.46875,
+              "right": 195,
+              "bottom": 636.90771484375
+            }
+          },
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 195,
+              "y": 595.43896484375,
+              "width": 174,
+              "height": 41.46875,
+              "right": 369,
+              "bottom": 636.90771484375
+            }
+          }
+        ],
+        "scroll": {
+          "client": 348,
+          "width": 348,
+          "left": 0
+        },
+        "table": {
+          "x": 21,
+          "y": 399.20458984375,
+          "width": 348,
+          "height": 4346.671875,
+          "right": 369,
+          "bottom": 4745.87646484375
+        },
+        "tray": {
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 846.2155151367188,
+            "width": 390,
+            "height": 25,
+            "right": 390,
+            "bottom": 871.2155151367188
+          }
+        },
+        "overflow": false
+      },
+      "three": {
+        "version": "assets/js/app.js?v=269",
+        "allCellsFit": true,
+        "stored": [
+          "yale-university",
+          "princeton-university",
+          "harvard-university"
+        ],
+        "headers": [
+          "Критерий",
+          "×\nYale University\n🇺🇸 Нью-Хейвен",
+          "×\nPrinceton University\n🇺🇸 Принстон",
+          "×\nHarvard University\n🇺🇸 Кембридж"
+        ],
+        "criterion": "СТРАНА",
+        "values": [
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 21,
+              "y": 622.2667236328125,
+              "width": 116,
+              "height": 41.46875,
+              "right": 137,
+              "bottom": 663.7354736328125
+            }
+          },
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 137,
+              "y": 622.2667236328125,
+              "width": 116,
+              "height": 41.46875,
+              "right": 253,
+              "bottom": 663.7354736328125
+            }
+          },
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 253,
+              "y": 622.2667236328125,
+              "width": 116,
+              "height": 41.46875,
+              "right": 369,
+              "bottom": 663.7354736328125
+            }
+          }
+        ],
+        "scroll": {
+          "client": 348,
+          "width": 348,
+          "left": 0
+        },
+        "table": {
+          "x": 21,
+          "y": 405.5635986328125,
+          "width": 348,
+          "height": 5668.296875,
+          "right": 369,
+          "bottom": 6073.8604736328125
+        },
+        "tray": {
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 820.3821411132812,
+            "width": 390,
+            "height": 25,
+            "right": 390,
+            "bottom": 845.3821411132812
+          }
+        },
+        "overflow": false
+      },
+      "threeReload": {
+        "version": "assets/js/app.js?v=269",
+        "allCellsFit": true,
+        "stored": [
+          "yale-university",
+          "princeton-university",
+          "harvard-university"
+        ],
+        "headers": [
+          "Критерий",
+          "×\nYale University\n🇺🇸 Нью-Хейвен",
+          "×\nPrinceton University\n🇺🇸 Принстон",
+          "×\nHarvard University\n🇺🇸 Кембридж"
+        ],
+        "criterion": "СТРАНА",
+        "values": [
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 21,
+              "y": 619.7979736328125,
+              "width": 116,
+              "height": 41.46875,
+              "right": 137,
+              "bottom": 661.2667236328125
+            }
+          },
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 137,
+              "y": 619.7979736328125,
+              "width": 116,
+              "height": 41.46875,
+              "right": 253,
+              "bottom": 661.2667236328125
+            }
+          },
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 253,
+              "y": 619.7979736328125,
+              "width": 116,
+              "height": 41.46875,
+              "right": 369,
+              "bottom": 661.2667236328125
+            }
+          }
+        ],
+        "scroll": {
+          "client": 348,
+          "width": 348,
+          "left": 0
+        },
+        "table": {
+          "x": 21,
+          "y": 403.0948181152344,
+          "width": 348,
+          "height": 5668.296875,
+          "right": 369,
+          "bottom": 6071.391693115234
+        },
+        "tray": {
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 827.1204833984375,
+            "width": 390,
+            "height": 25,
+            "right": 390,
+            "bottom": 852.1204833984375
+          }
+        },
+        "overflow": false
+      },
+      "removedReload": {
+        "version": "assets/js/app.js?v=269",
+        "allCellsFit": true,
+        "stored": [
+          "yale-university",
+          "harvard-university"
+        ],
+        "headers": [
+          "Критерий",
+          "×\nYale University\n🇺🇸 Нью-Хейвен",
+          "×\nHarvard University\n🇺🇸 Кембридж"
+        ],
+        "criterion": "СТРАНА",
+        "values": [
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 21,
+              "y": 599.3097534179688,
+              "width": 174,
+              "height": 41.46875,
+              "right": 195,
+              "bottom": 640.7785034179688
+            }
+          },
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 195,
+              "y": 599.3097534179688,
+              "width": 174,
+              "height": 41.46875,
+              "right": 369,
+              "bottom": 640.7785034179688
+            }
+          }
+        ],
+        "scroll": {
+          "client": 348,
+          "width": 348,
+          "left": 0
+        },
+        "table": {
+          "x": 21,
+          "y": 403.07537841796875,
+          "width": 348,
+          "height": 4537.328125,
+          "right": 369,
+          "bottom": 4940.403503417969
+        },
+        "tray": {
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 827.1975708007812,
+            "width": 390,
+            "height": 25,
+            "right": 390,
+            "bottom": 852.1975708007812
+          }
+        },
+        "overflow": false
+      },
+      "final": {
+        "version": "assets/js/app.js?v=269",
+        "allCellsFit": true,
+        "stored": [
+          "yale-university",
+          "princeton-university"
+        ],
+        "headers": [
+          "Критерий",
+          "×\nYale University\n🇺🇸 Нью-Хейвен",
+          "×\nPrinceton University\n🇺🇸 Принстон"
+        ],
+        "criterion": "СТРАНА",
+        "values": [
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 21,
+              "y": 599.317626953125,
+              "width": 174,
+              "height": 41.46875,
+              "right": 195,
+              "bottom": 640.786376953125
+            }
+          },
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 195,
+              "y": 599.317626953125,
+              "width": 174,
+              "height": 41.46875,
+              "right": 369,
+              "bottom": 640.786376953125
+            }
+          }
+        ],
+        "scroll": {
+          "client": 348,
+          "width": 348,
+          "left": 0
+        },
+        "table": {
+          "x": 21,
+          "y": 403.0832214355469,
+          "width": 348,
+          "height": 4346.671875,
+          "right": 369,
+          "bottom": 4749.755096435547
+        },
+        "tray": {
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 827.1664428710938,
+            "width": 390,
+            "height": 25,
+            "right": 390,
+            "bottom": 852.1664428710938
+          }
+        },
+        "overflow": false
+      },
+      "restoredTray": true
+    },
+    {
+      "lang": "en",
+      "width": 360,
+      "dark": true,
+      "two": {
+        "version": "assets/js/app.js?v=269",
+        "allCellsFit": true,
+        "stored": [
+          "yale-university",
+          "princeton-university"
+        ],
+        "headers": [
+          "Criterion",
+          "×\nYale University\n🇺🇸 New Haven",
+          "×\nPrinceton University\n🇺🇸 Princeton"
+        ],
+        "criterion": "COUNTRY",
+        "values": [
+          {
+            "text": "🇺🇸 United States",
+            "rect": {
+              "x": 21,
+              "y": 561.9480590820312,
+              "width": 159,
+              "height": 41.46875,
+              "right": 180,
+              "bottom": 603.4168090820312
+            }
+          },
+          {
+            "text": "🇺🇸 United States",
+            "rect": {
+              "x": 180,
+              "y": 561.9480590820312,
+              "width": 159,
+              "height": 41.46875,
+              "right": 339,
+              "bottom": 603.4168090820312
+            }
+          }
+        ],
+        "scroll": {
+          "client": 318,
+          "width": 318,
+          "left": 0
+        },
+        "table": {
+          "x": 21,
+          "y": 365.71368408203125,
+          "width": 318,
+          "height": 4117.03125,
+          "right": 339,
+          "bottom": 4482.744934082031
+        },
+        "tray": {
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 820.4154052734375,
+            "width": 360,
+            "height": 25,
+            "right": 360,
+            "bottom": 845.4154052734375
+          }
+        },
+        "overflow": false
+      },
+      "three": {
+        "version": "assets/js/app.js?v=269",
+        "allCellsFit": true,
+        "stored": [
+          "yale-university",
+          "princeton-university",
+          "harvard-university"
+        ],
+        "headers": [
+          "Criterion",
+          "×\nYale University\n🇺🇸 New Haven",
+          "×\nPrinceton University\n🇺🇸 Princeton",
+          "×\nHarvard University\n🇺🇸 Cambridge"
+        ],
+        "criterion": "COUNTRY",
+        "values": [
+          {
+            "text": "🇺🇸 United States",
+            "rect": {
+              "x": 21,
+              "y": 582.4296875,
+              "width": 106,
+              "height": 61.9375,
+              "right": 127,
+              "bottom": 644.3671875
+            }
+          },
+          {
+            "text": "🇺🇸 United States",
+            "rect": {
+              "x": 127,
+              "y": 582.4296875,
+              "width": 106,
+              "height": 61.9375,
+              "right": 233,
+              "bottom": 644.3671875
+            }
+          },
+          {
+            "text": "🇺🇸 United States",
+            "rect": {
+              "x": 233,
+              "y": 582.4296875,
+              "width": 106,
+              "height": 61.9375,
+              "right": 339,
+              "bottom": 644.3671875
+            }
+          }
+        ],
+        "scroll": {
+          "client": 318,
+          "width": 318,
+          "left": 0
+        },
+        "table": {
+          "x": 21,
+          "y": 365.7265625,
+          "width": 318,
+          "height": 5397.71875,
+          "right": 339,
+          "bottom": 5763.4453125
+        },
+        "tray": {
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 820.3956298828125,
+            "width": 360,
+            "height": 25,
+            "right": 360,
+            "bottom": 845.3956298828125
+          }
+        },
+        "overflow": false
+      },
+      "threeReload": {
+        "version": "assets/js/app.js?v=269",
+        "allCellsFit": true,
+        "stored": [
+          "yale-university",
+          "princeton-university",
+          "harvard-university"
+        ],
+        "headers": [
+          "Criterion",
+          "×\nYale University\n🇺🇸 New Haven",
+          "×\nPrinceton University\n🇺🇸 Princeton",
+          "×\nHarvard University\n🇺🇸 Cambridge"
+        ],
+        "criterion": "COUNTRY",
+        "values": [
+          {
+            "text": "🇺🇸 United States",
+            "rect": {
+              "x": 21,
+              "y": 576.6538696289062,
+              "width": 106,
+              "height": 61.9375,
+              "right": 127,
+              "bottom": 638.5913696289062
+            }
+          },
+          {
+            "text": "🇺🇸 United States",
+            "rect": {
+              "x": 127,
+              "y": 576.6538696289062,
+              "width": 106,
+              "height": 61.9375,
+              "right": 233,
+              "bottom": 638.5913696289062
+            }
+          },
+          {
+            "text": "🇺🇸 United States",
+            "rect": {
+              "x": 233,
+              "y": 576.6538696289062,
+              "width": 106,
+              "height": 61.9375,
+              "right": 339,
+              "bottom": 638.5913696289062
+            }
+          }
+        ],
+        "scroll": {
+          "client": 318,
+          "width": 318,
+          "left": 0
+        },
+        "table": {
+          "x": 21,
+          "y": 359.95074462890625,
+          "width": 318,
+          "height": 5397.71875,
+          "right": 339,
+          "bottom": 5757.669494628906
+        },
+        "tray": {
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 843.3414306640625,
+            "width": 360,
+            "height": 25,
+            "right": 360,
+            "bottom": 868.3414306640625
+          }
+        },
+        "overflow": false
+      },
+      "removedReload": {
+        "version": "assets/js/app.js?v=269",
+        "allCellsFit": true,
+        "stored": [
+          "yale-university",
+          "harvard-university"
+        ],
+        "headers": [
+          "Criterion",
+          "×\nYale University\n🇺🇸 New Haven",
+          "×\nHarvard University\n🇺🇸 Cambridge"
+        ],
+        "criterion": "COUNTRY",
+        "values": [
+          {
+            "text": "🇺🇸 United States",
+            "rect": {
+              "x": 21,
+              "y": 555.8275146484375,
+              "width": 159,
+              "height": 41.46875,
+              "right": 180,
+              "bottom": 597.2962646484375
+            }
+          },
+          {
+            "text": "🇺🇸 United States",
+            "rect": {
+              "x": 180,
+              "y": 555.8275146484375,
+              "width": 159,
+              "height": 41.46875,
+              "right": 339,
+              "bottom": 597.2962646484375
+            }
+          }
+        ],
+        "scroll": {
+          "client": 318,
+          "width": 318,
+          "left": 0
+        },
+        "table": {
+          "x": 21,
+          "y": 359.5931701660156,
+          "width": 318,
+          "height": 4367.171875,
+          "right": 339,
+          "bottom": 4726.765045166016
+        },
+        "tray": {
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 845.24365234375,
+            "width": 360,
+            "height": 25,
+            "right": 360,
+            "bottom": 870.24365234375
+          }
+        },
+        "overflow": false
+      },
+      "final": {
+        "version": "assets/js/app.js?v=269",
+        "allCellsFit": true,
+        "stored": [
+          "yale-university",
+          "princeton-university"
+        ],
+        "headers": [
+          "Criterion",
+          "×\nYale University\n🇺🇸 New Haven",
+          "×\nPrinceton University\n🇺🇸 Princeton"
+        ],
+        "criterion": "COUNTRY",
+        "values": [
+          {
+            "text": "🇺🇸 United States",
+            "rect": {
+              "x": 21,
+              "y": 555.9832763671875,
+              "width": 159,
+              "height": 41.46875,
+              "right": 180,
+              "bottom": 597.4520263671875
+            }
+          },
+          {
+            "text": "🇺🇸 United States",
+            "rect": {
+              "x": 180,
+              "y": 555.9832763671875,
+              "width": 159,
+              "height": 41.46875,
+              "right": 339,
+              "bottom": 597.4520263671875
+            }
+          }
+        ],
+        "scroll": {
+          "client": 318,
+          "width": 318,
+          "left": 0
+        },
+        "table": {
+          "x": 21,
+          "y": 359.7489318847656,
+          "width": 318,
+          "height": 4117.03125,
+          "right": 339,
+          "bottom": 4476.780181884766
+        },
+        "tray": {
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 844.4332275390625,
+            "width": 360,
+            "height": 25,
+            "right": 360,
+            "bottom": 869.4332275390625
+          }
+        },
+        "overflow": false
+      },
+      "restoredTray": true
+    },
+    {
+      "lang": "ru",
+      "width": 1280,
+      "dark": false,
+      "two": {
+        "version": "assets/js/app.js?v=269",
+        "allCellsFit": true,
+        "stored": [
+          "yale-university",
+          "princeton-university"
+        ],
+        "headers": [
+          "Критерий",
+          "×\nYale University\n🇺🇸 Нью-Хейвен",
+          "×\nPrinceton University\n🇺🇸 Принстон"
+        ],
+        "criterion": "СТРАНА",
+        "values": [
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 271,
+              "y": 544.65625,
+              "width": 540.78125,
+              "height": 50.046875,
+              "right": 811.78125,
+              "bottom": 594.703125
+            }
+          },
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 811.78125,
+              "y": 544.65625,
+              "width": 397.21875,
+              "height": 50.046875,
+              "right": 1209,
+              "bottom": 594.703125
+            }
+          }
+        ],
+        "scroll": {
+          "client": 1138,
+          "width": 1138,
+          "left": 0
+        },
+        "table": {
+          "x": 71,
+          "y": 424.25,
+          "width": 1138,
+          "height": 2998.46875,
+          "right": 1209,
+          "bottom": 3422.71875
+        },
+        "tray": {
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 819,
+            "width": 1280,
+            "height": 25,
+            "right": 1280,
+            "bottom": 844
+          }
+        },
+        "overflow": false
+      },
+      "three": {
+        "version": "assets/js/app.js?v=269",
+        "allCellsFit": true,
+        "stored": [
+          "yale-university",
+          "princeton-university",
+          "harvard-university"
+        ],
+        "headers": [
+          "Критерий",
+          "×\nYale University\n🇺🇸 Нью-Хейвен",
+          "×\nPrinceton University\n🇺🇸 Принстон",
+          "×\nHarvard University\n🇺🇸 Кембридж"
+        ],
+        "criterion": "СТРАНА",
+        "values": [
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 271,
+              "y": 541.93359375,
+              "width": 311.515625,
+              "height": 50.046875,
+              "right": 582.515625,
+              "bottom": 591.98046875
+            }
+          },
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 582.515625,
+              "y": 541.93359375,
+              "width": 264.53125,
+              "height": 50.046875,
+              "right": 847.046875,
+              "bottom": 591.98046875
+            }
+          },
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 847.046875,
+              "y": 541.93359375,
+              "width": 361.953125,
+              "height": 50.046875,
+              "right": 1209,
+              "bottom": 591.98046875
+            }
+          }
+        ],
+        "scroll": {
+          "client": 1138,
+          "width": 1138,
+          "left": 0
+        },
+        "table": {
+          "x": 71,
+          "y": 421.5273132324219,
+          "width": 1138,
+          "height": 3294.28125,
+          "right": 1209,
+          "bottom": 3715.808563232422
+        },
+        "tray": {
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 823.2035522460938,
+            "width": 1280,
+            "height": 25,
+            "right": 1280,
+            "bottom": 848.2035522460938
+          }
+        },
+        "overflow": false
+      },
+      "threeReload": {
+        "version": "assets/js/app.js?v=269",
+        "allCellsFit": true,
+        "stored": [
+          "yale-university",
+          "princeton-university",
+          "harvard-university"
+        ],
+        "headers": [
+          "Критерий",
+          "×\nYale University\n🇺🇸 Нью-Хейвен",
+          "×\nPrinceton University\n🇺🇸 Принстон",
+          "×\nHarvard University\n🇺🇸 Кембридж"
+        ],
+        "criterion": "СТРАНА",
+        "values": [
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 271,
+              "y": 540.7809448242188,
+              "width": 311.515625,
+              "height": 50.046875,
+              "right": 582.515625,
+              "bottom": 590.8278198242188
+            }
+          },
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 582.515625,
+              "y": 540.7809448242188,
+              "width": 264.53125,
+              "height": 50.046875,
+              "right": 847.046875,
+              "bottom": 590.8278198242188
+            }
+          },
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 847.046875,
+              "y": 540.7809448242188,
+              "width": 361.953125,
+              "height": 50.046875,
+              "right": 1209,
+              "bottom": 590.8278198242188
+            }
+          }
+        ],
+        "scroll": {
+          "client": 1138,
+          "width": 1138,
+          "left": 0
+        },
+        "table": {
+          "x": 71,
+          "y": 420.37469482421875,
+          "width": 1138,
+          "height": 3294.28125,
+          "right": 1209,
+          "bottom": 3714.6559448242188
+        },
+        "tray": {
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 827.1259765625,
+            "width": 1280,
+            "height": 25,
+            "right": 1280,
+            "bottom": 852.1259765625
+          }
+        },
+        "overflow": false
+      },
+      "removedReload": {
+        "version": "assets/js/app.js?v=269",
+        "allCellsFit": true,
+        "stored": [
+          "yale-university",
+          "harvard-university"
+        ],
+        "headers": [
+          "Критерий",
+          "×\nYale University\n🇺🇸 Нью-Хейвен",
+          "×\nHarvard University\n🇺🇸 Кембридж"
+        ],
+        "criterion": "СТРАНА",
+        "values": [
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 271,
+              "y": 539.0864868164062,
+              "width": 419.40625,
+              "height": 50.046875,
+              "right": 690.40625,
+              "bottom": 589.1333618164062
+            }
+          },
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 690.40625,
+              "y": 539.0864868164062,
+              "width": 518.59375,
+              "height": 50.046875,
+              "right": 1209,
+              "bottom": 589.1333618164062
+            }
+          }
+        ],
+        "scroll": {
+          "client": 1138,
+          "width": 1138,
+          "left": 0
+        },
+        "table": {
+          "x": 71,
+          "y": 418.68023681640625,
+          "width": 1138,
+          "height": 3092.03125,
+          "right": 1209,
+          "bottom": 3510.7114868164062
+        },
+        "tray": {
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 834.8041381835938,
+            "width": 1280,
+            "height": 25,
+            "right": 1280,
+            "bottom": 859.8041381835938
+          }
+        },
+        "overflow": false
+      },
+      "final": {
+        "version": "assets/js/app.js?v=269",
+        "allCellsFit": true,
+        "stored": [
+          "yale-university",
+          "princeton-university"
+        ],
+        "headers": [
+          "Критерий",
+          "×\nYale University\n🇺🇸 Нью-Хейвен",
+          "×\nPrinceton University\n🇺🇸 Принстон"
+        ],
+        "criterion": "СТРАНА",
+        "values": [
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 271,
+              "y": 540.7667236328125,
+              "width": 540.78125,
+              "height": 50.046875,
+              "right": 811.78125,
+              "bottom": 590.8135986328125
+            }
+          },
+          {
+            "text": "🇺🇸 США",
+            "rect": {
+              "x": 811.78125,
+              "y": 540.7667236328125,
+              "width": 397.21875,
+              "height": 50.046875,
+              "right": 1209,
+              "bottom": 590.8135986328125
+            }
+          }
+        ],
+        "scroll": {
+          "client": 1138,
+          "width": 1138,
+          "left": 0
+        },
+        "table": {
+          "x": 71,
+          "y": 420.3604736328125,
+          "width": 1138,
+          "height": 2998.46875,
+          "right": 1209,
+          "bottom": 3418.8292236328125
+        },
+        "tray": {
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 827.1822509765625,
+            "width": 1280,
+            "height": 25,
+            "right": 1280,
+            "bottom": 852.1822509765625
+          }
+        },
+        "overflow": false
+      },
+      "restoredTray": true
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Chrome viewport emulation; no real iPhone or Threads browser."
+  ],
+  "browser": "Chrome 157.0.8103.79"
+}

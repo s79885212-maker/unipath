@@ -213,9 +213,11 @@
     'community-college': 'Community college',
     'liberal-arts': 'Liberal arts college',
     'public': 'Public university',
-    'private': 'Private university'
+    'private': 'Private university',
+    'unknown': 'Institution type not confirmed'
   };
   function institutionKind(u) {
+    if (Object.prototype.hasOwnProperty.call(u, 'institutionKind') && u.institutionKind === null) return 'unknown';
     if (u.institutionKind && INSTITUTION_KINDS[u.institutionKind]) return u.institutionKind;
     var t = String(u.type || '');
     if (/community college/i.test(t)) return 'community-college';
@@ -613,7 +615,7 @@
      early on the strength of the device's own calendar. */
   /* British Columbia uses Pacific Time (PCT, UTC−7) year-round from 2026. */
   var FIXED_ZONES = { 'PCT': -420, 'JST': 540, 'KST': 540, 'Japan time': 540, 'UTC': 0, 'GMT': 0, 'EST': -300, 'EDT': -240 };
-  var IANA_ZONES = { 'UK time': 'Europe/London', 'CET': 'Europe/Berlin', 'CEST': 'Europe/Berlin', 'German time': 'Europe/Berlin',
+  var IANA_ZONES = { 'Italian time': 'Europe/Rome', 'UK time': 'Europe/London', 'CET': 'Europe/Berlin', 'CEST': 'Europe/Berlin', 'German time': 'Europe/Berlin',
     'ET': 'America/New_York', 'Eastern Time': 'America/New_York', 'CT': 'America/Chicago', 'Central Time': 'America/Chicago',
     'MT': 'America/Denver', 'PT': 'America/Los_Angeles', 'Pacific Time': 'America/Los_Angeles',
     'AT': 'America/Halifax', 'Atlantic Time': 'America/Halifax', 'NT': 'America/St_Johns', 'Newfoundland Time': 'America/St_Johns' };
@@ -1343,7 +1345,7 @@
     var tray = document.getElementById('compare-tray');
     if (!tray) return;
     var ids = compareGet();
-    if (!ids.length) {
+    if (!ids.length || document.getElementById('compare-out')) {
       tray.classList.remove('is-open'); tray.innerHTML = '';
       document.body.classList.remove('tray-open');
       return;

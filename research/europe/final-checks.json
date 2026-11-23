@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-22",
+  "branch": "codex/europe-foundation",
+  "draftPR": "https://github.com/s79885212-maker/unipath/pull/32",
+  "version": 272,
+  "baseDevSHA": "f064ff8776ff8fa4f6839acdf25dc9dda6b6be30",
+  "mainUnchanged": "129c5b96a4562455919a1fc5f18bb7ef1044123f",
+  "catalogue": {
+    "total": 548,
+    "unique": 548,
+    "originalRecordsPreserved": 540,
+    "byCountry": {
+      "us": 350,
+      "ca": 50,
+      "uk": 50,
+      "de": 30,
+      "jp": 30,
+      "kr": 30,
+      "it": 2,
+      "fr": 3,
+      "es": 3
+    }
+  },
+  "tests": {
+    "passed": 653,
+    "failed": 0
+  },
+  "builds": {
+    "production": {
+      "pages": 558,
+      "internalLinks": 24574,
+      "indexing": "production canonical and sitemap checks pass; no staging noindex",
+      "browser": {
+        "browser": "Chrome 157.0.8103.79",
+        "profiles": 32,
+        "flows": 16,
+        "errors": 0
+      }
+    },
+    "staging": {
+      "pages": 558,
+      "internalLinks": 24574,
+      "indexing": "all558 pages noindex; staging base paths checked",
+      "browser": {
+        "browser": "Chrome 157.0.8103.79",
+        "profiles": 32,
+        "flows": 16,
+        "errors": 0,
+        "russianCitySearch": true,
+        "comparisonThreeToTwoAndReload": true
+      }
+    }
+  },
+  "externalLinks": {
+    "total": 45,
+    "working": 41,
+    "redirects": 5,
+    "blocked": 0,
+    "notFound": 0,
+    "other": 4
+  },
+  "limits": [
+    "Local built artifacts only; no Europe deployment",
+    "Chrome mobile viewport emulation, not real iPhone/Threads/Safari; WebKit unavailable",
+    "No PR-triggered GitHub workflow configured; local tests/builds are not Actions runs",
+    "Full living-cost budgets and listed future-cycle/source gaps remain unknown",
+    "Photos remain standard placeholders",
+    "Four external requests had TLS/DNS errors; not classified as dead links"
+  ],
+  "sourceContentHashes": "checked-source-hashes.json"
+}
