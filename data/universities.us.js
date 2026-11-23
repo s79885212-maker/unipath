@@ -8,6 +8,7 @@ window.UNIPATH.universities.push(
   {
     id: "harvard-university",
     name: "Harvard University",
+    aliases: ["Гарвард", "Гарвардский университет"],
     country: "us",
     city: "Cambridge",
     region: "Massachusetts",
