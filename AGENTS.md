@@ -9,9 +9,10 @@ Read this before changing anything. It applies to every agent (Codex, Claude Cod
 ## Branches, test copy and releases
 | Branch | Address | What it is |
 |---|---|---|
-| `dev` | https://s79885212-maker.github.io/unipath/staging/ | test copy — **all work goes here** |
-| `main` | https://s79885212-maker.github.io/unipath/ | public site — **only on a release the owner asks for** ("заливай") |
+| `dev` | https://uniatlas.college/staging/ | test copy — **all work goes here** |
+| `main` | https://uniatlas.college/ | public site — **only on a release the owner asks for** ("заливай") |
 
+- Since 24 November 2026 the site lives on its own domain uniatlas.college (set in the repository's Pages settings); the old github.io/unipath/ addresses redirect there. The build takes the address from those settings, so no file names the domain.
 - Commit to `dev` and push `origin dev`. The "Staging check" workflow runs the tests; if they pass, "Deploy to GitHub Pages" rebuilds both copies.
 - Release (only when the owner says so): `git checkout main && git merge --ff-only dev && git push origin main && git checkout dev`.
 - Never push to `main` otherwise. Never force-push. Stage files explicitly (no `git add -A`).

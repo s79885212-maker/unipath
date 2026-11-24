@@ -1477,3 +1477,6 @@ Lighthouse (телефон) на v276: 55 баллов, первое появл�
 
 ## v279 — 24 ноября 2026: подготовка к домену uniatlas.college
 Владелец купил домен uniatlas.college. Сборка (.github/workflows/pages.yml) теперь берёт адрес сайта из настроек GitHub Pages (`actions/configure-pages`): пока домен не подключён, это по-прежнему `/unipath/` на github.io; после подключения домена в настройках Pages — корень `uniatlas.college` и тестовая копия `/staging/`, без правки файла. Код сайта и данные не менялись.
+
+## v280 — 24 ноября 2026: сайт на домене uniatlas.college
+Владелец подключил домен uniatlas.college в настройках GitHub Pages (DNS: четыре A-записи GitHub и CNAME www). Эта сборка — первая под новым адресом: страницы, канонические ссылки, карта сайта и превью получают адрес uniatlas.college, тестовая копия — uniatlas.college/staging/. В AGENTS.md обновлены адреса. Код сайта и данные не менялись.
