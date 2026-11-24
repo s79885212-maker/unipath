@@ -265,6 +265,9 @@
         '<p>Campus photographs come from Wikimedia Commons under free licences, and every photo is credited to its author on the university profile. Where Commons has no usable photo, a photo from the university’s own website may be shown instead, marked © with a link to its page.</p>' +
         '<p>On systems without flag emoji (Windows), country flags are drawn with Twemoji graphics © Twitter, CC BY 4.0.</p>' +
 
+        '<h3>Visit statistics</h3>' +
+        '<p>The public site uses Yandex Metrika to see which pages are useful: pages viewed, where visitors come from, scrolling and clicks, including anonymised session recordings (Webvisor). UniAtlas has no accounts and asks for no names, e-mail addresses or documents; your saved and compared lists stay in your browser.</p>' +
+
         '<h2 style="margin-top:36px">Found a mistake?</h2>' +
         reportError() +
 

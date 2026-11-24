@@ -1095,6 +1095,17 @@ require('./admission-requirements')({U:U, DB:DB, M:M, ok:ok, global:sandbox});
     'The site name is UniAtlas everywhere it is shown; saved-settings keys are unchanged', shown.join(', '));
 })();
 
+/* Yandex Metrika (counter 114639475) runs on the public site only: the guard keeps the
+   test copy, local previews and other hosts out of the statistics. */
+(function () {
+  var m = /<script>\s*\/\* Yandex Metrika[\s\S]*?<\/script>/.exec(index);
+  var code = m ? m[0] : '';
+  ok(/location\.hostname !== "uniatlas\.college"/.test(code) && /\/\^\\\/staging\\\/\//.test(code) &&
+     /ym\(114639475, "init"/.test(code) && /trackHash: true/.test(code) && /addEventListener\("load", load\)/.test(code) &&
+     (index.match(/mc\.yandex\.ru\/metrika\/tag\.js/g) || []).length === 1,
+    'Metrika counter 114639475 loads after page load on uniatlas.college only, never on /staging/');
+})();
+
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 
 /* Exit with a status only when run directly; tests/links.js loads this file for the data. */

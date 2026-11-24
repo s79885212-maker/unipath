@@ -1,0 +1,79 @@
+{
+ "date": "2026-11-24",
+ "method": "Wikimedia Commons API; licence, author and subject read from each file page; thumbnails reviewed visually; 1600px Commons rendition downloaded and resized to 1200px (1.jpg) and 560px (thumb.jpg), no retouching.",
+ "installed": {
+  "carlos-iii-university-of-madrid": {
+   "file": "File:Leganés - Universidad Carlos III.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Legan%C3%A9s_-_Universidad_Carlos_III.jpg",
+   "artist": "Zarateman",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "downloadSha256": "5f7fa35106c46f564d5782cb0d4083fbb719c08b2c4d8f5b3b50d51ad7862887"
+  },
+  "ie-university": {
+   "file": "File:Santa Cruz la Real Campus.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Santa_Cruz_la_Real_Campus.jpg",
+   "artist": "Coriplus",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "downloadSha256": "deca29b7e065f59e0267271ba8b23c6d23faf1497d89d4630561339241cea921"
+  },
+  "autonomous-university-of-barcelona": {
+   "file": "File:Campus de Bellaterra - UAB - 20250123 151745.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Campus_de_Bellaterra_-_UAB_-_20250123_151745.jpg",
+   "artist": "Pere López Brosa",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "downloadSha256": "65f85f953a7fa367d21176a71e39cfd94d82b8564b2491d634777e6b9b088683"
+  },
+  "ecole-polytechnique": {
+   "file": "File:Campus Ecole polytechnique de palaiseau.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Campus_Ecole_polytechnique_de_palaiseau.jpg",
+   "artist": "Jérémy Barande",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "downloadSha256": "4d09341f163f773e002cc5d13039c8c325d6607eb1668acc30b0db8879e1b6b5"
+  },
+  "essec-business-school": {
+   "file": "File:ESSEC campus cergy.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:ESSEC_campus_cergy.jpg",
+   "artist": "No machine-readable author provided. Rdavout assumed (based on copyright claims).",
+   "license": "CC BY-SA 2.5",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+   "downloadSha256": "d6851648dd94511e30043f170d5a817f05616892594eea4a8b64eb4b7818ce24"
+  },
+  "epita": {
+   "file": "File:Entrée campus EPITA Le Kremlin-Bicêtre.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Entr%C3%A9e_campus_EPITA_Le_Kremlin-Bic%C3%AAtre.jpg",
+   "artist": "YtoSu",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "downloadSha256": "81c6e725ed174346f3a658003b15e722e210c0378a341b5e3cc43c5f4ed88f15"
+  },
+  "bocconi-university": {
+   "file": "File:Nuovo Campus SANAA Milano 3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Nuovo_Campus_SANAA_Milano_3.jpg",
+   "artist": "Plumbago Capensis",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "downloadSha256": "678202680599a45238cd1d348c8d285e9647123bf43b7ab62fbd7fea8073d354"
+  },
+  "university-of-bologna": {
+   "file": "File:Edifici Distretto Navile.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Edifici_Distretto_Navile.jpg",
+   "artist": "Mattia Barci",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "downloadSha256": "0b07d64a30184be902021ba4e99c5783b830a80819141803b70a3c6c273b662e"
+  }
+ },
+ "notInstalled": {
+  "st-bonaventure-university": "Commons search and category returned no campus photograph (only stadiums, unrelated aircraft and event photos). The photo removed on 15 November 2026 stays removed (author and licence unknown).",
+  "srh-berlin-university": "Only candidate: File:Ernst-Reuter-Platz Pepper-Haus-002.JPG (category Ernst-Reuter-Platz 9-10). Already rejected on 26 October 2026: the building at no. 10 is not confirmed as the SRH campus and SRH has a new Sonnenallee campus.",
+  "karlshochschule": "Commons holds only logos and a portrait of the president; no campus photograph."
+ },
+ "rejected": {
+  "university-of-bologna": "File:Archiginnasio ora blu Bologna.jpg — the Archiginnasio is the historic seat, today a municipal library; the installed photo shows current university buildings (Navile).",
+  "ie-university": "File:IE Business School (Madrid) 01.jpg — business-school building; the Segovia campus photo was chosen."
+ }
+}
