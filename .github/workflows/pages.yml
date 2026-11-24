@@ -6,7 +6,10 @@
 # and this workflow runs when that check succeeds (it then deploys from main, so the
 # github-pages environment's branch rule is respected). Both copies are rebuilt each time.
 # The site is built as on Netlify (python3 build-artifact.py); BASE_PATH and SITE_URL tell
-# the static pages where they live, STAGING=1 marks the test copy.
+# the static pages where they live, STAGING=1 marks the test copy. Both come from the
+# repository's Pages settings (actions/configure-pages): on github.io they are /unipath/,
+# and once a custom domain (uniatlas.college) is set there they become / and that domain,
+# with the test copy at /staging/ — no edit of this file is needed for the switch.
 name: Deploy to GitHub Pages
 
 on:
@@ -41,6 +44,8 @@ jobs:
         with:
           ref: dev
           path: staging-src
+      - id: pages
+        uses: actions/configure-pages@v5
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -50,15 +55,15 @@ jobs:
       - name: Build the public site (main)
         working-directory: site
         env:
-          BASE_PATH: /unipath/
-          SITE_URL: https://s79885212-maker.github.io/unipath
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}/
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
         run: python3 build-artifact.py
       - name: Build the test copy (dev) under /staging/
         if: steps.dev.outcome == 'success'
         working-directory: staging-src
         env:
-          BASE_PATH: /unipath/staging/
-          SITE_URL: https://s79885212-maker.github.io/unipath/staging
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}/staging/
+          SITE_URL: ${{ steps.pages.outputs.base_url }}/staging
           STAGING: '1'
         run: |
           python3 build-artifact.py
