@@ -20379,5 +20379,7 @@ window.UNIPATH_I18N.ru = {
   "Bocconi University's new SANAA campus in Milan": "Новый кампус SANAA Университета Боккони в Милане",
   "Bocconi University's new SANAA campus in Milan. Resized and encoded as JPEG.": "Новый кампус SANAA Университета Боккони в Милане. Размер уменьшен, формат JPEG.",
   "University of Bologna buildings in the Navile district": "Корпуса Болонского университета в районе Навиле",
-  "University of Bologna buildings in the Navile district. Resized and encoded as JPEG.": "Корпуса Болонского университета в районе Навиле. Размер уменьшен, формат JPEG."
+  "University of Bologna buildings in the Navile district. Resized and encoded as JPEG.": "Корпуса Болонского университета в районе Навиле. Размер уменьшен, формат JPEG.",
+  "Visit statistics": "Статистика посещений",
+  "The public site uses Yandex Metrika to see which pages are useful: pages viewed, where visitors come from, scrolling and clicks, including anonymised session recordings (Webvisor). UniAtlas has no accounts and asks for no names, e-mail addresses or documents; your saved and compared lists stay in your browser.": "Чтобы понимать, какие страницы полезны, основной сайт использует Яндекс Метрику: просмотренные страницы, откуда пришли посетители, прокрутка и клики, включая обезличенные записи сеансов (Вебвизор). У UniAtlas нет аккаунтов, сайт не спрашивает имён, e-mail и документов; списки «Избранное» и «Сравнение» остаются в вашем браузере."
 };
