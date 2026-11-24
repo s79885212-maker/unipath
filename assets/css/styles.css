@@ -1716,6 +1716,12 @@ body.tray-open {
   font-size: 0.82rem;
   color: #93aed6;
 }
+/* The rights line sits right under the bottom row, without a second rule. */
+.footer-bottom.footer-rights {
+  margin-top: 10px;
+  padding-top: 0;
+  border-top: 0;
+}
 .footer-disclaimer {
   margin-top: 24px;
   padding: 14px 16px;

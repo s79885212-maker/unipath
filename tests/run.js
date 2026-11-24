@@ -1106,6 +1106,11 @@ require('./admission-requirements')({U:U, DB:DB, M:M, ok:ok, global:sandbox});
     'Metrika counter 114639475 loads after page load on uniatlas.college only, never on /staging/');
 })();
 
+/* Rights notice: LICENSE at the root and the © line in the footer (November 2026). */
+ok(/All rights reserved/.test(fs.readFileSync(path.join(ROOT, 'LICENSE'), 'utf8')) &&
+   /© 2026 UniAtlas\. All rights reserved\./.test(fs.readFileSync(path.join(ROOT, 'assets/js/app.js'), 'utf8')),
+  'LICENSE reserves the rights and the footer says so');
+
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 
 /* Exit with a status only when run directly; tests/links.js loads this file for the data. */

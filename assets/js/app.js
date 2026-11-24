@@ -1356,6 +1356,9 @@
             '<span>UniAtlas — independent research project. Not affiliated with any university.</span>' +
             '<span>' + totalCount() + ' universities &amp; colleges · ' + DB.countries.length + ' countries</span>' +
           '</div>' +
+          '<div class="footer-bottom footer-rights small">' +
+            '<span>© 2026 UniAtlas. All rights reserved. Copying the site or its data without permission is not allowed. Photos belong to their authors under the licences shown with them.</span>' +
+          '</div>' +
         '</div>' +
       '</footer>';
   }
