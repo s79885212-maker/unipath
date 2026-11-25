@@ -1106,6 +1106,23 @@ require('./admission-requirements')({U:U, DB:DB, M:M, ok:ok, global:sandbox});
     'Metrika counter 114639475 loads after page load on uniatlas.college only, never on /staging/');
 })();
 
+/* Rights notice: LICENSE at the root and the © line in the footer (November 2026). */
+ok(/All rights reserved/.test(fs.readFileSync(path.join(ROOT, 'LICENSE'), 'utf8')) &&
+   /© 2026 UniAtlas\. All rights reserved\./.test(fs.readFileSync(path.join(ROOT, 'assets/js/app.js'), 'utf8')),
+  'LICENSE reserves the rights and the footer says so');
+
+/* Site icon as real files (Google ignores data: icons) and the site name for search results. */
+(function () {
+  var png = fs.readFileSync(path.join(ROOT, 'assets/img/icons/favicon-48.png'));
+  var ico = fs.readFileSync(path.join(ROOT, 'favicon.ico'));
+  var pre = fs.readFileSync(path.join(ROOT, 'tools/prerender.py'), 'utf8');
+  ok(!/rel="icon"\s+href="data:/.test(index) && /rel="icon" href="assets\/img\/icons\/favicon-48\.png" sizes="48x48"/.test(index) &&
+     png.readUInt32BE(16) === 48 && png.readUInt32BE(20) === 48 && ico.readUInt16LE(2) === 1 &&
+     fs.existsSync(path.join(ROOT, 'assets/img/icons/favicon.svg')) && fs.existsSync(path.join(ROOT, 'assets/img/icons/apple-touch-icon.png')) &&
+     /"@type": "WebSite"/.test(pre) && /"name": "UniAtlas"/.test(pre),
+    'Site icon is served as 48x48 PNG, SVG and /favicon.ico; the home page names the site UniAtlas');
+})();
+
 console.log('\n' + passed + ' passed, ' + failed + ' failed');
 
 /* Exit with a status only when run directly; tests/links.js loads this file for the data. */

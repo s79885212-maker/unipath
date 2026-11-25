@@ -122,6 +122,9 @@ shutil.copy2(ROOT / "index.html", DIST / "index.html")
 shutil.copytree(ROOT / "assets", DIST / "assets")
 shutil.copytree(ROOT / "data", DIST / "data")
 (DIST / ".nojekyll").write_text("")  # GitHub Pages: serve files as-is
+# Browsers and search engines also ask for /favicon.ico at the site root.
+if (ROOT / "favicon.ico").exists():
+    shutil.copy2(ROOT / "favicon.ico", DIST / "favicon.ico")
 
 # Data files are published without line indentation (tools/minify_data.js checks that
 # the data they build is identical, and otherwise keeps the originals).
