@@ -656,6 +656,13 @@ def build(root: pathlib.Path, dist: pathlib.Path) -> int:
             raise SystemExit("prerender: index.html has no <meta charset> to anchor the canonical link")
         if 'rel="canonical"' not in text:
             text = text[:charset.end()] + f'\n    <link rel="canonical" href="{SITE}/">' + text[charset.end():]
+        # Site name for search results: Google shows "UniAtlas" instead of the bare domain
+        # when the home page declares it (schema.org WebSite).
+        if '"@type": "WebSite"' not in text:
+            ld = ('<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", '
+                  f'"name": "UniAtlas", "alternateName": "UniAtlas.college", "url": "{e(SITE)}/"}}</script>')
+            charset = re.search(r'<meta charset="utf-8"\s*/?>', text)
+            text = text[:charset.end()] + "\n    " + ld + text[charset.end():]
         # Link preview of the home page: address, site name and the share picture.
         if 'property="og:image"' not in text:
             extra = [f'<meta property="og:url" content="{e(SITE)}/">',
