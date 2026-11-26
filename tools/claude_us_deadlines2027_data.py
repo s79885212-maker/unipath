@@ -197,6 +197,7 @@ U('hampton-university', [
       L('The application must be complete by this date.', 'К этой дате заявка должна быть полной.')),
 ])
 
+L('5 December 2026, 23:59 ET', '5 декабря 2026, 23:59 по восточному времени США')  # shown date with time
 s = 'https://www.highpoint.edu/admissions/freshmen-admissions/'
 si = 'https://www.highpoint.edu/admissions/international-students/'
 U('high-point-university', [
