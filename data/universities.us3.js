@@ -11631,31 +11631,47 @@ window.UNIPATH.universities.push(
         "name": "Early Action",
         "kind": "EA",
         "entryTerm": "Autumn",
-        "entryYear": "2026",
-        "dateISO": "2025-12-01",
-        "date": "1 December 2025",
+        "entryYear": "2027",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
         "binding": false,
         "appliesTo": "First-year applicants",
-        "conditions": "Not binding. Decisions by 5 January. For autumn enrolment only.",
-        "status": "previous-cycle",
+        "conditions": "Not binding. Decision by 5 January. For autumn enrolment only.",
+        "status": "confirmed",
         "source": "https://lesley.edu/admissions/undergraduate-students/how-to-apply-undergraduate",
-        "verified": "2026-10-26",
-        "note": "The replacement undergraduate admissions page still explicitly labels preferred deadlines Fall 2026. Rolling admission does not establish a dated Fall 2027 deadline. The former /admissions-aid/ route returns 404."
+        "verified": "2026-11-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://lesley.edu/admissions/undergraduate-students/how-to-apply-undergraduate",
+          "verified": "2026-11-26",
+          "quote": "Important Admissions Deadlines Fall 2027 – Early Action Deadline: December 1"
+        }
       },
       {
         "name": "Regular Decision",
         "kind": "RD",
         "entryTerm": "Autumn",
-        "entryYear": "2026",
-        "dateISO": "2026-02-17",
-        "date": "17 February 2026",
+        "entryYear": "2027",
+        "dateISO": "2027-02-15",
+        "date": "15 February 2027",
         "binding": false,
         "appliesTo": "First-year applicants",
-        "conditions": "Lesley offers rolling admission: applications after the deadline are still considered, with a decision within two weeks of a complete application.",
-        "status": "previous-cycle",
+        "conditions": "Lesley offers rolling admission: applications after the deadline are still considered.",
+        "status": "confirmed",
         "source": "https://lesley.edu/admissions/undergraduate-students/how-to-apply-undergraduate",
-        "verified": "2026-10-26",
-        "note": "The replacement undergraduate admissions page still explicitly labels preferred deadlines Fall 2026. Rolling admission does not establish a dated Fall 2027 deadline. The former /admissions-aid/ route returns 404."
+        "verified": "2026-11-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://lesley.edu/admissions/undergraduate-students/how-to-apply-undergraduate",
+          "verified": "2026-11-26",
+          "quote": "Fall 2027 – Regular Decision Deadline: February 15"
+        }
       }
     ],
     "applicationFee": {

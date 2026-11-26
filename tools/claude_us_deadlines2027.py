@@ -59,6 +59,14 @@ def A(name, kind, day, src, quote, applies=FY, binding=None, conditions=None, no
                               'source': src, 'verified': DAY, 'quote': quote}}
 
 
+def P(name, kind, iso, src, quote, year='2026', applies=FY, binding=None, conditions=None, note=None):
+    """A dated round of an earlier intake that the page has not yet replaced."""
+    return {'name': name, 'kind': kind, 'entryTerm': 'Autumn', 'entryYear': year,
+            'dateISO': iso, 'date': shown(iso), 'binding': binding, 'appliesTo': applies,
+            'conditions': conditions, 'status': 'previous-cycle', 'source': src,
+            'verified': DAY, 'note': note, 'quote': quote}
+
+
 PLAN = []
 
 

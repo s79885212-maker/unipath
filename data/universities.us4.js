@@ -2456,7 +2456,77 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Early Decision",
+        "kind": "ED",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 November",
+        "status": "annual-rule",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Decision guaranteed by mid-December if the file is complete by 20 November; deposit due 15 January.",
+        "source": "https://www.saintmarys.edu/admission-aid/first-year-students/apply",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.saintmarys.edu/admission-aid/first-year-students/apply",
+          "verified": "2026-11-26",
+          "quote": "EARLY DECISION … Application Deadline: November 15 Admission Notification Date: guaranteed by mid-December when your application is completed by November 20 Deposit Deadline: January 15"
+        }
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 November",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Rolling decisions from November; deposit due 1 May.",
+        "source": "https://www.saintmarys.edu/admission-aid/first-year-students/apply",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.saintmarys.edu/admission-aid/first-year-students/apply",
+          "verified": "2026-11-26",
+          "quote": "EARLY ACTION … Application Deadline: November 15 … Deposit Deadline: May 1"
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 February",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Priority date; deposit due 1 May.",
+        "source": "https://www.saintmarys.edu/admission-aid/first-year-students/apply",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.saintmarys.edu/admission-aid/first-year-students/apply",
+          "verified": "2026-11-26",
+          "quote": "REGULAR DECISION Priority Application Deadline: February 15 … Deposit Deadline: May 1"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -3044,7 +3114,123 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 November",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Decision in early January.",
+        "source": "https://www.stonehill.edu/apply-for-admission/first-year-applicants/plans-deadlines/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.stonehill.edu/apply-for-admission/first-year-applicants/plans-deadlines/",
+          "verified": "2026-11-26",
+          "quote": "Deadlines & Decision Notifications Application Plan Application Deadline Decision Notification Binding? Early Action November 1 Early January No"
+        }
+      },
+      {
+        "name": "Early Decision",
+        "kind": "ED",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 November",
+        "status": "annual-rule",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decision in late December.",
+        "source": "https://www.stonehill.edu/apply-for-admission/first-year-applicants/plans-deadlines/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.stonehill.edu/apply-for-admission/first-year-applicants/plans-deadlines/",
+          "verified": "2026-11-26",
+          "quote": "Deadlines & Decision Notifications Application Plan Application Deadline Decision Notification Binding? Early Decision* November 1 Late December Yes*"
+        }
+      },
+      {
+        "name": "Early Action II",
+        "kind": "EA",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 January",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Decision in late February or early March.",
+        "source": "https://www.stonehill.edu/apply-for-admission/first-year-applicants/plans-deadlines/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.stonehill.edu/apply-for-admission/first-year-applicants/plans-deadlines/",
+          "verified": "2026-11-26",
+          "quote": "Deadlines & Decision Notifications Application Plan Application Deadline Decision Notification Binding? Early Action II January 15 Late February/Early March No"
+        }
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 February",
+        "status": "annual-rule",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Decision in late February.",
+        "source": "https://www.stonehill.edu/apply-for-admission/first-year-applicants/plans-deadlines/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.stonehill.edu/apply-for-admission/first-year-applicants/plans-deadlines/",
+          "verified": "2026-11-26",
+          "quote": "Deadlines & Decision Notifications Application Plan Application Deadline Decision Notification Binding? Early Decision II* February 1 Late February Yes*"
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 February",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Decision in mid-March.",
+        "source": "https://www.stonehill.edu/apply-for-admission/first-year-applicants/plans-deadlines/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.stonehill.edu/apply-for-admission/first-year-applicants/plans-deadlines/",
+          "verified": "2026-11-26",
+          "quote": "Deadlines & Decision Notifications Application Plan Application Deadline Decision Notification Binding? Regular Decision February 15 Mid-March No"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -3968,7 +4154,77 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Early Decision",
+        "kind": "ED",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "First Tuesday in November",
+        "status": "annual-rule",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Admitted students commit by the first Tuesday in January with a non-refundable $400 deposit.",
+        "source": "https://www.southwestern.edu/admission/application-faqs/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.southwestern.edu/admission/application-faqs/",
+          "verified": "2026-11-26",
+          "quote": "Early Decision (binding): 1st Tuesday in November"
+        }
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "First Tuesday in December",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Decision no later than the first Tuesday in March.",
+        "source": "https://www.southwestern.edu/admission/application-faqs/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.southwestern.edu/admission/application-faqs/",
+          "verified": "2026-11-26",
+          "quote": "Early Action (non-binding): 1st Tuesday in December"
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "First Tuesday in February",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "source": "https://www.southwestern.edu/admission/application-faqs/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.southwestern.edu/admission/application-faqs/",
+          "verified": "2026-11-26",
+          "quote": "Regular Decision: 1st Tuesday in February"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -4144,7 +4400,77 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Early Action I",
+        "kind": "EA",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 November",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Non-binding priority consideration for admission and merit scholarships. Notification 15 December.",
+        "source": "https://www.austincollege.edu/admission/apply/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.austincollege.edu/admission/apply/",
+          "verified": "2026-11-26",
+          "quote": "Freshman Application Deadlines … Early Action I Submit by Nov 1 Notification – Dec 15"
+        }
+      },
+      {
+        "name": "Early Action II",
+        "kind": "EA",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 February",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Notification 1 March. Also the priority date for additional institutional and fine-arts scholarships.",
+        "source": "https://www.austincollege.edu/admission/apply/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.austincollege.edu/admission/apply/",
+          "verified": "2026-11-26",
+          "quote": "Early Action II Submit by Feb 1* Notification – Mar 1"
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 March",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "International first-year applicants",
+        "conditions": "Notification 1 April. Fall applications from international students received after 1 March are not reviewed.",
+        "source": "https://www.austincollege.edu/admission/apply/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.austincollege.edu/admission/apply/",
+          "verified": "2026-11-26",
+          "quote": "Regular Decision Submit by Mar 1 Notification – Apr 1 … the Office of Admission is unable to review any applications for Fall entry received from international students after March 1."
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -4324,7 +4650,77 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Early Decision",
+        "kind": "ED",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 November",
+        "status": "annual-rule",
+        "binding": true,
+        "appliesTo": "International first-year applicants",
+        "conditions": "Binding. 11:59 p.m. Pacific Time. Decision in late November.",
+        "source": "https://college.lclark.edu/offices/admissions/international-students/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://college.lclark.edu/offices/admissions/international-students/",
+          "verified": "2026-11-26",
+          "quote": "Lewis & Clark Admission Deadlines Application Deadline to Apply Notice of Decision Early Decision (binding) Deadline: November 1 at 11:59 p.m. Pacific Time Late November"
+        }
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 November",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "International first-year applicants",
+        "conditions": "11:59 p.m. Pacific Time. Decision in mid-December.",
+        "source": "https://college.lclark.edu/offices/admissions/international-students/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://college.lclark.edu/offices/admissions/international-students/",
+          "verified": "2026-11-26",
+          "quote": "Lewis & Clark Admission Deadlines Application Deadline to Apply Notice of Decision Early Action (nonbinding) Deadline: November 1 at 11:59 p.m. Pacific Time Mid-December"
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 January",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "International first-year applicants",
+        "conditions": "11:59 p.m. Pacific Time. Decision in mid-March.",
+        "source": "https://college.lclark.edu/offices/admissions/international-students/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://college.lclark.edu/offices/admissions/international-students/",
+          "verified": "2026-11-26",
+          "quote": "Lewis & Clark Admission Deadlines Application Deadline to Apply Notice of Decision Regular Decision (nonbinding) Deadline: January 15 at 11:59 p.m. Pacific Time Mid-March"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": 0,
       "currency": "USD",
@@ -4504,7 +4900,77 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Early Decision",
+        "kind": "ED",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 November",
+        "status": "annual-rule",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "source": "https://www.washcoll.edu/admissions/apply/Freshman/index.php",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.washcoll.edu/admissions/apply/Freshman/index.php",
+          "verified": "2026-11-26",
+          "quote": "Application Deadlines Application Type Deadline Fall Early Decision November 15"
+        }
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 December",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "The international page asks applicants to use this date for priority consideration for Honors Fellowships.",
+        "source": "https://www.washcoll.edu/admissions/apply/Freshman/index.php",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.washcoll.edu/admissions/apply/Freshman/index.php",
+          "verified": "2026-11-26",
+          "quote": "Application Deadlines Application Type Deadline Fall Early Action December 1"
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 February",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "source": "https://www.washcoll.edu/admissions/apply/Freshman/index.php",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.washcoll.edu/admissions/apply/Freshman/index.php",
+          "verified": "2026-11-26",
+          "quote": "Application Deadlines Application Type Deadline Fall Regular Decision February 15"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -5156,7 +5622,54 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Decisions on a rolling basis; enrolment deadline 1 June.",
+        "status": "confirmed",
+        "source": "https://www.whittier.edu/admission/applying/firstyear",
+        "verified": "2026-11-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.whittier.edu/admission/applying/firstyear",
+          "verified": "2026-11-26",
+          "quote": "Applications for Fall 2027 are now open … Fall Early Action Application deadline: November 15"
+        }
+      },
+      {
+        "name": "Fall rolling admission deadline",
+        "kind": "rolling",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-04-01",
+        "date": "1 April 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Decisions on a rolling basis; enrolment deadline 8 August. The college keeps accepting first-year applications after this date while space allows.",
+        "status": "confirmed",
+        "source": "https://www.whittier.edu/admission/applying/firstyear",
+        "verified": "2026-11-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.whittier.edu/admission/applying/firstyear",
+          "verified": "2026-11-26",
+          "quote": "Applications for Fall 2027 are now open … Fall Rolling Admission Application Deadline: April 1"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": 0,
       "currency": "USD",
@@ -5303,7 +5816,6 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
-      "A Fall 2027 application deadline for this applicant route has not been confirmed.",
       "Requirements specific to secondary qualifications from Uzbekistan were not confirmed."
     ]
   },
