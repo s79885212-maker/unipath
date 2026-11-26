@@ -1705,6 +1705,7 @@
       var btn = document.querySelector('[data-nav-toggle]');
       if (closeNav() && btn && btn.focus) btn.focus();
     });
+    wirePhotoViewer();
     placeNavMarker(false);
     global.addEventListener('resize', function () { placeNavMarker(false); });
     global.addEventListener('load', function () { placeNavMarker(false); });
@@ -1780,6 +1781,75 @@
     }
     queueSweep(30);
   }
+
+  /* Campus photos open over the page, not in a new browser tab. The link
+     still points at the image, so it works without script and a
+     Ctrl/Cmd-click still opens a tab on purpose. Caption and credit (author,
+     licence) are copied from the photo's own figure. */
+  function wirePhotoViewer() {
+    var box = null, links = [], at = 0, from = null;
+    function el(tag, cls, html) { var n = document.createElement(tag); if (cls) n.className = cls; if (html) n.innerHTML = html; return n; }
+    function build() {
+      box = el('div', 'lightbox');
+      box.setAttribute('role', 'dialog');
+      box.setAttribute('aria-modal', 'true');
+      box.innerHTML =
+        '<button type="button" class="lightbox-btn lightbox-close" data-lb="close" aria-label="Close photo">×</button>' +
+        '<button type="button" class="lightbox-btn lightbox-prev" data-lb="prev" aria-label="Previous photo">‹</button>' +
+        '<figure class="lightbox-figure"><img class="lightbox-img" alt=""><figcaption class="lightbox-caption"></figcaption></figure>' +
+        '<button type="button" class="lightbox-btn lightbox-next" data-lb="next" aria-label="Next photo">›</button>';
+      box.addEventListener('click', function (e) {
+        var b = e.target.closest && e.target.closest('[data-lb]');
+        if (b) { var a = b.getAttribute('data-lb'); if (a === 'close') close(); else step(a === 'next' ? 1 : -1); return; }
+        if (!e.target.closest('.lightbox-img') && !e.target.closest('.lightbox-caption')) close();
+      });
+      document.body.appendChild(box);
+    }
+    function show(i) {
+      at = (i + links.length) % links.length;
+      var a = links[at], img = a.querySelector('img'), fig = a.closest('figure');
+      var cap = fig && fig.querySelector('figcaption');
+      var pic = box.querySelector('.lightbox-img');
+      pic.src = a.getAttribute('href');
+      pic.alt = img ? img.alt : '';
+      box.querySelector('.lightbox-caption').innerHTML = (cap ? cap.innerHTML : '') +
+        (links.length > 1 ? '<span class="lightbox-count" data-no-i18n>' + (at + 1) + ' / ' + links.length + '</span>' : '');
+      box.classList.toggle('is-single', links.length < 2);
+    }
+    function step(d) { if (links.length > 1) show(at + d); }
+    function open(list, i, a) {
+      if (!box) build();
+      links = list; from = a;
+      show(i);
+      box.hidden = false;
+      document.documentElement.classList.add('lightbox-open');
+      var c = box.querySelector('.lightbox-close'); if (c && c.focus) c.focus();
+    }
+    function close() {
+      if (!box || box.hidden) return false;
+      box.hidden = true;
+      box.querySelector('.lightbox-img').removeAttribute('src');
+      document.documentElement.classList.remove('lightbox-open');
+      if (from && from.focus) from.focus();
+      return true;
+    }
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a.photo-open');
+      if (!a || e.defaultPrevented || e.button || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      e.preventDefault();
+      var scope = a.closest('.photo-grid') || document;
+      var list = Array.prototype.slice.call(scope.querySelectorAll('a.photo-open'));
+      open(list, Math.max(0, list.indexOf(a)), a);
+    });
+    document.addEventListener('keydown', function (e) {
+      if (!box || box.hidden) return;
+      if (e.key === 'Escape') { e.stopPropagation(); close(); }
+      else if (e.key === 'ArrowRight') step(1);
+      else if (e.key === 'ArrowLeft') step(-1);
+    }, true);
+    global.addEventListener('hashchange', close);
+  }
+
   function initMotion(root) {
     if (!root || motion.on || !motionAllowed()) return;
     motion.on = true;

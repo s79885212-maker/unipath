@@ -20531,4 +20531,7 @@ window.UNIPATH_I18N.ru = {
   "The international page asks applicants to use this date for priority consideration for Honors Fellowships.": "Страница для иностранцев просит подавать к этой дате для приоритета на Honors Fellowships.",
   "After this date applications are reviewed on a rolling basis as capacity allows.": "После этой даты заявки рассматриваются по мере поступления, пока есть места.",
   "5 December 2026, 23:59 ET": "5 декабря 2026, 23:59 по восточному времени США",
+  "Close photo": "Закрыть фото",
+  "Previous photo": "Предыдущее фото",
+  "Next photo": "Следующее фото",
 };

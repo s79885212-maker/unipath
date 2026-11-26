@@ -846,6 +846,12 @@ require('./us100-batch1.js')({U:U,M:M,DB:DB,ok:ok});
 require('./us100-batch2.js')({U:U,M:M,DB:DB,ok:ok});
 require('./us100-later.js')({U:U,M:M,DB:DB,ok:ok});
 require('./us-deadlines-2027.js')({ U: U, DB: DB, ok: ok });
+(function () {
+  var pj = require('fs').readFileSync(require('path').join(__dirname, '../assets/js/pages.js'), 'utf8');
+  var aj = require('fs').readFileSync(require('path').join(__dirname, '../assets/js/app.js'), 'utf8');
+  ok(/<a class="photo-open" href="' \+ esc\(g\.src\)/.test(pj) && !/g\.src\) \+ '" target="_blank"/.test(pj) && /function wirePhotoViewer\(\)/.test(aj) && /wirePhotoViewer\(\);/.test(aj),
+    'campus photos open in an in-page viewer, not in a new browser tab');
+})();
 group('release check regressions (November 2026)');
 require('./release-qa.js')(ok);
 require('./uk2027-expansion.js')({ U: U, DB: DB, M: M, ok: ok });
