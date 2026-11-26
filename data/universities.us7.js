@@ -40,7 +40,31 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Rolling admission",
+        "kind": "rolling",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "No fixed application deadline",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": null,
+        "source": "https://www.uu.edu/admissions/undergraduate/international/",
+        "verified": "2026-11-26",
+        "note": "No dated cutoff is published. The university asks international applicants to apply early enough to have a student visa before orientation.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.uu.edu/admissions/undergraduate/international/",
+          "verified": "2026-11-26",
+          "quote": "Union uses a rolling admissions policy, which means applications are reviewed and admission decisions are made on a regular basis beginning each September."
+        }
+      }
+    ],
     "applicationFee": {
       "amount": 35,
       "currency": "USD",
@@ -203,7 +227,77 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 November",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Early evaluation of the application and of financial aid information.",
+        "source": "https://www.loyno.edu/admissions/how-apply/first-year-students/first-year-applicants",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.loyno.edu/admissions/how-apply/first-year-students/first-year-applicants",
+          "verified": "2026-11-26",
+          "quote": "NOVEMBER 15 Early Action Deadline."
+        }
+      },
+      {
+        "name": "Priority deadline for scholarships",
+        "kind": "priority",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 February",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "source": "https://www.loyno.edu/admissions/how-apply/first-year-students/first-year-applicants",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.loyno.edu/admissions/how-apply/first-year-students/first-year-applicants",
+          "verified": "2026-11-26",
+          "quote": "FEBRUARY 15 Priority Deadline. If you apply by February 15, you’ll be considered for all scholarship and financial aid packages."
+        }
+      },
+      {
+        "name": "Regular deadline",
+        "kind": "RD",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 April",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Later applications are considered as space and funds allow; deposit due 1 May.",
+        "source": "https://www.loyno.edu/admissions/how-apply/first-year-students/first-year-applicants",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.loyno.edu/admissions/how-apply/first-year-students/first-year-applicants",
+          "verified": "2026-11-26",
+          "quote": "APRIL 15 Regular Deadline. If you apply after April 15, your application will be considered as space and funds are available."
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -355,7 +449,77 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Early Decision",
+        "kind": "ED",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 November",
+        "status": "annual-rule",
+        "binding": true,
+        "appliesTo": "International first-year applicants",
+        "conditions": null,
+        "source": "https://www.ut.edu/apply/international-students",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.ut.edu/apply/international-students",
+          "verified": "2026-11-26",
+          "quote": "November 1: Early Decision"
+        }
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 November",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "International first-year applicants",
+        "conditions": "Non-binding; reply by 1 May.",
+        "source": "https://www.ut.edu/apply/international-students",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.ut.edu/apply/international-students",
+          "verified": "2026-11-26",
+          "quote": "November 15: Early Action Early Action is a non-binding option where admitted students have until May 1 to make a final decision"
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 January",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "International first-year applicants",
+        "conditions": "Non-binding; reply by 1 May. Applications completed later are evaluated on a rolling basis.",
+        "source": "https://www.ut.edu/apply/international-students",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.ut.edu/apply/international-students",
+          "verified": "2026-11-26",
+          "quote": "January 15: Regular Decision Regular Decision is a non-binding option … Applications completed after Jan. 15 are evaluated on a rolling basis."
+        }
+      }
+    ],
     "applicationFee": {
       "amount": 40,
       "currency": "USD",
@@ -683,7 +847,31 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Application deadline",
+        "kind": "admission",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 February",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": null,
+        "source": "https://www.wcu.edu/learn/office-of-global-engagement/international-students/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.wcu.edu/learn/office-of-global-engagement/international-students/",
+          "verified": "2026-11-26",
+          "quote": "Undergraduate FALL SEMESTER: February 1 (Freshman) April 1 (Transfer, Exchange)"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -987,7 +1175,31 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Application deadline",
+        "kind": "admission",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 July",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": "Incomplete applications are not reviewed; processing can take up to 30 days after all materials arrive.",
+        "source": "https://intered.mtsu.edu/admission/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://intered.mtsu.edu/admission/",
+          "verified": "2026-11-26",
+          "quote": "Deadlines: Fall July 1 of the same year"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": 30,
       "currency": "USD",
@@ -1142,7 +1354,54 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Application and scholarship priority deadline",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-01",
+        "date": "1 December 2026",
+        "binding": null,
+        "appliesTo": "First-year applicants",
+        "conditions": "Admission decisions from 15 October, then on a rolling basis.",
+        "status": "confirmed",
+        "source": "https://uwf.edu/admissions/undergraduate/apply/dates-and-deadlines/",
+        "verified": "2026-11-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://uwf.edu/admissions/undergraduate/apply/dates-and-deadlines/",
+          "verified": "2026-11-26",
+          "quote": "Freshman Admissions … Fall 2027 Aug. 1: Freshman admissions application opens. … Dec. 1: Application/Scholarship Priority Deadline."
+        }
+      },
+      {
+        "name": "Final application deadline",
+        "kind": "admission",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-04-01",
+        "date": "1 April 2027",
+        "binding": null,
+        "appliesTo": "First-year applicants",
+        "conditions": "Final date for the application and all materials; confirm and register for orientation by 1 May.",
+        "status": "confirmed",
+        "source": "https://uwf.edu/admissions/undergraduate/apply/dates-and-deadlines/",
+        "verified": "2026-11-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://uwf.edu/admissions/undergraduate/apply/dates-and-deadlines/",
+          "verified": "2026-11-26",
+          "quote": "Fall 2027 … April 1: Final Application and Materials Deadline"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -1261,7 +1520,6 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
-      "A Fall 2027 application deadline for this applicant route has not been confirmed.",
       "Requirements specific to secondary qualifications from Uzbekistan were not confirmed.",
       "A comparable full cost for the 2027–2028 academic year has not been confirmed.",
       "Scholarship coverage for incoming international first-year students has not been confirmed."
@@ -1318,7 +1576,31 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Application deadline",
+        "kind": "admission",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-07-19",
+        "date": "19 July 2027",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.murraystate.edu/admissions/international/Admissions/index.aspx",
+        "verified": "2026-11-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.murraystate.edu/admissions/international/Admissions/index.aspx",
+          "verified": "2026-11-26",
+          "quote": "Application Deadlines … Fall 2027 (August Intake) Bachelor's: July 19"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": 100,
       "currency": "USD",
@@ -1416,7 +1698,6 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
-      "A Fall 2027 application deadline for this applicant route has not been confirmed.",
       "Requirements specific to secondary qualifications from Uzbekistan were not confirmed.",
       "A comparable full cost for the 2027–2028 academic year has not been confirmed.",
       "Scholarship coverage for incoming international first-year students has not been confirmed."
@@ -1879,7 +2160,54 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Application deadline",
+        "kind": "admission",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 April",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": "The university recommends applying, sending documents and paying the deposit as early as possible because of visa processing times.",
+        "source": "https://calvin.edu/admissions/international/process",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://calvin.edu/admissions/international/process",
+          "verified": "2026-11-26",
+          "quote": "Deadlines for starting fall semester: Student type Apply by: Deposit by: International Students April 1 June 1"
+        }
+      },
+      {
+        "name": "Enrolment deposit",
+        "kind": "deposit",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 June",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": null,
+        "source": "https://calvin.edu/admissions/international/process",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://calvin.edu/admissions/international/process",
+          "verified": "2026-11-26",
+          "quote": "Deadlines for starting fall semester: Student type Apply by: Deposit by: International Students April 1 June 1"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -2031,7 +2359,77 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 November",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "source": "https://catalog.kettering.edu/undergrad/admissions/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://catalog.kettering.edu/undergrad/admissions/",
+          "verified": "2026-11-26",
+          "quote": "First-Year Student Applications Early Action Regular Admission Priority Rolling Admissions Application Deadline November 15 January 15 Ongoing until spaces are filled"
+        }
+      },
+      {
+        "name": "Regular admission priority date",
+        "kind": "priority",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 January",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "After this date admission is rolling until places are filled.",
+        "source": "https://catalog.kettering.edu/undergrad/admissions/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://catalog.kettering.edu/undergrad/admissions/",
+          "verified": "2026-11-26",
+          "quote": "First-Year Student Applications Early Action Regular Admission Priority Rolling Admissions Application Deadline November 15 January 15 Ongoing until spaces are filled"
+        }
+      },
+      {
+        "name": "International documents — fall term",
+        "kind": "documents",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "30 August",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": null,
+        "source": "https://www.kettering.edu/admissions-aid/international-students",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.kettering.edu/admissions-aid/international-students",
+          "verified": "2026-11-26",
+          "quote": "we must receive your documents approximately six weeks prior to the start of your term Document Deadlines Term Deadline Fall Term (October) August 30"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -2198,7 +2596,31 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Rolling admission",
+        "kind": "rolling",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "No fixed application deadline",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": null,
+        "source": "https://www.augie.edu/international-programs/prospective-international-students/international-student-application-process",
+        "verified": "2026-11-26",
+        "note": "The international application page publishes no dated cutoff.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.augie.edu/international-programs/prospective-international-students/international-student-application-process",
+          "verified": "2026-11-26",
+          "quote": "Augustana University has a rolling admission process. This means when your application is complete, it’s reviewed right away and a decision is made on your admission into the university."
+        }
+      }
+    ],
     "applicationFee": {
       "amount": 0,
       "currency": "USD",
@@ -2449,7 +2871,31 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Preferred application deadline",
+        "kind": "priority",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 April",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": "There is no hard deadline; apply at least three months before the semester. Applicants admitted before 15 January get the most financial aid consideration.",
+        "source": "https://www.dordt.edu/admissions-and-aid/apply-now/international-applicant",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.dordt.edu/admissions-and-aid/apply-now/international-applicant",
+          "verified": "2026-11-26",
+          "quote": "For the fall semester, the preferred deadline is April 1, although maximum financial aid consideration is given to applicants who are admitted prior to January 15."
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -2601,7 +3047,31 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Application deadline",
+        "kind": "admission",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 May",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": "All materials by this date; decision by 1 June. Incomplete applications move to the next semester.",
+        "source": "https://www.valpo.edu/admission/international/undergraduate/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.valpo.edu/admission/international/undergraduate/",
+          "verified": "2026-11-26",
+          "quote": "International Application Deadlines … Fall Semester Spring Semester Apply By: May 1 October 1 Decision Date: June 1 November 1"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -2753,7 +3223,31 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Fall application window closes",
+        "kind": "admission",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 May",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": "Applications open 1 September and may close earlier if all places are filled. Financial documents are collected between 1 March and 1 June.",
+        "source": "https://www.elmhurst.edu/admission/international-students/admission-requirements/first-year/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.elmhurst.edu/admission/international-students/admission-requirements/first-year/",
+          "verified": "2026-11-26",
+          "quote": "Fall Admission Schedule Apply between September 1 and May 1, or until all spaces are filled"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -2905,7 +3399,31 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Application deadline",
+        "kind": "admission",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 June",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": null,
+        "source": "https://www.rockhurst.edu/admissions/international",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.rockhurst.edu/admissions/international",
+          "verified": "2026-11-26",
+          "quote": "Application materials should be submitted by June 1 for fall admission and November 1 for spring admission."
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -3057,7 +3575,77 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Priority application deadline",
+        "kind": "priority",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-01",
+        "date": "1 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Gives additional consideration for admission and scholarships. Decisions come on a rolling basis, usually two to four weeks after the file is complete.",
+        "status": "confirmed",
+        "source": "https://www.bw.edu/undergraduate-admission/important-dates/",
+        "verified": "2026-11-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.bw.edu/undergraduate-admission/important-dates/",
+          "verified": "2026-11-26",
+          "quote": "Fall 2027 Start … November 1, 2026 First-year priority application deadline that gives students additional consideration for admission and scholarships."
+        }
+      },
+      {
+        "name": "Priority enrolment deposit",
+        "kind": "deposit",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-05-01",
+        "date": "1 May 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Deposits are refundable until this date but not after it.",
+        "status": "confirmed",
+        "source": "https://www.bw.edu/undergraduate-admission/important-dates/",
+        "verified": "2026-11-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.bw.edu/undergraduate-admission/important-dates/",
+          "verified": "2026-11-26",
+          "quote": "May 1, 2027 Priority deposit deadline to enroll at BW for fall 2027."
+        }
+      },
+      {
+        "name": "Final application deadline",
+        "kind": "admission",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-08-23",
+        "date": "23 August 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "The day classes start. International applicants need time for the visa, so applying this late is not realistic for them.",
+        "status": "confirmed",
+        "source": "https://www.bw.edu/undergraduate-admission/important-dates/",
+        "verified": "2026-11-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.bw.edu/undergraduate-admission/important-dates/",
+          "verified": "2026-11-26",
+          "quote": "August 23, 2027 The start of classes. First-year application and transfer application deadline for fall 2027 enrollment."
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -3152,7 +3740,6 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
-      "A Fall 2027 application deadline for this applicant route has not been confirmed.",
       "Requirements specific to secondary qualifications from Uzbekistan were not confirmed.",
       "A comparable full cost for the 2027–2028 academic year has not been confirmed.",
       "Scholarship coverage for incoming international first-year students has not been confirmed."
@@ -3361,7 +3948,31 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Rolling admission",
+        "kind": "rolling",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "No fixed application deadline",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": null,
+        "source": "https://admissions.uni.edu/international/application-process",
+        "verified": "2026-11-26",
+        "note": "Some departments have earlier deadlines. The university recommends applying early enough for a visa appointment.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://admissions.uni.edu/international/application-process",
+          "verified": "2026-11-26",
+          "quote": "For undergraduate international students there is no deadline as admission decisions are made on a rolling basis."
+        }
+      }
+    ],
     "applicationFee": {
       "amount": 50,
       "currency": "USD",
@@ -3544,7 +4155,31 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Application deadline",
+        "kind": "admission",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 June",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": "All materials must arrive by 11:59 p.m. (EST) on the deadline. The financial verification form for the I-20 is due 1 July.",
+        "source": "https://www.gvsu.edu/admissions/international-application-14",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.gvsu.edu/admissions/international-application-14",
+          "verified": "2026-11-26",
+          "quote": "Undergraduate Application Deadlines Application Deadline: Deadline to Submit Financial Verification Form for I-20: Fall Semester (August) June 1 July 1"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": 0,
       "currency": "USD",
@@ -3966,7 +4601,31 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Priority application deadline",
+        "kind": "priority",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 July",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": null,
+        "source": "https://www.uwlax.edu/admissions/apply/international/undergraduate/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.uwlax.edu/admissions/apply/international/undergraduate/",
+          "verified": "2026-11-26",
+          "quote": "Application periods Fall Semester Application opens: August 1 Priority deadline: July 15 Classes begin in September"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": 25,
       "currency": "USD",

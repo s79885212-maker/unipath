@@ -822,7 +822,7 @@
     var photos = '<section class="profile-section" id="photos"><h2>Photos</h2>' +
       (photoList.length
         ? '<div class="photo-grid">' + photoList.map(function (g) {
-            return '<figure class="photo"><a href="' + esc(g.src) + '" target="_blank" rel="noopener">' +
+            return '<figure class="photo"><a class="photo-open" href="' + esc(g.src) + '">' +
               '<img src="' + esc(g.src) + '" alt="' + esc(g.title || u.name) + '" loading="lazy" decoding="async" width="1200" height="900" onerror="this.closest(\'figure\').remove()"></a>' +
               '<figcaption><strong>' + esc(g.title) + '</strong>' + credit(g) + '</figcaption></figure>';
           }).join('') + '</div>' +

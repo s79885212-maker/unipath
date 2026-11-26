@@ -655,8 +655,8 @@ group('corrections after the expansion');
   console.log('   cost figures without a named academic year: ' + bare.filter(function (id) { return id !== 'deep-springs-college'; }).join(', '));
   var slc = U.uniById('sarah-lawrence-college'), les = U.uniById('lesley-university');
   ok(slc.admissions.deadlines.filter(function (d) { return d.entryYear === '2027' && d.status === 'confirmed' && d.dateISO; }).length === 4 &&
-     les.admissions.deadlines.every(function (d) { return d.status === 'previous-cycle' && d.entryYear === '2026' && d.verified === '2026-10-26'; }),
-    '12.6: Sarah Lawrence keeps its four rounds; Lesley, re-checked on 26 October 2026, still shows fall 2026 only');
+     les.admissions.deadlines.length === 2 && les.admissions.deadlines.every(function (d) { return U.roundStatus(d) === 'confirmed' && d.entryYear === '2027' && d.verified === '2026-11-26'; }),
+    '12.6: Sarah Lawrence keeps its four rounds; Lesley, re-checked on 26 November 2026, now publishes its Fall 2027 rounds');
   ok(['university-of-cincinnati', 'university-of-arizona', 'xavier-university'].every(function (id) { return U.uniById(id).costs.academicYear === '2026–2027'; }),
     'Cincinnati, Arizona and Xavier: cost figures now name 2026–2027 from the universities’ own cost pages');
   var kc2 = bud('kenyon-college', 96000);
@@ -845,6 +845,13 @@ require('./us-expansion-50.js')({U:U,M:M,DB:DB,ok:ok,sandbox:sandbox,load:load})
 require('./us100-batch1.js')({U:U,M:M,DB:DB,ok:ok});
 require('./us100-batch2.js')({U:U,M:M,DB:DB,ok:ok});
 require('./us100-later.js')({U:U,M:M,DB:DB,ok:ok});
+require('./us-deadlines-2027.js')({ U: U, DB: DB, ok: ok });
+(function () {
+  var pj = require('fs').readFileSync(require('path').join(__dirname, '../assets/js/pages.js'), 'utf8');
+  var aj = require('fs').readFileSync(require('path').join(__dirname, '../assets/js/app.js'), 'utf8');
+  ok(/<a class="photo-open" href="' \+ esc\(g\.src\)/.test(pj) && !/g\.src\) \+ '" target="_blank"/.test(pj) && /function wirePhotoViewer\(\)/.test(aj) && /wirePhotoViewer\(\);/.test(aj),
+    'campus photos open in an in-page viewer, not in a new browser tab');
+})();
 group('release check regressions (November 2026)');
 require('./release-qa.js')(ok);
 require('./uk2027-expansion.js')({ U: U, DB: DB, M: M, ok: ok });
