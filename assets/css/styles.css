@@ -1946,7 +1946,7 @@ html.is-gated body {
   align-items: center;
   justify-content: center;
   padding: 56px 16px 16px;
-  background: rgba(6, 10, 20, 0.92);
+  background: rgba(6, 10, 20, 0.97);
 }
 .lightbox[hidden] { display: none; }
 html.lightbox-open, html.lightbox-open body { overflow: hidden; }
