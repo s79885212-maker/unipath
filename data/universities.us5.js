@@ -1940,7 +1940,54 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Priority application deadline",
+        "kind": "priority",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 February",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "First-year applicants",
+        "conditions": "All majors except Nursing. Admission is rolling until the class is full; a deadline on a weekend or holiday moves to the next business day.",
+        "source": "https://www.dominican.edu/admissions/undergraduate-first-year-admissions",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.dominican.edu/admissions/undergraduate-first-year-admissions",
+          "verified": "2026-11-26",
+          "quote": "Application Deadlines for all Majors (Except Nursing) … Fall Priority February 1"
+        }
+      },
+      {
+        "name": "Early Decision — BS in Nursing",
+        "kind": "ED",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 November",
+        "status": "annual-rule",
+        "binding": true,
+        "appliesTo": "First-year applicants to the BS in Nursing",
+        "conditions": null,
+        "source": "https://www.dominican.edu/admissions/undergraduate-first-year-admissions",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.dominican.edu/admissions/undergraduate-first-year-admissions",
+          "verified": "2026-11-26",
+          "quote": "Application Deadlines for Nursing Majors … Application Deadline November 1"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -3896,7 +3943,31 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Fall application window closes",
+        "kind": "admission",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 May",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": "Application through Cal State Apply; the window opens 1 August. Late applications may be accepted case by case.",
+        "source": "https://www.csuchico.edu/admissions/international/index.shtml",
+        "verified": "2026-11-26",
+        "note": "The international page prints this window without a year. The Fall 2027 window on the general dates page (to 15 December 2026) is for US students.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.csuchico.edu/admissions/international/index.shtml",
+          "verified": "2026-11-26",
+          "quote": "Chico State Application Periods … Fall (August Start) August 1–May 1"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": 70,
       "currency": "USD",
@@ -4107,7 +4178,54 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Fall application window closes",
+        "kind": "admission",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "31 May",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": "The application opens 1 October.",
+        "source": "https://www.csun.edu/international-first-time-freshman",
+        "verified": "2026-11-26",
+        "note": "The international page prints these dates without a year. The general Fall 2027 dates page says international applicants may have different deadlines, so its dates are not used here.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.csun.edu/international-first-time-freshman",
+          "verified": "2026-11-26",
+          "quote": "Fall Admission Application Deadline - Oct. 1 to May 31"
+        }
+      },
+      {
+        "name": "Documents deadline — fall",
+        "kind": "documents",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 June",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": null,
+        "source": "https://www.csun.edu/international-first-time-freshman",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.csun.edu/international-first-time-freshman",
+          "verified": "2026-11-26",
+          "quote": "Fall Admission … Document Deadline - June 15"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",

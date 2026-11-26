@@ -40,7 +40,100 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Priority application deadline",
+        "kind": "priority",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 February",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": "Applications and documents. Applying early gives an earlier decision and more time for the visa.",
+        "source": "https://www.humboldt.edu/international-students/fall-dates-deadlines",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.humboldt.edu/international-students/fall-dates-deadlines",
+          "verified": "2026-11-26",
+          "quote": "February 1 Priority application and document deadline Priority application deadline for Fall admission."
+        }
+      },
+      {
+        "name": "Final application deadline",
+        "kind": "admission",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 April",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": null,
+        "source": "https://www.humboldt.edu/international-students/fall-dates-deadlines",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.humboldt.edu/international-students/fall-dates-deadlines",
+          "verified": "2026-11-26",
+          "quote": "April 1 Final Application Deadline Final date to apply for fall admission."
+        }
+      },
+      {
+        "name": "Required documents",
+        "kind": "documents",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 April",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": "Incomplete applications are withdrawn. Scanned transcripts and test scores are accepted for the decision; official ones are due by 15 July.",
+        "source": "https://www.humboldt.edu/international-students/fall-dates-deadlines",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.humboldt.edu/international-students/fall-dates-deadlines",
+          "verified": "2026-11-26",
+          "quote": "April 15 Application document/file completion deadline All required documents must be received."
+        }
+      },
+      {
+        "name": "Accept the offer and pay the deposit",
+        "kind": "reply",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 May",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": null,
+        "source": "https://www.humboldt.edu/international-students/fall-dates-deadlines",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.humboldt.edu/international-students/fall-dates-deadlines",
+          "verified": "2026-11-26",
+          "quote": "May 15 Final deadline to accept admission"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -648,7 +741,77 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Early Decision",
+        "kind": "ED",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 November",
+        "status": "annual-rule",
+        "binding": true,
+        "appliesTo": "International first-year applicants",
+        "conditions": "Binding. Supporting documents by 15 November; decision 1 December.",
+        "source": "https://admissions.tcnj.edu/applications/international-applicants/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://admissions.tcnj.edu/applications/international-applicants/",
+          "verified": "2026-11-26",
+          "quote": "Early Decision** Application Deadline: November 1 Supporting Documents Deadline: November 15 Notification of Decision: December 1"
+        }
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 November",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "International first-year applicants",
+        "conditions": "Supporting documents by 15 November; decision 15 January.",
+        "source": "https://admissions.tcnj.edu/applications/international-applicants/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://admissions.tcnj.edu/applications/international-applicants/",
+          "verified": "2026-11-26",
+          "quote": "Early Action Application Deadline: November 1 Supporting Documents Deadline: November 15 Notification of Decision: January 15"
+        }
+      },
+      {
+        "name": "Fall (general) admission",
+        "kind": "RD",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 February",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "International first-year applicants",
+        "conditions": "Supporting documents by 15 February; decision no later than 1 April.",
+        "source": "https://admissions.tcnj.edu/applications/international-applicants/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://admissions.tcnj.edu/applications/international-applicants/",
+          "verified": "2026-11-26",
+          "quote": "Fall (General) Admission Application Deadline: February 1 Supporting Documents Deadline: February 15 Notification of Decision: No later than April 1*"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": 65,
       "currency": "USD",
@@ -1026,7 +1189,31 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Priority application deadline",
+        "kind": "priority",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 December",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": "Priority date for the application; supporting documents by 15 December. Baruch admits on a rolling basis, with decisions from January to July.",
+        "source": "https://enrollmentmanagement.baruch.cuny.edu/undergraduate-admissions/how-to-apply/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://enrollmentmanagement.baruch.cuny.edu/undergraduate-admissions/how-to-apply/",
+          "verified": "2026-11-26",
+          "quote": "Fall Admission … Freshman/Transfer International Applicant … December 1 (Application Deadline) December 15 (Supporting Documents) Rolling Admissions January – July"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -3338,7 +3525,54 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 November",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "International first-year applicants",
+        "conditions": "Decisions begin 1 December; financial aid deadline 15 January; deposit due 1 May.",
+        "source": "https://berry.edu/admission/how-to-apply/international",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://berry.edu/admission/how-to-apply/international",
+          "verified": "2026-11-26",
+          "quote": "Admission Option Application Deadline Financial Aid Deadline Notification Date Deposit Deadline Early Action Nov. 1 Jan. 15 Begins Dec. 1 May 1 Regular Decision Jan. 15 Jan. 15 Begins Mar. 1 May 1"
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 January",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "International first-year applicants",
+        "conditions": "Decisions begin 1 March; financial aid deadline 15 January; deposit due 1 May.",
+        "source": "https://berry.edu/admission/how-to-apply/international",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://berry.edu/admission/how-to-apply/international",
+          "verified": "2026-11-26",
+          "quote": "Admission Option Application Deadline Financial Aid Deadline Notification Date Deposit Deadline Early Action Nov. 1 Jan. 15 Begins Dec. 1 May 1 Regular Decision Jan. 15 Jan. 15 Begins Mar. 1 May 1"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": 50,
       "currency": "USD",
@@ -3688,7 +3922,31 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Priority date for scholarships",
+        "kind": "priority",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 November",
+        "status": "annual-rule",
+        "binding": null,
+        "appliesTo": "International first-year applicants",
+        "conditions": "Apply by this date and send supplemental materials by 30 November to be considered for most university scholarships. Applications are reviewed on a rolling basis, with decisions two to four weeks after the file is complete.",
+        "source": "https://admissions.appstate.edu/apply/international-student",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://admissions.appstate.edu/apply/international-student",
+          "verified": "2026-11-26",
+          "quote": "Fall first-year applicants should Apply by Nov. 15 and submit all supplemental materials by Nov. 30 to guarantee consideration for most university scholarships."
+        }
+      }
+    ],
     "applicationFee": {
       "amount": 65,
       "currency": "USD",
@@ -3854,7 +4112,102 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 November",
+        "status": "annual-rule",
+        "binding": true,
+        "appliesTo": "International first-year applicants",
+        "conditions": null,
+        "source": "https://www.highpoint.edu/admissions/international-students/",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.highpoint.edu/admissions/international-students/",
+          "verified": "2026-11-26",
+          "quote": "Application Deadlines Early Decision (Priority 1, *BINDING): November 1"
+        }
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-12-05",
+        "date": "5 December 2026",
+        "time": "23:59",
+        "timezone": "ET",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": null,
+        "status": "confirmed",
+        "source": "https://www.highpoint.edu/",
+        "verified": "2026-11-26",
+        "note": "The international applicants page still lists 15 November without a year; the university home page gives 5 December 2026.",
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.highpoint.edu/",
+          "verified": "2026-11-26",
+          "quote": "Early Action deadline: December 5, 2026 at 11:59 PM Eastern."
+        }
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": true,
+        "appliesTo": "First-year applicants",
+        "conditions": "Binding. Admission response 1 March 2027.",
+        "status": "confirmed",
+        "source": "https://www.highpoint.edu/admissions/freshmen-admissions/",
+        "verified": "2026-11-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.highpoint.edu/admissions/freshmen-admissions/",
+          "verified": "2026-11-26",
+          "quote": "Early Decision II Deadline February 1, 2027 Admission Response March 1, 2027"
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-02-01",
+        "date": "1 February 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "Admission response 1 March 2027. Offers are made only if space is available; the international page names 1 March as the final Regular Decision date.",
+        "status": "confirmed",
+        "source": "https://www.highpoint.edu/admissions/freshmen-admissions/",
+        "verified": "2026-11-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://www.highpoint.edu/admissions/freshmen-admissions/",
+          "verified": "2026-11-26",
+          "quote": "Regular Decision Deadline February 1, 2027 Admission Response March 1, 2027"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -3964,7 +4317,6 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
-      "A Fall 2027 application deadline for this applicant route has not been confirmed.",
       "Requirements specific to secondary qualifications from Uzbekistan were not confirmed.",
       "A comparable full cost for the 2027–2028 academic year has not been confirmed.",
       "Scholarship coverage for incoming international first-year students has not been confirmed."
@@ -4176,7 +4528,100 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Early Decision I",
+        "kind": "ED",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-02",
+        "date": "2 November 2026",
+        "binding": true,
+        "appliesTo": "International first-year applicants",
+        "conditions": "Binding. Decisions in early December; enrolment deposit due 5 January.",
+        "status": "confirmed",
+        "source": "https://charleston.edu/admission/apply/international/index.php",
+        "verified": "2026-11-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://charleston.edu/admission/apply/international/index.php",
+          "verified": "2026-11-26",
+          "quote": "Undergraduate (First-Year) - Fall Semester 2027 … November 2 Early Decision 1 Deadline (binding)"
+        }
+      },
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-02",
+        "date": "2 November 2026",
+        "binding": false,
+        "appliesTo": "International first-year applicants",
+        "conditions": "Non-binding. Decisions in mid-December; deposit due 1 May.",
+        "status": "confirmed",
+        "source": "https://charleston.edu/admission/apply/international/index.php",
+        "verified": "2026-11-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://charleston.edu/admission/apply/international/index.php",
+          "verified": "2026-11-26",
+          "quote": "Undergraduate (First-Year) - Fall Semester 2027 … November 2 … Early Action Deadline (non-binding)"
+        }
+      },
+      {
+        "name": "Early Decision II",
+        "kind": "ED2",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": true,
+        "appliesTo": "International first-year applicants",
+        "conditions": "Binding. Decisions in early March; deposit due 15 March.",
+        "status": "confirmed",
+        "source": "https://charleston.edu/admission/apply/international/index.php",
+        "verified": "2026-11-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://charleston.edu/admission/apply/international/index.php",
+          "verified": "2026-11-26",
+          "quote": "Undergraduate (First-Year) - Fall Semester 2027 … January 15 Early Decision 2 Deadline (binding)"
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-01-15",
+        "date": "15 January 2027",
+        "binding": false,
+        "appliesTo": "International first-year applicants",
+        "conditions": "Decisions in mid-March; deposit due 1 May.",
+        "status": "confirmed",
+        "source": "https://charleston.edu/admission/apply/international/index.php",
+        "verified": "2026-11-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "page-context",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://charleston.edu/admission/apply/international/index.php",
+          "verified": "2026-11-26",
+          "quote": "Undergraduate (First-Year) - Fall Semester 2027 … January 15 Regular Decision Deadline"
+        }
+      }
+    ],
     "applicationFee": {
       "amount": null,
       "currency": "USD",
@@ -4271,7 +4716,6 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
-      "A Fall 2027 application deadline for this applicant route has not been confirmed.",
       "Requirements specific to secondary qualifications from Uzbekistan were not confirmed.",
       "A comparable full cost for the 2027–2028 academic year has not been confirmed.",
       "Scholarship coverage for incoming international first-year students has not been confirmed."
@@ -4328,7 +4772,54 @@ window.UNIPATH.universities.push(
   },
   "admissions": {
     "platforms": [],
-    "deadlines": [],
+    "deadlines": [
+      {
+        "name": "Early Action",
+        "kind": "EA",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2026-11-15",
+        "date": "15 November 2026",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "The application must be complete by this date.",
+        "status": "confirmed",
+        "source": "https://home.hamptonu.edu/admissions/freshmen/",
+        "verified": "2026-11-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://home.hamptonu.edu/admissions/freshmen/",
+          "verified": "2026-11-26",
+          "quote": "Applications must be completed by November 15, 2026, to be eligible for an Early Action decision for Fall 2027."
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": "Autumn",
+        "entryYear": "2027",
+        "dateISO": "2027-03-01",
+        "date": "1 March 2027",
+        "binding": false,
+        "appliesTo": "First-year applicants",
+        "conditions": "The application must be complete by this date.",
+        "status": "confirmed",
+        "source": "https://home.hamptonu.edu/admissions/freshmen/",
+        "verified": "2026-11-26",
+        "note": null,
+        "cycleEvidence": {
+          "basis": "explicit-date",
+          "entryTerm": "Autumn",
+          "entryYear": "2027",
+          "source": "https://home.hamptonu.edu/admissions/freshmen/",
+          "verified": "2026-11-26",
+          "quote": "Applications must be completed by March 1, 2027, to be eligible for a Regular Decision for Fall 2027."
+        }
+      }
+    ],
     "applicationFee": {
       "amount": 60,
       "currency": "USD",
@@ -4437,7 +4928,6 @@ window.UNIPATH.universities.push(
     ],
     "unconfirmed": [
       "Fall 2027 details require separate confirmation.",
-      "A Fall 2027 application deadline for this applicant route has not been confirmed.",
       "Requirements specific to secondary qualifications from Uzbekistan were not confirmed.",
       "A comparable full cost for the 2027–2028 academic year has not been confirmed.",
       "Scholarship coverage for incoming international first-year students has not been confirmed."

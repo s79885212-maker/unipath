@@ -845,6 +845,7 @@ require('./us-expansion-50.js')({U:U,M:M,DB:DB,ok:ok,sandbox:sandbox,load:load})
 require('./us100-batch1.js')({U:U,M:M,DB:DB,ok:ok});
 require('./us100-batch2.js')({U:U,M:M,DB:DB,ok:ok});
 require('./us100-later.js')({U:U,M:M,DB:DB,ok:ok});
+require('./us-deadlines-2027.js')({ U: U, DB: DB, ok: ok });
 group('release check regressions (November 2026)');
 require('./release-qa.js')(ok);
 require('./uk2027-expansion.js')({ U: U, DB: DB, M: M, ok: ok });
