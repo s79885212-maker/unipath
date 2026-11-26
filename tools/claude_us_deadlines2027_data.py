@@ -599,3 +599,12 @@ U('wentworth-institute-of-technology', [
     A(EAII, 'EA', '1 January', s, q + 'Early Action 2 Apply by: January 1', FYI, False),
     A(RD, 'RD', '1 February', s, q + 'Regular Decision Apply by: February 1', FYI, False),
 ])
+
+s = 'https://www.redlands.edu/admissions-and-aid/international/how-to-apply'
+q = 'Application timeline Term Deadlines Fall '
+U('university-of-redlands', [
+    A(EAI, 'EA', '1 November', s, q + 'Early Action 1: November 1', FYI, False),
+    A(EAII, 'EA', '1 December', s, q + 'Early Action 2: December 1', FYI, False),
+    A(RD, 'RD', '15 January', s, q + 'Regular Decision: January 15* … *Applications will be reviewed on a rolling basis after the deadline based on capacity.', FYI, False,
+      L('After this date applications are reviewed on a rolling basis as capacity allows.', 'После этой даты заявки рассматриваются по мере поступления, пока есть места.')),
+])

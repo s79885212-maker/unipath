@@ -1440,20 +1440,72 @@ window.UNIPATH.universities.push(
     "platforms": [],
     "deadlines": [
       {
-        "id": "redlands-rd",
-        "kind": "admission",
-        "name": "Regular Decision",
-        "date": "15 January",
-        "dateISO": null,
+        "name": "Early Action I",
+        "kind": "EA",
         "entryTerm": null,
         "entryYear": null,
+        "dateISO": null,
+        "date": "1 November",
         "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "International first-year applicants",
+        "conditions": null,
         "source": "https://www.redlands.edu/admissions-and-aid/international/how-to-apply",
-        "verified": "2026-11-13",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
         "cycleEvidence": {
           "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
           "source": "https://www.redlands.edu/admissions-and-aid/international/how-to-apply",
-          "verified": "2026-11-13"
+          "verified": "2026-11-26",
+          "quote": "Application timeline Term Deadlines Fall Early Action 1: November 1"
+        }
+      },
+      {
+        "name": "Early Action II",
+        "kind": "EA",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "1 December",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "International first-year applicants",
+        "conditions": null,
+        "source": "https://www.redlands.edu/admissions-and-aid/international/how-to-apply",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.redlands.edu/admissions-and-aid/international/how-to-apply",
+          "verified": "2026-11-26",
+          "quote": "Application timeline Term Deadlines Fall Early Action 2: December 1"
+        }
+      },
+      {
+        "name": "Regular Decision",
+        "kind": "RD",
+        "entryTerm": null,
+        "entryYear": null,
+        "dateISO": null,
+        "date": "15 January",
+        "status": "annual-rule",
+        "binding": false,
+        "appliesTo": "International first-year applicants",
+        "conditions": "After this date applications are reviewed on a rolling basis as capacity allows.",
+        "source": "https://www.redlands.edu/admissions-and-aid/international/how-to-apply",
+        "verified": "2026-11-26",
+        "note": "The official page states a recurring date without establishing the entry cycle. No year or time zone has been inferred from the date of this review.",
+        "cycleEvidence": {
+          "basis": "annual-rule",
+          "entryTerm": null,
+          "entryYear": null,
+          "source": "https://www.redlands.edu/admissions-and-aid/international/how-to-apply",
+          "verified": "2026-11-26",
+          "quote": "Application timeline Term Deadlines Fall Regular Decision: January 15* … *Applications will be reviewed on a rolling basis after the deadline based on capacity."
         }
       }
     ],

@@ -20529,4 +20529,5 @@ window.UNIPATH_I18N.ru = {
   "Some departments have earlier deadlines. The university recommends applying early enough for a visa appointment.": "У некоторых направлений сроки раньше. Вуз советует подавать заранее, чтобы успеть записаться на визу.",
   "All materials by this date; decision by 1 June. Incomplete applications move to the next semester.": "Все материалы — к этой дате; решение — до 1 июня. Неполные заявки переносятся на следующий семестр.",
   "The international page asks applicants to use this date for priority consideration for Honors Fellowships.": "Страница для иностранцев просит подавать к этой дате для приоритета на Honors Fellowships.",
+  "After this date applications are reviewed on a rolling basis as capacity allows.": "После этой даты заявки рассматриваются по мере поступления, пока есть места.",
 };
