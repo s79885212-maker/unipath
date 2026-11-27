@@ -847,6 +847,18 @@ require('./us100-batch2.js')({U:U,M:M,DB:DB,ok:ok});
 require('./us100-later.js')({U:U,M:M,DB:DB,ok:ok});
 require('./us-deadlines-2027.js')({ U: U, DB: DB, ok: ok });
 (function () {
+  var berry = U.uniById('berry-college'), out = [];
+  ['all', undefined].forEach(function (k) { out.push(U.deadlineCardText(berry, k)); });
+  var n = U.nextDeadline(berry);
+  var us = DB.universities.filter(function (u) { return u.country === 'us'; });
+  var plain = us.filter(function (u) { return U.deadlineCardText(u) === 'Not confirmed for this cycle'; }).map(function (u) { return u.id; });
+  console.log('   US cards still "Not confirmed for this cycle": ' + plain.length + ' — ' + plain.join(', '));
+  var mit = U.nextDeadline(U.uniById('mit'));
+  ok(mit.state !== 'upcoming' || !mit.unconfirmed, 'a dated round without cycle evidence is never an upcoming deadline');
+  ok(n.state !== 'upcoming' && n.annual && /yearly date, year not confirmed/.test(U.deadlineCardText(berry)) && !U.firstDeadline(berry),
+    'a card names the next yearly date of an annual rule, marked as such and never as an upcoming deadline');
+})();
+(function () {
   var pj = require('fs').readFileSync(require('path').join(__dirname, '../assets/js/pages.js'), 'utf8');
   var aj = require('fs').readFileSync(require('path').join(__dirname, '../assets/js/app.js'), 'utf8');
   ok(/<a class="photo-open" href="' \+ esc\(g\.src\)/.test(pj) && !/g\.src\) \+ '" target="_blank"/.test(pj) && /function wirePhotoViewer\(\)/.test(aj) && /wirePhotoViewer\(\);/.test(aj),
