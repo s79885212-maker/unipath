@@ -20534,4 +20534,6 @@ window.UNIPATH_I18N.ru = {
   "Close photo": "Закрыть фото",
   "Previous photo": "Предыдущее фото",
   "Next photo": "Следующее фото",
+  "{0} · {1} (yearly date, year not confirmed)": "{0} · {1} (ежегодная дата, год не подтверждён)",
+  "{0} · {1} (not re-confirmed for this cycle)": "{0} · {1} (для этого набора не перепроверено)",
 };

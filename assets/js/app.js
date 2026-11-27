@@ -769,7 +769,41 @@
     if (open.length) return { state: 'upcoming', round: open[0], label: APPLICATION_KINDS[open[0].kind] || '' };
     if (apps.some(function (d) { return roundState(d) === 'varies'; })) return { state: 'varies' };
     if (apps.length && apps.every(function (d) { return roundState(d) === 'closed'; })) return { state: 'closed' };
-    return { state: 'unknown' };
+    return { state: 'unknown', annual: nextAnnualRound(apps), unconfirmed: nextUnconfirmedRound(apps) };
+  }
+  /* A dated round whose intake the page was not shown to confirm (an older
+     record without cycle evidence): the card may name it, marked as not
+     confirmed, but it is never "upcoming". Only dates still ahead count. */
+  function nextUnconfirmedRound(apps) {
+    var t = new Date(); t.setHours(0, 0, 0, 0);
+    var iso = t.getFullYear() + '-' + ('0' + (t.getMonth() + 1)).slice(-2) + '-' + ('0' + t.getDate()).slice(-2);
+    var list = apps.filter(function (d) {
+      return roundStatus(d) === 'not-confirmed' && d.status !== 'previous-cycle' && /^\d{4}-\d\d-\d\d$/.test(String(d.dateISO || '')) && d.dateISO >= iso;
+    }).sort(function (a, b) { return a.dateISO.localeCompare(b.dateISO); });
+    return list[0] || null;
+  }
+  /* A university that prints its dates without a year (an annual rule) has no
+     confirmed deadline, but the card can still name its next yearly date —
+     always marked as such, never counted as upcoming. Dates read as "1 November";
+     the next one in the calendar from today is chosen. */
+  var MONTH_INDEX = { january: 0, february: 1, march: 2, april: 3, may: 4, june: 5, july: 6,
+    august: 7, september: 8, october: 9, november: 10, december: 11 };
+  function nextAnnualRound(apps) {
+    var annual = apps.filter(function (d) { return roundStatus(d) === 'annual-rule' && has(d.date) && d.kind !== 'rolling'; });
+    if (!annual.length) return null;
+    var now = new Date(), today = now.getMonth() * 100 + now.getDate();
+    var dated = annual.map(function (d) {
+      var m = /^(\d{1,2}) ([A-Za-z]+)$/.exec(String(d.date).trim());
+      var mi = m ? MONTH_INDEX[m[2].toLowerCase()] : undefined;
+      return { d: d, key: mi === undefined ? null : mi * 100 + (+m[1]) };
+    });
+    var known = dated.filter(function (x) { return x.key !== null; });
+    if (!known.length) return annual[0];
+    known.sort(function (a, b) {
+      var ka = a.key >= today ? a.key : a.key + 1200, kb = b.key >= today ? b.key : b.key + 1200;
+      return ka - kb;
+    });
+    return known[0].d;
   }
   function roundStatusLabel(d) { return ROUND_STATUS[roundStatus(d)]; }
   function roundWhen(d) {
@@ -833,6 +867,8 @@
     if (n.state === 'varies') return 'Rolling / varies';
     if (n.state === 'closed') return 'Confirmed dates have passed';
     if (n.state === 'none') return 'No round listed for this intake';
+    if (n.annual) return n.annual.date + ' · ' + n.annual.name + ' (yearly date, year not confirmed)';
+    if (n.unconfirmed) return (n.unconfirmed.date || n.unconfirmed.dateISO) + ' · ' + n.unconfirmed.name + ' (not re-confirmed for this cycle)';
     return 'Not confirmed for this cycle';
   }
   /* Status of the cost figures. Figures on the record are confirmed. With
